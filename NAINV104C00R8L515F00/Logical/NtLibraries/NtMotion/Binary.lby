@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Library Version="5.00.9" SubType="Binary" Description="5.00.9 - Uncheck servo on and homing operation if both have been done.(20211019) &#xD;&#xA;5.00.8 - Limit sensor intelock for Estun Servo Movement. (20210217)&#xD;&#xA;           - Homing timeout in 3 sec if home sensor broken.&#xD;&#xA;           - Set default value for servo parameter if the NtParam setting out of the limit. (20210220)&#xD;&#xA;5.00.7 - Torque limit setting at NtParam (20201110)&#xD;&#xA;5.00.6 - Homing action when remote side limit switch is on (20200630)&#xD;&#xA;5.00.5 - Homing timeout error when limit switch disconnected (20200615)&#xD;&#xA;5.00.4 - Auto move even at limit sensor position (20200526) &#xD;&#xA;5.00.3 - Add Estun and Schneider (2020311) " xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">NtMotion.fun</File>
+    <File Description="Exported data types">Types.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="asieccon" FromVersion="0.00.0" />
+    <Dependency ObjectName="runtime" FromVersion="0.00.0" />
+    <Dependency ObjectName="standard" FromVersion="0.00.0" />
+    <Dependency ObjectName="asstring" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsCANopen" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsCANopen" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

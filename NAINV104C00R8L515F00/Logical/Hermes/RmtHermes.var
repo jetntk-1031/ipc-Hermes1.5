@@ -1,0 +1,46 @@
+(*2019-05-04*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_RmtHermesStat : UDINT;
+	p_RmtHermesStatus : UDINT;
+	p_RmtHermesStatTxt : UDINT;
+	p_RmtHermesAct : UDINT;
+	p_RmtHermesMcParamAct : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_RmtHermesAlmData : UDINT;
+	p_RmtHermesAlmData1 : UDINT;
+	p_RmtHermesAlmData2 : UDINT;
+	p_RmtHermesAlmData3 : UDINT;
+	p_RmtHermesInfoData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_RmtHermesFileNotFound : UDINT;
+	p_RmtHermesConnected : UDINT;
+	p_RmtHermesWriteConfig : UDINT;
+	p_RmtHermesUpdateUIData : UDINT;
+	p_RmtHermesSetConfiguration : UDINT;
+	p_RmtHermesFoundIndexUS1 : UDINT;
+	p_RmtHermesFoundIndexUS2 : UDINT;
+	p_RmtHermesFoundIndexUS3 : UDINT;
+	p_RmtHermesFoundIndexUS4 : UDINT;
+	p_RmtHermesFoundIndexDS1 : UDINT;
+	p_RmtHermesFoundIndexDS2 : UDINT;
+	p_RmtHermesFoundIndexDS3 : UDINT;
+	p_RmtHermesFoundIndexDS4 : UDINT;
+	p_RmtHermesIndexUS1 : UDINT;
+	p_RmtHermesIndexUS2 : UDINT;
+	p_RmtHermesIndexUS3 : UDINT;
+	p_RmtHermesIndexUS4 : UDINT;
+	p_RmtHermesIndexDS1 : UDINT;
+	p_RmtHermesIndexDS2 : UDINT;
+	p_RmtHermesIndexDS3 : UDINT;
+	p_RmtHermesIndexDS4 : UDINT;
+	p_RmtHermesCurrentConfiguration : UDINT;
+	p_RmtHermesCurrentConfMcId : UDINT;
+END_VAR

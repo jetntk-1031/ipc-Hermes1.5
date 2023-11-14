@@ -1,0 +1,30 @@
+(*2019-06-12*)
+(**)
+(*General*)
+VAR
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_eLCSMngRcp_PLCStat : REFERENCE TO eLCSAction;
+	p_udiLCSMngRcp_PLCStatus : REFERENCE TO UDINT;
+	p_iLCSMngRcp_PLCIdxAct : REFERENCE TO INT;
+	p_iLCSMngRcp_PLCIdxStat : REFERENCE TO INT;
+	p_tyLCSMngRcp_PLCProdRcpInfo : REFERENCE TO tyProdRcpParam;
+	p_eLCSLF_PLCStat : REFERENCE TO eLCSAction;
+	p_udiLCSLF_PLCStatus : REFERENCE TO UDINT;
+	p_bLCSMngRcpChkLmt : REFERENCE TO BOOL;
+	p_bLCSLFChkLmt : REFERENCE TO BOOL;
+	p_bOpsRun : REFERENCE TO BOOL;
+	p_bError : REFERENCE TO BOOL;
+	p_bWarning : REFERENCE TO BOOL;
+	p_bInfo : REFERENCE TO BOOL;
+	p_bUIManual : REFERENCE TO BOOL;
+	p_tyProdRcpCurrRcp : REFERENCE TO tyProdRcpParam;
+	p_tyNtParamCurr : REFERENCE TO tyNtParam;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

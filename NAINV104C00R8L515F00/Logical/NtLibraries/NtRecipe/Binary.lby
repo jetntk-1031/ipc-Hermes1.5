@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Library Version="5.00.5" SubType="Binary" Description="5.00.5 - Debug of Search Function. (20230201)" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">NtRecipe.fun</File>
+    <File Description="Exported data types">Types.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="asieccon" FromVersion="0.00.0" />
+    <Dependency ObjectName="runtime" FromVersion="0.00.0" />
+    <Dependency ObjectName="standard" FromVersion="0.00.0" />
+    <Dependency ObjectName="asstring" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

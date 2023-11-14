@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1020_DateTime">
+  <Property Name="Description" Value="Date Time"/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="189488" Value="Date Time Formats:"/>
+    <Text ID="189489" Value="HH:MM:SS"/>
+    <Text ID="189490" Value="yyyy/mm/dd"/>
+    <Text ID="189492" Value="%d %b %Y"/>
+    <Text ID="189493" Value="%m/%d/%Y - %H:%M:%S"/>
+    <Text ID="189494" Value="Time:"/>
+    <Text ID="189495" Value="Date:"/>
+    <Text ID="261730" Value="%H:%M:%S"/>
+    <Text ID="646079" Value="%Y/%m/%d-%H:%M:%S "/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="189488" Value="Datum/Zeit Formate:"/>
+    <Text ID="189489" Value="HH:MM:SS"/>
+    <Text ID="189490" Value="yyyy/mm/dd"/>
+    <Text ID="189492" Value="%d %b %Y"/>
+    <Text ID="189493" Value="%m/%d/%Y - %H:%M:%S"/>
+    <Text ID="189494" Value="Zeit:"/>
+    <Text ID="189495" Value="Datum:"/>
+    <Text ID="261730" Value="%H:%M:%S"/>
+    <Text ID="646079" Value="%Y/%m/%d-%H:%M:%S "/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="189488" Value="日期时间格式："/>
+    <Text ID="189489" Value="时：分：秒"/>
+    <Text ID="189490" Value="年：月：日"/>
+    <Text ID="189492" Value="%d %b %Y"/>
+    <Text ID="189493" Value="%m/%d/%Y - %H:%M:%S"/>
+    <Text ID="189494" Value="时间："/>
+    <Text ID="189495" Value="日期："/>
+    <Text ID="261730" Value="%H:%M:%S"/>
+    <Text ID="646079" Value="%Y/%m/%d-%H:%M:%S "/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="189488" Value=""/>
+    <Text ID="189489" Value=""/>
+    <Text ID="189490" Value=""/>
+    <Text ID="189492" Value=""/>
+    <Text ID="189493" Value=""/>
+    <Text ID="189494" Value=""/>
+    <Text ID="189495" Value=""/>
+    <Text ID="261730" Value=""/>
+    <Text ID="646079" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="189488" Value="0"/>
+    <Index ID="189489" Value="1"/>
+    <Index ID="189490" Value="2"/>
+    <Index ID="189492" Value="4"/>
+    <Index ID="189493" Value="5"/>
+    <Index ID="189494" Value="6"/>
+    <Index ID="189495" Value="7"/>
+    <Index ID="261730" Value="3"/>
+    <Index ID="646079" Value="8"/>
+  </IndexMap>
+</TextGroup>

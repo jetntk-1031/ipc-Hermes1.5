@@ -1,0 +1,8 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eUsrFolderAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_sProgNm : REFERENCE TO STRING[15];
+END_VAR

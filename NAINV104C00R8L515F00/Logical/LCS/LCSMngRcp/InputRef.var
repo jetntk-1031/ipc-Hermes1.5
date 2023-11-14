@@ -1,0 +1,32 @@
+(*2019-04-24*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eLCSAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bProdRcpNmExist : REFERENCE TO BOOL;
+	p_bProdRcpNmNotExist : REFERENCE TO BOOL;
+	p_bProdRcpNmEmpty : REFERENCE TO BOOL;
+	p_bProdRcpListFull : REFERENCE TO BOOL;
+	pa_tyProdRcpCurrList : REFERENCE TO ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	p_tyProdRcpInfoOut : REFERENCE TO tyProdRcpParam;
+	p_tyProdRcpCurrRcp : REFERENCE TO tyProdRcpParam;
+	p_eProdRcpStat : REFERENCE TO eProdRcpAction;
+	p_eProdRcpStatus : REFERENCE TO eFBStatus;
+	p_sMcParamProdSelRcpNm : REFERENCE TO STRING[15];
+	p_diMcParamProdSelWidth : REFERENCE TO DINT;
+	p_iLCSIdxAct : REFERENCE TO INT;
+	p_iLCSIdxStat : REFERENCE TO INT;
+	p_tyLCSProdRcpInfo : REFERENCE TO tyProdRcpParam;
+	p_bChkLmtOK : REFERENCE TO BOOL;
+	p_bChkLmtNG : REFERENCE TO BOOL;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

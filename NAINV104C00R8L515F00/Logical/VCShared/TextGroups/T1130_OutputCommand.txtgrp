@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1130_OutputCommand">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="190490" Value="Safety Reset"/>
+    <Text ID="190491" Value="Alarm Reset"/>
+    <Text ID="190492" Value="Tower Light Green"/>
+    <Text ID="190493" Value="Tower Light Amber"/>
+    <Text ID="190494" Value="Tower Light Red"/>
+    <Text ID="190495" Value="Buzzer"/>
+    <Text ID="190516" Value="Open"/>
+    <Text ID="190517" Value="Close"/>
+    <Text ID="190518" Value="Engage"/>
+    <Text ID="190519" Value="Disengage"/>
+    <Text ID="190520" Value="Start"/>
+    <Text ID="190521" Value="Stop"/>
+    <Text ID="190522" Value="Guide"/>
+    <Text ID="190524" Value="Inverter Stopper"/>
+    <Text ID="190538" Value="Direct IO"/>
+    <Text ID="190539" Value="File Back Up"/>
+    <Text ID="190540" Value="File Recovery"/>
+    <Text ID="190588" Value="Enter"/>
+    <Text ID="190590" Value="Exit"/>
+    <Text ID="190610" Value="Product Recipe"/>
+    <Text ID="190611" Value="Sync"/>
+    <Text ID="190612" Value="PLC Doc"/>
+    <Text ID="190613" Value="Functions"/>
+    <Text ID="497682" Value="Board Stopper"/>
+    <Text ID="499894" Value="Clamp"/>
+    <Text ID="499895" Value="Unclamp"/>
+    <Text ID="499902" Value="Extend"/>
+    <Text ID="499903" Value="Retract"/>
+    <Text ID="499910" Value="Rotate Dir"/>
+    <Text ID="499911" Value="Home"/>
+    <Text ID="512493" Value="Up"/>
+    <Text ID="512494" Value="Load"/>
+    <Text ID="512495" Value="Load From Down"/>
+    <Text ID="512496" Value="Down"/>
+    <Text ID="512497" Value="Brake"/>
+    <Text ID="512498" Value="Up"/>
+    <Text ID="512499" Value="Down"/>
+    <Text ID="566843" Value="Board Clear"/>
+    <Text ID="566844" Value="Board Clear\nOff "/>
+    <Text ID="568508" Value="Bypass Top Cover SW"/>
+    <Text ID="578313" Value="Toward\nStopper"/>
+    <Text ID="578314" Value="Away\nStopper"/>
+    <Text ID="584599" Value="PreExit"/>
+    <Text ID="597428" Value="CW"/>
+    <Text ID="597429" Value="CCW"/>
+    <Text ID="607597" Value="Tower Light White"/>
+    <Text ID="607598" Value="Tower Light Blue"/>
+    <Text ID="628494" Value="Conveyor\nL To R"/>
+    <Text ID="628495" Value="Conveyor\nR To L"/>
+    <Text ID="639943" Value="Unlock Cover PB LED"/>
+    <Text ID="639944" Value="Safety Unlock Cover SW Coil"/>
+    <Text ID="639945" Value="Unlock Cover Holding Relay"/>
+    <Text ID="639946" Value="Top Cover Unlock To US&amp;DS"/>
+    <Text ID="639947" Value="Safety Signal to US&amp;DS"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="190490" Value="Sicherheit Zurücksetzen"/>
+    <Text ID="190491" Value="Alarm Zurücksetzen"/>
+    <Text ID="190492" Value="Turmlicht Grün"/>
+    <Text ID="190493" Value="Turmlicht Gelb"/>
+    <Text ID="190494" Value="Turmlicht Rot"/>
+    <Text ID="190495" Value="Summer"/>
+    <Text ID="190516" Value="Öffnen"/>
+    <Text ID="190517" Value="Schließen"/>
+    <Text ID="190518" Value="Engage"/>
+    <Text ID="190519" Value="Engage"/>
+    <Text ID="190520" Value="Starten"/>
+    <Text ID="190521" Value="Stopp"/>
+    <Text ID="190522" Value=""/>
+    <Text ID="190524" Value=""/>
+    <Text ID="190538" Value="Direkte IO"/>
+    <Text ID="190539" Value="Dateisicherung"/>
+    <Text ID="190540" Value="Wiederherstellung von Dateien"/>
+    <Text ID="190588" Value="Eingabe Ende"/>
+    <Text ID="190590" Value="Ausgang"/>
+    <Text ID="190610" Value="Produkt Rezept"/>
+    <Text ID="190611" Value="Sync"/>
+    <Text ID="190612" Value="PLC Dok"/>
+    <Text ID="190613" Value="Funktionen"/>
+    <Text ID="497682" Value=""/>
+    <Text ID="499894" Value=""/>
+    <Text ID="499895" Value=""/>
+    <Text ID="499902" Value=""/>
+    <Text ID="499903" Value=""/>
+    <Text ID="499910" Value=""/>
+    <Text ID="499911" Value=""/>
+    <Text ID="512493" Value=""/>
+    <Text ID="512494" Value=""/>
+    <Text ID="512495" Value=""/>
+    <Text ID="512496" Value=""/>
+    <Text ID="512497" Value=""/>
+    <Text ID="512498" Value=""/>
+    <Text ID="512499" Value=""/>
+    <Text ID="566843" Value=""/>
+    <Text ID="566844" Value=""/>
+    <Text ID="568508" Value=""/>
+    <Text ID="578313" Value=""/>
+    <Text ID="578314" Value=""/>
+    <Text ID="584599" Value=""/>
+    <Text ID="597428" Value=""/>
+    <Text ID="597429" Value=""/>
+    <Text ID="607597" Value=""/>
+    <Text ID="607598" Value=""/>
+    <Text ID="628494" Value=""/>
+    <Text ID="628495" Value=""/>
+    <Text ID="639943" Value=""/>
+    <Text ID="639944" Value=""/>
+    <Text ID="639945" Value=""/>
+    <Text ID="639946" Value=""/>
+    <Text ID="639947" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="190490" Value="安全重置"/>
+    <Text ID="190491" Value="报警重置"/>
+    <Text ID="190492" Value="塔灯绿色"/>
+    <Text ID="190493" Value="塔灯琥珀色"/>
+    <Text ID="190494" Value="塔灯红色"/>
+    <Text ID="190495" Value="蜂鸣器"/>
+    <Text ID="190516" Value="打开"/>
+    <Text ID="190517" Value="关闭"/>
+    <Text ID="190518" Value="Engage"/>
+    <Text ID="190519" Value="Disengage"/>
+    <Text ID="190520" Value="开始"/>
+    <Text ID="190521" Value="停止"/>
+    <Text ID="190522" Value=""/>
+    <Text ID="190524" Value=""/>
+    <Text ID="190538" Value="直接"/>
+    <Text ID="190539" Value="文件备份"/>
+    <Text ID="190540" Value="文件恢复"/>
+    <Text ID="190588" Value="输入至末端"/>
+    <Text ID="190590" Value="输出"/>
+    <Text ID="190610" Value="产品参数"/>
+    <Text ID="190611" Value="同步"/>
+    <Text ID="190612" Value="PLC文件"/>
+    <Text ID="190613" Value="功能"/>
+    <Text ID="497682" Value=""/>
+    <Text ID="499894" Value=""/>
+    <Text ID="499895" Value=""/>
+    <Text ID="499902" Value=""/>
+    <Text ID="499903" Value=""/>
+    <Text ID="499910" Value=""/>
+    <Text ID="499911" Value=""/>
+    <Text ID="512493" Value=""/>
+    <Text ID="512494" Value=""/>
+    <Text ID="512495" Value=""/>
+    <Text ID="512496" Value=""/>
+    <Text ID="512497" Value=""/>
+    <Text ID="512498" Value=""/>
+    <Text ID="512499" Value=""/>
+    <Text ID="566843" Value=""/>
+    <Text ID="566844" Value=""/>
+    <Text ID="568508" Value=""/>
+    <Text ID="578313" Value=""/>
+    <Text ID="578314" Value=""/>
+    <Text ID="584599" Value=""/>
+    <Text ID="597428" Value=""/>
+    <Text ID="597429" Value=""/>
+    <Text ID="607597" Value=""/>
+    <Text ID="607598" Value=""/>
+    <Text ID="628494" Value=""/>
+    <Text ID="628495" Value=""/>
+    <Text ID="639943" Value=""/>
+    <Text ID="639944" Value=""/>
+    <Text ID="639945" Value=""/>
+    <Text ID="639946" Value=""/>
+    <Text ID="639947" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="190490" Value=""/>
+    <Text ID="190491" Value=""/>
+    <Text ID="190492" Value=""/>
+    <Text ID="190493" Value=""/>
+    <Text ID="190494" Value=""/>
+    <Text ID="190495" Value=""/>
+    <Text ID="190516" Value=""/>
+    <Text ID="190517" Value=""/>
+    <Text ID="190518" Value=""/>
+    <Text ID="190519" Value=""/>
+    <Text ID="190520" Value=""/>
+    <Text ID="190521" Value=""/>
+    <Text ID="190522" Value=""/>
+    <Text ID="190524" Value=""/>
+    <Text ID="190538" Value=""/>
+    <Text ID="190539" Value=""/>
+    <Text ID="190540" Value=""/>
+    <Text ID="190588" Value=""/>
+    <Text ID="190590" Value=""/>
+    <Text ID="190610" Value=""/>
+    <Text ID="190611" Value=""/>
+    <Text ID="190612" Value=""/>
+    <Text ID="190613" Value=""/>
+    <Text ID="497682" Value=""/>
+    <Text ID="499894" Value=""/>
+    <Text ID="499895" Value=""/>
+    <Text ID="499902" Value=""/>
+    <Text ID="499903" Value=""/>
+    <Text ID="499910" Value=""/>
+    <Text ID="499911" Value=""/>
+    <Text ID="512493" Value=""/>
+    <Text ID="512494" Value=""/>
+    <Text ID="512495" Value=""/>
+    <Text ID="512496" Value=""/>
+    <Text ID="512497" Value=""/>
+    <Text ID="512498" Value=""/>
+    <Text ID="512499" Value=""/>
+    <Text ID="566843" Value=""/>
+    <Text ID="566844" Value=""/>
+    <Text ID="568508" Value=""/>
+    <Text ID="578313" Value=""/>
+    <Text ID="578314" Value=""/>
+    <Text ID="584599" Value=""/>
+    <Text ID="597428" Value=""/>
+    <Text ID="597429" Value=""/>
+    <Text ID="607597" Value=""/>
+    <Text ID="607598" Value=""/>
+    <Text ID="628494" Value=""/>
+    <Text ID="628495" Value=""/>
+    <Text ID="639943" Value=""/>
+    <Text ID="639944" Value=""/>
+    <Text ID="639945" Value=""/>
+    <Text ID="639946" Value=""/>
+    <Text ID="639947" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="190490" Value="0"/>
+    <Index ID="190491" Value="1"/>
+    <Index ID="190492" Value="2"/>
+    <Index ID="190493" Value="3"/>
+    <Index ID="190494" Value="4"/>
+    <Index ID="190495" Value="5"/>
+    <Index ID="190516" Value="26"/>
+    <Index ID="190517" Value="27"/>
+    <Index ID="190518" Value="28"/>
+    <Index ID="190519" Value="29"/>
+    <Index ID="190520" Value="30"/>
+    <Index ID="190521" Value="31"/>
+    <Index ID="190522" Value="32"/>
+    <Index ID="190524" Value="34"/>
+    <Index ID="190538" Value="48"/>
+    <Index ID="190539" Value="49"/>
+    <Index ID="190540" Value="50"/>
+    <Index ID="190588" Value="98"/>
+    <Index ID="190590" Value="100"/>
+    <Index ID="190610" Value="120"/>
+    <Index ID="190611" Value="121"/>
+    <Index ID="190612" Value="122"/>
+    <Index ID="190613" Value="123"/>
+    <Index ID="497682" Value="33"/>
+    <Index ID="499894" Value="21"/>
+    <Index ID="499895" Value="22"/>
+    <Index ID="499902" Value="23"/>
+    <Index ID="499903" Value="24"/>
+    <Index ID="499910" Value="51"/>
+    <Index ID="499911" Value="52"/>
+    <Index ID="512493" Value="35"/>
+    <Index ID="512494" Value="36"/>
+    <Index ID="512495" Value="37"/>
+    <Index ID="512496" Value="38"/>
+    <Index ID="512497" Value="39"/>
+    <Index ID="512498" Value="40"/>
+    <Index ID="512499" Value="41"/>
+    <Index ID="566843" Value="53"/>
+    <Index ID="566844" Value="54"/>
+    <Index ID="568508" Value="55"/>
+    <Index ID="578313" Value="56"/>
+    <Index ID="578314" Value="57"/>
+    <Index ID="584599" Value="99"/>
+    <Index ID="597428" Value="19"/>
+    <Index ID="597429" Value="20"/>
+    <Index ID="607597" Value="6"/>
+    <Index ID="607598" Value="7"/>
+    <Index ID="628494" Value="58"/>
+    <Index ID="628495" Value="59"/>
+    <Index ID="639943" Value="124"/>
+    <Index ID="639944" Value="125"/>
+    <Index ID="639945" Value="126"/>
+    <Index ID="639946" Value="127"/>
+    <Index ID="639947" Value="128"/>
+  </IndexMap>
+</TextGroup>

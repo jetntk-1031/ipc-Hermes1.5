@@ -1,0 +1,22 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_Pneu2SenOutShutterStat : UDINT;
+	p_Pneu2SenOutShutterStatus : UDINT;
+	p_Pneu2SenOutShutterStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_Pneu2SenOutShutterAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_Pneu2SenOutShutterExtCtrl : UDINT;
+	p_Pneu2SenOutShutterRetCtrl : UDINT;
+	p_Pneu2SenOutShutterTwoCtrlOut : UDINT;
+	p_Pneu2SenOutShutterExtended : UDINT;
+	p_Pneu2SenOutShutterRetracted : UDINT;
+END_VAR

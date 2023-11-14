@@ -1,0 +1,52 @@
+(*2020-10-05*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eHWInfoAction := HWInfoActIdle;
+	eStat : eHWInfoAction := HWInfoActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Get IP Address','Get IP Subnet Mask','Get Mac Address','Setting IP Address','Setting IP Subnet Mask','Get Ethernet Configuration Mode','Setting Ethernet Configuration Mode',43('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Get IP Address Error',sRcyText:='Failed To Obtain The IP Address. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Get Subnet Mask Error',sRcyText:='Failed To Obtain The Subnet Mask. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Get Mac Address Error',sRcyText:='Failed To Obtain The Mac Address. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Set IP Address Error',sRcyText:='Invalid IP Address Configuration. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Set Subnet Mask Error',sRcyText:='Invalid Subnet Mask Configuration. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Get Network Configuration Mode Error',sRcyText:='Failed To Obtain The Network Configuration. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Set Network Configuration Mode Error',sRcyText:='Invalid Network Configuration . Please Contact Nutek For A Possible Solution.'),93(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	sIPAddr : STRING[15];
+	sSubnetMask : STRING[15];
+	a_usiMacAddr : ARRAY[0..5] OF USINT;
+	udiConfigMode : UDINT;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	sSetIPAddr : STRING[15];
+	sSetSubnetMask : STRING[15];
+	sDevice : STRING[3] := 'IF2';
+	sProgNm : STRING[15] := 'HWInfo';
+	bNtSettingsLoadDone : BOOL := TRUE;
+	usiNetworkMode : USINT;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	fbGetIPAddr : CfgGetIPAddr;
+	fbGetSubnetMask : CfgGetSubnetMask;
+	fbGetMacAddr : CfgGetMacAddr;
+	fbSetIPAddr : CfgSetIPAddr;
+	fbSetSubnetMask : CfgSetSubnetMask;
+	fbSetETHConfigMode : CfgSetEthConfigMode;
+	fbGetETHConfigMode : CfgGetEthConfigMode;
+	udiModuleNum : UDINT := 5651;
+END_VAR

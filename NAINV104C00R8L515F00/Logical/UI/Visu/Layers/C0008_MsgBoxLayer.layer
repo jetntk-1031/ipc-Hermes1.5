@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="C0008_MsgBoxLayer">
+  <Property Name="BackColor" Value="0"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyLyr.uiRtStat]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <TextLayer LanguageId="zh"/>
+    <TextLayer LanguageId="pt"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_Mask">
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_MsgBox">
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="260"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="127"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Border_MsgBox]"/>
+      <Property Name="Top" Value="101"/>
+      <Property Name="Width" Value="520"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Disp_Caption">
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyTxtTitle.usiColor]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyTxtTitle.usiValueIdx]"/>
+      <Property Name="Left" Value="163"/>
+      <Property Name="SimulationIndex" Value="25"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyTxtTitle.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MessageBoxCaption]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1110_MessageBox_Title]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="113"/>
+      <Property Name="Width" Value="299"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Btn_OK">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Dialog]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnYes.usiBitmapIdx]"/>
+      <Property Name="BitmapSimulationValue" Value="1"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_111]"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="420"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnYes.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_MsgBox]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1110_MessageBox_Title]"/>
+      <Property Name="TextIndex" Value="100"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnYes.usiTxtIdx]"/>
+      <Property Name="TextSimulationValue" Value="1"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="295"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_111]"/>
+      <Property Name="Width" Value="80"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Btn_Cancel">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Dialog]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnNo.usiBitmapIdx]"/>
+      <Property Name="BitmapSimulationValue" Value="1"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_110]"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="520"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnNo.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_MsgBox]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1110_MessageBox_Title]"/>
+      <Property Name="TextIndex" Value="100"/>
+      <Property Name="TextIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnNo.usiTxtIdx]"/>
+      <Property Name="TextSimulationValue" Value="3"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="295"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_110]"/>
+      <Property Name="Width" Value="80"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_Alert">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[MessageBox]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="36"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBitmapIcon.usiValueIdx]"/>
+      <Property Name="Left" Value="159"/>
+      <Property Name="SimulationValue" Value="1"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBitmapIcon.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+      <Property Name="Top" Value="149"/>
+      <Property Name="Width" Value="44"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Disp_Msg">
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyTxtMsg.usiColor]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="130"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyTxtMsg.usiValueIdx]"/>
+      <Property Name="Left" Value="224"/>
+      <Property Name="SimulationIndex" Value="103"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyTxtMsg.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MessageBoxMessages]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1111_MessageBox_Message]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="150"/>
+      <Property Name="Width" Value="397"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="%embVirtualKey_110">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnNo.bRtCompl]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnNo.bValue]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_111">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnYes.bRtCompl]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0008MsgBox.tyBtnYes.bValue]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

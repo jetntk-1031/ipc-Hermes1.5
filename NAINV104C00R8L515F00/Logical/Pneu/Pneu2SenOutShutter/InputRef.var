@@ -1,0 +1,28 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO ePneuAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+	p_bTwoCtrlIn : REFERENCE TO BOOL;
+	p_bExtSafetySen : REFERENCE TO BOOL;
+	p_bRetSafetySen : REFERENCE TO BOOL;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_tExtTO : REFERENCE TO TIME;
+	p_tRetTO : REFERENCE TO TIME;
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_bExtSen : REFERENCE TO BOOL;
+	p_bRetSen : REFERENCE TO BOOL;
+END_VAR

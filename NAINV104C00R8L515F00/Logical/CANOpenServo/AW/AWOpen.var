@@ -1,0 +1,34 @@
+(*2019-04-24*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_AWOpenStat : UDINT;
+	p_AWOpenStatus : UDINT;
+	p_AWOpenStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_AWOpenAlmData : UDINT;
+	p_AWOpenAlmData1 : UDINT;
+	p_AWOpenAlmData2 : UDINT;
+	p_AWOpenAlmData3 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_AWOpenParamOut : UDINT;
+	p_AWOpenPwrOn : UDINT;
+	p_AWOpenIsHomed : UDINT;
+	p_AWOpenPosDiff : UDINT;
+	p_AWOpenAxisErr : UDINT;
+	p_AWOpenAxisErrID : UDINT;
+	p_AWOpenAxisErrTxt : UDINT;
+	p_AWOpenFwdLmtSen : UDINT;
+	p_AWOpenRevLmtSen : UDINT;
+	p_AWOpenActualPos : UDINT;
+	p_AWOpenWidthPosDiff : UDINT;
+	p_AWOpenJogging : UDINT;
+	p_AWOpenOpenSen : UDINT;
+	p_AWOpenCloseSen : UDINT;
+END_VAR

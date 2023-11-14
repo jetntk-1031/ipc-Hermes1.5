@@ -1,0 +1,21 @@
+(*2019-04-24*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+	p_bLinkNtParamLCSLFPrep : REFERENCE TO BOOL;
+	p_bLinkNtParamLCSManageRcpPrep : REFERENCE TO BOOL;
+	p_bLinkNtParamLCSReqRcpPrep : REFERENCE TO BOOL;
+	p_bLinkNtParamLCSLiveDatPrep : REFERENCE TO BOOL;
+	p_bLinkMcParamLCSLFEn : REFERENCE TO BOOL;
+	p_bLinkMcParamLCSManageRcpEn : REFERENCE TO BOOL;
+	p_bLinkMcParamLCSReqRcpEn : REFERENCE TO BOOL;
+	p_bLinkMcParamLCSLiveDatEn : REFERENCE TO BOOL;
+	p_tyLinkUpdtProdRcp : REFERENCE TO tyProdRcpParam;
+	p_sLinkUpdtProdRcpNm : REFERENCE TO STRING[30];
+	p_diLinkUpdtProdWidth : REFERENCE TO DINT;
+END_VAR
+(**)
+VAR
+	p_bLinkConvHvBrd : REFERENCE TO BOOL;
+	p_tyLinkAlarmCurrList : REFERENCE TO ARRAY[1..c_udiAlarmCurrMax] OF tyAlarmCurr;
+END_VAR

@@ -1,0 +1,21 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_TimeStat : UDINT;
+	p_TimeStatus : UDINT;
+	p_TimeStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_TimeAlmData : UDINT;
+	p_TimeAlmData1 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_TimeCurrDT : UDINT;
+	p_TimeCurrTimeZone : UDINT;
+	p_TimeCurrDTStruct : UDINT;
+END_VAR

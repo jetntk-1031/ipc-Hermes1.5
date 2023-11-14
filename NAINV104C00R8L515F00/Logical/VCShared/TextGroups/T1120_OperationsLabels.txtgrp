@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1120_OperationsLabels">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="190339" Value="Mode"/>
+    <Text ID="190340" Value="Width"/>
+    <Text ID="190343" Value="Conveyor"/>
+    <Text ID="190344" Value="AW"/>
+    <Text ID="190349" Value="Status:"/>
+    <Text ID="190353" Value="Product Name"/>
+    <Text ID="190366" Value=" "/>
+    <Text ID="190367" Value="A"/>
+    <Text ID="190368" Value="B"/>
+    <Text ID="190369" Value="US"/>
+    <Text ID="190370" Value="DS"/>
+    <Text ID="190371" Value="US Block"/>
+    <Text ID="190372" Value="DS Block"/>
+    <Text ID="190376" Value=" "/>
+    <Text ID="190377" Value="Auto"/>
+    <Text ID="190378" Value="Stop"/>
+    <Text ID="190379" Value="Reset"/>
+    <Text ID="190380" Value="Unload"/>
+    <Text ID="190382" Value="Reset Memory"/>
+    <Text ID="190383" Value="Acc Dat"/>
+    <Text ID="190385" Value="Change\nParameter"/>
+    <Text ID="190386" Value="Idle"/>
+    <Text ID="190387" Value="Ready"/>
+    <Text ID="190388" Value="Powering On"/>
+    <Text ID="190389" Value="Powering Off"/>
+    <Text ID="190390" Value="Homing"/>
+    <Text ID="190391" Value="Moving Absolute"/>
+    <Text ID="190392" Value="Moving Relative"/>
+    <Text ID="190393" Value="Jogging"/>
+    <Text ID="190394" Value="Stopping"/>
+    <Text ID="190395" Value="Reseting Axis Error"/>
+    <Text ID="190396" Value="Done"/>
+    <Text ID="190397" Value="Function Block Error"/>
+    <Text ID="190405" Value="Over Current"/>
+    <Text ID="190406" Value="Over Voltage"/>
+    <Text ID="190407" Value="Under Voltage"/>
+    <Text ID="190408" Value="Input Power Phase Loss"/>
+    <Text ID="190409" Value="Regeneration Error"/>
+    <Text ID="190410" Value="Overload"/>
+    <Text ID="190411" Value="Pre-overload Warning"/>
+    <Text ID="190412" Value="U,V,W Wiring Error"/>
+    <Text ID="190413" Value="IGBT Temperature Error"/>
+    <Text ID="190414" Value="Memory Error"/>
+    <Text ID="190415" Value="Emergency Stop Activated"/>
+    <Text ID="190416" Value="Forward Limit Switch Error"/>
+    <Text ID="190417" Value="Reverse Limit Switch Error"/>
+    <Text ID="190418" Value="Forward Software Limit"/>
+    <Text ID="190419" Value="Reverse Software Limit"/>
+    <Text ID="190420" Value="DSP Firmware Upgrade"/>
+    <Text ID="190421" Value="CANopen SYNC Error"/>
+    <Text ID="190422" Value="CANopen Data Initial Error"/>
+    <Text ID="190423" Value="Adjustment Error"/>
+    <Text ID="190424" Value="Motor Protection Error"/>
+    <Text ID="190425" Value="Motor Error"/>
+    <Text ID="190426" Value="Encoder Error"/>
+    <Text ID="190427" Value="Encoder Output Error"/>
+    <Text ID="190428" Value="Serial Communication Error"/>
+    <Text ID="190429" Value="Serial Communication Time Out"/>
+    <Text ID="190430" Value="CANbus Error (Bus-off)"/>
+    <Text ID="190431" Value="CANopen SDO buffer overrun"/>
+    <Text ID="190432" Value="CANbus Error (Warning)"/>
+    <Text ID="190433" Value="Node Guarding or Heartbeat Error"/>
+    <Text ID="190434" Value="CANopen PDO Object Error"/>
+    <Text ID="190435" Value="Over Speed"/>
+    <Text ID="190436" Value="Abnormal Pulse Control Command"/>
+    <Text ID="190437" Value="Full Closed Loop Excess Deviation"/>
+    <Text ID="190438" Value="Excessive Deviation"/>
+    <Text ID="190439" Value=" "/>
+    <Text ID="190440" Value="Ready"/>
+    <Text ID="190441" Value="Running"/>
+    <Text ID="348904" Value="Bypass"/>
+    <Text ID="348905" Value="Buffer"/>
+    <Text ID="348906" Value="Buffer Good Bad &amp; Request Good Bad"/>
+    <Text ID="348907" Value="Buffer Good Bad &amp; Request Bad"/>
+    <Text ID="348908" Value="Buffer Bad &amp; Request Bad"/>
+    <Text ID="418336" Value="Ready"/>
+    <Text ID="418337" Value="Running"/>
+    <Text ID="418341" Value="Step"/>
+    <Text ID="418368" Value=""/>
+    <Text ID="418369" Value="Unlock Cover"/>
+    <Text ID="418370" Value="Start"/>
+    <Text ID="441567" Value="PCB Reset"/>
+    <Text ID="499656" Value="Acc Data"/>
+    <Text ID="499657" Value=""/>
+    <Text ID="499658" Value=""/>
+    <Text ID="499659" Value="Lifter PCB"/>
+    <Text ID="499660" Value="PCB"/>
+    <Text ID="499661" Value="Top Up PCB"/>
+    <Text ID="539572" Value="Change Parameter"/>
+    <Text ID="562348" Value="Allow Top Up PCB"/>
+    <Text ID="562350" Value="Resume"/>
+    <Text ID="564032" Value="Enable\nLoad By Hand"/>
+    <Text ID="564034" Value="Allow Load By Hand"/>
+    <Text ID="570172" Value="Disable\nLoad By Hand"/>
+    <Text ID="571879" Value="Bypass\nInitializing\nConveyor"/>
+    <Text ID="575489" Value="Rls New Product"/>
+    <Text ID="579855" Value="Flipped Board"/>
+    <Text ID="591944" Value="Match Code"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="190339" Value="Betriebsart"/>
+    <Text ID="190340" Value="Breite"/>
+    <Text ID="190343" Value="Förderband"/>
+    <Text ID="190344" Value="AW"/>
+    <Text ID="190349" Value="Status:"/>
+    <Text ID="190353" Value="Produktname"/>
+    <Text ID="190366" Value=" "/>
+    <Text ID="190367" Value="A"/>
+    <Text ID="190368" Value="B"/>
+    <Text ID="190369" Value="US"/>
+    <Text ID="190370" Value="DS"/>
+    <Text ID="190371" Value="US sperren"/>
+    <Text ID="190372" Value="DS sperren"/>
+    <Text ID="190376" Value=" "/>
+    <Text ID="190377" Value="Automatisch"/>
+    <Text ID="190378" Value="Stopp"/>
+    <Text ID="190379" Value="Rückstellung"/>
+    <Text ID="190380" Value="Entladen"/>
+    <Text ID="190382" Value="Speicher zurücksetzen"/>
+    <Text ID="190383" Value="Zugr. Dat"/>
+    <Text ID="190385" Value=" "/>
+    <Text ID="190386" Value="Leerlauf"/>
+    <Text ID="190387" Value="Bereit"/>
+    <Text ID="190388" Value="Einschalten"/>
+    <Text ID="190389" Value="Ausschalten"/>
+    <Text ID="190390" Value="Homing"/>
+    <Text ID="190391" Value="Bewegung Absolut"/>
+    <Text ID="190392" Value="Bewegung Relativ"/>
+    <Text ID="190393" Value="Rütteln"/>
+    <Text ID="190394" Value="Anhalten"/>
+    <Text ID="190395" Value="Achse zurücksetzen Fehler"/>
+    <Text ID="190396" Value="Fertig"/>
+    <Text ID="190397" Value="Funktion sperren Fehler"/>
+    <Text ID="190405" Value="Überstrom"/>
+    <Text ID="190406" Value="Überspannung"/>
+    <Text ID="190407" Value="Unterspannung"/>
+    <Text ID="190408" Value="Eingangsleistung Phase Verlust"/>
+    <Text ID="190409" Value="Wiederherstellungsfehler"/>
+    <Text ID="190410" Value="Überlastung"/>
+    <Text ID="190411" Value="Vor-Überlastung Warnung"/>
+    <Text ID="190412" Value="U,V,W Verdrahtung Fehler"/>
+    <Text ID="190413" Value="IGBT Temperatur Fehler"/>
+    <Text ID="190414" Value="Speicher Fehler"/>
+    <Text ID="190415" Value="Notstopp aktiviert"/>
+    <Text ID="190416" Value="Vorwärts-Endschalter Fehler"/>
+    <Text ID="190417" Value="Umkehr-Endschalter Fehler"/>
+    <Text ID="190418" Value="Vorwärts Softwarebeschränkung"/>
+    <Text ID="190419" Value="Umkehr Softwarebeschränkung"/>
+    <Text ID="190420" Value="DSP Firmware-Aktualisierung"/>
+    <Text ID="190421" Value="CANopen SYNC Fehler"/>
+    <Text ID="190422" Value="CANopen Data Initial Fehler"/>
+    <Text ID="190423" Value="Anpassungsfehler"/>
+    <Text ID="190424" Value="Motorschutz Fehler"/>
+    <Text ID="190425" Value="Motor Fehler"/>
+    <Text ID="190426" Value="Encoder Fehler"/>
+    <Text ID="190427" Value="Encoder-Ausgang Fehler"/>
+    <Text ID="190428" Value="Serielle Übertragung Fehler"/>
+    <Text ID="190429" Value="Serielle Übertragung Zeitüberschreitung"/>
+    <Text ID="190430" Value="CANbus Fehler (Bus-off)"/>
+    <Text ID="190431" Value="CANopen SDO Puffer Überschreitung"/>
+    <Text ID="190432" Value="CANbus Fehler (Warnung)"/>
+    <Text ID="190433" Value="Knotenüberwachung oder Heartbeat Fehler"/>
+    <Text ID="190434" Value="CANopen PDO Objekt Fehler"/>
+    <Text ID="190435" Value="Überdrehzahl"/>
+    <Text ID="190436" Value="Unregelmäßiges Puls-Kontroll-Kommando"/>
+    <Text ID="190437" Value="Vollständig geschlossene Programmschleife übermäßige Abweichung "/>
+    <Text ID="190438" Value="Übermäßige Abweichung"/>
+    <Text ID="190439" Value=" "/>
+    <Text ID="190440" Value="Bereit"/>
+    <Text ID="190441" Value="Laufen"/>
+    <Text ID="348904" Value="Überbrücken"/>
+    <Text ID="348905" Value="Puffer"/>
+    <Text ID="348906" Value="Puffer Gut Schlecht &amp; Bitte Gut Schlecht"/>
+    <Text ID="348907" Value="Puffer Gut Schlecht &amp; Schlecht anfordern"/>
+    <Text ID="348908" Value="Buffer Bad &amp; Anfrage Bad"/>
+    <Text ID="418336" Value="Bereit"/>
+    <Text ID="418337" Value="Laufen"/>
+    <Text ID="418341" Value="Schritt"/>
+    <Text ID="418368" Value=""/>
+    <Text ID="418369" Value=""/>
+    <Text ID="418370" Value="Starten"/>
+    <Text ID="441567" Value=""/>
+    <Text ID="499656" Value=""/>
+    <Text ID="499657" Value=""/>
+    <Text ID="499658" Value=""/>
+    <Text ID="499659" Value=""/>
+    <Text ID="499660" Value=""/>
+    <Text ID="499661" Value=""/>
+    <Text ID="539572" Value=""/>
+    <Text ID="562348" Value=""/>
+    <Text ID="562350" Value=""/>
+    <Text ID="564032" Value=""/>
+    <Text ID="564034" Value=""/>
+    <Text ID="570172" Value=""/>
+    <Text ID="571879" Value=""/>
+    <Text ID="575489" Value=""/>
+    <Text ID="579855" Value=""/>
+    <Text ID="591944" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="190339" Value="模式"/>
+    <Text ID="190340" Value="宽度"/>
+    <Text ID="190343" Value="输送机"/>
+    <Text ID="190344" Value="AW"/>
+    <Text ID="190349" Value="状态："/>
+    <Text ID="190353" Value="产品名称"/>
+    <Text ID="190366" Value=" "/>
+    <Text ID="190367" Value="A"/>
+    <Text ID="190368" Value="B"/>
+    <Text ID="190369" Value="US"/>
+    <Text ID="190370" Value="DS"/>
+    <Text ID="190371" Value="US 锁定"/>
+    <Text ID="190372" Value="DS 锁定"/>
+    <Text ID="190376" Value=" "/>
+    <Text ID="190377" Value="自动"/>
+    <Text ID="190378" Value="停止"/>
+    <Text ID="190379" Value="重置"/>
+    <Text ID="190380" Value="卸载"/>
+    <Text ID="190382" Value="重置内存"/>
+    <Text ID="190383" Value="接受数据"/>
+    <Text ID="190385" Value=" "/>
+    <Text ID="190386" Value="闲置"/>
+    <Text ID="190387" Value="准备"/>
+    <Text ID="190388" Value="通电"/>
+    <Text ID="190389" Value="断电"/>
+    <Text ID="190390" Value="归位"/>
+    <Text ID="190391" Value="绝对移动"/>
+    <Text ID="190392" Value="相对移动"/>
+    <Text ID="190393" Value="点动"/>
+    <Text ID="190394" Value="停止"/>
+    <Text ID="190395" Value="重置轴报警"/>
+    <Text ID="190396" Value="完成"/>
+    <Text ID="190397" Value="功能块报警"/>
+    <Text ID="190405" Value="过电流"/>
+    <Text ID="190406" Value="过电压"/>
+    <Text ID="190407" Value="低电压"/>
+    <Text ID="190408" Value="主回路电源异常"/>
+    <Text ID="190409" Value="回生错误"/>
+    <Text ID="190410" Value="过负荷"/>
+    <Text ID="190411" Value="预先过负载警告"/>
+    <Text ID="190412" Value="马达U，V，W 接线错误"/>
+    <Text ID="190413" Value="IGBT 过热"/>
+    <Text ID="190414" Value="记忆体异常"/>
+    <Text ID="190415" Value="紧急停止"/>
+    <Text ID="190416" Value="正像极限异常"/>
+    <Text ID="190417" Value="反向极限异常"/>
+    <Text ID="190418" Value="软体正向极限"/>
+    <Text ID="190419" Value="软体反向极限"/>
+    <Text ID="190420" Value="DSP 韧体升级"/>
+    <Text ID="190421" Value="CANopen 同步异常"/>
+    <Text ID="190422" Value="CANopen 资料初始错误"/>
+    <Text ID="190423" Value="校正异常"/>
+    <Text ID="190424" Value="马达碰撞错误"/>
+    <Text ID="190425" Value="马达匹配错误"/>
+    <Text ID="190426" Value="编码器错误"/>
+    <Text ID="190427" Value="检出器输出异常"/>
+    <Text ID="190428" Value="串联通讯异常"/>
+    <Text ID="190429" Value="串联通讯逾时"/>
+    <Text ID="190430" Value="CANbus 硬体异常(Bus-off)"/>
+    <Text ID="190431" Value="CANopen SDO 接收溢位"/>
+    <Text ID="190432" Value="CANbus 硬体异常(警告)"/>
+    <Text ID="190433" Value="节点保护功能或心跳监控错误"/>
+    <Text ID="190434" Value="CANopen PDO 物件错误"/>
+    <Text ID="190435" Value="过速度"/>
+    <Text ID="190436" Value="异常脈波控制命令"/>
+    <Text ID="190437" Value="全闭环位置控制误差过大"/>
+    <Text ID="190438" Value="位置控制误差过大"/>
+    <Text ID="190439" Value=" "/>
+    <Text ID="190440" Value="准备"/>
+    <Text ID="190441" Value="运行"/>
+    <Text ID="348904" Value="直通"/>
+    <Text ID="348905" Value="缓存"/>
+    <Text ID="348906" Value="缓存好坏板和要求好坏板"/>
+    <Text ID="348907" Value="缓存好坏板和要求坏板"/>
+    <Text ID="348908" Value="缓存坏板和要求坏板"/>
+    <Text ID="418336" Value="准备"/>
+    <Text ID="418337" Value="运行"/>
+    <Text ID="418341" Value="步驟"/>
+    <Text ID="418368" Value=""/>
+    <Text ID="418369" Value=""/>
+    <Text ID="418370" Value="开始"/>
+    <Text ID="441567" Value=""/>
+    <Text ID="499656" Value=""/>
+    <Text ID="499657" Value=""/>
+    <Text ID="499658" Value=""/>
+    <Text ID="499659" Value=""/>
+    <Text ID="499660" Value=""/>
+    <Text ID="499661" Value=""/>
+    <Text ID="539572" Value=""/>
+    <Text ID="562348" Value=""/>
+    <Text ID="562350" Value=""/>
+    <Text ID="564032" Value=""/>
+    <Text ID="564034" Value=""/>
+    <Text ID="570172" Value=""/>
+    <Text ID="571879" Value=""/>
+    <Text ID="575489" Value=""/>
+    <Text ID="579855" Value=""/>
+    <Text ID="591944" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="190339" Value=""/>
+    <Text ID="190340" Value=""/>
+    <Text ID="190343" Value=""/>
+    <Text ID="190344" Value=""/>
+    <Text ID="190349" Value=""/>
+    <Text ID="190353" Value=""/>
+    <Text ID="190366" Value=""/>
+    <Text ID="190367" Value=""/>
+    <Text ID="190368" Value=""/>
+    <Text ID="190369" Value=""/>
+    <Text ID="190370" Value=""/>
+    <Text ID="190371" Value=""/>
+    <Text ID="190372" Value=""/>
+    <Text ID="190376" Value=""/>
+    <Text ID="190377" Value=""/>
+    <Text ID="190378" Value=""/>
+    <Text ID="190379" Value=""/>
+    <Text ID="190380" Value=""/>
+    <Text ID="190382" Value=""/>
+    <Text ID="190383" Value=""/>
+    <Text ID="190385" Value=""/>
+    <Text ID="190386" Value=""/>
+    <Text ID="190387" Value=""/>
+    <Text ID="190388" Value=""/>
+    <Text ID="190389" Value=""/>
+    <Text ID="190390" Value=""/>
+    <Text ID="190391" Value=""/>
+    <Text ID="190392" Value=""/>
+    <Text ID="190393" Value=""/>
+    <Text ID="190394" Value=""/>
+    <Text ID="190395" Value=""/>
+    <Text ID="190396" Value=""/>
+    <Text ID="190397" Value=""/>
+    <Text ID="190405" Value=""/>
+    <Text ID="190406" Value=""/>
+    <Text ID="190407" Value=""/>
+    <Text ID="190408" Value=""/>
+    <Text ID="190409" Value=""/>
+    <Text ID="190410" Value=""/>
+    <Text ID="190411" Value=""/>
+    <Text ID="190412" Value=""/>
+    <Text ID="190413" Value=""/>
+    <Text ID="190414" Value=""/>
+    <Text ID="190415" Value=""/>
+    <Text ID="190416" Value=""/>
+    <Text ID="190417" Value=""/>
+    <Text ID="190418" Value=""/>
+    <Text ID="190419" Value=""/>
+    <Text ID="190420" Value=""/>
+    <Text ID="190421" Value=""/>
+    <Text ID="190422" Value=""/>
+    <Text ID="190423" Value=""/>
+    <Text ID="190424" Value=""/>
+    <Text ID="190425" Value=""/>
+    <Text ID="190426" Value=""/>
+    <Text ID="190427" Value=""/>
+    <Text ID="190428" Value=""/>
+    <Text ID="190429" Value=""/>
+    <Text ID="190430" Value=""/>
+    <Text ID="190431" Value=""/>
+    <Text ID="190432" Value=""/>
+    <Text ID="190433" Value=""/>
+    <Text ID="190434" Value=""/>
+    <Text ID="190435" Value=""/>
+    <Text ID="190436" Value=""/>
+    <Text ID="190437" Value=""/>
+    <Text ID="190438" Value=""/>
+    <Text ID="190439" Value=""/>
+    <Text ID="190440" Value=""/>
+    <Text ID="190441" Value=""/>
+    <Text ID="348904" Value=""/>
+    <Text ID="348905" Value=""/>
+    <Text ID="348906" Value=""/>
+    <Text ID="348907" Value=""/>
+    <Text ID="348908" Value=""/>
+    <Text ID="418336" Value=""/>
+    <Text ID="418337" Value=""/>
+    <Text ID="418341" Value=""/>
+    <Text ID="418368" Value=""/>
+    <Text ID="418369" Value=""/>
+    <Text ID="418370" Value=""/>
+    <Text ID="441567" Value=""/>
+    <Text ID="499656" Value=""/>
+    <Text ID="499657" Value=""/>
+    <Text ID="499658" Value=""/>
+    <Text ID="499659" Value=""/>
+    <Text ID="499660" Value=""/>
+    <Text ID="499661" Value=""/>
+    <Text ID="539572" Value=""/>
+    <Text ID="562348" Value=""/>
+    <Text ID="562350" Value=""/>
+    <Text ID="564032" Value=""/>
+    <Text ID="564034" Value=""/>
+    <Text ID="570172" Value=""/>
+    <Text ID="571879" Value=""/>
+    <Text ID="575489" Value=""/>
+    <Text ID="579855" Value=""/>
+    <Text ID="591944" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="190339" Value="0"/>
+    <Index ID="190340" Value="1"/>
+    <Index ID="190343" Value="4"/>
+    <Index ID="190344" Value="5"/>
+    <Index ID="190349" Value="2"/>
+    <Index ID="190353" Value="3"/>
+    <Index ID="190366" Value="27"/>
+    <Index ID="190367" Value="28"/>
+    <Index ID="190368" Value="29"/>
+    <Index ID="190369" Value="30"/>
+    <Index ID="190370" Value="31"/>
+    <Index ID="190371" Value="32"/>
+    <Index ID="190372" Value="33"/>
+    <Index ID="190376" Value="37"/>
+    <Index ID="190377" Value="38"/>
+    <Index ID="190378" Value="39"/>
+    <Index ID="190379" Value="40"/>
+    <Index ID="190380" Value="41"/>
+    <Index ID="190382" Value="43"/>
+    <Index ID="190383" Value="44"/>
+    <Index ID="190385" Value="46"/>
+    <Index ID="190386" Value="47"/>
+    <Index ID="190387" Value="48"/>
+    <Index ID="190388" Value="49"/>
+    <Index ID="190389" Value="50"/>
+    <Index ID="190390" Value="51"/>
+    <Index ID="190391" Value="52"/>
+    <Index ID="190392" Value="53"/>
+    <Index ID="190393" Value="54"/>
+    <Index ID="190394" Value="55"/>
+    <Index ID="190395" Value="56"/>
+    <Index ID="190396" Value="57"/>
+    <Index ID="190397" Value="58"/>
+    <Index ID="190405" Value="66"/>
+    <Index ID="190406" Value="67"/>
+    <Index ID="190407" Value="68"/>
+    <Index ID="190408" Value="69"/>
+    <Index ID="190409" Value="70"/>
+    <Index ID="190410" Value="71"/>
+    <Index ID="190411" Value="72"/>
+    <Index ID="190412" Value="73"/>
+    <Index ID="190413" Value="74"/>
+    <Index ID="190414" Value="75"/>
+    <Index ID="190415" Value="76"/>
+    <Index ID="190416" Value="77"/>
+    <Index ID="190417" Value="78"/>
+    <Index ID="190418" Value="79"/>
+    <Index ID="190419" Value="80"/>
+    <Index ID="190420" Value="81"/>
+    <Index ID="190421" Value="82"/>
+    <Index ID="190422" Value="83"/>
+    <Index ID="190423" Value="84"/>
+    <Index ID="190424" Value="85"/>
+    <Index ID="190425" Value="86"/>
+    <Index ID="190426" Value="87"/>
+    <Index ID="190427" Value="88"/>
+    <Index ID="190428" Value="89"/>
+    <Index ID="190429" Value="90"/>
+    <Index ID="190430" Value="91"/>
+    <Index ID="190431" Value="92"/>
+    <Index ID="190432" Value="93"/>
+    <Index ID="190433" Value="94"/>
+    <Index ID="190434" Value="95"/>
+    <Index ID="190435" Value="96"/>
+    <Index ID="190436" Value="97"/>
+    <Index ID="190437" Value="98"/>
+    <Index ID="190438" Value="99"/>
+    <Index ID="190439" Value="100"/>
+    <Index ID="190440" Value="101"/>
+    <Index ID="190441" Value="104"/>
+    <Index ID="348904" Value="59"/>
+    <Index ID="348905" Value="60"/>
+    <Index ID="348906" Value="61"/>
+    <Index ID="348907" Value="62"/>
+    <Index ID="348908" Value="63"/>
+    <Index ID="418336" Value="103"/>
+    <Index ID="418337" Value="102"/>
+    <Index ID="418341" Value="64"/>
+    <Index ID="418368" Value="105"/>
+    <Index ID="418369" Value="106"/>
+    <Index ID="418370" Value="65"/>
+    <Index ID="441567" Value="107"/>
+    <Index ID="499656" Value="16"/>
+    <Index ID="499657" Value="34"/>
+    <Index ID="499658" Value="6"/>
+    <Index ID="499659" Value="7"/>
+    <Index ID="499660" Value="8"/>
+    <Index ID="499661" Value="11"/>
+    <Index ID="539572" Value="9"/>
+    <Index ID="562348" Value="10"/>
+    <Index ID="562350" Value="12"/>
+    <Index ID="564032" Value="13"/>
+    <Index ID="564034" Value="15"/>
+    <Index ID="570172" Value="14"/>
+    <Index ID="571879" Value="17"/>
+    <Index ID="575489" Value="18"/>
+    <Index ID="579855" Value="19"/>
+    <Index ID="591944" Value="20"/>
+  </IndexMap>
+</TextGroup>

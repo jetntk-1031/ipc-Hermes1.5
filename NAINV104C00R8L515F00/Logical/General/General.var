@@ -1,0 +1,16 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_GeneralStat : UDINT;
+	p_GeneralStatus : UDINT;
+	p_GeneralStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_GeneralIPPart : UDINT;
+	p_GeneralIPValid : UDINT;
+END_VAR

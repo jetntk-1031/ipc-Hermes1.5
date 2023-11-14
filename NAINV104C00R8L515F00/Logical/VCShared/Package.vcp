@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="EnableEvents" Value="False"/>
+  <Property Name="SharedTargetResourceRoot" Value=""/>
+  <Property Name="TextIDMax" Value="680469"/>
+  <SourceFiles>
+    <Source File="Languages.vcr"/>
+    <Source File="TextGroups\T1000_Alarm.txtgrp"/>
+    <Source File="TextGroups\T1020_DateTime.txtgrp"/>
+    <Source File="TextGroups\T1030_InputLabels.txtgrp"/>
+    <Source File="TextGroups\T1040_KeypadTtles.txtgrp"/>
+    <Source File="TextGroups\T1050_Languages.txtgrp"/>
+    <Source File="TextGroups\T1060_MachineInformations.txtgrp"/>
+    <Source File="TextGroups\T1070_MachineModeSelections.txtgrp"/>
+    <Source File="TextGroups\T1080_MachineSetting.txtgrp"/>
+    <Source File="TextGroups\T1090_MachineStatus.txtgrp"/>
+    <Source File="TextGroups\T1111_MessageBox_Message.txtgrp"/>
+    <Source File="TextGroups\T1120_OperationsLabels.txtgrp"/>
+    <Source File="TextGroups\T1130_OutputCommand.txtgrp"/>
+    <Source File="TextGroups\T1140_RecipeLabels.txtgrp"/>
+    <Source File="TextGroups\T1160_SubHeaders.txtgrp"/>
+    <Source File="TextGroups\T1170_TitleHeaders.txtgrp"/>
+    <Source File="TextGroups\T1180_Usermanagement.txtgrp"/>
+    <Source File="TextGroups\T2000_LFText.txtgrp"/>
+    <Source File="TextGroups\T2010_MotionText.txtgrp"/>
+    <Source File="TextGroups\T2030_SMEMAText.txtgrp"/>
+    <Source File="TextGroups\T2040_FileIO.txtgrp"/>
+    <Source File="TextGroups\T0001_Startup.txtgrp"/>
+    <Source File="TextGroups\T0900_InterruptText.txtgrp"/>
+    <Source File="TextGroups\T0002_LibraryStatus.txtgrp"/>
+    <Source File="TextGroups\T3030_Inverter.txtgrp"/>
+    <Source File="TextGroups\T1100_MainPageButtonLabels.txtgrp"/>
+    <Source File="TextGroups\T2041_Hermes.txtgrp"/>
+    <Source File="TextGroups\T1150_Simulation.txtgrp"/>
+    <Source File="TextGroups\T1110_MessageBox_Title.txtgrp"/>
+    <Source File="TextGroups\T1010_TextRecovery.txtgrp"/>
+    <Source File="UnitGroups\Volume.vcug"/>
+    <Source File="UnitGroups\Time_s.vcug"/>
+    <Source File="UnitGroups\Time_ms.vcug"/>
+    <Source File="UnitGroups\Temperatures.vcug"/>
+    <Source File="UnitGroups\Speed.vcug"/>
+    <Source File="UnitGroups\Pressure.vcug"/>
+    <Source File="UnitGroups\Power.vcug"/>
+    <Source File="UnitGroups\Memory.vcug"/>
+    <Source File="UnitGroups\Mass.vcug"/>
+    <Source File="UnitGroups\Length.vcug"/>
+    <Source File="AlarmGroups\AlarmSystem.alcfg"/>
+    <Source File="AlarmGroups\SystemAlarms.algrp"/>
+    <Source File="AlarmGroups\Alarm.algrp"/>
+    <Source File="AlarmGroups\Warning.algrp"/>
+    <Source File="DataSources\Internal.dso"/>
+    <Source File="DataSources\DataSource.dso"/>
+    <Source File="ControlVersion.cvinfo"/>
+  </SourceFiles>
+</Project>

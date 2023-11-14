@@ -1,0 +1,41 @@
+(*2019-05-09*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eUsrFolderAction := UsrFolderActIdle;
+	eStat : eUsrFolderAction := UsrFolderActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating User Directory','Creating Private Directory','Creating Log Directory','Creating LCS Directory',46('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Creating User Directory Error',sRcyText:='An Error Occured While Attempting To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Creating Private Directory Error',sRcyText:='An Error Occured While Attempting To Create Private Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Creating Log Directory Error',sRcyText:='An Error Occured While Attempting To Create Log Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Creating LCS Directory Error',sRcyText:='An Error Occured While Attempting To Create LCS Directory. Please Contact Nutek For A Possible Solution'),96(0)];
+END_VAR
+(**)
+(*Local Output*)
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	sProgNm : STRING[15] := 'UsrFolder';
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbDirCreate3 : fbDirCreate;
+	fbDirCreate4 : fbDirCreate;
+END_VAR
+(**)
+VAR
+	udiModuleNum : UDINT := 5551;
+END_VAR

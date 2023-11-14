@@ -1,0 +1,64 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eConvAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+	p_bLongBrdPrep : REFERENCE TO BOOL;
+	p_bLongBrdEn : REFERENCE TO BOOL;
+	p_bOnDirMod : REFERENCE TO BOOL;
+	p_diInitTm : REFERENCE TO DINT;
+	p_diRevDlyTm : REFERENCE TO DINT;
+	p_tMtrOffDlyTm : REFERENCE TO TIME;
+	p_diTxInTimeOut : REFERENCE TO DINT;
+	p_diTxOutTimeOut : REFERENCE TO DINT;
+	p_eDirection : REFERENCE TO eConvDir;
+	p_bGdBrdInit : REFERENCE TO BOOL;
+	p_bGdBrdEnt : REFERENCE TO BOOL;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_tPshrExtTO : REFERENCE TO TIME;
+	p_tPshrRetTO : REFERENCE TO TIME;
+	p_tPullerExtTO : REFERENCE TO TIME;
+	p_tPullerRetTO : REFERENCE TO TIME;
+	p_tRotHomeTO : REFERENCE TO TIME;
+	p_tRotRemoteTO : REFERENCE TO TIME;
+	p_tRejectUpTO : REFERENCE TO TIME;
+	p_tRejectDownTO : REFERENCE TO TIME;
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_bLeftSen : REFERENCE TO BOOL;
+	p_bRightSen : REFERENCE TO BOOL;
+	p_bMiddleSen : REFERENCE TO BOOL;
+	p_bPullerChkSen : REFERENCE TO BOOL;
+	p_bPshrExtSen : REFERENCE TO BOOL;
+	p_bPshrRetSen : REFERENCE TO BOOL;
+	p_bPshrExtSafetySen : REFERENCE TO BOOL;
+	p_bPshrRetSafetySen : REFERENCE TO BOOL;
+	p_bPullerExtSen : REFERENCE TO BOOL;
+	p_bPullerRetSen : REFERENCE TO BOOL;
+	p_bPullerExtSafetySen : REFERENCE TO BOOL;
+	p_bPullerRetSafetySen : REFERENCE TO BOOL;
+	p_bRotHomeSen : REFERENCE TO BOOL;
+	p_bRotRemoteSen : REFERENCE TO BOOL;
+	p_bRotHomeSafetySen : REFERENCE TO BOOL;
+	p_bRotRemoteSafetySen : REFERENCE TO BOOL;
+	p_bRejectUpSen : REFERENCE TO BOOL;
+	p_bRejectDownSen : REFERENCE TO BOOL;
+	p_bRejectUpSafetySen : REFERENCE TO BOOL;
+	p_bRejectDownSafetySen : REFERENCE TO BOOL;
+	p_bUSHermesDSRdy : REFERENCE TO BOOL;
+	p_bDSHermesUSRdy : REFERENCE TO BOOL;
+	p_bUSHermesReversalDSRdy : REFERENCE TO BOOL;
+	p_bDSHermesReversalUSRdy : REFERENCE TO BOOL;
+END_VAR

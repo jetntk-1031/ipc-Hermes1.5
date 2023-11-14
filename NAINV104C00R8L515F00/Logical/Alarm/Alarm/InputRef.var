@@ -1,0 +1,22 @@
+(*2022-12-20*)
+(**)
+(*General*)
+VAR
+	p_udiCurrMax : REFERENCE TO UDINT;
+	p_udiHistoryMax : REFERENCE TO UDINT;
+END_VAR
+(**)
+VAR
+	p_eAct : REFERENCE TO eAlarmAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_dtCurrDT : REFERENCE TO DATE_AND_TIME;
+	pa_tyAlmData : REFERENCE TO ARRAY[1..c_udiAlarmCurrMax] OF tyAlmDat;
+	p_udiFileKeepDay : REFERENCE TO UDINT;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_bStartupUISettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

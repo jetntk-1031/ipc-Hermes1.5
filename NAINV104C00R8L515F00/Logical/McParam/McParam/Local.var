@@ -1,0 +1,48 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eMcParamAction := McParamActIdle;
+	eStat : eMcParamAction := McParamActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Reading Files','Writing Files',47('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Directory Error',sRcyText:='Unable To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Machine Parameter Directory Error',sRcyText:='Unable To Create Machine Parameter Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='File Open Error While Writing',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Reading',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possibe Solution.'),90(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	tyMcParamCurr : tyMcParam;
+	bFileNotFound : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	sFileName : STRING[80] := 'MachineParameter.dat';
+	tyMcParamWr : tyMcParam;
+	sProgNm : STRING[15] := 'McParam';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	usiStep : USINT;
+	tyMcParamTemp : tyMcParam;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbFileRead1 : fbFileFullRead;
+	fbFileWrite1 : fbFileFullWrite;
+	fbFileWrite2 : fbFileFullWrite;
+	udiModuleNum : UINT := 5251;
+END_VAR

@@ -1,0 +1,128 @@
+(*2020-10-06*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eAWAction := AWActIdle;
+	eStat : eAWAction := AWActIdle;
+	eMainStatus : eFBStatus := Idle;
+	eStatus : eFBStatus := Idle;
+	eStatus1 : eFBStatus := Idle;
+	eStatus2 : eFBStatus := Idle;
+	eStatus3 : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	udiStatus1 : UDINT := 0;
+	udiStatus2 : UDINT := 0;
+	udiStatus3 : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Going Width','Full Homing','Powering On','Powering Off','Homing','Moving Absolute','Moving Relative','Jogging Open','Jogging Close','Jogging Stop','Resetting Axis Error','Stopping','Writing SDO','Background Starting Module OK Check','Background Stopping Module OK Check','Going Width And Power Off','Reset Servo Module Node',33('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	tyAlmData1 : tyAlmDat;
+	tyAlmData2 : tyAlmDat;
+	tyAlmData3 : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10299] OF tyAlmTxt := [(sAlmText:='Axis Move Abnormally By External Force',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='CANOpen Communication Error, ModuleOK Not TRUE',sRcyText:='Fail While Read/Write Data. Reset The Error And Resume Operation.'),(sAlmText:='Power On Time Out While Going New Width',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Homing Time Out While Going New Width',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Move Absolute Time Out While Going New Width',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Stop Motion Time Out While Going New Width',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Axis Error Reset Failed While Going New Width',sRcyText:='Axis Error Reset Failed. Please Retry Again Reset Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Axis Error Occur In Move Absolute While Going New Width',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Axis Error Occur In Homing While Going New Width',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Homing Done But Home Flag Is Not Activated While Going New Width',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Forward Limit Activated In Homing While Going New Width',sRcyText:='Forward Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Reverse Limit Activated In Homing While Going New Width',sRcyText:='Reverse Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Forward Limit Activated In Move Absolute While Going New Width',sRcyText:='Forward Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Reverse Limit Activated In Move Absolute While Going New Width',sRcyText:='Reverse Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Power On Time Out While Full Homing',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Homing Time Out While Full Homing',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Stop Motion Time Out While Full Homing',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Axis Error Reset Failed While Full Homing',sRcyText:='Axis Error Reset Failed. Please Retry Again Reset Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Axis Error Occur In Homing While Full Homing',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Homing Done But Home Flag Is Not Activated While Full Homing',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Forward Limit Activated In Homing While Full Homing',sRcyText:='Forward Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Reverse Limit Activated In Homing While Full Homing',sRcyText:='Reverse Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Power On Time Out',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Power Off Time Out',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Homing Time Out',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Move Absolute Time Out',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Move Relative Time Out',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Stop Motion Time Out',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='SDO Write Error',sRcyText:='Fail While Write Data. Reset The Error And Resume Operation.'),(sAlmText:='Request Absolute Position Out Of Range',sRcyText:='Request Absolute Position Does Not Fall Within The Expected Range.'),(sAlmText:='Inlet Sensor Interrupt Auto Width Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Auto Width Moving. Solve The Interruption To Resume Operation.'),(sAlmText:='Outlet Sensor Interrupt Auto Width Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Auto Width Moving. Solve The Interruption To Resume Operation.'),(sAlmText:='Clear Sensor Interrupt Auto Width Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Auto Width Moving. Solve The Interruption To Resume Operation.'),(sAlmText:='Middle Sensor Interrupt Auto Width Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Auto Width Moving. Solve The Interruption To Resume Operation.'),(sAlmText:='Sensor Interrupt Auto Width Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Auto Width Moving. Solve The Interruption To Resume Operation.'),(sAlmText:='Power On Time Out While Going New Width And Off',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Homing Time Out While Going New Width And Off',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Move Absolute Time Out While Going New Width And Off',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Stop Motion Time Out While Going New Width And Off',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Axis Error Reset Failed While Going New Width And Off',sRcyText:='Axis Error Reset Failed. Please Retry Again Reset Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Axis Error Occur In Move Absolute While Going New Width And Off',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Axis Error Occur In Homing While Going New Width And Off',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Homing Done But Home Flag Is Not Activated While Going New Width And Off',sRcyText:='Servo Motor Abnormal Operation. Reset And Resume Operation. If The Problem Persists, Please Contact Nutek For A Possible Solution.'),(sAlmText:='Forward Limit Activated In Homing While Going New Width And Off',sRcyText:='Forward Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Reverse Limit Activated In Homing While Going New Width And Off',sRcyText:='Reverse Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Forward Limit Activated In Move Absolute While Going New Width And Off',sRcyText:='Forward Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Reverse Limit Activated In Move Absolute While Going New Width And Off',sRcyText:='Reverse Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),2((sAlmText:='Sensor Interrupt Auto Width Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Auto Width Moving. Solve The Interruption To Resume Operation.')),249((0)),(sAlmText:='Forward Limit Activated',sRcyText:='Forward Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.'),(sAlmText:='Reverse Limit Activated',sRcyText:='Reverse Limit Switch Is Activated. Reset The Error By Operate The Motor Backwards.')];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	tyParamOut : tyMotionCANParamOut;
+	sAxisErrTxt : STRING[80];
+	bWidthPosDiff : BOOL;
+	bJogOpen : BOOL;
+	bJogClose : BOOL;
+	bJogging : BOOL;
+	bOpenSen : BOOL;
+	bCloseSen : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bOps : BOOL := FALSE;
+	bManual : BOOL := FALSE;
+	diWidthAtHmPos : DINT := 400;
+	tyTuning : tyMotionCANTuning;
+	diGoWidth : DINT := 150;
+	diJogVelInUMPS : DINT := 10000;
+	diMovePosInUM : DINT := 0;
+	diMoveDistInUM : DINT := 0;
+	diMoveVelInUMPS : DINT := 10000;
+	diMoveAcc : DINT := 500;
+	diMoveDec : DINT := 500;
+	diMinAbsPosInUM : DINT := -3000;
+	diMaxAbsPosInUM : DINT := 10000000;
+	diMinWidthInUM : DINT := 70000;
+	diMaxWidthInUM : DINT := 460000;
+	diWidthOffsetInUM : DINT := 0;
+	bInletSensor : BOOL;
+	bOutletSensor : BOOL;
+	bClearSensor : BOOL;
+	bMiddleSensor : BOOL;
+	bClamp2Sensor : BOOL;
+	bClamp3Sensor : BOOL;
+	bInterruptSensor : BOOL;
+	bOpenInterruptSensor : BOOL;
+	bCloseInterruptSensor : BOOL;
+	bDir : BOOL;
+	bDirBl : BOOL;
+	bNoIndexPulse : BOOL;
+	usiNode : USINT;
+	sDevice : STRING[3];
+	sProgNm : STRING[15] := 'AWOpen';
+	diMoveBacklashDistInUM : DINT := 3000;
+	diPitchInUM : DINT := 3000;
+	tyParamInHm : tyMotionCANParamInHm;
+	tyParamInConvert : tyMotionCANParamInConvert := (diPitchInUM:=3000);
+	bNtSettingsLoadDone : BOOL := TRUE;
+	eMotorType : eServoMotorType := DeltaAsdaA2;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	bModuleOKChk : BOOL := TRUE;
+	bModuleOK : BOOL;
+	bModuleNotOK : BOOL := TRUE;
+	bModuleNotOKLock : BOOL;
+	bNotInterruptible : BOOL;
+	diActualPosInUMOld : DINT;
+	usiRstStep : USINT := 0;
+	usiStep : USINT;
+	usiCount : USINT;
+	fbTm : TON := (PT:=T#2s);
+	fbServoModuleNotOk : TON := (IN:=FALSE,PT:=T#2s);
+	fbServoModuleOk : TON := (IN:=FALSE,PT:=T#5s);
+	fbRstNodeTimer : TON := (PT:=T#3s);
+	tyParamInMove : tyMotionCANParamInMove;
+	tyParamInDriver : tyMotionCANDriverIn;
+	tyParamOutDriver : tyMotionCANDriverOut := (siModOfOpt_6060:=6);
+	fbStop : fbMotionCANStop;
+	fbRstAxisErr : fbMotionCANRstAxisErr;
+	fbJog : fbMotionCANJog;
+	fbMovRel : fbMotionCANMovRel;
+	fbMovAbs : fbMotionCANMovAbs;
+	fbHoming : fbMotionCANHoming;
+	fbPwrOff : fbMotionCANPwrOff;
+	fbPwrOn : fbMotionCANPwrOn;
+	fbFullHm : fbMotionCANFullHm;
+	fbFullMovAbs : fbMotionCANFullMovAbs;
+	fbFullMovAbsBl : fbMotionCANFullMovAbsBl;
+	fbModuleOK : fbMotionCANModuleOK;
+	fbSDOWrite : fbCANSDOWriteArrayParam;
+	bInletShutterCloseRS : BOOL;
+	bOutletShutterCloseRS : BOOL;
+	bInletShutterPrep : BOOL;
+	bInletShutterDis : BOOL;
+	bOutletShutterPrep : BOOL;
+	bOutletShutterDis : BOOL;
+	udiModuleNum : UDINT := 1;
+END_VAR

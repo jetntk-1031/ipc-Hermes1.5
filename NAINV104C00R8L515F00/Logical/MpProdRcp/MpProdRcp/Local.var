@@ -1,0 +1,50 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eMpProdRcpAction := MpProdRcpActIdle;
+	eStat : eMpProdRcpAction := MpProdRcpActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Loading Mp Product Recipe','Saving Mp Product Recipe',47('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Directory Error',sRcyText:='Unable To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Product Recipe Directory Error',sRcyText:='Unable To Create Product Recipe Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpRecipeRegPar Error While Loading',sRcyText:='Unable To Register Parameter. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpRecipeXml Error While Loading',sRcyText:='Unable To Handle Recipe In Xml. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpRecipeRegPar Error While Saving',sRcyText:='Unable To Register Parameter. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpRecipeXml Error While Saving',sRcyText:='Unable To Handle Recipe In Xml. Please Contact Nutek For A Possible Solution'),94((sAlmText:='',sRcyText:=''))];
+END_VAR
+(**)
+(*Local Output*)
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	a_tyMpProdRcp : ARRAY[0..c_udiMpProdRcpMax] OF tyProdRcpParam;
+	tyMpProdRcpMpLink : MpComIdentType;
+	sPVName : STRING[100] := 'MpProdRcp:a_tyMpProdRcp1';
+	sFileName : STRING[255] := 'MpProductRecipe.xml';
+	sProgNm : STRING[15] := 'MpProdRcp';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	usiStep : USINT;
+	a_tyMpProdRcp1 : ARRAY[0..c_udiMpProdRcpMax] OF tyProdRcpParam;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbMpRecipeRegPar : MpRecipeRegPar;
+	fbMpRecipeXml : MpRecipeXml;
+END_VAR
+VAR CONSTANT
+	c_udiMpProdRcpMax : UDINT := 1999;
+END_VAR
+VAR
+	udiModuleNum : UDINT := 5001;
+END_VAR

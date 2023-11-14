@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Warning">
+  <Property Name="AcknowledgeImage" Value="None"/>
+  <Property Name="ActiveBackColor" Value="14"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[DataSource.UI.UI.tyUIAlmData.bWarning]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="0"/>
+  <Property Name="DefaultForeColor" Value="16"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="None"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="1"/>
+  <Property Name="QuitBackColor" Value="0"/>
+  <Property Name="QuitForeColor" Value="16"/>
+  <Alarms>
+    <Alarm Index="5463">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3363">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3114">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Disabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="None"/>
+      <Property Name="RecordReset" Value="Not Acknowledged"/>
+      <Property Name="RecordTrigger" Value="False"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets>
+      <TextSnippet ClassId="0x00002002" Name="TextSnippet_42">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.Alarm.g_sLibVerProgNm]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="True"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="TextSnippet_22">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.Alarm.g_sUSHermesProgNm]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="True"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="TextSnippet_23">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.Alarm.g_sDSHermesProgNm]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="True"/>
+      </TextSnippet>
+      <TextSnippet ClassId="0x00002002" Name="TextSnippet_0">
+        <Property Name="Alignment" Value="Left"/>
+        <Property Name="Datapoint" Value="Source[global].Variable[DataSource.Alarm.g_sLiberWarnName]"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="FillCharacter" Value=""/>
+        <Property Name="MaxChars" Value="None"/>
+        <Property Name="MinChars" Value="None"/>
+        <Property Name="Persistent" Value="True"/>
+      </TextSnippet>
+    </TextSnippets>
+    <TextLayer LanguageId="en">
+      <Text ID="8468" Value=" {TextSnippet_42} |  Libraries Version Mismatch {TextSnippet_0}"/>
+      <Text ID="8483" Value=" {TextSnippet_23} | DS Hermes Connection Lost"/>
+      <Text ID="14817" Value=" {TextSnippet_22} | US Hermes Connection Lost"/>
+      <Text ID="26" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="8468" Value=""/>
+      <Text ID="8483" Value=""/>
+      <Text ID="14817" Value=""/>
+      <Text ID="26" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh">
+      <Text ID="8468" Value=""/>
+      <Text ID="8483" Value=""/>
+      <Text ID="14817" Value=""/>
+      <Text ID="26" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt">
+      <Text ID="8468" Value=""/>
+      <Text ID="8483" Value=""/>
+      <Text ID="14817" Value=""/>
+      <Text ID="26" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="8468" Value="5463"/>
+      <Index ID="8483" Value="3363"/>
+      <Index ID="14817" Value="3114"/>
+      <Index ID="26" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

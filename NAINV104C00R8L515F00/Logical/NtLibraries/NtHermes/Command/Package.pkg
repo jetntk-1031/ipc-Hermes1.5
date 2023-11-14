@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">fHermesRmvOneCmdTyp.st</Object>
+    <Object Type="File">fHermesAddOneCmdTyp.st</Object>
+    <Object Type="File">fHermesChkParamCommand.st</Object>
+    <Object Type="File">fHermesAddOneCommandGate.st</Object>
+    <Object Type="File">fHermesBoardCastCommand.st</Object>
+    <Object Type="File">fbHermesProcessCmd.st</Object>
+    <Object Type="File">fHermesRcvCmdReqFromPause.st</Object>
+    <Object Type="File">fHermesRcvCmdReqToPause.st</Object>
+    <Object Type="File">fHermesRcvCmdReqFromLockCov.st</Object>
+    <Object Type="File">fHermesRcvCmdReqFromOvenInfeed.st</Object>
+    <Object Type="File">fHermesSndCmdReqFromPause.st</Object>
+    <Object Type="File">fHermesSndCmdReqToPause.st</Object>
+    <Object Type="File">fHermesSndCmdReqToLockConv.st</Object>
+    <Object Type="File">fHermesSndCmdReqToOvenInfeed.st</Object>
+  </Objects>
+</Package>

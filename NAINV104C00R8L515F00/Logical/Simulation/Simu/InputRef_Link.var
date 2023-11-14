@@ -1,0 +1,6 @@
+(*2019-01-20*)
+(**)
+VAR
+	p_eUISimuAct : REFERENCE TO eSimulationsAction;
+	p_bSimuInvPaused : REFERENCE TO BOOL;
+END_VAR

@@ -1,0 +1,15 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_UsrFolderStat : UDINT;
+	p_UsrFolderStatus : UDINT;
+	p_UsrFolderStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_UsrFolderAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)

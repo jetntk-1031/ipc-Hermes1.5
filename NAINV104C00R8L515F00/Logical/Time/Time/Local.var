@@ -1,0 +1,54 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eTimeAction := TimeActIdle;
+	eStat : eTimeAction := TimeActIdle;
+	eMainStatus : eFBStatus := Idle;
+	eStatus : eFBStatus := Idle;
+	eStatus1 : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	udiStatus1 : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Get Time','Get Time Zone','Setting Time','Setting Time Zone',46('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	tyAlmData1 : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Set Time Error',sRcyText:='Your Clock Is Set Incorrectly. Please Set Correct Date And Time In Language And Setup.'),(sAlmText:='Set TIME Zone Error',sRcyText:='Invalid TIME Zone. Please Check Your TIME Zone And Try Again.'),(sAlmText:='Get TIME Error',sRcyText:='Getting Invalid Time. Please Set Correct DATE And TIME In Language And Setup.'),(sAlmText:='Get TIME Structure Error',sRcyText:='Invalid TIME Structure. Please Set Correct DATE And TIME In Language And Setup.'),(sAlmText:='Get TIME Zone Error',sRcyText:='Getting Invalid TIME Zone. Please Check Your TIME Zone And Try Again.'),(sAlmText:='Get TIME Error In Background',sRcyText:='Getting Invalid Time. Please Set Correct DATE And TIME In Language And Setup'),(sAlmText:='Get TIME Structure Error In Background',sRcyText:='Invalid TIME Structure. Please Set Correct DATE And TIME In Language And Setup.'),93((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	dtCurrDT : DATE_AND_TIME;
+	uiCurrTimeZone : UINT;
+	tyCurrDTStruct : DTStructure;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	dtSetDT : DATE_AND_TIME;
+	uiSetTimeZone : UINT;
+	sProgNm : STRING[15] := 'Time';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	fbDlyTm : TON := (PT:=T#500ms);
+	fbGetTime : DTGetTime;
+	fbGetTime1 : DTGetTime;
+	fbSetTime : DTSetTime;
+	fbGetTimeDT : DTStructureGetTime;
+	fbGetTimeDT1 : DTStructureGetTime;
+	fbGetTimeZone : CfgGetTimeZone;
+	fbSetTimeZone : CfgSetTimeZone;
+	udiModuleNum : UDINT := 5851;
+END_VAR

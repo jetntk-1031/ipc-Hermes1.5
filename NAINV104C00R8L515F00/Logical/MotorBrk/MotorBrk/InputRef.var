@@ -1,0 +1,49 @@
+(*2020-10-14*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eMotorBrkAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+	p_bOnDirMod : REFERENCE TO BOOL;
+	p_diMtrSigOnDlyTm : REFERENCE TO DINT;
+	p_diMtrDirOffDlyTm : REFERENCE TO DINT;
+	p_diMtrBrkOnDlyTm : REFERENCE TO DINT;
+	p_diMtrOnDlyTm : REFERENCE TO DINT;
+	p_diMtrOffDlyTm : REFERENCE TO DINT;
+	p_diBrkOnDlyTm : REFERENCE TO DINT;
+	p_diBrkOffDlyTm : REFERENCE TO DINT;
+	p_diTimeOut : REFERENCE TO DINT;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_bInletShutterCloseRS : REFERENCE TO BOOL;
+	p_bOutletShutterCloseRS : REFERENCE TO BOOL;
+	p_bInletShutterPrep : REFERENCE TO BOOL;
+	p_bInletShutterDis : REFERENCE TO BOOL;
+	p_bOutletShutterPrep : REFERENCE TO BOOL;
+	p_bOutletShutterDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_bCCWSen : REFERENCE TO BOOL;
+	p_bMidSen : REFERENCE TO BOOL;
+	p_bCWSen : REFERENCE TO BOOL;
+	p_bLiftRemoteSen : REFERENCE TO BOOL;
+	p_bLiftHomeSen : REFERENCE TO BOOL;
+	p_bSensor1 : REFERENCE TO BOOL;
+	p_bSensor2 : REFERENCE TO BOOL;
+	p_bSensor3 : REFERENCE TO BOOL;
+	p_bInterruptSensor : REFERENCE TO BOOL;
+	p_rMcParamStepper180deg : REFERENCE TO REAL;
+	p_rMcParamStepperNeg90deg : REFERENCE TO REAL;
+	p_rMcParamStepper90deg : REFERENCE TO REAL;
+	p_rMcParamStepper0deg : REFERENCE TO REAL;
+END_VAR

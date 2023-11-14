@@ -1,0 +1,36 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eSMEMAAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+	p_tyParam : REFERENCE TO tySMEMAParam;
+	p_bGdBrd : REFERENCE TO BOOL;
+	p_diTransferOutTO : REFERENCE TO DINT;
+	p_bDirLToR : REFERENCE TO BOOL;
+	p_bRdySend : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_bLeftSen : REFERENCE TO BOOL;
+	p_bRightSen : REFERENCE TO BOOL;
+	p_bComplSigOn : REFERENCE TO BOOL;
+	p_bDSB : REFERENCE TO BOOL;
+	p_bTimerEnSen : REFERENCE TO BOOL;
+	p_bTimerEnSenEdge : REFERENCE TO BOOL;
+	p_bVirtualEn : REFERENCE TO BOOL;
+	p_bDSBVirtual : REFERENCE TO BOOL;
+	p_tRstDlyTm : REFERENCE TO TIME;
+	p_tSigInChkTm : REFERENCE TO TIME;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P0200_OpsGen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="200"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BackgroundColorBlack]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <Layer Name="A0_VirtualSMEMAUS2">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="0"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001002" Name="Btn_UBAStat">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_225]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnUBAStat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="61"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="195"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_225]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_UBA">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_228]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnUBA.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="60"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="135"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_228]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Dual">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_235]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnDual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="62"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="255"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_235]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USVirtual">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Text_Virtual_58x41]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="80"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="670"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_225">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnUBAStat.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnUBAStat.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_228">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnUBA.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnUBA.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_235">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnDual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA2.tyBtnDual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="A0_VirtualSMEMAUS1">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001002" Name="Btn_UBAStat">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_28]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnUBAStat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="61"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_28]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_UBA">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_46]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnUBA.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="60"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_46]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Dual">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_48]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnDual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="62"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_48]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USVirtual">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Text_Virtual_58x41]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="80"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="570"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_28">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnUBAStat.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnUBAStat.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_46">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnUBA.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnUBA.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_48">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnDual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA1.tyBtnDual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="A0_VirtualSMEMAUS">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="2"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001002" Name="Btn_UBAStat">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_26]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnUBAStat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="61"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_26]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_UBA">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_119]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnUBA.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="60"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_119]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Dual">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_122]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnDual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="62"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_122]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USVirtual">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Text_Virtual_58x41]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="80"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="182"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_122">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnDual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnDual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_119">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnUBA.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnUBA.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_26">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnUBAStat.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsUSVSMEMA.tyBtnUBAStat.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="A1_VirtualSMEMADS1">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="3"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_DSVirtual">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Text_Virtual_58x41]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="80"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="125"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_DSB">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_49]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDSB.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="60"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_49]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_DSBStat">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_64]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDSBStat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="61"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_64]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Dual">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_65]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="62"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_65]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_49">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDSB.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDSB.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_64">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDSBStat.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDSBStat.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_65">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA1.tyBtnDual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="A1_VirtualSMEMADS">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="4"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_DSVirtual">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Text_Virtual_58x41]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="80"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="570"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_DSB">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_477]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDSB.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="60"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="60"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_477]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_DSBStat">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_480]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDSBStat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="61"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_480]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Dual">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="13"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_481]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="PressedBitmapIndex" Value="3"/>
+          <Property Name="PressedBitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_VirtualSMEMA]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2030_SMEMAText]"/>
+          <Property Name="TextIndex" Value="62"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_481]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_481">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_480">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDSBStat.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDSBStat.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_477">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDSB.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsDSVSMEMA.tyBtnDSB.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="A2_Ops">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="5"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="602120" Value="US"/>
+          <Text ID="602121" Value="DS"/>
+          <Text ID="602122" Value="DS"/>
+          <Text ID="602123" Value="US"/>
+          <Text ID="664597" Value="US2"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="602120" Value="Text_1"/>
+          <Text ID="602121" Value="Text_1"/>
+          <Text ID="602122" Value="Text_1"/>
+          <Text ID="602123" Value="Text_1"/>
+          <Text ID="664597" Value="Text_1"/>
+        </TextLayer>
+        <TextLayer LanguageId="zh">
+          <Text ID="602120" Value="Text_1"/>
+          <Text ID="602121" Value="Text_1"/>
+          <Text ID="602122" Value="Text_1"/>
+          <Text ID="602123" Value="Text_1"/>
+          <Text ID="664597" Value="Text_1"/>
+        </TextLayer>
+        <TextLayer LanguageId="pt">
+          <Text ID="602120" Value=""/>
+          <Text ID="602121" Value=""/>
+          <Text ID="602122" Value=""/>
+          <Text ID="602123" Value=""/>
+          <Text ID="664597" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="602120" Value="11"/>
+          <Index ID="602121" Value="12"/>
+          <Index ID="602122" Value="13"/>
+          <Index ID="602123" Value="14"/>
+          <Index ID="664597" Value="15"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="lbl_PCB">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="210"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1120_OperationsLabels]"/>
+          <Property Name="TextIndexOffset" Value="8"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="290"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_PCB">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[StatusDisplay]"/>
+          <Property Name="BitmapIndex" Value="30"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapConvPCB.usiValueIdx]"/>
+          <Property Name="Left" Value="290"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="290"/>
+          <Property Name="Width" Value="25"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_Dir">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="2"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDir1.usiValueIdx]"/>
+          <Property Name="Left" Value="205"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="326"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_Dir2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="2"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDir2.usiValueIdx]"/>
+          <Property Name="Left" Value="570"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="326"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001009" Name="Alarm_Curr">
+          <Property Name="AcknowledgeState_Position" Value="None"/>
+          <Property Name="AlarmNumber_Alignment" Value="Center"/>
+          <Property Name="AlarmNumber_MinDigits" Value="4"/>
+          <Property Name="AlarmNumber_Position" Value="Column 2"/>
+          <Property Name="AlarmNumber_SeparatorTextBaseIndex" Value="27"/>
+          <Property Name="AlarmNumber_SeparatorTextGroup" Value="Source[global].TextGroup[T1000_Alarm]"/>
+          <Property Name="AlarmNumber_Width" Value="35"/>
+          <Property Name="AlarmState_Position" Value="None"/>
+          <Property Name="AlarmText_Alignment" Value="Left"/>
+          <Property Name="AlarmText_Position" Value="Column 3"/>
+          <Property Name="AlarmText_SeparatorTextBaseIndex" Value="27"/>
+          <Property Name="AlarmText_SeparatorTextGroup" Value="Source[global].TextGroup[T1000_Alarm]"/>
+          <Property Name="AlarmText_Width" Value="695"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_Black]"/>
+          <Property Name="BypassState_Position" Value="None"/>
+          <Property Name="ColumnCount" Value="3"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Cursor_LeftBitmap" Value="None"/>
+          <Property Name="Cursor_LeftTextGroup" Value="None"/>
+          <Property Name="Cursor_RightBitmap" Value="None"/>
+          <Property Name="Cursor_RightTextGroup" Value="None"/>
+          <Property Name="DateTime_Alignment" Value="Left"/>
+          <Property Name="DateTime_FormatStringBaseIndex" Value="8"/>
+          <Property Name="DateTime_FormatStringTextGroup" Value="Source[global].TextGroup[T1020_DateTime]"/>
+          <Property Name="DateTime_Position" Value="Column 1"/>
+          <Property Name="DateTime_SeparatorTextGroup" Value="None"/>
+          <Property Name="DateTime_Width" Value="120"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Event_Position" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[StringInputFont]"/>
+          <Property Name="ForeColor" Value="16"/>
+          <Property Name="GroupNumber_Position" Value="None"/>
+          <Property Name="Height" Value="119"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="Node1" Value="User order"/>
+          <Property Name="Priority_Position" Value="None"/>
+          <Property Name="SortColumn" Value="Time"/>
+          <Property Name="SortOrder" Value="Ascending"/>
+          <Property Name="Source" Value="Current"/>
+          <Property Name="SpacingVertical" Value="4"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.tyP0600Alm.tyAlm.tyAlarm.tyUIAlmCur.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Alarm]"/>
+          <Property Name="Top" Value="355"/>
+          <Property Name="Width" Value="615"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Border">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="122"/>
+          <Property Name="Left" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Rectangle_Black_WhiteLine1]"/>
+          <Property Name="Top" Value="354"/>
+          <Property Name="Width" Value="620"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Alm1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_414]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[1].uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="355"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_414]"/>
+          <Property Name="Width" Value="619"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Alm2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_415]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[2].uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="375"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_415]"/>
+          <Property Name="Width" Value="619"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Alm3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_416]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[3].uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="395"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_416]"/>
+          <Property Name="Width" Value="619"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Alm4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_417]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[4].uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="415"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_417]"/>
+          <Property Name="Width" Value="619"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Alm5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_418]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[5].uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="435"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_418]"/>
+          <Property Name="Width" Value="619"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Alm6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_422]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="7"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[6].uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="455"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_422]"/>
+          <Property Name="Width" Value="619"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommOut">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommOut.usiValueIdx]"/>
+          <Property Name="Left" Value="195"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommOut.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommIn">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIn.usiValueIdx]"/>
+          <Property Name="Left" Value="193"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIn.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="98"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommIcon">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="4"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIcon.usiValueIdx]"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_USComm">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="185"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIcon.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_USVirtual">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_424]"/>
+          <Property Name="Height" Value="140"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="165"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_424]"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_DSCommOut">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommOut.usiValueIdx]"/>
+          <Property Name="Left" Value="585"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommOut.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="98"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_DSCommIn">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommIn.usiValueIdx]"/>
+          <Property Name="Left" Value="585"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommIn.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_DSCommIcon">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="4"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommIcon.usiValueIdx]"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_DSComm">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommIcon.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_DSVirtual">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_426]"/>
+          <Property Name="Height" Value="140"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="555"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotDSVirtual.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_426]"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_Mc">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Machine]"/>
+          <Property Name="BitmapIndex" Value="50"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="276"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapMc.usiValueIdx]"/>
+          <Property Name="Left" Value="325"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="50"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Mc">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_430]"/>
+          <Property Name="Height" Value="278"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="275"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotMc.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="50"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_430]"/>
+          <Property Name="Width" Value="250"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_AccDat">
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapAccDat.usiValueIdx]"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapAccDat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="420"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_AcpDat">
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[LeadFollow]"/>
+          <Property Name="BitmapIndex" Value="14"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_289]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="645"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnAccDat.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_Transparent_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1120_OperationsLabels]"/>
+          <Property Name="TextIndex" Value="16"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="420"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_289]"/>
+          <Property Name="Width" Value="140"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_AccDat">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnAccDat.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="420"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_RlsNewProd">
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapRlsNewProd.usiValueIdx]"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapRlsNewProd.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_RlsNewProd">
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Motion]"/>
+          <Property Name="BitmapIndex" Value="15"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_297]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnRlsNewProd.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_Transparent_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1120_OperationsLabels]"/>
+          <Property Name="TextIndex" Value="18"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_297]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_RlsNewProd">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnRlsNewProd.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommIn1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIn1.usiValueIdx]"/>
+          <Property Name="Left" Value="585"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIn1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="98"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommOut1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommOut1.usiValueIdx]"/>
+          <Property Name="Left" Value="585"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommOut1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_DSCommIn1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommIn1.usiValueIdx]"/>
+          <Property Name="Left" Value="195"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommIn1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_DSCommOut1">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommOut1.usiValueIdx]"/>
+          <Property Name="Left" Value="193"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapDSCommOut1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="98"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_DSVirtual1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_425]"/>
+          <Property Name="Height" Value="140"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="165"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotDSVirtual1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_425]"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_USVirtual1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_427]"/>
+          <Property Name="Height" Value="140"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="555"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_427]"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="US">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="193"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtUS.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="11"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="45"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="DS">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="585"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtDS.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="45"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="DS1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="193"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtDS1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="13"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="45"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="US1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="585"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtUS1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="14"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="45"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="LeaderInActiveCtrl">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[GeneralWarningFont]"/>
+          <Property Name="ForeColor" Value="40"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtLdrInActiveCtrl.usiValueIdx]"/>
+          <Property Name="Left" Value="301"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtLdrInActiveCtrl.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="46"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="333"/>
+          <Property Name="Width" Value="222"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_Warnning">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Icon_Ops_Warning]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="280"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtLdrInActiveCtrl.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="333"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_BypassTopCover">
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Borders]"/>
+          <Property Name="BitmapIndex" Value="37"/>
+          <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapBypassTopCover1.usiValueIdx]"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_464]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="PressedBackColor" Value="0"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="None"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnBypassTopCover1.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_Transparent_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1120_OperationsLabels]"/>
+          <Property Name="TextIndex" Value="106"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="255"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_464]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommIn2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIn2.usiValueIdx]"/>
+          <Property Name="Left" Value="685"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIn2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="98"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommOut2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SMEMA]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommOut2.usiValueIdx]"/>
+          <Property Name="Left" Value="685"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommOut2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="US2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="680"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyTxtUS2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="45"/>
+          <Property Name="Width" Value="33"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_USVirtual2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_538]"/>
+          <Property Name="Height" Value="140"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="655"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_538]"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_USCommIcon2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="4"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIcon2.usiValueIdx]"/>
+          <Property Name="Left" Value="675"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIcon2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_USComm2">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="675"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBitmapUSCommIcon2.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_PCBReset">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="None"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_541]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnPCBReset.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_GeneralBig3_Green_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1120_OperationsLabels]"/>
+          <Property Name="TextIndex" Value="107"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="310"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_541]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_PCBReset">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="635"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnPCBReset.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="310"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_414">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[1].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[1].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_415">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[2].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[2].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_416">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[3].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[3].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_417">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[4].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[4].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_418">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[5].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[5].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_422">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[6].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.a_tyHotspotRcyMsg[6].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_424">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_430">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotMc.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotMc.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_426">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotDSVirtual.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotDSVirtual.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_289">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnAccDat.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnAccDat.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_297">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnRlsNewProd.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnRlsNewProd.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_425">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotDSVirtual1.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotDSVirtual1.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_427">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual1.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual1.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_464">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnBypassTopCover1.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnBypassTopCover1.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_538">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual2.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyHotspotUSVirtual2.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_541">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnPCBReset.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsGen.tyBtnPCBReset.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="A3_BypsInitConv">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Lock Position"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="6"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_Background">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="480"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="0"/>
+          <Property Name="Width" Value="800"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="Hotspot_Close">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_142]"/>
+          <Property Name="Height" Value="480"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="0"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_142]"/>
+          <Property Name="Width" Value="800"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_BypsInitConv">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Operation]"/>
+          <Property Name="BitmapIndex" Value="14"/>
+          <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyBtnBypsInitConv.usiBitmapIdx]"/>
+          <Property Name="BitmapSimulationValue" Value="1"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_137]"/>
+          <Property Name="Font" Value="Source[local].Font[BigHeaderFont]"/>
+          <Property Name="Height" Value="300"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="200"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_Ops_MsgBox]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1120_OperationsLabels]"/>
+          <Property Name="TextIndex" Value="17"/>
+          <Property Name="TextIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyBtnBypsInitConv.usiTxtIdx]"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_137]"/>
+          <Property Name="Width" Value="400"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_142">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyHotspotClose.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyHotspotClose.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_137">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyBtnBypsInitConv.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP0200OpsBypsInitConv.tyBtnBypsInitConv.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[C0005_MainLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0005_MainLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="7"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0007_NotifLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0007_NotifLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="8"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0008_MsgBoxLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0008_MsgBoxLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="9"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0011_LoadingLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0011_LoadingLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="10"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0009_InfoLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0009_InfoLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="11"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0010_RcyMsgLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0010_RcyMsgLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="12"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[A2_Ops].Control[Alarm_Curr]">
+      <Property Name="Down" Value="Source[embedded].Layer[A2_Ops].Control[Alarm_Curr]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A2_Ops].Control[Alarm_Curr]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A2_Ops].Control[Alarm_Curr]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A2_Ops].Control[Alarm_Curr]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[C0007_NotifLayer].Control[Disp_UsrNm]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[A2_Ops].Control[Alarm_Curr]"/>
+  </TabSequence>
+</Page>

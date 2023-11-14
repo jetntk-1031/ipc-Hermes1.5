@@ -1,0 +1,30 @@
+(*2019-06-28*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eLCSAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_tyCurrProdParam : REFERENCE TO tyProdRcpParam;
+	p_bMnlAccData : REFERENCE TO BOOL;
+	p_bAccData : REFERENCE TO BOOL;
+	p_tyLCSProdRcpInfo : REFERENCE TO tyProdRcpParam;
+	p_bChkLmtOK : REFERENCE TO BOOL;
+	p_bChkLmtNG : REFERENCE TO BOOL;
+	p_bAccNewRcpCond : REFERENCE TO BOOL;
+	p_bUpdtNewRcpCond : REFERENCE TO BOOL;
+	p_bAutoUpdtData : REFERENCE TO BOOL;
+	p_bUIUpdtData : REFERENCE TO BOOL;
+	p_sInfoMsg : REFERENCE TO STRING[200];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_bUIBtnSectionLdr : REFERENCE TO BOOL;
+	p_bLCSSectionLeaderEn : REFERENCE TO BOOL;
+	p_bMcParamSectionLdr : REFERENCE TO BOOL;
+END_VAR

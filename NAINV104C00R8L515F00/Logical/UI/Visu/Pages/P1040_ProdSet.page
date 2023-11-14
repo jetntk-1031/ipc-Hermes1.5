@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P1040_ProdSet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="1040"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BackgroundColorBlack]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <Layer Name="A0_Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="0"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x0000100B" Name="String_Search">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyStringSearch.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[AlphaPad]"/>
+          <Property Name="Left" Value="526"/>
+          <Property Name="MaxChars" Value="254"/>
+          <Property Name="SimulationValue" Value="Search"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyStringSearch.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Search]"/>
+          <Property Name="Top" Value="55"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyStringSearch.sValue]"/>
+          <Property Name="Width" Value="254"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_Search">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Recipe]"/>
+          <Property Name="BitmapIndex" Value="6"/>
+          <Property Name="BitmapSource" Value="BitmapGroup"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="745"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+          <Property Name="Top" Value="58"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Save">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Recipe]"/>
+          <Property Name="BitmapIndex" Value="5"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="BitmapGroup"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_80]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndex" Value="34"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_80]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Delete">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Recipe]"/>
+          <Property Name="BitmapIndex" Value="1"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="BitmapGroup"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_82]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="0"/>
+          <Property Name="Left" Value="680"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndex" Value="35"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_82]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row1">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[1].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[1].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row1">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[1].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[1].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[1].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row2">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[2].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[2].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row2">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[2].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[2].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="2"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[2].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row3">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[3].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[3].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row3">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[3].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[3].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="3"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[3].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row4">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[4].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="211"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[4].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row4">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[4].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="211"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[4].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="4"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="211"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[4].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row5">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[5].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="240"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[5].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row5">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[5].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="240"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[5].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="5"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="240"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[5].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row6">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[6].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="269"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[6].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row6">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[6].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="269"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[6].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="269"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[6].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row7">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[7].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="298"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[7].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row7">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[7].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="298"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[7].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="7"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="298"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[7].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row8">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[8].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="327"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[8].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row8">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[8].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="327"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[8].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="8"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="327"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[8].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row9">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[9].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="356"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[9].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row9">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[9].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="356"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[9].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row9">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="9"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="356"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[9].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row10">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[10].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="MaxChars" Value="16"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="385"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol2[10].sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1_Row10">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[10].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="MaxChars" Value="30"/>
+          <Property Name="SimulationValue" Value="123456789012345678901234567890"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="385"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol1[10].sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row10">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="385"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyStringDataCol0[10].sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2Title">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="621"/>
+          <Property Name="SimulationValue" Value="Last Modified"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyStringTitle2Col2Row0.sValue]"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col1Title">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="SimulationValue" Value="Name"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyStringTitle1Col1Row0.sValue]"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0Title">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="No"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyStringTitle0Col0Row0.sValue]"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_348]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_348]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_349]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="153"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_349]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_350]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_350]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_351]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="211"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_351]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_352]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="240"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_352]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_353]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="269"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_353]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_354]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="298"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_354]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_355]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="327"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_355]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_9">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_356]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="356"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_356]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_10">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_357]"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="354"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="385"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_357]"/>
+          <Property Name="Width" Value="426"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_ProdSel">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyUISlider.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="266"/>
+          <Property Name="Left" Value="755"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyUISlider.iMaxValue]"/>
+          <Property Name="MaxValue" Value="2000"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyUISlider.iMinValue]"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyUISlider.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Slider]"/>
+          <Property Name="Top" Value="137"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.tyUISlider.iValue]"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Save">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSave.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Delete">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="680"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnDelete.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Table">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="322"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="353"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="93"/>
+          <Property Name="Width" Value="430"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_CurrRcp">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="20"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="130"/>
+          <Property Name="Width" Value="125"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Group_Prod">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="280"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="8"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Group_Silver]"/>
+          <Property Name="Top" Value="110"/>
+          <Property Name="Width" Value="330"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Header_Prod">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="22"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Header]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1160_SubHeaders]"/>
+          <Property Name="TextIndexOffset" Value="10"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="94"/>
+          <Property Name="Width" Value="120"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_ProdWidth">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="20"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="Width" Value="125"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_ProdWidth">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="131"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input_Unit2]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="UnitTextWidth" Value="35"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="200"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_CurrProg">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyStringRecipeNm.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[AlphaPad]"/>
+          <Property Name="Left" Value="100"/>
+          <Property Name="MaxChars" Value="254"/>
+          <Property Name="SimulationValue" Value="123456789012345678901234567890"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyStringRecipeNm.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="Top" Value="130"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyStringRecipeNm.sValue]"/>
+          <Property Name="Width" Value="231"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_McMode">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="20"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="230"/>
+          <Property Name="Width" Value="125"/>
+        </Control>
+        <Control ClassId="0x00001018" Name="DrpDw_McMode">
+          <Property Name="ButtonsBitmapGroup" Value="Source[local].BitmapGroup[DropDown]"/>
+          <Property Name="ButtonsBitmapOffset" Value="0"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="Source[local].BitmapGroup[DropDown]"/>
+          <Property Name="ButtonsPressedBitmapOffset" Value="2"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnMcMode.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnMcMode.usiValueIdx]"/>
+          <Property Name="Left" Value="131"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnMcMode.usiValueMaxIdx]"/>
+          <Property Name="MaxIndex" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnMcMode.usiValueMinIdx]"/>
+          <Property Name="MinIndex" Value="None"/>
+          <Property Name="OptionDatapoint" Value="None"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DropDown]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1070_MachineModeSelections]"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="230"/>
+          <Property Name="Width" Value="200"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_FlippedBrd">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="20"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTxtDrpDnFlippedBrd.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="280"/>
+          <Property Name="Width" Value="125"/>
+        </Control>
+        <Control ClassId="0x00001018" Name="DropDown_FlippedBrd">
+          <Property Name="ButtonsBitmapGroup" Value="Source[local].BitmapGroup[DropDown]"/>
+          <Property Name="ButtonsBitmapOffset" Value="0"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="Source[local].BitmapGroup[DropDown]"/>
+          <Property Name="ButtonsPressedBitmapOffset" Value="2"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnFlippedBrd.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnFlippedBrd.usiValueIdx]"/>
+          <Property Name="Left" Value="131"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnFlippedBrd.usiValueMaxIdx]"/>
+          <Property Name="MaxIndex" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnFlippedBrd.usiValueMinIdx]"/>
+          <Property Name="MinIndex" Value="None"/>
+          <Property Name="OptionDatapoint" Value="None"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SimulationValue" Value="2"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyDrpDnFlippedBrd.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DropDown]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1070_MachineModeSelections]"/>
+          <Property Name="TextIndexOffset" Value="80"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="280"/>
+          <Property Name="Width" Value="200"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_ToXML">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Recipe]"/>
+          <Property Name="BitmapIndex" Value="3"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="BitmapGroup"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_180]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="365"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnToXML.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndex" Value="52"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_180]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_FromXML">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Recipe]"/>
+          <Property Name="BitmapIndex" Value="7"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="BitmapGroup"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_181]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="470"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnFromXML.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndex" Value="51"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_181]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_FromXML">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="470"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnFromXML.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_ToXML">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="365"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnToXML.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_SortByName">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Recipe]"/>
+          <Property Name="BitmapIndex" Value="10"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="BitmapGroup"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_88]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="359"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[ColorBtn_Silver_100x35_R6]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndex" Value="37"/>
+          <Property Name="TextIndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSort.usiTxtIdx]"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="56"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_88]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_SortByName">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="359"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSort.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="56"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_ProdWidth2">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth2.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="231"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth2.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth2.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input_Unit2]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="UnitTextWidth" Value="35"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth2.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_ProdWidth1">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="131"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input_Unit2]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="180"/>
+          <Property Name="UnitTextWidth" Value="35"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyNumProdWidth.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_Close">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_699]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="12"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyHotspotShowLRcp.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="128"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_699]"/>
+          <Property Name="Width" Value="88"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_80">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSave.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSave.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_82">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnDelete.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnDelete.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_348">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[1].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[1].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_349">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[2].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[2].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_350">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[3].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[3].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_351">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[4].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[4].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_352">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[5].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[5].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_353">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[6].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[6].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_354">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[7].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[7].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_355">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[8].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[8].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_356">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[9].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[9].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_357">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[10].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyTableRecipe.a_tyHotspot[10].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_180">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnToXML.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnToXML.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_181">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnFromXML.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnFromXML.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_88">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSort.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyBtnSort.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_699">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyHotspotShowLRcp.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1040ProdSet.tyHotspotShowLRcp.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[C0005_MainLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0005_MainLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0007_NotifLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0007_NotifLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0008_MsgBoxLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0008_MsgBoxLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0009_InfoLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0009_InfoLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0011_LoadingLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0011_LoadingLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0012_RcpPopUpLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0012_RcpPopUpLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Search]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row10]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row1]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Search]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row1]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row3]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row3]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row5]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[Slider_ProdSel]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row5]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row7]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row7]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[Slider_ProdSel]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row6]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row7]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row8]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row8]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row8]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row8]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row8]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row8]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row8]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row10]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row10]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row8]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row10]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col2_Row10]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Search]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[Slider_ProdSel]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_Col1_Row10]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row10]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row10]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[Slider_ProdSel]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_CurrProg]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[String_CurrProg]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_Search]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[DrpDw_McMode]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[DropDown_FlippedBrd]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[DropDown_FlippedBrd]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[DrpDw_McMode]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth2]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[DrpDw_McMode]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[String_CurrProg]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth1]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row1]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row1]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row2]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row2]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row2]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row3]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row3]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row3]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row4]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row4]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row4]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row5]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row5]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row5]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row6]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row6]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row6]"/>
+    <TabSeqItem Index="18" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row7]"/>
+    <TabSeqItem Index="19" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row7]"/>
+    <TabSeqItem Index="20" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row7]"/>
+    <TabSeqItem Index="21" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row8]"/>
+    <TabSeqItem Index="22" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row8]"/>
+    <TabSeqItem Index="23" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row8]"/>
+    <TabSeqItem Index="24" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row9]"/>
+    <TabSeqItem Index="25" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row9]"/>
+    <TabSeqItem Index="26" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row9]"/>
+    <TabSeqItem Index="27" Value="Source[embedded].Layer[A0_Default].Control[String_Col2_Row10]"/>
+    <TabSeqItem Index="28" Value="Source[embedded].Layer[A0_Default].Control[String_Col1_Row10]"/>
+    <TabSeqItem Index="29" Value="Source[embedded].Layer[A0_Default].Control[String_Col0_Row10]"/>
+    <TabSeqItem Index="30" Value="Source[embedded].Layer[A0_Default].Control[String_Col2Title]"/>
+    <TabSeqItem Index="31" Value="Source[embedded].Layer[A0_Default].Control[String_Col1Title]"/>
+    <TabSeqItem Index="32" Value="Source[embedded].Layer[A0_Default].Control[String_Col0Title]"/>
+    <TabSeqItem Index="33" Value="Source[embedded].Layer[A0_Default].Control[String_Search]"/>
+    <TabSeqItem Index="34" Value="Source[embedded].Layer[A0_Default].Control[Slider_ProdSel]"/>
+    <TabSeqItem Index="35" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth]"/>
+    <TabSeqItem Index="36" Value="Source[embedded].Layer[A0_Default].Control[String_CurrProg]"/>
+    <TabSeqItem Index="37" Value="Source[embedded].Layer[A0_Default].Control[DrpDw_McMode]"/>
+    <TabSeqItem Index="38" Value="Source[local].Layer[C0007_NotifLayer].Control[Disp_UsrNm]"/>
+    <TabSeqItem Index="39" Value="Source[embedded].Layer[A0_Default].Control[DropDown_FlippedBrd]"/>
+    <TabSeqItem Index="40" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth2]"/>
+    <TabSeqItem Index="41" Value="Source[embedded].Layer[A0_Default].Control[Num_ProdWidth1]"/>
+  </TabSequence>
+</Page>

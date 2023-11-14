@@ -1,0 +1,72 @@
+(*2020-10-06*)
+(**)
+(*Action & State & Status*)
+(**)
+(*Alarm*)
+VAR
+	p_OpsInvertAlmData : UDINT;
+	p_OpsInvertAlmData1 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_OpsInvertStepTxt : UDINT;
+	p_OpsInvertPaused : UDINT;
+	p_OpsInvertHvBrd : UDINT;
+	p_OpsInvertGdBrd : UDINT;
+END_VAR
+(**)
+VAR
+	p_OpsInvertStepInitConv : UDINT;
+	p_OpsInvertStepInitAwayStpr : UDINT;
+	p_OpsInvertStepInitTwdStpr : UDINT;
+	p_OpsInvertStepInitDone : UDINT;
+	p_OpsInvertStepUSStandby : UDINT;
+	p_OpsInvertStepUSCommTmr : UDINT;
+	p_OpsInvertStepEntToEnd : UDINT;
+	p_OpsInvertStepEntToInOff : UDINT;
+	p_OpsInvertStepRev : UDINT;
+	p_OpsInvertStepPreExit : UDINT;
+	p_OpsInvertStepDSStandby : UDINT;
+	p_OpsInvertStepDSCommTmr : UDINT;
+	p_OpsInvertStepExitBrd : UDINT;
+	p_OpsInvertStepInvert : UDINT;
+END_VAR
+(* *)
+VAR
+	p_OpsInvertStepAWMove : UDINT;
+	p_OpsInvertStepOpsSafeMode : UDINT;
+END_VAR
+(**)
+VAR
+	p_OpsInvertBrdInserted : UDINT;
+	p_OpsInvertBrdRemoved : UDINT;
+END_VAR
+(**)
+VAR
+	p_OpsInvertUSSMEMAAct : UDINT;
+	p_OpsInvertDSSMEMAAct : UDINT;
+	p_OpsInvertConvAct : UDINT;
+	p_OpsInvertStopperAct : UDINT;
+	p_OpsInvertInvertAct : UDINT;
+	p_OpsInvertAWAct : UDINT;
+	p_OpsInvertClampAct : UDINT;
+	p_OpsInvertInletShutterAct : UDINT;
+	p_OpsInvertOutletShutterAct : UDINT;
+	p_OpsInvertClamp1Act : UDINT;
+	p_OpsInvertClamp2Act : UDINT;
+	p_OpsInvertClamp3Act : UDINT;
+END_VAR
+(**)
+VAR
+	p_OpsInvertUSSMEMA2Act : UDINT;
+	p_OpsInvertOnceTwicePCBOut : UDINT;
+	p_OpsInvertStepInvRtrnUSStandby : UDINT;
+	p_OpsInvertStepInvRtrnUSCommTmr : UDINT;
+	p_OpsInvertStepInvRtrnEntToEnd : UDINT;
+	p_OpsInvertStepInvRtrnEntToInOff : UDINT;
+END_VAR
+(**)
+VAR
+	p_OpsInvertInvertCurrPos : UDINT;
+END_VAR

@@ -1,0 +1,59 @@
+(*2020-09-10*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_USHermes2Stat : UDINT;
+	p_USHermes2Status : UDINT;
+	p_USHermes2StatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_USHermes2AlmData : UDINT;
+	p_USHermes2AlmData1 : UDINT;
+	p_USHermes2AlmData2 : UDINT;
+	p_USHermes2AlmData3 : UDINT;
+	p_USHermes2AlmData4 : UDINT;
+	p_USHermes2AlmData5 : UDINT;
+	p_USHermes2InfoData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_USHermes2TableDataBrdAvl : UDINT;
+	p_USHermes2TableDataBrdAvlTtlIdx : UDINT;
+	p_USHermes2Connected : UDINT;
+	p_USHermes2HandshakeDone : UDINT;
+	p_USHermes2AccDataReq : UDINT;
+	p_USHermes2OverWriteSlt : UDINT;
+	p_USHermes2OverWriteWidth : UDINT;
+	p_USHermes2ReqRecipeNm : UDINT;
+	p_USHermes2ReqWidthInUM : UDINT;
+	p_USHermes2ReqMinSltValue : UDINT;
+	p_USHermes2ReqMaxSltValue : UDINT;
+	p_USHermes2ReqPitch : UDINT;
+	p_USHermes2USRdy : UDINT;
+	p_USHermes2DSRdy : UDINT;
+	p_USHermes2USGdRdy : UDINT;
+	p_USHermes2DSGdRdy : UDINT;
+	p_USHermes2Transporting : UDINT;
+	p_USHermes2StopTransport : UDINT;
+	p_USHermes2BlkUS : UDINT;
+	p_USHermes2InternalSnd : UDINT;
+	p_USHermes2AccDataMnl : UDINT;
+	p_USHermes2tyBoardAvailable : UDINT;
+	p_USHermes2CommandParam : UDINT;
+	p_USHermes2ReverseDSSendBFId : UDINT;
+	p_USHermes2ProcessRouteTrigger : UDINT;
+	p_USHermes2SwitchtoReverseRcv : UDINT;
+	p_USHermes2StopTransportSnd : UDINT;
+	p_USHermes2RcvBoardInfoOk : UDINT;
+	p_USHermes2RcvbBoardInfoIncompl : UDINT;
+	p_USHermes2BoardInfoData : UDINT;
+	p_USHermes2BoardArrivedData : UDINT;
+	p_USHermes2BrdForecastRcv : UDINT;
+	p_USHermes2BoardAvailableRcved : UDINT;
+	p_USHermes2StopTransportSent : UDINT;
+	p_USHermes2StopTransportSentMsg : UDINT;
+	p_USHermes2BrdForecast : UDINT;
+END_VAR

@@ -1,0 +1,16 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_RstErrStat : UDINT;
+	p_RstErrStatus : UDINT;
+	p_RstErrStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_RstErrReset : UDINT;
+	p_RstErrSafetyRlyRst : UDINT;
+END_VAR

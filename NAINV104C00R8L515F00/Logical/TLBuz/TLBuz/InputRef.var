@@ -1,0 +1,156 @@
+(*2020-03-16*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eTLBuzAction;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+	p_bStartup : REFERENCE TO BOOL;
+	p_bErr : REFERENCE TO BOOL;
+	p_bErrNoBuz : REFERENCE TO BOOL;
+	p_bWarning : REFERENCE TO BOOL;
+	p_bWarningNoBuz : REFERENCE TO BOOL;
+	p_bWarning1 : REFERENCE TO BOOL;
+	p_bWarning1NoBuz : REFERENCE TO BOOL;
+	p_bWarning2 : REFERENCE TO BOOL;
+	p_bWarning2NoBuz : REFERENCE TO BOOL;
+	p_bWarning3 : REFERENCE TO BOOL;
+	p_bWarning3NoBuz : REFERENCE TO BOOL;
+	p_bWarning4 : REFERENCE TO BOOL;
+	p_bWarning4NoBuz : REFERENCE TO BOOL;
+	p_bWarning5 : REFERENCE TO BOOL;
+	p_bWarning5NoBuz : REFERENCE TO BOOL;
+	p_bChgRcp : REFERENCE TO BOOL;
+	p_bSeqStop : REFERENCE TO BOOL;
+	p_bStep : REFERENCE TO BOOL;
+	p_bOps : REFERENCE TO BOOL;
+	p_bStandby : REFERENCE TO BOOL;
+	p_bSimulation : REFERENCE TO BOOL;
+	p_bMuteBuz : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*TLBuz ChangeRcp Behaviour*)
+VAR
+	p_tTLChgRcpBlinkTm : REFERENCE TO TIME;
+END_VAR
+(*TLBuz Error Behaviour*)
+VAR
+	p_tTLErrBlinkTm : REFERENCE TO TIME;
+	p_tBuzErrOnTm : REFERENCE TO TIME;
+	p_tBuzErrRestTm : REFERENCE TO TIME;
+	p_usiBuzErrOnCntr : REFERENCE TO USINT;
+	p_bBuzErrStopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzErrStopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Default Warning Behaviour*)
+VAR
+	p_tTLWarnBlinkTm : REFERENCE TO TIME;
+	p_tBuzWarnOnTm : REFERENCE TO TIME;
+	p_tBuzWarnRestTm : REFERENCE TO TIME;
+	p_usiBuzWarnOnCntr : REFERENCE TO USINT;
+	p_bBuzWarnStopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzWarnStopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Warning 1 Behaviour*)
+VAR
+	p_tTLWarn1BlinkTm : REFERENCE TO TIME;
+	p_tBuzWarn1OnTm : REFERENCE TO TIME;
+	p_tBuzWarn1RestTm : REFERENCE TO TIME;
+	p_usiBuzWarn1OnCntr : REFERENCE TO USINT;
+	p_bBuzWarn1StopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzWarn1StopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Warning 2 Behaviour*)
+VAR
+	p_tTLWarn2BlinkTm : REFERENCE TO TIME;
+	p_tBuzWarn2OnTm : REFERENCE TO TIME;
+	p_tBuzWarn2RestTm : REFERENCE TO TIME;
+	p_usiBuzWarn2OnCntr : REFERENCE TO USINT;
+	p_bBuzWarn2StopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzWarn2StopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Warning 3 Behaviour*)
+VAR
+	p_tTLWarn3BlinkTm : REFERENCE TO TIME;
+	p_tBuzWarn3OnTm : REFERENCE TO TIME;
+	p_tBuzWarn3RestTm : REFERENCE TO TIME;
+	p_usiBuzWarn3OnCntr : REFERENCE TO USINT;
+	p_bBuzWarn3StopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzWarn3StopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Warning 4 Behaviour*)
+VAR
+	p_tTLWarn4BlinkTm : REFERENCE TO TIME;
+	p_tBuzWarn4OnTm : REFERENCE TO TIME;
+	p_tBuzWarn4RestTm : REFERENCE TO TIME;
+	p_usiBuzWarn4OnCntr : REFERENCE TO USINT;
+	p_bBuzWarn4StopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzWarn4StopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Warning 5 Behaviour*)
+VAR
+	p_tTLWarn5BlinkTm : REFERENCE TO TIME;
+	p_tBuzWarn5OnTm : REFERENCE TO TIME;
+	p_tBuzWarn5RestTm : REFERENCE TO TIME;
+	p_usiBuzWarn5OnCntr : REFERENCE TO USINT;
+	p_bBuzWarn5StopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzWarn5StopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Buz Behaviour*)
+VAR
+	p_tBuzAlertOnTm : REFERENCE TO TIME;
+	p_tBuzAlertRestTm : REFERENCE TO TIME;
+	p_usiBuzAlertOnCntr : REFERENCE TO USINT;
+	p_bBuzAlertStopSeqEn : REFERENCE TO BOOL;
+	p_usiBuzAlertStopSeqCntr : REFERENCE TO USINT;
+END_VAR
+(*TLBuz Special Ops TL Behaviour*)
+VAR
+	p_tTLBlueBlinkTm : REFERENCE TO TIME;
+	p_tTLAmberBlinkTm : REFERENCE TO TIME;
+	p_tTLWhiteBlinkTm : REFERENCE TO TIME;
+	p_tTLRedBlinkTm : REFERENCE TO TIME;
+	p_tTLGreenBlinkTm : REFERENCE TO TIME;
+END_VAR
+(**)
+VAR
+	p_tErrBlinkTm : REFERENCE TO TIME;
+	p_tChgRcpBlinkTm : REFERENCE TO TIME;
+	p_tWarnBlinkTm : REFERENCE TO TIME;
+	p_tWarnRestTm : REFERENCE TO TIME;
+	p_usiWarnOnTm : REFERENCE TO USINT;
+	p_tWarn1BlinkTm : REFERENCE TO TIME;
+	p_tWarn1RestTm : REFERENCE TO TIME;
+	p_usiWarn1OnTm : REFERENCE TO USINT;
+	p_tWarn2BlinkTm : REFERENCE TO TIME;
+	p_tWarn2RestTm : REFERENCE TO TIME;
+	p_usiWarn2OnTm : REFERENCE TO USINT;
+	p_tWarn3BlinkTm : REFERENCE TO TIME;
+	p_tWarn3RestTm : REFERENCE TO TIME;
+	p_usiWarn3OnTm : REFERENCE TO USINT;
+	p_tWarn4BlinkTm : REFERENCE TO TIME;
+	p_tWarn4RestTm : REFERENCE TO TIME;
+	p_usiWarn4OnTm : REFERENCE TO USINT;
+	p_tWarn5BlinkTm : REFERENCE TO TIME;
+	p_tWarn5RestTm : REFERENCE TO TIME;
+	p_usiWarn5OnTm : REFERENCE TO USINT;
+END_VAR
+(**)
+VAR
+	p_bCoverSwitchSig : REFERENCE TO BOOL;
+	p_eTLBuzMode : REFERENCE TO eTLBuzMod;
+END_VAR
+(**)
+VAR
+	p_bAOIErrSig : REFERENCE TO BOOL;
+	p_bAOIOriginSig : REFERENCE TO BOOL;
+	p_bBuzAlertEn : REFERENCE TO BOOL;
+	p_bTLBlueFlashEn : REFERENCE TO BOOL;
+	p_bTLAmberFlashEn : REFERENCE TO BOOL;
+	p_bTLWhiteFlashEn : REFERENCE TO BOOL;
+	p_bTLRedFlashEn : REFERENCE TO BOOL;
+	p_bTLGreenFlashEn : REFERENCE TO BOOL;
+END_VAR

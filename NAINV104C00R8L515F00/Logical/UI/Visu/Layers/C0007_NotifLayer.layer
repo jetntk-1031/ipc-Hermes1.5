@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="C0007_NotifLayer">
+  <Property Name="BackColor" Value="254"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyLyr.uiRtStat]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <TextLayer LanguageId="zh"/>
+    <TextLayer LanguageId="pt"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_Mask">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[QuickAccess_BG]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Disp_UsrLvl">
+      <Property Name="AlignmentHorizontal" Value="Left"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyTxtUsrLv.usiValueIdx]"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="Nutek Engineer"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Notification_User]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1180_Usermanagement]"/>
+      <Property Name="TextIndexOffset" Value="42"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="45"/>
+      <Property Name="Width" Value="300"/>
+    </Control>
+    <Control ClassId="0x0000100A" Name="DT_Time">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="70"/>
+      <Property Name="Left" Value="150"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Time_Notification]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1020_DateTime]"/>
+      <Property Name="TextIndex" Value="3"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="150"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="500"/>
+    </Control>
+    <Control ClassId="0x0000100A" Name="DT_Date">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="50"/>
+      <Property Name="Left" Value="275"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Date_Notification]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1020_DateTime]"/>
+      <Property Name="TextIndex" Value="4"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="250"/>
+      <Property Name="ValueDatapoint" Value="None"/>
+      <Property Name="Width" Value="250"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Disp_IPAddr">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="370"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="192.168.000.110"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Notification_User]"/>
+      <Property Name="TextDatapoint" Value="Source[global].Variable[Internal.Connection.IPAddress]"/>
+      <Property Name="TextSource" Value="SingleString"/>
+      <Property Name="Top" Value="446"/>
+      <Property Name="Width" Value="250"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="lbl_IPAddr">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="180"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Notification_User]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1060_MachineInformations]"/>
+      <Property Name="TextIndexOffset" Value="5"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="445"/>
+      <Property Name="Width" Value="200"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="lbl_LFMcNm">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyTxtLFMc.usiValueIdx]"/>
+      <Property Name="Left" Value="275"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyTxtLFMc.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Notification_User]"/>
+      <Property Name="TextGroup" Value="Source[global].TextGroup[T1060_MachineInformations]"/>
+      <Property Name="TextIndexOffset" Value="6"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="403"/>
+      <Property Name="Width" Value="250"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_Usr">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CommonLayer]"/>
+      <Property Name="BitmapIndex" Value="47"/>
+      <Property Name="BitmapSource" Value="BitmapGroup"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+      <Property Name="Top" Value="15"/>
+      <Property Name="Width" Value="45"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_Hide">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_263]"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_263]"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="Disp_UsrNm">
+      <Property Name="Border" Value="Source[local].Border[Transparent]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_Notification_User]"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="SimulationValue" Value="ABC"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Display]"/>
+      <Property Name="Top" Value="10"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyStringUsrNm.sValue]"/>
+      <Property Name="Width" Value="300"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_ShowInfo">
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[CommonLayer]"/>
+      <Property Name="BitmapIndex" Value="48"/>
+      <Property Name="BitmapSource" Value="BitmapGroup"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="53"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="700"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyBitmapShowInfo.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Transparent]"/>
+      <Property Name="Top" Value="40"/>
+      <Property Name="Width" Value="60"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_ShowInfo">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_274]"/>
+      <Property Name="Height" Value="100"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="680"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyHotspotShowInfo.uiRtStat]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="16"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_274]"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="%embVirtualKey_263">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyHotspotClose.bRtCompl]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyHotspotClose.bValue]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_274">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyHotspotShowInfo.bRtCompl]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyC0007Notif.tyHotspotShowInfo.bValue]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

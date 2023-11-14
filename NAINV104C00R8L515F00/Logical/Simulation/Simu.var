@@ -1,0 +1,23 @@
+(*2019-01-20*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_SimuAct : UDINT;
+	p_SimuStat : UDINT;
+	p_SimuStatus : UDINT;
+	p_SimuStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_SimuSimuStatus : UDINT;
+	p_SimuStatusRun : UDINT;
+	p_SimuStatusStop : UDINT;
+	p_SimuStatusCycleStop : UDINT;
+	p_SimuStatusStep : UDINT;
+	p_SimuRun : UDINT;
+	p_SimuStop : UDINT;
+	p_SimuStep : UDINT;
+END_VAR

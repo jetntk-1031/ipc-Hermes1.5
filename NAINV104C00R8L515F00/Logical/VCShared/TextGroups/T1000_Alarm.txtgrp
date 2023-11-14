@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1000_Alarm">
+  <Property Name="Description" Value="Alarm Event and Page"/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="189416" Value="Alarm Event:"/>
+    <Text ID="189417" Value="Triggered"/>
+    <Text ID="189418" Value="Reset"/>
+    <Text ID="189419" Value="Bypassed"/>
+    <Text ID="189420" Value="Not Bypassed"/>
+    <Text ID="189421" Value="Reset Acknowledged"/>
+    <Text ID="189422" Value="Achnowledged Reset"/>
+    <Text ID="189423" Value="T"/>
+    <Text ID="189424" Value="R"/>
+    <Text ID="189425" Value="B"/>
+    <Text ID="189426" Value="nB"/>
+    <Text ID="189427" Value="RA"/>
+    <Text ID="189428" Value="AR"/>
+    <Text ID="189429" Value=" "/>
+    <Text ID="189430" Value=" "/>
+    <Text ID="189431" Value=" "/>
+    <Text ID="189432" Value=" "/>
+    <Text ID="189433" Value=" "/>
+    <Text ID="189434" Value=" "/>
+    <Text ID="189435" Value=" "/>
+    <Text ID="189436" Value="Alarm Page:"/>
+    <Text ID="189437" Value="Current"/>
+    <Text ID="189438" Value="History"/>
+    <Text ID="189441" Value=" "/>
+    <Text ID="189442" Value=" "/>
+    <Text ID="243623" Value=""/>
+    <Text ID="243624" Value=""/>
+    <Text ID="648955" Value="|"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="189416" Value="Alarmereignis:"/>
+    <Text ID="189417" Value="Ausgelöst"/>
+    <Text ID="189418" Value="Rückstellung"/>
+    <Text ID="189419" Value="Überbrückt"/>
+    <Text ID="189420" Value="Nicht überbrückt"/>
+    <Text ID="189421" Value="Rückstellung Bestätigt"/>
+    <Text ID="189422" Value="Bestätigt Rückstellung"/>
+    <Text ID="189423" Value="T"/>
+    <Text ID="189424" Value="R"/>
+    <Text ID="189425" Value="B"/>
+    <Text ID="189426" Value="nB"/>
+    <Text ID="189427" Value="RA"/>
+    <Text ID="189428" Value="AR"/>
+    <Text ID="189429" Value=" "/>
+    <Text ID="189430" Value=" "/>
+    <Text ID="189431" Value=" "/>
+    <Text ID="189432" Value=" "/>
+    <Text ID="189433" Value=" "/>
+    <Text ID="189434" Value=" "/>
+    <Text ID="189435" Value=" "/>
+    <Text ID="189436" Value="Alarmseite:"/>
+    <Text ID="189437" Value="Aktuell"/>
+    <Text ID="189438" Value="Verlauf"/>
+    <Text ID="189441" Value=" "/>
+    <Text ID="189442" Value=" "/>
+    <Text ID="243623" Value=""/>
+    <Text ID="243624" Value=""/>
+    <Text ID="648955" Value="|"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="189416" Value="报警事件："/>
+    <Text ID="189417" Value="触发"/>
+    <Text ID="189418" Value="复位"/>
+    <Text ID="189419" Value="直通"/>
+    <Text ID="189420" Value="没有直通"/>
+    <Text ID="189421" Value="重置确认"/>
+    <Text ID="189422" Value="确认重置"/>
+    <Text ID="189423" Value="T"/>
+    <Text ID="189424" Value="R"/>
+    <Text ID="189425" Value="B"/>
+    <Text ID="189426" Value="nB"/>
+    <Text ID="189427" Value="RA"/>
+    <Text ID="189428" Value="AR"/>
+    <Text ID="189429" Value=" "/>
+    <Text ID="189430" Value=" "/>
+    <Text ID="189431" Value=" "/>
+    <Text ID="189432" Value=" "/>
+    <Text ID="189433" Value=" "/>
+    <Text ID="189434" Value=" "/>
+    <Text ID="189435" Value=" "/>
+    <Text ID="189436" Value="报警页面："/>
+    <Text ID="189437" Value="当前"/>
+    <Text ID="189438" Value="历史"/>
+    <Text ID="189441" Value=" "/>
+    <Text ID="189442" Value=" "/>
+    <Text ID="243623" Value=""/>
+    <Text ID="243624" Value=""/>
+    <Text ID="648955" Value="|"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="189416" Value=""/>
+    <Text ID="189417" Value=""/>
+    <Text ID="189418" Value=""/>
+    <Text ID="189419" Value=""/>
+    <Text ID="189420" Value=""/>
+    <Text ID="189421" Value=""/>
+    <Text ID="189422" Value=""/>
+    <Text ID="189423" Value=""/>
+    <Text ID="189424" Value=""/>
+    <Text ID="189425" Value=""/>
+    <Text ID="189426" Value=""/>
+    <Text ID="189427" Value=""/>
+    <Text ID="189428" Value=""/>
+    <Text ID="189429" Value=""/>
+    <Text ID="189430" Value=""/>
+    <Text ID="189431" Value=""/>
+    <Text ID="189432" Value=""/>
+    <Text ID="189433" Value=""/>
+    <Text ID="189434" Value=""/>
+    <Text ID="189435" Value=""/>
+    <Text ID="189436" Value=""/>
+    <Text ID="189437" Value=""/>
+    <Text ID="189438" Value=""/>
+    <Text ID="189441" Value=""/>
+    <Text ID="189442" Value=""/>
+    <Text ID="243623" Value=""/>
+    <Text ID="243624" Value=""/>
+    <Text ID="648955" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="189416" Value="0"/>
+    <Index ID="189417" Value="1"/>
+    <Index ID="189418" Value="2"/>
+    <Index ID="189419" Value="3"/>
+    <Index ID="189420" Value="4"/>
+    <Index ID="189421" Value="5"/>
+    <Index ID="189422" Value="6"/>
+    <Index ID="189423" Value="7"/>
+    <Index ID="189424" Value="8"/>
+    <Index ID="189425" Value="9"/>
+    <Index ID="189426" Value="10"/>
+    <Index ID="189427" Value="11"/>
+    <Index ID="189428" Value="12"/>
+    <Index ID="189429" Value="13"/>
+    <Index ID="189430" Value="14"/>
+    <Index ID="189431" Value="15"/>
+    <Index ID="189432" Value="16"/>
+    <Index ID="189433" Value="17"/>
+    <Index ID="189434" Value="18"/>
+    <Index ID="189435" Value="19"/>
+    <Index ID="189436" Value="20"/>
+    <Index ID="189437" Value="21"/>
+    <Index ID="189438" Value="22"/>
+    <Index ID="189441" Value="25"/>
+    <Index ID="189442" Value="26"/>
+    <Index ID="243623" Value="23"/>
+    <Index ID="243624" Value="24"/>
+    <Index ID="648955" Value="27"/>
+  </IndexMap>
+</TextGroup>

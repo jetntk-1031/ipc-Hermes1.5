@@ -1,0 +1,70 @@
+(*2019-05-04*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eUsrMgmtAction := UsrMgmtActIdle;
+	eStat : eUsrMgmtAction := UsrMgmtActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Logging In','Bypass Logging','Logging Out','Adding New User','Editing User Data','Deleting User','Saving Access Right','Reading Data',41('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Folder Error',sRcyText:='Unable To Create User Folder. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Private Folder Error',sRcyText:='Unable To Create Private Folder. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create UserMgmt Folder Error',sRcyText:='Unable To Create UserMgmt Folder. Please Contact Nutek For A Possible Solution'),(0),(sAlmText:='File Open Error While Adding New User',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Adding New User',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Adding New User',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Adding New User',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Adding New User',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Saving Access Right',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Saving Access Right',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Saving Access Right',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Saving Access Right',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Saving Access Right',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Editing User',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Editing User',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Editing User',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Editing User',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Editing User',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),5((0)),(sAlmText:='File Open Error While Deleting User',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Deleting User',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Deleting User',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Deleting User',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Deleting User',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),5((0)),(sAlmText:='File Open Error While Getting User List',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Getting User List',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Getting User List',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),3(0),60((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	tyCurrAccessRight : tyUsrMgmtAccessRight;
+	tyCurrUsr : tyUsrMgmtParam;
+	tyFullData : tyUsrMgmtFullDat;
+	a_tyLvl2List : ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	a_tyLvl3List : ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	a_tyAdminList : ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	bLastAdmin : BOOL := TRUE;
+	bUnableDelete : BOOL;
+	bLoginSuccess : BOOL;
+	bNmExist : BOOL;
+	bNmNotExist : BOOL;
+	bPwMismatch : BOOL;
+	bNmEmpty : BOOL;
+	bListFull : BOOL;
+	bFileNotFound : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	tyInfoIn : tyUsrMgmtParam;
+	tyAccessRightLvl1 : tyUsrMgmtAccessRight;
+	tyAccessRightLvl2 : tyUsrMgmtAccessRight;
+	tyAccessRightLvl3 : tyUsrMgmtAccessRight;
+	sProgNm : STRING[15] := 'UsrMgmt';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	usiStep : USINT := 0;
+	udiAddStatus : UDINT;
+	tyAccessRightAdmin : tyUsrMgmtAccessRight := (bOpt:=TRUE,bProdSel:=TRUE,bMagSel:=TRUE,bMcInfo:=TRUE,bAlm:=TRUE,bBffrInfo:=TRUE,bOvenInfo:=TRUE,bMagInfo:=TRUE,bLFCtrl:=TRUE,bManual:=TRUE,bSimulation:=TRUE,bProdSet:=TRUE,bMagSet:=TRUE,bMcSet:=TRUE,bLang:=TRUE,bUsrMgmt:=TRUE,bLFSet:=TRUE,bChgParam:=TRUE,sNm:='Admin');
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbDirCreate3 : fbDirCreate;
+	fbFileRead1 : fbFileFullReadEncry;
+	fbFileWrite1 : fbFileFullWriteEncry;
+	tyFullDataTemp : tyUsrMgmtFullDat;
+	tyInfoOut : tyUsrMgmtParam;
+	udi : UDINT;
+	udiCnt : UDINT;
+	udiCnt1 : UDINT;
+	udiCnt2 : UDINT;
+	udiModuleNum : UINT := 5351;
+END_VAR

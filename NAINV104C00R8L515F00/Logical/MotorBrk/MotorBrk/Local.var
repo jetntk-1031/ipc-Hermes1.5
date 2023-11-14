@@ -1,0 +1,77 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eMotorBrkAction := MotorBrkActIdle;
+	eStat : eMotorBrkAction := MotorBrkActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Turning Clockwise','Turning Counter Clockwise','Turning Clockwise From CCW Sensor To Middle Sensor','Turning Clockwise From Middle Sensor To CW Sensor','Turning Counter Clockwise From CW Sensor To Middle Sensor','Turning Counter Clockwise From Middle Sensor To CCW Sensor','Powering On Break Release','Powering Off Break Release','Stopping','Turning On Motor Signal','Turning On Motor Direction','Turning On Motor Break Release','Turning Off Motor Signal','Turning Off Motor Direction','Turning Off Motor Break Release','Turning On All Motor Output','Turning Off All Motor Output',33('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Motor Time Out While Turning Clockwise',sRcyText:='Motor Timeout Expired Before Operation Completed. Motor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Motor Time Out While Turning Counter Clockwise',sRcyText:='Motor Timeout Expired Before Operation Completed. Motor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Clockwise Sensor Activated While Turning Clockwise To Middle Sensor',sRcyText:='Incorrect Sensor Activated While Turning. Solve The Error To Resume Operation.'),(sAlmText:='Motor Time Out While Turning Clockwise To Middle Sensor',sRcyText:='Motor Timeout Expired Before Operation Completed. Motor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Motor Time Out While Turning Clockwise From Middle Sensor',sRcyText:='Motor Timeout Expired Before Operation Completed. Motor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Counter Clockwise Sensor Activated While Turning Counter Clockwise To Middle Sensor',sRcyText:='Incorrect Sensor Activated While Turning. Solve The Error To Resume Operation.'),(sAlmText:='Motor Time Out While Turning Counter Clockwise To Middle Sensor',sRcyText:='Motor Timeout Expired Before Operation Completed. Motor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Motor Time Out While Turning Counter Clockwise From Middle Sensor',sRcyText:='Motor Timeout Expired Before Operation Completed. Motor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Sensor Interrupt Motor Movement',sRcyText:='Operation Stop Due To The Interruption Of Sensor While Motor Moving. Solve The Interruption To Resume Operation.'),91((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bMtrSigOnOrCW : BOOL := FALSE;
+	bMtrDirOrCCW : BOOL := FALSE;
+	bMtrBrkRls : BOOL := FALSE;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bManual : BOOL := FALSE;
+	bOnDirMod : BOOL := FALSE;
+	diMtrSigOnDlyTm : DINT := 500; (*For Sig On Dly*)
+	diMtrDirOffDlyTm : DINT := 500; (*For Dir Off Dly*)
+	diMtrBrkOnDlyTm : DINT := 100; (*For Mtr Brk Dly On Tm*)
+	diMtrOnDlyTm : DINT := 500;
+	diMtrOffDlyTm : DINT := 1000;
+	diBrkOnDlyTm : DINT := 0;
+	diBrkOffDlyTm : DINT := 500;
+	diTimeOut : DINT := 10000;
+	sProgNm : STRING[15] := 'MotorBrk';
+	bNtSettingsLoadDone : BOOL := TRUE;
+	bCCWSen : BOOL := FALSE;
+	bMidSen : BOOL := FALSE;
+	bCWSen : BOOL := FALSE;
+	bInletShutterCloseRS : BOOL;
+	bOutletShutterCloseRS : BOOL;
+	bInletShutterPrep : BOOL;
+	bInletShutterDis : BOOL;
+	bOutletShutterPrep : BOOL;
+	bOutletShutterDis : BOOL;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	eStatOld : eMotorBrkAction := MotorBrkActIdle;
+	bInitialDone : BOOL;
+	fbRotCW : fbConvSenToSenBrkTmLmt;
+	fbRotCCW : fbConvSenToSenBrkTmLmt;
+	fbStop : fbConvMtrOff;
+	fbMtrBrkRlsOn : fbConvBrkOn;
+	fbMtrBrkRlsOff : fbConvBrkOff;
+	bReached : BOOL;
+	fbMtrSigOnDlyTm : TON := (PT:=T#200ms); (*Direct Ctrl Dly Tm for Run Rly*)
+	fbMtrDirOffDlyTm : TON := (PT:=T#200ms); (*Direct Ctrl Dly Tm For Dir Rly*)
+	bNotInterruptible : BOOL;
+	bInterruptSensor : BOOL;
+	b0Angle : BOOL := FALSE;
+	bNeg90Angle : BOOL := FALSE;
+	b90Angle : BOOL := FALSE;
+	b180Angle : BOOL := FALSE;
+	udiModuleNum : UDINT := 2101;
+END_VAR

@@ -1,0 +1,40 @@
+(*2020-10-06*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eStatus : eFBStatus := Idle;
+	eStatus1 : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	udiStatus1 : UDINT := 0;
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	tyAlmData1 : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Pressure Switch Not Activated.',sRcyText:='Open Pneumatic Valve / Supply Air To Air Regulator.'),(sAlmText:='Thermal Protection Signal Not Activated.',sRcyText:='Check Signal and Part.'),98(0)];
+END_VAR
+(**)
+(*Local Output*)
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+END_VAR
+(**)
+VAR
+	sProgNm : STRING[15] := 'Machine';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	tyNtParamCurr : tyNtParam;
+	bPressureSW : BOOL;
+	bThermalPrtSig : BOOL;
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	udiModuleNum : UDINT := 5951;
+END_VAR

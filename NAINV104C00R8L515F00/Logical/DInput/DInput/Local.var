@@ -1,0 +1,50 @@
+(*2019-03-25*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eStatus1 : eFBStatus := Idle;
+	eStatus2 : eFBStatus := Idle;
+	udiStatus1 : UDINT := 0;
+	udiStatus2 : UDINT := 0;
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData1 : tyAlmDat;
+	tyAlmData2 : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Emergency Stop Button Pressed',sRcyText:='Release The Emergency Stop Button And Reset The Error To Resume Operation.'),(sAlmText:='Door / Cover Opened',sRcyText:='Close The Door / Cover Tightly And Resume Operation.'),(sAlmText:='Safety Relay Signal is off',sRcyText:='Reset the Safety Relay'),97(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	tyDInput : tyDigitalInput;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	tyDISettings : tyDigitalInputSettings := (0);
+END_VAR
+(**)
+VAR
+	diConvLftSenOnTm : DINT := 50;
+	diConvLftSenOffTm : DINT := 50;
+	diConvRgtSenOnTm : DINT := 50;
+	diConvRgtSenOffTm : DINT := 50;
+	sProgNm : STRING[15] := 'DInput';
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	a_bPhysicalDI : ARRAY[1..c_udiDInputMax] OF BOOL;
+	fbConvLftSigFltr : fbSenFltr;
+	fbConvRgtSigFltr : fbSenFltr;
+	fbSafetyRlyRstTm : TON := (PT:=T#1s);
+	udiModuleNum : UDINT := 5751;
+	bSafetySigErrNoBuz : BOOL;
+	bHermesDummyMem : BOOL;
+END_VAR

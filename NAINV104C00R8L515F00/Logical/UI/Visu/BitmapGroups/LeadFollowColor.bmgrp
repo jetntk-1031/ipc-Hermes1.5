@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="LeadFollowColor">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="11448" Value="Source[local].Bitmap[ColorBtn_Silver_160x35_R10]"/>
+    <BitmapRef ID="11450" Value="Source[local].Bitmap[ColorBtn_Green_160x35_R10]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="11448" Value="34"/>
+    <Index ID="11450" Value="35"/>
+  </IndexMap>
+</BitmapGroup>

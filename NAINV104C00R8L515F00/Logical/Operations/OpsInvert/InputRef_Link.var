@@ -1,0 +1,37 @@
+(*2018-12-11*)
+(**)
+(*External Data*)
+VAR
+	p_usiLinkProdRcpCurrRcpMcMod : REFERENCE TO USINT;
+	p_bLinkConvHvBrd : REFERENCE TO BOOL;
+	p_bLinkInvertHomeSen : REFERENCE TO BOOL;
+	p_bLinkInvertRemoteSen : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR RETAIN
+	eInvertReqPos : eInvertPos;
+END_VAR
+VAR
+	eInvertCurrPos : eInvertPos;
+	bInvertCompl : BOOL;
+END_VAR
+(**)
+VAR
+	p_bLinkUSHermesBlkUS : REFERENCE TO BOOL;
+	p_bLinkUSHermes2BlkUS : REFERENCE TO BOOL;
+	p_bLinkLFFollowerUSAllow : REFERENCE TO BOOL;
+	p_bLinkLFFollowerDSAllow : REFERENCE TO BOOL;
+	p_bLinkFollower1USAllow : REFERENCE TO BOOL;
+	p_bLinkFollower1DSAllow : REFERENCE TO BOOL;
+	p_bLinkFollower1WaitRlsBrd : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bLinkUIRtnBrdReset : REFERENCE TO BOOL;
+	p_bLinkUIRtnBrdResetBtn : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_diFwdDlyTm : REFERENCE TO DINT;
+	p_diRevDlyTm : REFERENCE TO DINT;
+END_VAR

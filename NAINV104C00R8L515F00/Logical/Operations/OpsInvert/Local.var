@@ -1,0 +1,226 @@
+(*2020-10-06*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	udiStatus1 : UDINT := 0;
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	tyAlmData1 : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [9(0),(sAlmText:='Waiting for Return PCB from Upstream 2'),(sAlmText:='Waiting for Return PCB Transfer to Downstream'),89(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	sStepTxt : STRING[80];
+	bPaused : BOOL;
+END_VAR
+(**)
+VAR
+	bStepInitConv : BOOL;
+	bStepInitAwayStopper : BOOL;
+	bStepInitTwdStopper : BOOL;
+	bStepInitDone : BOOL;
+	bStepUSStandby : BOOL;
+	bStepUSCommTmr : BOOL;
+	bStepEntToEnd : BOOL;
+	bStepEntToInOff : BOOL;
+	bStepRev : BOOL;
+	bStepPreExit : BOOL;
+	bStepDSStandby : BOOL;
+	bStepDSCommTmr : BOOL;
+	bStepExitBrd : BOOL;
+	bStepInvert : BOOL;
+	bStepAWMov : BOOL;
+	bStepSafeMode : BOOL;
+	bBrdInserted : BOOL;
+	bBrdRemoved : BOOL;
+	eUSSMEMAAct : eSMEMAAction;
+	eDSSMEMAAct : eSMEMAAction;
+	eUSSMEMA2Act : eSMEMAAction;
+	eConvAct : eConvAction;
+	eStopperAct : ePneuAction;
+	eInvertAct : eMotorBrkAction;
+	eAWAct : eAWAction;
+	eClampAct : ePneuAction;
+	eInletShutterAct : ePneuAction;
+	eOutletShutterAct : ePneuAction;
+	eClamp1Act : ePneuAction;
+	eClamp2Act : ePneuAction;
+	eClamp3Act : ePneuAction;
+	bInvOnceTwicePCBOut : BOOL;
+	bStepInvRtrnEntToEnd : BOOL;
+	bStepInvRtrnEntToInOff : BOOL;
+	bStepInvRtrnUSStandby : BOOL;
+	bStepInvRtrnUSCommTmr : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bRun : BOOL;
+	bStop : BOOL;
+	bStep : BOOL;
+	bInletShutterPrep : BOOL;
+	bInletShutterDis : BOOL;
+	bOutletShutterPrep : BOOL;
+	bOutletShutterDis : BOOL;
+	bClampPrep : BOOL;
+	bClampDis : BOOL;
+	eClampOption : eClampType;
+END_VAR
+(**)
+VAR
+	bBrdOnSen : BOOL := FALSE;
+	bHvBrd : BOOL;
+	bGdBrd : BOOL;
+	bInitGdBrd : BOOL := TRUE;
+	bInsertGdBrd : BOOL := TRUE;
+	eConvDirection : eConvDir;
+	eUSCommMod : eMcSetCommMod;
+	eDSCommMod : eMcSetCommMod;
+	bGoToStandby : BOOL;
+	bUSAllow : BOOL := TRUE;
+	bDSAllow : BOOL := TRUE;
+	bLeftSen : BOOL;
+	bRightSen : BOOL;
+	bMidSen : BOOL;
+	bClamp2Sen : BOOL;
+	bClamp3Sen : BOOL;
+	bRtrnUSAllow : BOOL := TRUE;
+	bRtrnDSAllow : BOOL := TRUE;
+END_VAR
+(**)
+VAR
+	eUSSMEMAStat : eSMEMAAction;
+	eUSSMEMAStatus : eFBStatus;
+	bUSSMEMATransporting : BOOL;
+	bUSSMEMAConvStart : BOOL;
+	bUSSMEMAConvStop : BOOL;
+	bUSSMEMAUSRdy : BOOL;
+	bUSSMEMAUSGdBrdRdy : BOOL;
+END_VAR
+(**)
+VAR
+	eDSSMEMAStat : eSMEMAAction;
+	eDSSMEMAStatus : eFBStatus;
+	bDSSMEMAConvStart : BOOL;
+	bDSSMEMAConvStop : BOOL;
+	bDSSMEMATimer : BOOL;
+END_VAR
+(**)
+VAR
+	bUSHermesTransporting : BOOL;
+	bUSHermesStopTransport : BOOL;
+	bUSHermesUSRdy : BOOL;
+	bUSHermesUSGdRdy : BOOL;
+END_VAR
+(**)
+VAR
+	bDSHermesTransporting : BOOL;
+	bDSHermesStopTransport : BOOL;
+END_VAR
+(**)
+VAR
+	eConvStat : eConvAction;
+	eConvStatus : eFBStatus;
+	bConvHvBrd : BOOL;
+	bConvLmtSenActivated : BOOL;
+END_VAR
+(**)
+VAR
+	eStopperStat : ePneuAction;
+	eStopperStatus : eFBStatus;
+	bStopperExtended : BOOL;
+	bStopperRetracted : BOOL;
+END_VAR
+(**)
+VAR
+	eClampStat : ePneuAction;
+	eClampStatus : eFBStatus;
+END_VAR
+(**)
+VAR
+	eInletShutterStat : ePneuAction;
+	eInletShutterStatus : eFBStatus;
+	bInletShutterClose : BOOL;
+	bInletShutterOpen : BOOL;
+	eOutletShutterStat : ePneuAction;
+	eOutletShutterStatus : eFBStatus;
+	bOutletShutterClose : BOOL;
+	bOutletShutterOpen : BOOL;
+END_VAR
+(**)
+VAR
+	eClamp1Stat : ePneuAction;
+	eClamp1Status : eFBStatus;
+	bClampRS1 : BOOL;
+	bUnClampRS1 : BOOL;
+END_VAR
+(**)
+VAR
+	eClamp2Stat : ePneuAction;
+	eClamp2Status : eFBStatus;
+	bClampRS2 : BOOL;
+	bUnClampRS2 : BOOL;
+END_VAR
+(**)
+VAR
+	eClamp3Stat : ePneuAction;
+	eClamp3Status : eFBStatus;
+	bClampRS3 : BOOL;
+	bUnClampRS3 : BOOL;
+END_VAR
+(**)
+VAR
+	sProgNm : STRING[15] := 'Ops Conv';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+VAR
+	diFwdDlyTm : DINT := 5000;
+	diRevDlyTm : DINT := 5000;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	eOpsStep : eInvertStep := InvertStepNA;
+	eGotoOpsStep : eInvertStep := InvertStepInitChkCondition;
+	fbUSTimer : TON := (PT:=T#1s);
+	fbDSTimer : TON := (PT:=T#1s);
+	bUSTimerRun : BOOL;
+	bDSTimerRun : BOOL;
+	fbUS2Timer : TON := (PT:=T#1s);
+	bUS2TimerRun : BOOL;
+	bConvSen : BOOL;
+	bReachedEnd : BOOL;
+	fbFwdTimer : TON;
+	fbRevTimer : TON;
+	bInvertPosInvalidSkipInit : BOOL;
+	bClampDisInitUnblk : BOOL;
+	bChangeBypassRetPneu : BOOL;
+	bChangeInvertExtPneu : BOOL;
+	bBoardInFromUS1 : BOOL;
+	bBoardInFromUS2 : BOOL;
+	bReverseStoppingPos : BOOL;
+	udiModuleNum : UDINT := 6051;
+END_VAR
+(*Step Logger*)
+VAR
+	bClsLog : BOOL;
+	blog : BOOL;
+	logStep : ARRAY[0..999] OF eInvertStep;
+	logIndexStep : INT;
+	eGotoOpsStepDummy : eInvertStep;
+	btest : BOOL;
+END_VAR

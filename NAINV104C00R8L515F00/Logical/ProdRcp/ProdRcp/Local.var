@@ -1,0 +1,68 @@
+(*2023-02-13*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eProdRcpAction := ProdRcpActIdle;
+	eStat : eProdRcpAction := ProdRcpActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Adding and Editing Files','Deleting Files','Get Info','Get List','Filtering Files','Loading Recipe','Adding Files','Editing Files','Reading Current Recipe','Writing Current Recipe Parameter','Saving Recipe List',38('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Directory Error',sRcyText:='Unable To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Product Recipe Directory Error',sRcyText:='Unable To Create Product Recipe Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='File Open Error While Adding & Editing',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Adding & Editing',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Adding & Editing',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Adding & Editing',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Deleting',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Deleting',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Deleting',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Deleting',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Getting List',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Getting List',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Getting List',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Adding & Editing',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Deleting',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Adding',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Adding',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Adding',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Adding',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Adding',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Editing',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Editing',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Editing',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Editing',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Editing',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Loading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Loading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Loading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Loading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Loading Current Recipe',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Reading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Current Recipe',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Current Recipe Parameter',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Current Recipe Parameter',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Current Recipe Parameter',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Current Recipe Parameter',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Current Recipe Parameter',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Saving List',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Saving List',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Saving List',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Saving List',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Saving List',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),57(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bNmExist : BOOL;
+	bNmNotExist : BOOL;
+	bNmEmpty : BOOL;
+	bListFull : BOOL;
+	a_tyCurrList : ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	a_tyFilterList : ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	a_tySortList : ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	a_tyScanList : ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	tyTempList : tyProdRcpParam;
+	tyInfoOut : tyProdRcpParam;
+	bFileNotFound : BOOL;
+	a_tyCurrRcp : ARRAY[0..5] OF tyProdRcpParam;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	dtCurrDT : DATE_AND_TIME;
+	sSearch : STRING[254] := '';
+	sScan : STRING[254] := '';
+	tyInfoIn : tyProdRcpParam;
+	tyCurrRcpWr : tyProdRcpParam;
+	sListFileName : STRING[80] := 'ProductRecipeList.dat';
+	sSingleFileName : STRING[80] := 'ProductRecipe.dat';
+	sProgNm : STRING[15] := 'ProdRcp';
+	bNtSettingsLoadDone : BOOL := TRUE;
+	bWidth2Prep : BOOL;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	usiStep : USINT;
+	udiAddStatus : UDINT;
+	a_tyListTemp : ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbFileReadList : fbFileFullRead;
+	fbFileWriteList : fbFileFullWrite;
+	fbFileReadSingle : fbFileFullRead;
+	fbFileWriteSingle : fbFileFullWrite;
+	fbFileLoadSingle : fbFileFullWrite;
+	iFilterCtr : INT;
+	udiModuleNum : UDINT := 4801;
+END_VAR

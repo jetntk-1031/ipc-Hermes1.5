@@ -1,0 +1,31 @@
+(*2019-06-04*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+	p_eLinkMcParamUSCommMod : REFERENCE TO eMcSetCommMod;
+	bHermesRun : BOOL;
+	bHermesStop : BOOL;
+END_VAR
+(**)
+VAR
+	p_eLinkConvDir : REFERENCE TO eConvDir;
+	p_bLinkDILeftSen : REFERENCE TO BOOL;
+	p_bLinkDIRightSen : REFERENCE TO BOOL;
+	pa_tyLinkProdRcpList : REFERENCE TO ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	p_tyLinkProdRcpCurrRcp : REFERENCE TO tyProdRcpParam;
+	p_bLinkMcParamMnlAccData : REFERENCE TO BOOL;
+	p_bLinkOpsStop : REFERENCE TO BOOL;
+	p_bLinkUIAccData : REFERENCE TO BOOL;
+	sWidthInUMTemp : STRING[80];
+END_VAR
+(**)
+VAR
+	p_bLinkConvHvBrd : REFERENCE TO BOOL;
+	p_bLinkOpsRun : REFERENCE TO BOOL;
+	p_bLinkOpsInvertStepInitDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	fbDlyTmr : TON := (PT:=T#5s);
+	fbDeleteLogTmr : TON := (PT:=T#24h);
+END_VAR

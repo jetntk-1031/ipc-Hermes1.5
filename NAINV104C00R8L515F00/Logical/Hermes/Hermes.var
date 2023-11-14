@@ -1,0 +1,43 @@
+(*2019-05-04*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_HermesStat : UDINT;
+	p_HermesStatus : UDINT;
+	p_HermesStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_HermesAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_HermesFileNotFound : UDINT;
+	p_HermesConfiguration : UDINT;
+	p_HermesConfigurationWr : UDINT;
+	p_HermesUSParam1 : UDINT;
+	p_HermesUSParam2 : UDINT;
+	p_HermesUSParam3 : UDINT;
+	p_HermesDSParam1 : UDINT;
+	p_HermesDSParam2 : UDINT;
+	p_HermesDSParam3 : UDINT;
+	p_HermesSvyParam : UDINT;
+	p_HermesBrdAvlDataTable1stZ : UDINT;
+	p_HermesBrdAvlDataTtlIdx1stZ : UDINT;
+	p_HermesBrdAvlDataNewBrdAvl1stZ : UDINT;
+	p_HermesBrdAvlDataTableLastZ : UDINT;
+	p_HermesBrdAvlDataTtlIdxLastZ : UDINT;
+	p_HermesBrdAvlDataNewBrdAvlLastZ : UDINT;
+	pa_HermesDSParam : UDINT;
+	p_HermesReverseDS1SendBFId : UDINT;
+	p_HermesReverseDS2SendBFId : UDINT;
+	p_HermesSwitchtoReverseTransport : UDINT;
+	p_HermesEntToReversePosition : UDINT;
+	p_HermesCmdInitialCompl : UDINT;
+	p_HermesUSCmdFeaturePause : UDINT;
+	p_HermesUSCmdPause : UDINT;
+	p_HermesDSCmdFeaturePause : UDINT;
+	p_HermesDSCmdPause : UDINT;
+END_VAR

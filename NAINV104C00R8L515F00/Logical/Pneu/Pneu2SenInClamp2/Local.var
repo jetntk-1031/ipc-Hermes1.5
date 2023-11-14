@@ -1,0 +1,58 @@
+(*2020-10-08*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : ePneuAction := PneuActIdle;
+	eStat : ePneuAction := PneuActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Set All','Reset All','Set Extend','Set Retract','Extending','Retracting','Retracting From Extend Sensor To Middle Sensor','Retracting From Middle Sensor To Retract Sensor','Extending From Retract Sensor To Middle Sensor','Extending From Middle Sensor To Extend Sensor',40('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Safety Check Error While Extending',sRcyText:='Safety System Has Been Triggered. All Operations Are Disable. Remove the Obstacle That Triggered The Safety Interlock To Resume Operation.'),(sAlmText:='Extend Sensor On Checking Time Out While Extending',sRcyText:='Sensor Timeout Expired Before Operation Completed. Sensor Operation Is Abnormal. Solve The Error To Resume Operation. '),(sAlmText:='Retract Sensor Off Checking Time Out While Extending',sRcyText:='Sensor Timeout Expired Before Operation Completed. Sensor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Safety Check Error While Retracting',sRcyText:='Safety System Has Been Triggered. All Operations Are Disable. Remove the Obstacle That Triggered The Safety Interlock To Resume Operation.'),(sAlmText:='Retract Sensor On Checking Time Out While Retracting',sRcyText:='Sensor Timeout Expired Before Operation Completed. Sensor Operation Is Abnormal. Solve The Error To Resume Operation.'),(sAlmText:='Extend Sensor Off Checking Time Out While Retracting',sRcyText:='Sensor Timeout Expired Before Operation Completed. Sensor Operation Is Abnormal. Solve The Error To Resume Operation.'),94((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bExtCtrl : BOOL;
+	bRetCtrl : BOOL;
+	bTwoCtrlOut : BOOL := FALSE;
+	bExtended : BOOL := FALSE;
+	bRetracted : BOOL := FALSE;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bClampPrep : BOOL := FALSE;
+	eClampOption : eClampType := ClampNoRS;
+	bManual : BOOL := FALSE;
+	bTwoCtrlIn : BOOL := FALSE;
+	bExtSafetySen : BOOL := TRUE;
+	bRetSafetySen : BOOL := TRUE;
+	bExtSen : BOOL := FALSE;
+	bRetSen : BOOL := FALSE;
+	sProgNm : STRING[15] := 'Pneu2Sen';
+	tExtTO : TIME := T#20s;
+	tRetTO : TIME := T#20s;
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	fbPneuExtChk : fbPneuExtRetSenExtChk;
+	fbPneuRetChk : fbPneuExtRetSenRetChk;
+	eStatOld : ePneuAction := PneuActIdle;
+	udiModuleNum : UDINT := 2551;
+END_VAR

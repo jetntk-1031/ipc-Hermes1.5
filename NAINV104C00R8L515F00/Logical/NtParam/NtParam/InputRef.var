@@ -1,0 +1,16 @@
+(*2020-07-27*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eNtParamAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_sFileName : REFERENCE TO STRING[80];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_sFileName1 : REFERENCE TO STRING[80];
+	p_sPVName : REFERENCE TO STRING[80];
+	p_tyMpNtParamMpLink : REFERENCE TO MpComIdentType;
+END_VAR

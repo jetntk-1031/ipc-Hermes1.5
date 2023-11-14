@@ -1,0 +1,26 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_USSMEMA2Stat : UDINT;
+	p_USSMEMA2Status : UDINT;
+	p_USSMEMA2StatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_USSMEMA2AlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_USSMEMA2USRdy : UDINT;
+	p_USSMEMA2USGdBrdRdy : UDINT;
+	p_USSMEMA2DSRdy : UDINT;
+	p_USSMEMA2Transporting : UDINT;
+	p_USSMEMA2ConvStart : UDINT;
+	p_USSMEMA2ConvStop : UDINT;
+	p_USSMEMA2USB : UDINT;
+	p_USSMEMA2Timer : UDINT;
+	p_USSMEMA2Virtual : UDINT;
+END_VAR

@@ -1,0 +1,90 @@
+(*2020-10-05*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eLFAction := LFActIdle;
+	eStat : eLFAction := LFActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Background Starting Operations','Background Stopping Operations','Synchronizing PLC Time','Changing All Recipe Automatically','Changing All Recipe Manually','Changing Recipe In Sequence Automatically','Changing Recipe In Sequence Manually',43('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Background Not Running While Calling Sync PLC Tm',sRcyText:='Start Background Operations First'),(sAlmText:='Background Not Running While Changing All Recipe Automatically',sRcyText:='Start Background Operations First'),(sAlmText:='Background Not Running While Changing All Recipe Manually',sRcyText:='Start Background Operations First'),(sAlmText:='Background Not Running While Changing Recipe In Sequence Automatically',sRcyText:='Start Background Operations First'),(sAlmText:='Background Not Running While Changing Recipe In Sequence Manually',sRcyText:='Start Background Operations First'),0,94((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	a_tyFollowerInfo : ARRAY[1..c_diLFClntNum] OF tyLFFollowerInfo;
+	a_tyFollowerToLeaderTag : ARRAY[1..c_diLFClntNum] OF tyLFFollowerToLeaderTag;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	sReqProdRcpNm : STRING[254];
+	diReqProdWidth : DINT;
+	sReqMagRcpNm : STRING[15];
+	diBeforeOven : DINT;
+	diAfterOven : DINT;
+	diBeforeOven2 : DINT;
+	diAfterOven2 : DINT;
+	bWidth2Prep : BOOL;
+	tOnlineChkDlyTm : TIME;
+	tSetTmOffDlyTm : TIME;
+	dtCurrDT : DATE_AND_TIME;
+	a_sLFIPAddr : ARRAY[1..c_diLFClntNum] OF STRING[15];
+	a_bLFOnline : ARRAY[1..c_diLFClntNum] OF BOOL;
+	sLeaderProgTagNm : STRING[15] := 'LFLeader';
+	sFollowerProgTagNm : STRING[15] := 'LFFollower';
+	sProgNm : STRING[15] := 'Leader';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	bRun1 : BOOL;
+	bRun2 : BOOL;
+	bStop : BOOL;
+	bStop1Done : BOOL;
+	bStop2Done : BOOL;
+	bCntr : BOOL;
+	di : DINT;
+	diDisconnectIdx : DINT := 1;
+	diMcNum : DINT;
+	a_sLFIPAddrOld : ARRAY[1..c_diLFClntNum] OF STRING[15];
+	bDisconnecting : BOOL;
+	eStatOld : eLFAction := LFActIdle;
+	a_tyLeaderToFollowerTag : ARRAY[1..c_diLFClntNum] OF tyLFLeaderToFollowerTag;
+	fbOnlineChk : fbLFLeaderOnlineChk;
+	fbSyncTm : fbLFLeaderSyncTm;
+	fbChgAll : fbLFLeaderChgAll;
+	fbChgSeq : fbLFLeaderChgSeq;
+	fbBlkUSDS : fbLFLeaderBlkUSDS;
+	fbDataUpdt : fbLFLeaderDataUpdt;
+	udiNodeCntr : UDINT;
+	sNodeCntr : STRING[80];
+	a_dwConnectionHdl : ARRAY[1..c_diLFClntNum] OF DWORD;
+	a_bNodeWr : ARRAY[1..c_diLFClntNum] OF BOOL;
+	a_bNodeRd : ARRAY[1..c_diLFClntNum] OF BOOL;
+	a_tyWriteHdls : ARRAY[1..c_diLFClntNum] OF tyOPCUAHdlList;
+	a_tyReadHdls : ARRAY[1..c_diLFClntNum] OF tyOPCUAHdlList;
+	eOPCUAStep : eLFOPCUAStep;
+	fbConnect : fbOPCUAConnect;
+	fbGetNodeHdlListWr : fbOPCUAGetNodeHdlList;
+	fbGetNodeHdlListRd : fbOPCUAGetNodeHdlList;
+	fbWriteList : fbOPCUAWriteList;
+	fbDisconnect : fbOPCUADisconnect;
+	fbReadList : fbOPCUAReadList;
+	udiModuleNum : UDINT := 3801;
+END_VAR

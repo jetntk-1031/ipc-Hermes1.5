@@ -1,0 +1,59 @@
+(*2019-06-12*)
+(**)
+(*Local Action, State & Status*)
+(**)
+(*Local Alarm*)
+VAR
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='LCS Disable'),(sAlmText:='LCS Manage Recipe Disabled'),(sAlmText:='LCS Leader Follower Disabled'),7(0),(sAlmText:='Out Of Range While Accepting New Recipe'),(sAlmText:='Out Of Range While Managing Product'),(sAlmText:='Recipe Name Empty While Adding Product'),(sAlmText:='Recipe List Full While Adding Product'),(sAlmText:='Recipe Name Exist While Adding Product'),(sAlmText:='Recipe Program Error While Adding Product'),(sAlmText:='Check Limit Error While Adding Multiple Product'),(sAlmText:='Recipe Name Empty While Adding Multiple Product'),(sAlmText:='Recipe List Full While Adding Multiple Product'),(sAlmText:='Recipe Name Exist While Adding Multiple Product'),(sAlmText:='Recipe Program Error While Adding Multiple Product'),(sAlmText:='Check Limit Error While Editing Product'),(sAlmText:='Recipe Name Empty While Editing Product'),(sAlmText:='Recipe Name Not Exist While Editing Product'),(sAlmText:='Recipe Program Error While Editing Product'),(sAlmText:='Check Limit Error While Editing Multiple Product'),(sAlmText:='Recipe Name Empty While Editing Multiple Product'),(sAlmText:='Recipe Name Not Exist While Editing Multiple Product'),(sAlmText:='Recipe Program Error While Editing Multiple Product'),(sAlmText:='Check Limit Error While Overwriting Product'),(sAlmText:='Recipe Name Empty While Overwriting Product'),(sAlmText:='Recipe List Full While Overwriting Product'),(sAlmText:='Recipe Program Error While Overwriting Product'),(sAlmText:='Check Limit Error While Overwriting Multiple Product'),(sAlmText:='Recipe Name Empty While Overwriting Multiple Product'),(sAlmText:='Recipe List Full While Overwriting Multiple Product'),(sAlmText:='Recipe Program Error While Overwriting Multiple Product'),(sAlmText:='Check Limit Error While Deleting Product'),(sAlmText:='Recipe Name Empty While Deleting Product'),(sAlmText:='Recipe Name Not Exist While Deleting Product'),(sAlmText:='Recipe Program Error While Deleting Product'),(sAlmText:='Check Limit Error While Deleting Multiple Product'),(sAlmText:='Recipe Name Empty While Deleting Multiple Product'),(sAlmText:='Recipe Name Not Exist While Deleting Multiple Product'),(sAlmText:='Recipe Program Error While Deleting Multiple Product'),(sAlmText:='Recipe Name Empty While Uploading Product'),(sAlmText:='Recipe Name Not Exist While Uploading Product'),(sAlmText:='Recipe Program Error While Uploading Product'),(sAlmText:='Get Recipe Info Error While Editing Product'),(sAlmText:='Local Recipe Is Latest Compare With LCS Recipe While Editing Product'),(sAlmText:='Local Recipe Is Latest Compare With LCS Recipe While Editing Multiple Product'),(sAlmText:='Get Recipe Info Error While Editing Multiple Product'),48(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	eLCSMngRcp_LCSAct : eLCSAction;
+	iLCSMngRcp_LCSIdxAct : INT;
+	iLCSMngRcp_LCSIdxStat : INT;
+	tyLCSMngRcp_LCSProdRcpInfo : tyProdRcpParam;
+	eLCSLF_LCSAct : eLCSAction;
+	tyLCSLF_LCSProdRcpInfo : tyProdRcpParam;
+	bChkLmtOK : BOOL;
+	bChkLmtNG : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	eLCSMngRcp_PLCStat : eLCSAction;
+	udiLCSMngRcp_PLCStatus : UDINT;
+	iLCSMngRcp_PLCIdxAct : INT;
+	iLCSMngRcp_PLCIdxStat : INT;
+	tyLCSMngRcp_PLCProdRcpInfo : tyProdRcpParam;
+	eLCSLF_PLCStat : eLCSAction;
+	udiLCSLF_PLCStatus : UDINT;
+	bLCSMngRcpChkLmt : BOOL;
+	bLCSLFChkLmt : BOOL;
+	bOpsRun : BOOL;
+	bError : BOOL;
+	bWarning : BOOL;
+	bInfo : BOOL;
+	bUIManual : BOOL;
+	tyProdRcpCurrRcp : tyProdRcpParam;
+	tyNtParamCurr : tyNtParam;
+	sProgNm : STRING[15] := 'LCS';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	udi : UDINT;
+	udiFlagNo : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	tyTagNm : tyLCSTagNm;
+	bLFRun : BOOL;
+	bMngRcpRun : BOOL;
+	sLastModifiedTemp : STRING[80];
+	sAddMsg : STRING[80];
+	udiModuleNum : UDINT := 4001;
+END_VAR

@@ -1,0 +1,159 @@
+(*2020-10-05*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eTLBuzAction := TLBuzActIdle;
+	eStat : eTLBuzAction := TLBuzActIdle;
+	eStatus : eFBStatus := Idle;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Turning On Tower Light Green','Turning On Tower Light Amber','Turning On Tower Light Red','Turning On Buzzer','Turning Off Tower Light Green','Turning Off Tower Light Amber','Turning Off Tower Light Red','Turning Off Buzzer','Turning On All Output','Turning Off All Output',40('')];
+END_VAR
+(**)
+(*Local Alarm*)
+(**)
+(*Local Output*)
+VAR
+	bTLRed : BOOL;
+	bTLAmber : BOOL;
+	bTLGreen : BOOL;
+	bTLBlue : BOOL;
+	bTLWhite : BOOL;
+	bBuzBeep : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	bManualErrOn : BOOL := FALSE;
+	bManual : BOOL := FALSE;
+	bStartup : BOOL := FALSE;
+	bErr : BOOL := FALSE;
+	bErrNoBuz : BOOL := FALSE;
+	bWarning : BOOL := FALSE;
+	bWarningNoBuz : BOOL := FALSE;
+	bWarning1 : BOOL := FALSE;
+	bWarning1NoBuz : BOOL := FALSE;
+	bWarning2 : BOOL := FALSE;
+	bWarning2NoBuz : BOOL := FALSE;
+	bWarning3 : BOOL := FALSE;
+	bWarning3NoBuz : BOOL := FALSE;
+	bWarning4 : BOOL := FALSE;
+	bWarning4NoBuz : BOOL := FALSE;
+	bWarning5 : BOOL := FALSE;
+	bWarning5NoBuz : BOOL := FALSE;
+	bChgRcp : BOOL := FALSE;
+	bSeqStop : BOOL := FALSE;
+	bStep : BOOL := FALSE;
+	bOps : BOOL := FALSE;
+	bStandby : BOOL := FALSE;
+	bSimulation : BOOL := FALSE;
+	bMuteBuz : BOOL := FALSE;
+END_VAR
+(**)
+VAR
+	tTLChgRcpBlinkTm : TIME := T#200ms;
+	tTLErrBlinkTm : TIME := T#500ms;
+	tBuzErrOnTm : TIME := T#500ms;
+	tBuzErrRestTm : TIME := T#500ms;
+	usiBuzErrOnCntr : USINT := 3;
+	bBuzErrStopSeqEn : BOOL := FALSE;
+	usiBuzErrStopSeqCntr : USINT := 3;
+	tTLWarnBlinkTm : TIME := T#500ms;
+	tBuzWarnOnTm : TIME := T#500ms;
+	tBuzWarnRestTm : TIME := T#5s;
+	usiBuzWarnOnCntr : USINT := 3;
+	bBuzWarnStopSeqEn : BOOL := FALSE;
+	usiBuzWarnStopSeqCntr : USINT := 3;
+	tTLWarn1BlinkTm : TIME := T#500ms;
+	tBuzWarn1OnTm : TIME := T#500ms;
+	tBuzWarn1RestTm : TIME := T#5s;
+	usiBuzWarn1OnCntr : USINT := 3;
+	bBuzWarn1StopSeqEn : BOOL := FALSE;
+	usiBuzWarn1StopSeqCntr : USINT := 3;
+	tTLWarn2BlinkTm : TIME := T#500ms;
+	tBuzWarn2OnTm : TIME := T#500ms;
+	tBuzWarn2RestTm : TIME := T#5s;
+	usiBuzWarn2OnCntr : USINT := 3;
+	bBuzWarn2StopSeqEn : BOOL := FALSE;
+	usiBuzWarn2StopSeqCntr : USINT := 3;
+	tTLWarn3BlinkTm : TIME := T#500ms;
+	tBuzWarn3OnTm : TIME := T#500ms;
+	tBuzWarn3RestTm : TIME := T#5s;
+	usiBuzWarn3OnCntr : USINT := 3;
+	bBuzWarn3StopSeqEn : BOOL := FALSE;
+	usiBuzWarn3StopSeqCntr : USINT := 3;
+	tTLWarn4BlinkTm : TIME := T#500ms;
+	tBuzWarn4OnTm : TIME := T#500ms;
+	tBuzWarn4RestTm : TIME := T#5s;
+	usiBuzWarn4OnCntr : USINT := 3;
+	bBuzWarn4StopSeqEn : BOOL := FALSE;
+	usiBuzWarn4StopSeqCntr : USINT := 3;
+	tTLWarn5BlinkTm : TIME := T#500ms;
+	tBuzWarn5OnTm : TIME := T#500ms;
+	tBuzWarn5RestTm : TIME := T#5s;
+	usiBuzWarn5OnCntr : USINT := 3;
+	bBuzWarn5StopSeqEn : BOOL := FALSE;
+	usiBuzWarn5StopSeqCntr : USINT := 3;
+	tBuzAlertOnTm : TIME := T#500ms;
+	tBuzAlertRestTm : TIME := T#5s;
+	usiBuzAlertOnCntr : USINT := 3;
+	bBuzAlertStopSeqEn : BOOL := FALSE;
+	usiBuzAlertStopSeqCntr : USINT := 3;
+	tTLBlueBlinkTm : TIME := T#500ms;
+	tTLAmberBlinkTm : TIME := T#500ms;
+	tTLWhiteBlinkTm : TIME := T#500ms;
+	tTLRedBlinkTm : TIME := T#500ms;
+	tTLGreenBlinkTm : TIME := T#500ms;
+END_VAR
+(**)
+VAR
+	tErrBlinkTm : TIME := T#500ms;
+	tChgRcpBlinkTm : TIME := T#200ms;
+	tWarnBlinkTm : TIME := T#500ms;
+	tWarnRestTm : TIME := T#5s;
+	usiWarnOnTm : USINT := 3;
+	tWarn1BlinkTm : TIME := T#500ms;
+	tWarn1RestTm : TIME := T#5s;
+	usiWarn1OnTm : USINT := 3;
+	tWarn2BlinkTm : TIME := T#500ms;
+	tWarn2RestTm : TIME := T#5s;
+	usiWarn2OnTm : USINT := 3;
+	tWarn3BlinkTm : TIME := T#500ms;
+	tWarn3RestTm : TIME := T#5s;
+	usiWarn3OnTm : USINT := 3;
+	tWarn4BlinkTm : TIME := T#500ms;
+	tWarn4RestTm : TIME := T#5s;
+	usiWarn4OnTm : USINT := 3;
+	tWarn5BlinkTm : TIME := T#500ms;
+	tWarn5RestTm : TIME := T#5s;
+	usiWarn5OnTm : USINT := 3;
+	bCoveSwitchSig : BOOL := FALSE;
+	eTLBuzMode : eTLBuzMod := TLBuzModNutek;
+END_VAR
+(**)
+VAR
+	bAOIErrSig : BOOL := FALSE;
+	bAOIOriginSig : BOOL := FALSE;
+	bBuzAlertEn : BOOL := FALSE;
+	bTLBlueFlashEn : BOOL := FALSE;
+	bTLAmberFlashEn : BOOL := FALSE;
+	bTLWhiteFlashEn : BOOL := FALSE;
+	bTLRedFlashEn : BOOL := FALSE;
+	bTLGreenFlashEn : BOOL := FALSE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	tBlinkTm : TIME := T#500ms;
+	fbBlink : fbTLBuzBlink;
+	fbWarning : fbTLBuzWarn;
+	eStatOld : eTLBuzAction := TLBuzActIdle;
+	usiWarnInfoStateOld : USINT; (*Default buzzer behavior*)
+	usiWarnInfoStateNew : USINT; (*Default buzzer behavior*)
+	fbBlink1 : fbTLBuzBlink;
+	fbBlink2 : fbTLBuzBlink;
+	fbBlink3 : fbTLBuzBlink;
+	fbBlink4 : fbTLBuzBlink;
+	fbWarning1 : fbTLBuzWarn;
+END_VAR

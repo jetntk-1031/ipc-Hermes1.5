@@ -1,0 +1,73 @@
+(*2019-03-25*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt;
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	sStepTxt : STRING[80];
+	bPaused : BOOL;
+	eInverterAct : eMotorBrkAction;
+	eConvAct : eConvAction;
+	eInShutterAct : ePneuAction;
+	eOutShutterAct : ePneuAction;
+	eStopperAct : ePneuAction;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bRun : BOOL;
+	bStop : BOOL;
+	bStep : BOOL;
+END_VAR
+(**)
+VAR
+	bInvHomeSen : BOOL;
+	binvRemoteSen : BOOL;
+	bConvLeftSen : BOOL;
+	bConvRightSen : BOOL;
+	bInletShutterCloseRS : BOOL;
+	bOutletShutterCloseRS : BOOL;
+END_VAR
+(**)
+VAR
+	eInverterStat : eMotorBrkAction;
+	eInverterStatus : eFBStatus;
+	eConvStat : eConvAction;
+	eConvStatus : eFBStatus;
+	eInletShutterStat : ePneuAction;
+	eInletShutterStatus : eFBStatus;
+	eOutletShutterStat : ePneuAction;
+	eOutletShutterStatus : eFBStatus;
+	eStopperStat : ePneuAction;
+	eStopperStatus : eFBStatus;
+END_VAR
+(**)
+VAR
+	sProgNm : STRING[15];
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	eSimuInvStep : eSimuInvRunStep := SimuInvStepNA;
+	eSimuInvGotoStep : eSimuInvRunStep := SimuInvStepChkCondition;
+	fbInvChgDirDlyTm : TON := (PT:=T#5s);
+	fbConvChgDirDlyTm : TON := (PT:=T#5s);
+END_VAR

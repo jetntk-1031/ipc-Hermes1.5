@@ -1,0 +1,17 @@
+(*2019-04-28*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eMpProdRcpAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	pa_tyMpProdRcp : REFERENCE TO ARRAY[0..c_udiMpProdRcpMax] OF tyProdRcpParam;
+	p_tyMpProdRcpMpLink : REFERENCE TO MpComIdentType;
+	p_sPVName : REFERENCE TO STRING[100];
+	p_sFileName : REFERENCE TO STRING[255];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

@@ -1,0 +1,42 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_ConvStat : UDINT;
+	p_ConvStatus : UDINT;
+	p_ConvStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_ConvAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_ConvHvBrd : UDINT;
+	p_ConvRejHvBrd : UDINT;
+	p_ConvInspHvBrd : UDINT;
+	p_ConvGdBrd : UDINT;
+	p_ConvLmtSenActivated : UDINT;
+	p_ConvMtrSigOnOrLToR : UDINT;
+	p_ConvMtrDirOrRToL : UDINT;
+	p_ConvPshrExtCtrl : UDINT;
+	p_ConvPshrTwoOutputControl : UDINT;
+	p_ConvPshrExtended : UDINT;
+	p_ConvPshrRetracted : UDINT;
+	p_ConvPullerExtCtrl : UDINT;
+	p_ConvPullerRetCtrl : UDINT;
+	p_ConvPullerTwoOutputControl : UDINT;
+	p_ConvPullerExtended : UDINT;
+	p_ConvPullerRetracted : UDINT;
+	p_ConvRotRemoteCtrl : UDINT;
+	p_ConvRotTwoOutputControl : UDINT;
+	p_ConvRotAtRemote : UDINT;
+	p_ConvRotAtHome : UDINT;
+	p_ConvRejectUpCtrl : UDINT;
+	p_ConvRejectDownCtrl : UDINT;
+	p_ConvRejectTwoOutputControl : UDINT;
+	p_ConvRejectAtUp : UDINT;
+	p_ConvRejectAtDown : UDINT;
+END_VAR

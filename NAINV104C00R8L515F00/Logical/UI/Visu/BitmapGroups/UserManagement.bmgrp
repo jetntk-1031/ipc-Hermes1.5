@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="UserManagement">
+  <Property Name="Description" Value="Bitmap Group for product related."/>
+  <Property Name="Index" Value="25"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2386" Value="Source[local].Bitmap[Icon_User_Add_7]"/>
+    <BitmapRef ID="2387" Value="Source[local].Bitmap[Icon_User_Delete_7]"/>
+    <BitmapRef ID="2388" Value="Source[local].Bitmap[Icon_User_Edit_7]"/>
+    <BitmapRef ID="2389" Value="Source[local].Bitmap[Icon_User_Login_7]"/>
+    <BitmapRef ID="9266" Value="Source[local].Bitmap[Icon_Nutek_Login_7]"/>
+    <BitmapRef ID="9268" Value="Source[local].Bitmap[Icon_User_Logout_7]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2386" Value="0"/>
+    <Index ID="2387" Value="1"/>
+    <Index ID="2388" Value="2"/>
+    <Index ID="2389" Value="3"/>
+    <Index ID="9266" Value="4"/>
+    <Index ID="9268" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

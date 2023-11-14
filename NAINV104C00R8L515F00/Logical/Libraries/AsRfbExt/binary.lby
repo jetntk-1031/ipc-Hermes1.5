@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Library Version="4.72.3" SubType="binary" Description="The AsRfbExt library provides access to extended MP40/50 functions." xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>AsRfbExt.fun</File>
+    <File>AsRfbExt.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

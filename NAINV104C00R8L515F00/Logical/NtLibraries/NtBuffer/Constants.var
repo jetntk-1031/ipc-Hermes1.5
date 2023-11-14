@@ -1,0 +1,5 @@
+VAR CONSTANT
+	c_diBffrSize : DINT := 60; (*Total Buffer Size*)
+	c_diBffrSubSize : DINT := 2; (*Total Buffer Sub Size*)
+	c_diDispBffrSize : DINT := 120; (*Display Buffer Size. (Total Buffer Size x Total Buffer Sub Size)*)
+END_VAR

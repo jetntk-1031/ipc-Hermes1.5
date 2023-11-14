@@ -1,0 +1,22 @@
+(*2019-04-16*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_OpsStat : UDINT;
+	p_OpsStatus : UDINT;
+	p_OpsStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_OpsOpsStatus : UDINT;
+	p_OpsStatusRun : UDINT;
+	p_OpsStatusStop : UDINT;
+	p_OpsStatusCycleStop : UDINT;
+	p_OpsStatusStep : UDINT;
+	p_OpsRun : UDINT;
+	p_OpsStop : UDINT;
+	p_OpsStep : UDINT;
+END_VAR

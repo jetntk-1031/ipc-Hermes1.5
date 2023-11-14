@@ -1,0 +1,9 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eSimulationsAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPaused : REFERENCE TO BOOL;
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

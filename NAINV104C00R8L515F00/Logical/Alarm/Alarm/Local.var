@@ -1,0 +1,83 @@
+(*2022-12-20*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eAlarmAction := AlarmActIdle;
+	eStat : eAlarmAction := AlarmActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Deleting Old Alarm Log File','Reading History File','Writing History File','Appending Alarm Log File','Appending Alarm Log File & Writing History File','Resetting History','Background Start Alarm Log','Background Stop Alarm Log',41('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Directory Error',sRcyText:='An Error Occurred While Attempting To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Alarm Directory Error',sRcyText:='An Error Occurred While Attempting To Create Alarm Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Get Directory Info Error While Deleting Old Log',sRcyText:='An Error Was Encountered While Getting Directory Info. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Read Error While Deleting Old Log',sRcyText:='An Error Was Encountered While Reading Directory. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Delete Error While Deleting Old Log',sRcyText:='An Error Was Encountered While Trying To Delete File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Reading Alarm History',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Alarm History',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Alarm History',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Alarm History',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Get File Info Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Getting File Info. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Alarm Log',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Alarm History',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Alarm History',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Get File Info Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Getting File Info. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Alarm Log',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Alarm Log',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Resetting Alarm History',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Resetting Alarm History',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Resetting Alarm History',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Resetting Alarm History',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Resetting Alarm History',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),65((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bErr : BOOL;
+	bWarning : BOOL;
+	a_tyCurrList : ARRAY[1..c_udiAlarmCurrMax] OF tyAlarmCurr;
+	a_sRecoveryList : ARRAY[1..c_udiAlarmCurrMax] OF STRING[200];
+	a_udiRecoveryList : ARRAY[1..c_udiAlarmCurrMax] OF UDINT;
+	a_sHistoryList : ARRAY[1..c_udiAlarmHistoryMax] OF STRING[200];
+	bInfo : BOOL;
+	sInfoMsg : STRING[200];
+	bHistoryFileNotFound : BOOL;
+	bInfoLF : BOOL := FALSE;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	dtCurrDT : DATE_AND_TIME;
+	a_tyAlmData : ARRAY[1..c_udiAlarmCurrMax] OF tyAlmDat;
+	udiFileKeepDay : UDINT := 30;
+	sProgNm : STRING[15] := 'Alarm';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	bAlarmLog : BOOL;
+	usiStep : USINT;
+	udi : UDINT;
+	iInfoCntr : INT;
+	sAlmMsg : STRING[300];
+	udiAlmCntr : UDINT;
+	udiAlmRecvryCntr : UDINT;
+	udiLogCntr : UDINT;
+	udiWriteLogCntr : UDINT;
+	a_sLogList : ARRAY[1..c_udiAlarmCurrMax] OF STRING[200];
+	bAlmUpdt : BOOL;
+	dtCurrDTTemp : DATE_AND_TIME;
+	a_udiRunTimeOld : ARRAY[1..c_udiAlarmCurrMax] OF UDINT;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbFileAppend1 : fbFileFullAppend;
+	fbFileOldDel1 : fbFileOldDel;
+	fbFileRead1 : fbFileFullRead;
+	fbFileWrite1 : fbFileFullWrite;
+	udi1 : UDINT;
+	udi2 : UDINT;
+	udiRecorded : ARRAY[1..c_udiAlarmCurrMax] OF UDINT;
+	udiRecorded1 : UDINT;
+	bRstWarning : BOOL;
+	udiWarningMax : UDINT := 1;
+	sWarningMsg : STRING[300];
+	sWarningID : STRING[80] := '';
+	sWarningCompareMsg : STRING[300];
+	a_tyWarningCurrList : ARRAY[1..c_udiAlarmCurrMax] OF tyAlarmCurr;
+	a_tyHistoryList : ARRAY[1..c_udiAlarmHistoryMax] OF tyHistory;
+	WarningListOccur : BOOL := TRUE;
+	udiErrorCode : UDINT;
+	sDT : STRING[80];
+	udiModuleNum : UDINT := 5051;
+END_VAR

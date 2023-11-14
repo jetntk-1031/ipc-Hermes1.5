@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="B4.82">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="ProdRcp">
+        <Variable Name="a_tyCurrList" EnableArrayElements="True" />
+      </Task>
+      <Task Name="LFFollower">
+        <Variable Name="tyFollowerToLeaderTag">
+          <Variable Name="sCurrProdRcp" />
+          <Variable Name="diCurrProdWidthUS" />
+          <Variable Name="diCurrProdWidthDS" />
+          <Variable Name="sCurrMagRcp" />
+          <Variable Name="sIPAddr" />
+          <Variable Name="sMcNm" />
+          <Variable Name="bSectionLeader" />
+          <Variable Name="usiRunTm" />
+          <Variable Name="bProdRcpErr" />
+          <Variable Name="bProdWidthErr" />
+          <Variable Name="bMagRcpErr" />
+          <Variable Name="bSyncTmErr" />
+          <Variable Name="eCurrMachineStat" />
+          <Variable Name="bProdChgOverActive" />
+        </Variable>
+        <Variable Name="tyLeaderToFollowerTag">
+          <Variable Name="sReqProdRcpNm" />
+          <Variable Name="diReqProdRcpWidth" />
+          <Variable Name="sReqMagRcpNm" />
+          <Variable Name="bMnlAccData" />
+          <Variable Name="bBypassMnlAccData" />
+          <Variable Name="bBlkDS" />
+          <Variable Name="bBlkUS" />
+          <Variable Name="bBypassWidthChk" />
+          <Variable Name="bSetTm" />
+          <Variable Name="dtTm" />
+          <Variable Name="uiTmZone" />
+          <Variable Name="usiRunTm" />
+          <Variable Name="bProdNameUSWarn" />
+          <Variable Name="bProdNameDSWarn" />
+          <Variable Name="bProdWidthUSWarn" />
+          <Variable Name="bProdWidthDSWarn" />
+          <Variable Name="bLeaderSeqCtrlInActive" />
+        </Variable>
+      </Task>
+      <Task Name="LCS">
+        <Variable Name="tyTagNm">
+          <Variable Name="eAct" />
+          <Variable Name="eStat" />
+          <Variable Name="udiStatus" />
+          <Variable Name="sErrMsg" />
+          <Variable Name="iIdxAct" />
+          <Variable Name="iIdxStat" />
+          <Variable Name="tyProdRcpInfo">
+            <Variable Name="sRcpNm" />
+            <Variable Name="diWidthInUM" />
+            <Variable Name="usiMcMod" />
+            <Variable Name="sDisplayInfo" />
+            <Variable Name="dtLastModified" />
+            <Variable Name="usiFlippedBrd" />
+            <Variable Name="sMatchCode" />
+          </Variable>
+          <Variable Name="tyCurrProdRcpParam">
+            <Variable Name="sRcpNm" />
+            <Variable Name="diWidthInUM" />
+            <Variable Name="usiMcMod" />
+            <Variable Name="sDisplayInfo" />
+            <Variable Name="dtLastModified" />
+            <Variable Name="usiFlippedBrd" />
+            <Variable Name="sMatchCode" />
+          </Variable>
+          <Variable Name="sCurrRcpNm" />
+          <Variable Name="rCurrWidth" />
+          <Variable Name="eCurrOpsStatus" />
+          <Variable Name="usiBrdStatus" />
+          <Variable Name="usiMode" />
+          <Variable Name="sLastModified" />
+          <Variable Name="bMngRcpEn" />
+          <Variable Name="bLiveData" />
+          <Variable Name="bLFEn" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

@@ -1,0 +1,75 @@
+(*2020-10-08*)
+(**)
+(*Sequence*)
+
+TYPE
+	eInvertStep : 
+		(
+		InvertStepNA,
+		InvertStepInitChkCondition,
+		InvertStepInitInvertComplChk,
+		InvertStepInitClampUnblk,
+		InvertStepInitConvAwayLftSen,
+		InvertStepInitConvAwayRgtSen,
+		InvertStepInitStopperBlk,
+		InvertStepInitConvTwdLftSen,
+		InvertStepInitConvTwdRgtSen,
+		InvertStepInitStopperUnblk,
+		InvertStepInitConvToRgt,
+		InvertStepInitInvRtrnConv,
+		InvertStepInitShuttersInOutClose,
+		InvertStepChkCondition,
+		InvertStepShuttersInOutClose,
+		InvertStepAWMov,
+		InvertStepSafetyInOutClose,
+		InvertStepShutterCloseWaitForSig,
+		InvertStepChkShutterCond,
+		InvertStepShuttersInOutOpen,
+		InvertStepShuttersInOpenOutClose,
+		InvertStepStopperPosChk,
+		InvertStepStopperBlk,
+		InvertStepStopperUnblk,
+		InvertStepUSStandby,
+		InvertStepUSTmr,
+		InvertStepUSCommTmr,
+		InvertStepEntToEnd,
+		InvertStepEntToInOff,
+		InvertStepStopperBlkAftEnt,
+		InvertStepRev,
+		InvertStepShuttersInClose,
+		InvertStepInvertComplChk,
+		InvertStepClampBlkBefInvert,
+		InvertStepShuttersCloseBefInvert,
+		InvertStepInvert,
+		InvertStepInvalidPosRecoverBrd,
+		InvertStepClampUnblkAftInvert,
+		InvertStepStopperUnblkAftInvert,
+		InvertStepPreExit,
+		InvertStepDSInOutletShutterOpen,
+		InvertStepOutletShutterOpen,
+		InvertStepDSStandby,
+		InvertStepDSTmr,
+		InvertStepDSCommTmr,
+		InvertShuttersInOutCloseBefInitR,
+		InvertShuttersInOutCloseBefInit,
+		InvertStepExitBrd,
+		InvertStepPCBOut,
+		InvertStepInvRtrnUSStandby,
+		InvertStepInvRtrnUSTmr,
+		InvertStepInvRtrnUSCommTmr,
+		InvertStepInvRtrnEntToEnd,
+		InvertStepInvRtrnEntToInOff,
+		InvertStepShuttersInCloseOutOpen
+		);
+END_TYPE
+
+(**)
+
+TYPE
+	eInvertPos : 
+		(
+		InvertCurrPosAtRemote,
+		InvertCurrPosAtHome,
+		InvertPosInvalid
+		);
+END_TYPE

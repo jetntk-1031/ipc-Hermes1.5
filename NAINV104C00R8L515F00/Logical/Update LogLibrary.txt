@@ -1,0 +1,185 @@
+2022-07-05
+NtRecipe 5.00.4 Debug of Sorting Function
+
+2022-01-25
+NtRecipe 5.00.4 - Improve fRecipeNmCompare
+
+2021-12-29
+NtLF 5.01.5 - Add bDBAOnWOAllign to send DBA even width check sensor is not alligned.
+
+2021-10-19
+NtMotion 5.00.9 - Uncheck servo on and homing operation if both have been done
+
+2021-09-01
+NtLF 5.01.4 - Modify Product Recipe Name Related Variables to STRING[254]
+
+2021-04-20
+NtLF 5.01.3 - Update fLFUSAllow & fLFDSAllow Block Conditions.
+			- Modify fLFFollowerProdAccDataReq.
+			
+2021-02-24
+NtLF:5.01.2 - Modify fLFUSAllow.
+
+2021-02-23
+NtSMEMA: 5.00.6 - Add fbSMEMATransporting1.
+
+2021-02-17
+NtMotion:5.00.8 - Limit sensor intelock for Estun Servo Movement. (20210217)
+       - Homing timeout in 3 sec if home sensor broken.
+       - Set default value for servo parameter if the NtParam setting out of the limit.
+
+2020-11-10
+NtMotion:5.00.7 - Torque limit setting at NtParam.
+
+2020-10-05
+NtLF:5.01.1 	 - Improve Change All For Section Leader, Debug Change Sequential.
+
+2020-09-10
+NtTCP:5.00.2 	 - Change of fbTCPClntConnect.
+
+2020-08-17
+NtVersion:5.01.1 - Change of fChkFileValidity & fInvalidCharInFileChk to function block.
+
+2020-08-06
+NtLF:5.01.0 	 - Improve leader follower concept.
+				 - Add more tags in tyLeaderToFollowerTag and tyFollowerToLeaderTag.
+NtVersion:5.01.0 - Add fChkFileValidity and fInvalidCharInFileChk.
+
+2020-07-24
+NtRecipe:5.00.3  - Debug of sorting functions.
+
+2020-06-30
+NtMotion:5.00.6  - Homing action when remote side limit sensor is on.
+
+2020-06-15
+NtMotion:5.00.5  - Homing timeout error when limit switch disconnected.
+
+2020-06-08
+NtRecipe:5.00.2  - Update Product Recipe to 254, Add Sorting and End Character Filter Functions.
+NtVersion:5.00.1 - Debug of fChkLibrariesVer.
+
+2020-06-07
+NtUI:5.00.1 	 - Update fbTableCtrl and fbTableCtrl_v2. Update tyUILString.
+
+2020-06-01
+NtStepper:5.00.0 - New Release.
+NtConv:5.00.3	 - Added fbConvSenToSenBrkTm2Lmt & fbConvSenToSenBrk2.
+		 
+2020-03-20
+NtMotion:5.00.4  - Add Estun Pronet, Schneider Electric Lexium 28 Servo Motor Control.
+		 		 - Resolve Limit Switch Alarm when Delta servo motor perform homing at stratup of auto mode.	
+		 		 
+2020-03-16
+NtTLBuz:5.00.2 	 - Add inputs to allow repeat sequence for fbTLBuzWarn.
+
+2020-03-11
+NtMotion:5.00.3  - Add Estun and Schneider.
+
+2019-12-24
+NtLF:5.00.5 	 - Modify fbLeaderBlkDS, include machine index before & after oven 2, block machine to machine when different width
+
+2019-10-29
+NtHermes:5.00.3  - Debug of fHermesGetTimeStamp
+
+2019-10-21
+NtRecipe:5.00.1  - Debug Of fRecipeGetInfo.
+NtSMEMA:5.00.4 	 - fbSMEMAUS_9851, fbSMEMAUS_Std, fbSMEMADS_OppFirst, reset signal while error.
+NtBuffer:5.00.6  - Debug of fBffrSetFull, fBffrSetMty for slot disable.
+NtLF:5.00.5 	 - Add bBypassMnlAccDat Tag Name, Improve Change All Function Without Manually Accept Data.
+
+2019-08-27
+NtBuffer:5.00.5  - Debug of fBffrNxtLoadSeqAny, fBffrNxtLoadSeqGd & fBffrNxtLoadSeqBad.
+
+2019-07-30
+NtMotion:5.00.2  - Add Input To Select Homing Without Index Pulse.
+
+2019-07-19
+NtSMEMA:5.00.3 	 - fbSMEMADS, reset signal while error.
+
+2019-07-03
+NtBuffer:5.00.4  - Debug Of Limit Buffer Range.
+
+2019-06-07
+NtTLBuz:5.00.1 	 - Improve of fbTLBuzWarn.
+
+2019-05-30
+NtSMEMA:5.00.2 	 - Improve fbSMEMATransportIdle.
+
+2019-05-29
+NtRS232:5.00.2 	 - Add Flatstream Function.
+
+2019-05-28
+NtBuffer:5.00.3  - Debug of fBffrNxtLoadNearby.
+
+2019-05-22
+NtLF:5.00.3 	 - ChgAll Will Bypass Width Check Sensor.
+
+2019-05-21
+NtRS232:5.00.1 	 - Add fbFullReadUntilValid.
+
+2019-05-17
+NtMessage:5.00.1 - Debug When Attribute Value Is Empty String.
+
+2019-05-07
+NtConv:5.00.2 	 - After Time Out, Reset Output.
+NtLF:5.00.2 	 - Debug fLFUSAllow. Modify fbLFFollower.
+
+2019-05-04
+NtHermes:5.00.2  - Debug Due to RmtHermes.
+
+2019-04-27
+NtSMEMA:5.00.1 	 - Improve Standard SMEMA According to Nutek Standard.
+
+2019-04-25
+NtHermes:5.00.1  - Debug fHermesIllegalMsgBrdAvlDS. To Handle MachineReady & StartTransport Send In One Message.
+
+2019-04-23
+NtLF:5.00.1 	 - Major upgrade.
+
+2019-04-18
+NtBffr:5.00.2 	 - Add Buffer Name, Product Name & Barcode.
+
+2019-04-11
+NtConv:5.00.1 	 - Debug of Time Out Error.
+
+2019-04-04
+NtBuffer:5.00.1  - Modify fBffrStat.
+
+2019-04-02
+NtTCP:5.00.1 	 - fbTPCSend & fbTCPRcv modify bEn = False condition. Disable check alive set function in Simulation Mode.
+
+2019-03-25
+NtGeneral:5.00.1 - Add tyAlmTxt.
+NtLogFile:5.00.1 - Increase Alarm String Size.
+
+2019-03-15
+NtHermes:5.00.0  - New Release
+
+2019-02-20
+NtMotion:5.00.1  - Increase Module OK check counter from 5 to 20.
+                 - Update fMotionModuleOK.
+                 - Change of Position Different Threshold				
+// 5.00.0				
+2019-01-20
+NtSMEMA 		 - Update.
+
+2019-01-18
+NtMotion 		 - Update for FwdLimit & RevLimit.
+
+2019-01-11
+NtSMEMA 		 - Update library.
+NtConv 			 - Add time out.
+
+2019-01-09
+NtMotion 		 - Debug move absolute with backlash.
+
+2019-01-08
+NtMotion 		 - Debug move absolute with backlash.
+NtConv 			 - Debug end sensor edgeneg trigger.
+
+2019-01-04
+NtConv 			 - Add fbConvSenToSenOff1.
+
+2019-01-03
+NtTCP 			 - Update.
+NtMessage 		 - Update.

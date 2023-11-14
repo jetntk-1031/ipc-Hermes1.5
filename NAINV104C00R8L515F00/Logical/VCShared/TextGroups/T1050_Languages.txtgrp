@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1050_Languages">
+  <Property Name="Description" Value="Languages"/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="279683" Value="English"/>
+    <Text ID="279684" Value="Deutsch"/>
+    <Text ID="279685" Value="中文"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="279683" Value="English"/>
+    <Text ID="279684" Value="Deutsch"/>
+    <Text ID="279685" Value="中文"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="279683" Value="English"/>
+    <Text ID="279684" Value="Deutsch"/>
+    <Text ID="279685" Value="中文"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="279683" Value=""/>
+    <Text ID="279684" Value=""/>
+    <Text ID="279685" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="279683" Value="0"/>
+    <Index ID="279684" Value="1"/>
+    <Index ID="279685" Value="2"/>
+  </IndexMap>
+</TextGroup>

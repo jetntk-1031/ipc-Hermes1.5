@@ -1,0 +1,152 @@
+(*2020-10-08*)
+(**)
+(*UI Constant*)
+VAR CONSTANT
+	c_uiC0007TableSize : UINT := 4;
+	c_uiP0200TableSize : UINT := 6;
+	c_uiP0400TableSize : UINT := 10;
+	c_uiP0600TableSize : UINT := 18;
+	c_uiP0700TableSize : UINT := 11;
+	c_uiP1040TableSize : UINT := 10;
+	c_uiP1050TableSize : UINT := 12;
+	c_uiP1080TableSize : UINT := 11;
+END_VAR
+(**)
+(*Page*)
+VAR
+	tyP0000SSaver : tyUIP0000SSaver; (*Screen Saver*)
+END_VAR
+(**)
+VAR
+	tyP0001Startup : tyUIP0001Startup; (*Startup*)
+END_VAR
+(**)
+VAR
+	tyP0002Menu : tyUIP0002Menu; (*Menu*)
+END_VAR
+(**)
+VAR
+	tyP0100Login : tyUIP0100Login; (*Login*)
+END_VAR
+(**)
+VAR
+	tyP0200OpsGen : tyUIP0200OpsGen; (*Operation*)
+END_VAR
+(**)
+VAR
+	tyP0201OpsConv : tyUIP0201OpsConv; (*Operation*)
+END_VAR
+(**)
+VAR
+	tyP0300McInfo : tyUIP0300McInfo; (*Operation*)
+END_VAR
+(**)
+VAR
+	tyP0400ProdSel : tyUIP0400ProdSel; (*Product Selection*)
+END_VAR
+(**)
+VAR
+	tyP0600Alm : tyUIP0600Alm; (*Alarm*)
+END_VAR
+(**)
+VAR
+	tyP0700LFCtrl : tyUIP0700LFCtrl; (*Lead Follow*)
+END_VAR
+(**)
+VAR
+	tyP0900GenIn : tyUIP0900GenIn; (*General Input*)
+END_VAR
+(**)
+VAR
+	tyP0910GenOut : tyUIP0910GenOut; (*General Output*)
+END_VAR
+(**)
+VAR
+	tyP0920MtrNPneuCtrl : tyUIP0920MtrNPneuCtrl; (*Motor And Pneumatic Control*)
+END_VAR
+(**)
+VAR
+	tyP0921ClampNoRS : tyUIP0921ClampNoRS; (*Clamp*)
+END_VAR
+(**)
+VAR
+	tyP0922InletNOutletShutter : tyUIP0922InletNOutletShutter; (*Flipper*)
+END_VAR
+(**)
+VAR
+	tyP0923Stopper : tyUIP0923Stopper; (*Stopper*)
+END_VAR
+(**)
+VAR
+	tyP0924ClampWithRS : tyUIP0924ClampWithRS; (*Clamp1 and Clamp2*)
+END_VAR
+(**)
+VAR
+	tyP0931ConvInv : tyUIP0931ConvInv; (*Conveyor & Inverter*)
+END_VAR
+(**)
+VAR
+	tyP0934AW : tyUIP0934AW; (*Auto Width*)
+END_VAR
+(**)
+VAR
+	tyP0940CommCtrl : tyUIP0940CommCtrl; (*Communication Control*)
+END_VAR
+(**)
+VAR
+	tyP0950Simu : tyUIP0950Simu; (*Simulation*)
+END_VAR
+(**)
+VAR
+	tyP1000Lang : tyUIP1000Lang; (*Language & Time*)
+END_VAR
+(**)
+VAR
+	tyP1020McSetNavi : tyUIP1020McSetNavi; (*Machine Setting - Navigation*)
+END_VAR
+(**)
+VAR
+	tyP1021McSetGen : tyUIP1021McSetGen; (*Machine Setting - General*)
+END_VAR
+(**)
+VAR
+	tyP1022McSetVComm : tyUIP1022McSetVComm; (*Machine Setting - Commnunication*)
+END_VAR
+(**)
+VAR
+	tyP1023McSetHComm : tyUIP1023McSetHComm; (*Machine Setting - Commnunication*)
+END_VAR
+(**)
+VAR
+	tyP1024McSetAntiGap : tyUIP1024McSetAntiGap; (*Machine Setting - Anti Gap Sensor*)
+END_VAR
+(**)
+VAR
+	tyP1026McSetTeach : tyUIP1026McSetTeach; (*Machine Setting - Teach*)
+END_VAR
+(**)
+VAR
+	tyP1040ProdSet : tyUIP1040ProdSet; (*Product Setting*)
+END_VAR
+(**)
+VAR
+	tyP1050LFSet : tyUIP1050LFSet; (*Leader Follower Setting*)
+END_VAR
+(**)
+VAR
+	tyP1080UsrMgmt : tyUIP1080UsrMgmt; (*User Management*)
+END_VAR
+(**)
+VAR
+	tyP1081UsrMgmtUsrAccessRgt : tyUIP1081UsrAccessRgt; (*User Managemen User Access*)
+END_VAR
+(**)
+(*Common*)
+VAR
+	tyCommon : tyUICom;
+END_VAR
+(**)
+(*UI Property*)
+VAR
+	tyProperty : tyUIProperty; (*Visualization Properties*)
+END_VAR

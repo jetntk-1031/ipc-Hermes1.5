@@ -1,0 +1,51 @@
+(*2020-07-27*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eNtParamAction := NtParamActIdle;
+	eStat : eNtParamAction := NtParamActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Reading Files','Writing Files','Loading Data From XML','Saving Data To XML',45('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Directory Error',sRcyText:='Unable To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Nutek Parameter Directory Error',sRcyText:='Unable To Create Nutek Parameter Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='File Open Error While Writing',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Reading',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='MpRecipeRegPar Error While Loading',sRcyText:='Unable To Register Parameter. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpRecipeXml Error While Loading',sRcyText:='Unable To Handle Recipe In Xml. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpReipeRegPar Error While Saving',sRcyText:='Unable To Register Parameter. Please Contact Nutek For A Possible Solution'),(sAlmText:='MpRecipeXml Error While Saving',sRcyText:='Unable To Handle Recipe In Xml. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Nutek Parameter Xml Directory Error',sRcyText:='Unable To Create Nutek Parameter Xml Directory. Please Contact Nutek For A Possible Solution'),85((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	tyNtParamCurr : tyNtParam;
+	tyMpNtParamCurr1 : tyNtParam;
+	bFileNotFound : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	sFileName : STRING[80] := 'NutekParameter.dat';
+	sProgNm : STRING[15] := 'NtParam';
+	sFileName1 : STRING[80] := 'NutekParameter.xml';
+	sPVName : STRING[100] := 'NtParam:tyMpNtParamCurr1';
+	tyMpNtParamMpLink : MpComIdentType;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	usiStep : USINT;
+	fbMpNtParamRegPar : MpRecipeRegPar;
+	fbMpNtParamXml : MpRecipeXml;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbDirCreate3 : fbDirCreate;
+	fbFileRead1 : fbFileFullReadEncry;
+	fbFileWrite1 : fbFileFullWriteEncry;
+	udiModuleNum : UDINT := 5151;
+END_VAR

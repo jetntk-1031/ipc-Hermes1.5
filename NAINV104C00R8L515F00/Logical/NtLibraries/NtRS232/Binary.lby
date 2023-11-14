@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Library Version="5.00.2" SubType="Binary" Description="5.00.2 - Add Flatstream Function (2019-05-29)&#xD;&#xA;5.00.1 - Add fbRS232FullReadUntilValid (20190521)&#xD;&#xA;5.00.0 - New Library Design. (20190518)" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">NtRS232.fun</File>
+    <File Description="Exported data types">Types.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="NtGeneral" />
+    <Dependency ObjectName="asieccon" FromVersion="0.00.0" />
+    <Dependency ObjectName="runtime" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsFltGen" FromVersion="0.00.0" />
+    <Dependency ObjectName="dvframe" FromVersion="0.00.0" />
+    <Dependency ObjectName="standard" FromVersion="0.00.0" />
+    <Dependency ObjectName="asstring" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsFltGen" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

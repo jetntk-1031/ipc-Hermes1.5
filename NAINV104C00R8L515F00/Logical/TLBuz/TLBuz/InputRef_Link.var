@@ -1,0 +1,8 @@
+(*2019-04-09*)
+(**)
+VAR
+	p_bLinkAlarmWarning : REFERENCE TO BOOL;
+	p_bLinkAlarmInfo : REFERENCE TO BOOL;
+	p_bLinkAlarmInfoLF : REFERENCE TO BOOL;
+	p_bLinkLFBuzMute : REFERENCE TO BOOL;
+END_VAR

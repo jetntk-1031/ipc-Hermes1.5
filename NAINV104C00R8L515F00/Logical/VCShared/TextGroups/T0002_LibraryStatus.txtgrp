@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T0002_LibraryStatus">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="400751" Value="Conveyor Status"/>
+    <Text ID="400752" Value="Conveyor Idling"/>
+    <Text ID="400753" Value="Move Board By Time Without Check"/>
+    <Text ID="400754" Value="Init Running To Outlet Sensor"/>
+    <Text ID="400755" Value="Entering Board to Inlet Sensor Deactivate"/>
+    <Text ID="400757" Value="Move Board to Outlet Sensor"/>
+    <Text ID="400758" Value="Entering Board to Outlet Sensor"/>
+    <Text ID="400759" Value="Move Board By Time With Check"/>
+    <Text ID="400760" Value="Move Boad From Inlet to Outlet Sensor"/>
+    <Text ID="400761" Value="Move Board From Inlet By Time Without Check"/>
+    <Text ID="400762" Value="Move Board From Inlet By Time With Check"/>
+    <Text ID="400764" Value="Exiting Board With Outlet Sensor Check"/>
+    <Text ID="400769" Value="Conveyor Motor Stopping"/>
+    <Text ID="400770" Value="Safety Relay Error"/>
+    <Text ID="400811" Value="Pneumatic Status:"/>
+    <Text ID="400812" Value="Pneumatic Idling"/>
+    <Text ID="400813" Value="Pneumatic Extending"/>
+    <Text ID="400814" Value="Pneumatic Retracting"/>
+    <Text ID="400815" Value="Setting All Output Off"/>
+    <Text ID="400816" Value="Setting All Output ON"/>
+    <Text ID="400817" Value="Setting Extend Output ON Only"/>
+    <Text ID="400818" Value="Setting Retract Output ON Only"/>
+    <Text ID="400819" Value="Safety Relay Error"/>
+    <Text ID="400820" Value=""/>
+    <Text ID="400821" Value="Motion Status:"/>
+    <Text ID="400822" Value="Motion Idling"/>
+    <Text ID="400823" Value="Powering Off"/>
+    <Text ID="400824" Value="Powering On"/>
+    <Text ID="400825" Value="Power On Status Checking"/>
+    <Text ID="400826" Value="Homing"/>
+    <Text ID="400827" Value="Waiting Homing Done"/>
+    <Text ID="400828" Value="Homing Done Status Checking"/>
+    <Text ID="400829" Value="Moving Absolute"/>
+    <Text ID="400830" Value="Moving Relative"/>
+    <Text ID="400831" Value="Jogging"/>
+    <Text ID="400832" Value="Axis Error Resetting"/>
+    <Text ID="400833" Value="Axis Error Status Checking"/>
+    <Text ID="400834" Value="Motion Stopping"/>
+    <Text ID="400835" Value=""/>
+    <Text ID="400836" Value="Over Current"/>
+    <Text ID="400837" Value="Over Voltage"/>
+    <Text ID="400838" Value="Under Voltage"/>
+    <Text ID="400839" Value="Input Power Phase Loss"/>
+    <Text ID="400840" Value="Regeneration Error"/>
+    <Text ID="400841" Value="Overload"/>
+    <Text ID="400842" Value="Pre-overload Warning"/>
+    <Text ID="400843" Value="U,V,W Wiring Error"/>
+    <Text ID="400844" Value="IGBT Temperature Error"/>
+    <Text ID="400845" Value="Memory Error"/>
+    <Text ID="400846" Value="Emergency Stop Activated"/>
+    <Text ID="400847" Value="Forward Limit Switch Error"/>
+    <Text ID="400848" Value="Reverse Limit Switch Error"/>
+    <Text ID="400849" Value="Forward Software Limit"/>
+    <Text ID="400850" Value="Reverse Software Limit"/>
+    <Text ID="400851" Value="DSP Firmware Upgrade"/>
+    <Text ID="400852" Value="CANopen SYNC Error"/>
+    <Text ID="400853" Value="CANopen Data Initial Error"/>
+    <Text ID="400854" Value="Adjustment Error"/>
+    <Text ID="400855" Value="Motor Protection Error"/>
+    <Text ID="400856" Value="Motor Error"/>
+    <Text ID="400857" Value="Encoder Error"/>
+    <Text ID="400858" Value="Encoder Output Error"/>
+    <Text ID="400859" Value="Serial Communication Error"/>
+    <Text ID="400860" Value="Serial Communication Time Out"/>
+    <Text ID="400861" Value="CANbus Error (Bus-off)"/>
+    <Text ID="400862" Value="CANopen SDO receive buffer overrun"/>
+    <Text ID="400863" Value="CANbus Error (Warning)"/>
+    <Text ID="400864" Value="Node Guarding or Heartbeat Error"/>
+    <Text ID="400865" Value="CANopen PDO Object Error"/>
+    <Text ID="400866" Value="Over Speed"/>
+    <Text ID="400867" Value="Abnormal Pulse Control Command"/>
+    <Text ID="400868" Value="Full Closed Loop Excessive Deviation"/>
+    <Text ID="400869" Value="Excessive Deviation"/>
+    <Text ID="400870" Value="Conveyor Sensor Interrupt"/>
+    <Text ID="400871" Value="Safety Relay Error"/>
+    <Text ID="441521" Value=""/>
+    <Text ID="441522" Value=""/>
+    <Text ID="463459" Value="Lifter Timing Belt Abnormal"/>
+    <Text ID="463460" Value="Clamper Interrupt Lifter"/>
+    <Text ID="512502" Value="Lifter Status:"/>
+    <Text ID="512503" Value="Lifter Move Up"/>
+    <Text ID="512504" Value="Lifter Move Down"/>
+    <Text ID="512505" Value="Lifter Stopping"/>
+    <Text ID="512506" Value="Lifter Idling"/>
+    <Text ID="512507" Value="Safety Relay Error"/>
+    <Text ID="512508" Value=""/>
+    <Text ID="597447" Value="Inverter Status:"/>
+    <Text ID="597448" Value="Invert Idling"/>
+    <Text ID="597449" Value="Invert Stopping"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="400751" Value="Förderband Status:"/>
+    <Text ID="400752" Value="Förderband Leerlauf"/>
+    <Text ID="400753" Value="Bewegliche Leiterplatte nach Zeit ohne Inspektion"/>
+    <Text ID="400754" Value="Testlauf zum Auslasssensor"/>
+    <Text ID="400755" Value="Eingang in Leiterplatte zum Einlasssensor deaktivieren"/>
+    <Text ID="400757" Value="Bewegliche Leiterplatte zum Auslasssensor"/>
+    <Text ID="400758" Value="Eingang in Leiterplatte zum Auslasssensor"/>
+    <Text ID="400759" Value="Bewegliche Leiterplatte nach Zeit mit Inspektion"/>
+    <Text ID="400760" Value="Bewegliche Leiterplatte vom Einlasssensor zum Auslasssensor"/>
+    <Text ID="400761" Value="Moving Circuit Board von Einlasssensor nach Zeit ohne Inspektion"/>
+    <Text ID="400762" Value="Moving Circuit Board von Einlasssensor nach Zeit mit Inspektion"/>
+    <Text ID="400764" Value="Ausgang Leiterplatte mit Auslasssensor Prüfen"/>
+    <Text ID="400769" Value="Fördermotor Stoppen"/>
+    <Text ID="400770" Value="Sicherheitsrelais Fehler"/>
+    <Text ID="400811" Value="Pneumatik Status:"/>
+    <Text ID="400812" Value="Pneumatik Leerlauf"/>
+    <Text ID="400813" Value="Pneumatik Ausfahren"/>
+    <Text ID="400814" Value="Pneumatik Einfahren"/>
+    <Text ID="400815" Value="Alle Ausgänge Ausschalten"/>
+    <Text ID="400816" Value="Alle Ausgänge Einschalten"/>
+    <Text ID="400817" Value="Nur Ausfahren Ausgänge Auf"/>
+    <Text ID="400818" Value="Nur Einfahren Ausgänge Auf"/>
+    <Text ID="400819" Value="Sicherheitsrelais Fehler"/>
+    <Text ID="400820" Value=""/>
+    <Text ID="400821" Value="Bewegung Status:"/>
+    <Text ID="400822" Value="Bewegung Leerlauf"/>
+    <Text ID="400823" Value="Ausschalten"/>
+    <Text ID="400824" Value="Einschalten"/>
+    <Text ID="400825" Value="Einschaltstatus Prüfen"/>
+    <Text ID="400826" Value="Homing"/>
+    <Text ID="400827" Value="Warten Homing Fertig"/>
+    <Text ID="400828" Value="Homing Fertig Statusprüfung"/>
+    <Text ID="400829" Value="Bewegung Absolut"/>
+    <Text ID="400830" Value="Bewegung Relativ"/>
+    <Text ID="400831" Value="Rütteln"/>
+    <Text ID="400832" Value="Achse Zurücksetzen Fehler"/>
+    <Text ID="400833" Value="Achsfehler Statusprüfung"/>
+    <Text ID="400834" Value="Bewegungsstopp"/>
+    <Text ID="400835" Value=""/>
+    <Text ID="400836" Value="Überstrom"/>
+    <Text ID="400837" Value="Überspannung"/>
+    <Text ID="400838" Value="Unterspannung"/>
+    <Text ID="400839" Value="Eingangsleistung Phase Verlust"/>
+    <Text ID="400840" Value="Wiederherstellungsfehler"/>
+    <Text ID="400841" Value="Überlastung"/>
+    <Text ID="400842" Value="Vor-Überlastung Warnung"/>
+    <Text ID="400843" Value="U,V,W Verdrahtung Fehler"/>
+    <Text ID="400844" Value="IGBT Temperatur Fehler"/>
+    <Text ID="400845" Value="Speicher Fehler"/>
+    <Text ID="400846" Value="Notstopp aktiviert"/>
+    <Text ID="400847" Value="Vorwärts-Endschalter Fehler"/>
+    <Text ID="400848" Value="Umkehr-Endschalter Fehler"/>
+    <Text ID="400849" Value="Vorwärts Softwarebeschränkung"/>
+    <Text ID="400850" Value="Umkehr Softwarebeschränkung"/>
+    <Text ID="400851" Value="DSP Firmware-Aktualisierung"/>
+    <Text ID="400852" Value="CANopen SYNC Fehler"/>
+    <Text ID="400853" Value="CANopen Data Initial Fehler"/>
+    <Text ID="400854" Value="Anpassungsfehler"/>
+    <Text ID="400855" Value="Motorschutz Fehler"/>
+    <Text ID="400856" Value="Motor Fehler"/>
+    <Text ID="400857" Value="Encoder Fehler"/>
+    <Text ID="400858" Value="Encoder-Ausgang Fehler"/>
+    <Text ID="400859" Value="Serielle Übertragung Fehler"/>
+    <Text ID="400860" Value="Serielle Übertragung Zeitüberschreitung"/>
+    <Text ID="400861" Value="CANbus Fehler (Bus-off)"/>
+    <Text ID="400862" Value="CANopen SDO Puffer Überschreitung"/>
+    <Text ID="400863" Value="CANbus Fehler (Warnung)"/>
+    <Text ID="400864" Value="Knotenüberwachung oder Heartbeat Fehler"/>
+    <Text ID="400865" Value="CANopen PDO Objekt Fehler"/>
+    <Text ID="400866" Value="Überdrehzahl"/>
+    <Text ID="400867" Value="Unregelmäßiges Puls-Kontroll-Kommando"/>
+    <Text ID="400868" Value="Vollständig geschlossene Programmschleife übermäßige Abweichung "/>
+    <Text ID="400869" Value="Übermäßige Abweichung"/>
+    <Text ID="400870" Value="Förderband  Sensor Unterbrechung"/>
+    <Text ID="400871" Value="Sicherheitsrelais Fehler"/>
+    <Text ID="441521" Value=""/>
+    <Text ID="441522" Value=""/>
+    <Text ID="463459" Value=""/>
+    <Text ID="463460" Value=""/>
+    <Text ID="512502" Value=""/>
+    <Text ID="512503" Value=""/>
+    <Text ID="512504" Value=""/>
+    <Text ID="512505" Value=""/>
+    <Text ID="512506" Value=""/>
+    <Text ID="512507" Value=""/>
+    <Text ID="512508" Value=""/>
+    <Text ID="597447" Value=""/>
+    <Text ID="597448" Value=""/>
+    <Text ID="597449" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="400751" Value="输送机状态："/>
+    <Text ID="400752" Value="输送机闲置"/>
+    <Text ID="400753" Value="按时移动电路板而不检查"/>
+    <Text ID="400754" Value="初始运行至出口传感器"/>
+    <Text ID="400755" Value="输入电路板至入口传感器关闭"/>
+    <Text ID="400757" Value="移动电路板至出口传感器"/>
+    <Text ID="400758" Value="输入电路板至出口传感器"/>
+    <Text ID="400759" Value="按时移动电路板带检查"/>
+    <Text ID="400760" Value="移动电路板从入口到出口传感器"/>
+    <Text ID="400761" Value="按时间从入口移动电路板而不检查"/>
+    <Text ID="400762" Value="按时间从入口移动电路板带检查"/>
+    <Text ID="400764" Value="输出电路板自带出口传感器检测"/>
+    <Text ID="400769" Value="运输带电机停止"/>
+    <Text ID="400770" Value="安全继电器报警"/>
+    <Text ID="400811" Value="气缸状态："/>
+    <Text ID="400812" Value="气缸闲置"/>
+    <Text ID="400813" Value="气缸延伸"/>
+    <Text ID="400814" Value="气缸回缩"/>
+    <Text ID="400815" Value="设置所有输出关掉"/>
+    <Text ID="400816" Value="设置所有输出打开"/>
+    <Text ID="400817" Value="设置延伸输出打开"/>
+    <Text ID="400818" Value="设置回缩输出打开"/>
+    <Text ID="400819" Value="安全继电器报警"/>
+    <Text ID="400820" Value=""/>
+    <Text ID="400821" Value="动力状态："/>
+    <Text ID="400822" Value="动力闲置"/>
+    <Text ID="400823" Value="断电"/>
+    <Text ID="400824" Value="通电"/>
+    <Text ID="400825" Value="通电状态检测"/>
+    <Text ID="400826" Value="归位"/>
+    <Text ID="400827" Value="等待归位完成"/>
+    <Text ID="400828" Value="归位完成状态检测"/>
+    <Text ID="400829" Value="绝对移动"/>
+    <Text ID="400830" Value="相对移动"/>
+    <Text ID="400831" Value="点动"/>
+    <Text ID="400832" Value="轴报警复位"/>
+    <Text ID="400833" Value="轴报警状态检测"/>
+    <Text ID="400834" Value="动力停止"/>
+    <Text ID="400835" Value=""/>
+    <Text ID="400836" Value="过电流"/>
+    <Text ID="400837" Value="过电压"/>
+    <Text ID="400838" Value="低电压"/>
+    <Text ID="400839" Value="主回路电源异常"/>
+    <Text ID="400840" Value="回生错误"/>
+    <Text ID="400841" Value="过负荷"/>
+    <Text ID="400842" Value="预先过负载警告"/>
+    <Text ID="400843" Value="马达U，V，W 接线错误"/>
+    <Text ID="400844" Value="IGBT 过热"/>
+    <Text ID="400845" Value="记忆体异常"/>
+    <Text ID="400846" Value="紧急停止"/>
+    <Text ID="400847" Value="正像极限异常"/>
+    <Text ID="400848" Value="反向极限异常"/>
+    <Text ID="400849" Value="软体正向极限"/>
+    <Text ID="400850" Value="软体反向极限"/>
+    <Text ID="400851" Value="DSP 韧体升级"/>
+    <Text ID="400852" Value="CANopen 同步异常"/>
+    <Text ID="400853" Value="CANopen 资料初始错误"/>
+    <Text ID="400854" Value="校正异常"/>
+    <Text ID="400855" Value="马达碰撞错误"/>
+    <Text ID="400856" Value="马达匹配错误"/>
+    <Text ID="400857" Value="编码器错误"/>
+    <Text ID="400858" Value="检出器输出异常"/>
+    <Text ID="400859" Value="串联通讯异常"/>
+    <Text ID="400860" Value="串联通讯逾时"/>
+    <Text ID="400861" Value="CANbus 硬体异常(Bus-off)"/>
+    <Text ID="400862" Value="CANopen SDO 接收溢位"/>
+    <Text ID="400863" Value="CANbus 硬体异常(警告)"/>
+    <Text ID="400864" Value="节点保护功能或心跳监控错误"/>
+    <Text ID="400865" Value="CANopen PDO 物件错误"/>
+    <Text ID="400866" Value="过速度"/>
+    <Text ID="400867" Value="异常脈波控制命令"/>
+    <Text ID="400868" Value="全闭环位置控制误差过大"/>
+    <Text ID="400869" Value="位置控制误差过大"/>
+    <Text ID="400870" Value="输送传感器干扰"/>
+    <Text ID="400871" Value="安全继电器报警"/>
+    <Text ID="441521" Value=""/>
+    <Text ID="441522" Value=""/>
+    <Text ID="463459" Value=""/>
+    <Text ID="463460" Value=""/>
+    <Text ID="512502" Value=""/>
+    <Text ID="512503" Value=""/>
+    <Text ID="512504" Value=""/>
+    <Text ID="512505" Value=""/>
+    <Text ID="512506" Value=""/>
+    <Text ID="512507" Value=""/>
+    <Text ID="512508" Value=""/>
+    <Text ID="597447" Value=""/>
+    <Text ID="597448" Value=""/>
+    <Text ID="597449" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="400751" Value=""/>
+    <Text ID="400752" Value=""/>
+    <Text ID="400753" Value=""/>
+    <Text ID="400754" Value=""/>
+    <Text ID="400755" Value=""/>
+    <Text ID="400757" Value=""/>
+    <Text ID="400758" Value=""/>
+    <Text ID="400759" Value=""/>
+    <Text ID="400760" Value=""/>
+    <Text ID="400761" Value=""/>
+    <Text ID="400762" Value=""/>
+    <Text ID="400764" Value=""/>
+    <Text ID="400769" Value=""/>
+    <Text ID="400770" Value=""/>
+    <Text ID="400811" Value=""/>
+    <Text ID="400812" Value=""/>
+    <Text ID="400813" Value=""/>
+    <Text ID="400814" Value=""/>
+    <Text ID="400815" Value=""/>
+    <Text ID="400816" Value=""/>
+    <Text ID="400817" Value=""/>
+    <Text ID="400818" Value=""/>
+    <Text ID="400819" Value=""/>
+    <Text ID="400820" Value=""/>
+    <Text ID="400821" Value=""/>
+    <Text ID="400822" Value=""/>
+    <Text ID="400823" Value=""/>
+    <Text ID="400824" Value=""/>
+    <Text ID="400825" Value=""/>
+    <Text ID="400826" Value=""/>
+    <Text ID="400827" Value=""/>
+    <Text ID="400828" Value=""/>
+    <Text ID="400829" Value=""/>
+    <Text ID="400830" Value=""/>
+    <Text ID="400831" Value=""/>
+    <Text ID="400832" Value=""/>
+    <Text ID="400833" Value=""/>
+    <Text ID="400834" Value=""/>
+    <Text ID="400835" Value=""/>
+    <Text ID="400836" Value=""/>
+    <Text ID="400837" Value=""/>
+    <Text ID="400838" Value=""/>
+    <Text ID="400839" Value=""/>
+    <Text ID="400840" Value=""/>
+    <Text ID="400841" Value=""/>
+    <Text ID="400842" Value=""/>
+    <Text ID="400843" Value=""/>
+    <Text ID="400844" Value=""/>
+    <Text ID="400845" Value=""/>
+    <Text ID="400846" Value=""/>
+    <Text ID="400847" Value=""/>
+    <Text ID="400848" Value=""/>
+    <Text ID="400849" Value=""/>
+    <Text ID="400850" Value=""/>
+    <Text ID="400851" Value=""/>
+    <Text ID="400852" Value=""/>
+    <Text ID="400853" Value=""/>
+    <Text ID="400854" Value=""/>
+    <Text ID="400855" Value=""/>
+    <Text ID="400856" Value=""/>
+    <Text ID="400857" Value=""/>
+    <Text ID="400858" Value=""/>
+    <Text ID="400859" Value=""/>
+    <Text ID="400860" Value=""/>
+    <Text ID="400861" Value=""/>
+    <Text ID="400862" Value=""/>
+    <Text ID="400863" Value=""/>
+    <Text ID="400864" Value=""/>
+    <Text ID="400865" Value=""/>
+    <Text ID="400866" Value=""/>
+    <Text ID="400867" Value=""/>
+    <Text ID="400868" Value=""/>
+    <Text ID="400869" Value=""/>
+    <Text ID="400870" Value=""/>
+    <Text ID="400871" Value=""/>
+    <Text ID="441521" Value=""/>
+    <Text ID="441522" Value=""/>
+    <Text ID="463459" Value=""/>
+    <Text ID="463460" Value=""/>
+    <Text ID="512502" Value=""/>
+    <Text ID="512503" Value=""/>
+    <Text ID="512504" Value=""/>
+    <Text ID="512505" Value=""/>
+    <Text ID="512506" Value=""/>
+    <Text ID="512507" Value=""/>
+    <Text ID="512508" Value=""/>
+    <Text ID="597447" Value=""/>
+    <Text ID="597448" Value=""/>
+    <Text ID="597449" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="400751" Value="30"/>
+    <Index ID="400752" Value="31"/>
+    <Index ID="400753" Value="37"/>
+    <Index ID="400754" Value="32"/>
+    <Index ID="400755" Value="34"/>
+    <Index ID="400757" Value="36"/>
+    <Index ID="400758" Value="33"/>
+    <Index ID="400759" Value="38"/>
+    <Index ID="400760" Value="39"/>
+    <Index ID="400761" Value="40"/>
+    <Index ID="400762" Value="41"/>
+    <Index ID="400764" Value="35"/>
+    <Index ID="400769" Value="42"/>
+    <Index ID="400770" Value="43"/>
+    <Index ID="400811" Value="90"/>
+    <Index ID="400812" Value="91"/>
+    <Index ID="400813" Value="92"/>
+    <Index ID="400814" Value="93"/>
+    <Index ID="400815" Value="94"/>
+    <Index ID="400816" Value="95"/>
+    <Index ID="400817" Value="96"/>
+    <Index ID="400818" Value="97"/>
+    <Index ID="400819" Value="98"/>
+    <Index ID="400820" Value="99"/>
+    <Index ID="400821" Value="100"/>
+    <Index ID="400822" Value="101"/>
+    <Index ID="400823" Value="102"/>
+    <Index ID="400824" Value="103"/>
+    <Index ID="400825" Value="104"/>
+    <Index ID="400826" Value="105"/>
+    <Index ID="400827" Value="106"/>
+    <Index ID="400828" Value="107"/>
+    <Index ID="400829" Value="108"/>
+    <Index ID="400830" Value="109"/>
+    <Index ID="400831" Value="110"/>
+    <Index ID="400832" Value="111"/>
+    <Index ID="400833" Value="112"/>
+    <Index ID="400834" Value="113"/>
+    <Index ID="400835" Value="114"/>
+    <Index ID="400836" Value="115"/>
+    <Index ID="400837" Value="116"/>
+    <Index ID="400838" Value="117"/>
+    <Index ID="400839" Value="118"/>
+    <Index ID="400840" Value="119"/>
+    <Index ID="400841" Value="120"/>
+    <Index ID="400842" Value="121"/>
+    <Index ID="400843" Value="122"/>
+    <Index ID="400844" Value="123"/>
+    <Index ID="400845" Value="124"/>
+    <Index ID="400846" Value="125"/>
+    <Index ID="400847" Value="126"/>
+    <Index ID="400848" Value="127"/>
+    <Index ID="400849" Value="128"/>
+    <Index ID="400850" Value="129"/>
+    <Index ID="400851" Value="130"/>
+    <Index ID="400852" Value="131"/>
+    <Index ID="400853" Value="132"/>
+    <Index ID="400854" Value="133"/>
+    <Index ID="400855" Value="134"/>
+    <Index ID="400856" Value="135"/>
+    <Index ID="400857" Value="136"/>
+    <Index ID="400858" Value="137"/>
+    <Index ID="400859" Value="138"/>
+    <Index ID="400860" Value="139"/>
+    <Index ID="400861" Value="140"/>
+    <Index ID="400862" Value="141"/>
+    <Index ID="400863" Value="142"/>
+    <Index ID="400864" Value="143"/>
+    <Index ID="400865" Value="144"/>
+    <Index ID="400866" Value="145"/>
+    <Index ID="400867" Value="146"/>
+    <Index ID="400868" Value="147"/>
+    <Index ID="400869" Value="148"/>
+    <Index ID="400870" Value="149"/>
+    <Index ID="400871" Value="150"/>
+    <Index ID="441521" Value="44"/>
+    <Index ID="441522" Value="45"/>
+    <Index ID="463459" Value="151"/>
+    <Index ID="463460" Value="152"/>
+    <Index ID="512502" Value="60"/>
+    <Index ID="512503" Value="62"/>
+    <Index ID="512504" Value="63"/>
+    <Index ID="512505" Value="64"/>
+    <Index ID="512506" Value="61"/>
+    <Index ID="512507" Value="65"/>
+    <Index ID="512508" Value="66"/>
+    <Index ID="597447" Value="80"/>
+    <Index ID="597448" Value="81"/>
+    <Index ID="597449" Value="84"/>
+  </IndexMap>
+</TextGroup>

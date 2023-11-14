@@ -1,0 +1,7 @@
+(*2021-08-01*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+	bRmtHermesRun : BOOL;
+	bRmtHermesStop : BOOL;
+END_VAR

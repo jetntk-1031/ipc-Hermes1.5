@@ -1,0 +1,187 @@
+(*2020-10-08*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_UIStat : UDINT;
+	p_UIStatus : UDINT;
+	p_UIStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_UIStartupAct : UDINT;
+	p_UIHWInfoAct : UDINT;
+	p_UITLBuzAct : UDINT;
+	p_UIRstErrAct : UDINT;
+	p_UIProdRcpAct : UDINT;
+	p_UIMpProdRcpAct : UDINT;
+	p_UIMcParamAct : UDINT;
+	p_UIUsrMgmtAct : UDINT;
+	p_UIUSSMEMAAct : UDINT;
+	p_UIDSSMEMAAct : UDINT;
+	p_UIUSSMEMA2Act : UDINT;
+	p_UIStopperAct : UDINT;
+	p_UIConvAct : UDINT;
+	p_UIAWOpenAct : UDINT;
+	p_UIInvertAct : UDINT;
+	p_UIOpsAct : UDINT;
+	p_UIHermesAct : UDINT;
+	p_UILFLeaderAct : UDINT;
+	p_UIDOAct : UDINT;
+	p_UIClampAct : UDINT;
+	p_UIInShutterAct : UDINT;
+	p_UIOutShutterAct : UDINT;
+	p_UIClamp1Act : UDINT;
+	p_UIClamp2Act : UDINT;
+	p_UIClamp3Act : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMcParamWr : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIProdRcpInfoIn : UDINT;
+	p_UIProdRcpSearch : UDINT;
+	p_UIProdRcpScan : UDINT;
+	p_UIProdRcpCurrRcpWr : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIUsrMgmtInfoIn : UDINT;
+	p_UIUsrMgmtAccessRightLvl1Wr : UDINT;
+	p_UIUsrMgmtAccessRightLvl2Wr : UDINT;
+	p_UIUsrMgmtAccessRightLvl3Wr : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIHermesUSParamWr : UDINT;
+	p_UIHermesDSParamWr : UDINT;
+	p_UIHermesSvyParamWr : UDINT;
+END_VAR
+(**)
+VAR
+	p_UISetIPAddr : UDINT;
+	p_UISetSubnetMask : UDINT;
+	p_UINetworkMode : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMnlMod : UDINT;
+	p_UIUIMnlMod : UDINT;
+	p_UIMuteBuz : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMnlAWGoWidth : UDINT;
+	p_UIMnlAWNomSpd : UDINT;
+	p_UIMnlAWTargetPos : UDINT;
+	p_UIMnlAWStepSize : UDINT;
+	p_UIMnlAWJogSpd : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMnlInvertNomSpd : UDINT;
+	p_UIMnlInvertTargetPos : UDINT;
+	p_UIMnlInvertStepSize : UDINT;
+	p_UIMnlInvertJogSpd : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIVSMEMAUSEn : UDINT;
+	p_UIVSMEMADSEn : UDINT;
+	p_UIVSMEMAUBA : UDINT;
+	p_UIVSMEMAUBAStat : UDINT;
+	p_UIVSMEMADSB : UDINT;
+	p_UIVSMEMAUS2En : UDINT;
+	p_UIVSMEMAUBA2 : UDINT;
+	p_UIVSMEMAUBAStat2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_UILeaderRun : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIProdAccData : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIOpsBypsInitConv : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIRlsNewProd : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIConvDCCtrl : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIInvertDCCtrl : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIInvertDCModBrakePress : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMismatchOverWriteConfig : UDINT;
+	p_UITempAddrFillDone : UDINT;
+	p_UIIPConfigChgDone : UDINT;
+	p_UIOverwriteIP : UDINT;
+	p_UIOverwriteSubnet : UDINT;
+	p_UIOverwriteEthMode : UDINT;
+END_VAR
+(**)
+VAR
+	p_UISongTitile : UDINT;
+	p_UISongPlay : UDINT;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	p_UIBypassTopCover1 : UDINT;
+	p_UIMachineSafetySigToDS : UDINT;
+	p_UIMachineSafetySigToUS : UDINT;
+	p_UISafetyTopCoverSWCoil1 : UDINT;
+	p_UITopCvrUnlckToUS : UDINT;
+	p_UITopCvrUnlckToDS : UDINT;
+	p_UICoverPBLED1 : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMnlModBypassTopCover1 : UDINT;
+	p_UIMnlModMachineSafetySigToDS : UDINT;
+	p_UIMnlModMachineSafetySigToUS : UDINT;
+	p_UIMnlModSafetyTopCoverSWCoil1 : UDINT;
+	p_UIMnlModTopCvrUnlckToUS : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIMnlModTopCvrUnlckToDS : UDINT;
+	p_UIMnlModCoverPBLED1 : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIDSTranErr : UDINT;
+END_VAR
+(**)
+VAR
+	p_UIRtnBrdReset : UDINT;
+	p_UIRtnBrdResetBtn : UDINT;
+END_VAR
+(**)
+VAR
+	p_UISimuAct : UDINT;
+	p_UIMnlSimu : UDINT;
+	P_UISectionLdr : UDINT;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	p_UISaveHMIConfigure : UDINT;
+	p_UISaveHMISvyConfig : UDINT;
+	p_UIQueryBoardInfo : UDINT;
+END_VAR

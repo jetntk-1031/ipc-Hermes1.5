@@ -1,0 +1,170 @@
+(*2020-10-06*)
+(**)
+(*General*)
+VAR
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+	p_bRun : REFERENCE TO BOOL;
+	p_bStop : REFERENCE TO BOOL;
+	p_bStep : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bInitGdBrd : REFERENCE TO BOOL;
+	p_bInsertGdBrd : REFERENCE TO BOOL;
+	p_eConvDirection : REFERENCE TO eConvDir;
+	p_eUSCommMod : REFERENCE TO eMcSetCommMod;
+	p_eDSCommMod : REFERENCE TO eMcSetCommMod;
+	p_bGoToStandby : REFERENCE TO BOOL;
+	p_bUSAllow : REFERENCE TO BOOL;
+	p_bDSAllow : REFERENCE TO BOOL;
+	p_eUSComm2Mod : REFERENCE TO eMcSetCommMod;
+	p_bRtrnUSAllow : REFERENCE TO BOOL;
+	p_bRtrnDSAllow : REFERENCE TO BOOL;
+	p_bLeftSen : REFERENCE TO BOOL;
+	p_bRightSen : REFERENCE TO BOOL;
+	p_bMidSen : REFERENCE TO BOOL;
+	p_bClamp2Sen : REFERENCE TO BOOL;
+	p_bClamp3Sen : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eUSSMEMAStat : REFERENCE TO eSMEMAAction;
+	p_eUSSMEMAStatus : REFERENCE TO eFBStatus;
+	p_bUSSMEMATransporting : REFERENCE TO BOOL;
+	p_bUSSMEMAConvStart : REFERENCE TO BOOL;
+	p_bUSSMEMAConvStop : REFERENCE TO BOOL;
+	p_bUSSMEMAUSRdy : REFERENCE TO BOOL;
+	p_bUSSMEMAUSGdBrdRdy : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eUSSMEMA2Stat : REFERENCE TO eSMEMAAction;
+	p_eUSSMEMA2Status : REFERENCE TO eFBStatus;
+	p_bUSSMEMA2Transporting : REFERENCE TO BOOL;
+	p_bUSSMEMA2ConvStart : REFERENCE TO BOOL;
+	p_bUSSMEMA2ConvStop : REFERENCE TO BOOL;
+	p_bUSSMEMA2USRdy : REFERENCE TO BOOL;
+	p_bUSSMEMA2USGdBrdRdy : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eDSSMEMAStat : REFERENCE TO eSMEMAAction;
+	p_eDSSMEMAStatus : REFERENCE TO eFBStatus;
+	p_bDSSMEMAConvStart : REFERENCE TO BOOL;
+	p_bDSSMEMAConvStop : REFERENCE TO BOOL;
+	p_bDSSMEMATimer : REFERENCE TO BOOL;
+	p_bDBAOnRgtSen : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bUSHermesTransporting : REFERENCE TO BOOL;
+	p_bUSHermesStopTransport : REFERENCE TO BOOL;
+	p_bUSHermesUSRdy : REFERENCE TO BOOL;
+	p_bUSHermesUSGdRdy : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bDSHermesTransporting : REFERENCE TO BOOL;
+	p_bDSHermesStopTransport : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eConvStat : REFERENCE TO eConvAction;
+	p_eConvStatus : REFERENCE TO eFBStatus;
+	p_bConvHvBrd : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eStopperStat : REFERENCE TO ePneuAction;
+	p_eStopperStatus : REFERENCE TO eFBStatus;
+	p_bStopperExtended : REFERENCE TO BOOL;
+	p_bStopperRetracted : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClampStat : REFERENCE TO ePneuAction;
+	p_eClampStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eInletShutterStat : REFERENCE TO ePneuAction;
+	p_eInletShutterStatus : REFERENCE TO eFBStatus;
+	p_bInletShutterOpen : REFERENCE TO BOOL;
+	p_bInletShutterClose : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eOutletShutterStat : REFERENCE TO ePneuAction;
+	p_eOutletShutterStatus : REFERENCE TO eFBStatus;
+	p_bOutletShutterOpen : REFERENCE TO BOOL;
+	p_bOutletShutterClose : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClamp1Stat : REFERENCE TO ePneuAction;
+	p_eClamp1Status : REFERENCE TO eFBStatus;
+	p_bClampRS1 : REFERENCE TO BOOL;
+	p_bUnClampRS1 : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClamp2Stat : REFERENCE TO ePneuAction;
+	p_eClamp2Status : REFERENCE TO eFBStatus;
+	p_bClampRS2 : REFERENCE TO BOOL;
+	p_bUnClampRS2 : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClamp3Stat : REFERENCE TO ePneuAction;
+	p_eClamp3Status : REFERENCE TO eFBStatus;
+	p_bClampRS3 : REFERENCE TO BOOL;
+	p_bUnClampRS3 : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eInvertStat : REFERENCE TO eMotorBrkAction;
+	p_eInvertStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eAWStat : REFERENCE TO eAWAction;
+	p_eAWStatus : REFERENCE TO eFBStatus;
+	p_bAWWidthPosDiff : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bClampPrep : REFERENCE TO BOOL;
+	p_bClampDis : REFERENCE TO BOOL;
+	p_eClampOption : REFERENCE TO eClampType;
+END_VAR
+(**)
+VAR
+	p_bInletShutterPrep : REFERENCE TO BOOL;
+	p_bInletShutterDis : REFERENCE TO BOOL;
+	p_bOutletShutterPrep : REFERENCE TO BOOL;
+	p_bOutletShutterDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bMachineSafetyPrep : REFERENCE TO BOOL;
+	p_bUnlockCovPrep : REFERENCE TO BOOL;
+	p_bLinkDICoverSwitchSig2 : REFERENCE TO BOOL;
+	p_bLinkUIBypsCoverSWPress1 : REFERENCE TO BOOL;
+	p_bLinkDIUnlockCoverSigFromDS : REFERENCE TO BOOL;
+	p_bLinkDISafetySigFromDS : REFERENCE TO BOOL;
+	p_bLinkDISafetySigFromUS : REFERENCE TO BOOL;
+	p_bLinkDIUnlockCoverSigFromUS : REFERENCE TO BOOL;
+END_VAR
+(*Route Action Hermes Operaiton*)
+VAR
+	p_iHermesAction : REFERENCE TO INT;
+	p_bUSReversal : REFERENCE TO BOOL;
+	p_bHermesEntToReversePosition : REFERENCE TO BOOL;
+END_VAR

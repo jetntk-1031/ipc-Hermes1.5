@@ -1,0 +1,34 @@
+(*2020-09-10*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_DSHermes2Stat : UDINT;
+	p_DSHermes2Status : UDINT;
+	p_DSHermes2StatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_DSHermes2AlmData : UDINT;
+	p_DSHermes2AlmData1 : UDINT;
+	p_DSHermes2AlmData2 : UDINT;
+	p_DSHermes2AlmData3 : UDINT;
+	p_DSHermes2AlmData4 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_DSHermes2Connected : UDINT;
+	p_DSHermes2HandshakeDone : UDINT;
+	p_DSHermes2USRdy : UDINT;
+	p_DSHermes2DSRdy : UDINT;
+	p_DSHermes2USGdRdy : UDINT;
+	p_DSHermes2DSGdRdy : UDINT;
+	p_DSHermes2Transporting : UDINT;
+	p_DSHermes2StopTransport : UDINT;
+	p_DSHermes2InternalSnd : UDINT;
+	p_DSHermes2CommandParam : UDINT;
+	p_DSHermes2BrdAvlSnd : UDINT;
+	p_DSHermes2TransportFinish : UDINT;
+	p_DSHermes2TransportFinishMsg : UDINT;
+END_VAR

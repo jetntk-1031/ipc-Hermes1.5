@@ -1,0 +1,18 @@
+(*2019-04-24*)
+(**)
+(*Action & State & Status*)
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_LCS_LCSMngRcp_LCSAct : UDINT;
+	p_LCS_LCSMngRcp_LCSIdxAct : UDINT;
+	p_LCS_LCSMngRcp_LCSIdxStat : UDINT;
+	p_LCS_LCSMngRcp_LCSProdRcpInfo : UDINT;
+	p_LCS_LCSLF_LCSAct : UDINT;
+	p_LCS_LCSLF_LCSProdRcpInfo : UDINT;
+	p_LCSChkLmtOK : UDINT;
+	p_LCSChkLmtNG : UDINT;
+	p_LCSSectionLeaderEn : UDINT;
+END_VAR

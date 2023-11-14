@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Update LogProgram.txt</Object>
+    <Object Type="File">Update LogLibrary.txt</Object>
+    <Object Type="Package">Data</Object>
+    <Object Type="File">SoftwareVersion.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package">NtLibraries</Object>
+    <Object Type="Package">UI</Object>
+    <Object Type="Package">Startup</Object>
+    <Object Type="Package">General</Object>
+    <Object Type="Package">UsrFolder</Object>
+    <Object Type="Package">LibVer</Object>
+    <Object Type="Package">Time</Object>
+    <Object Type="Package">HWInfo</Object>
+    <Object Type="Package">TLBuz</Object>
+    <Object Type="Package">Alarm</Object>
+    <Object Type="Package">RstErr</Object>
+    <Object Type="Package">ProdRcp</Object>
+    <Object Type="Package">MpProdRcp</Object>
+    <Object Type="Package">McParam</Object>
+    <Object Type="Package">NtParam</Object>
+    <Object Type="Package">UsrMgmt</Object>
+    <Object Type="Package">SMEMA</Object>
+    <Object Type="Package">Pneu</Object>
+    <Object Type="Package">Conv</Object>
+    <Object Type="Package">CANOpenServo</Object>
+    <Object Type="Package">DInput</Object>
+    <Object Type="Package">DOutput</Object>
+    <Object Type="Package">Hermes</Object>
+    <Object Type="Package">LF</Object>
+    <Object Type="Package">LCS</Object>
+    <Object Type="Package">Operations</Object>
+    <Object Type="Package">Machine</Object>
+    <Object Type="Package">MotorBrk</Object>
+    <Object Type="Package">Simulation</Object>
+  </Objects>
+</Package>

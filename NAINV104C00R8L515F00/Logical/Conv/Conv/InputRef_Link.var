@@ -1,0 +1,17 @@
+(*2019-04-09*)
+(**)
+VAR
+	p_bLinkOpsRun : REFERENCE TO BOOL;
+	p_bLinkOpsSimu : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bLinkUIBypsInitConv : REFERENCE TO BOOL;
+	p_eLinkMcParamUSCommMod : REFERENCE TO eMcSetCommMod;
+	p_bLinkOpsInvertBrdInserted : REFERENCE TO BOOL;
+	p_eLinkMcParamUSComm2Mod : REFERENCE TO eMcSetCommMod;
+	p_tyNtParamCurr : REFERENCE TO tyNtParam;
+	p_bLinkOpsInvertOnceTwicePCBOut : REFERENCE TO BOOL;
+	p_usiLinkMcMod : REFERENCE TO USINT;
+	New_Variable : USINT;
+END_VAR

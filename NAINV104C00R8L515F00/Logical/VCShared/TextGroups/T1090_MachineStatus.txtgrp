@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1090_MachineStatus">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="189935" Value="Machine Status:"/>
+    <Text ID="189936" Value="Auto"/>
+    <Text ID="189937" Value="Standby"/>
+    <Text ID="189938" Value="Manual"/>
+    <Text ID="189942" Value=" "/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="189935" Value="Maschinenstatus:"/>
+    <Text ID="189936" Value="Auto"/>
+    <Text ID="189937" Value="Standby"/>
+    <Text ID="189938" Value="Manuelle"/>
+    <Text ID="189942" Value=" "/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="189935" Value="机器状态："/>
+    <Text ID="189936" Value="自动"/>
+    <Text ID="189937" Value="待机"/>
+    <Text ID="189938" Value="手动"/>
+    <Text ID="189942" Value=" "/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="189935" Value=""/>
+    <Text ID="189936" Value=""/>
+    <Text ID="189937" Value=""/>
+    <Text ID="189938" Value=""/>
+    <Text ID="189942" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="189935" Value="0"/>
+    <Index ID="189936" Value="1"/>
+    <Index ID="189937" Value="2"/>
+    <Index ID="189938" Value="3"/>
+    <Index ID="189942" Value="4"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,40 @@
+(*2021-08-01*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eHermesAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_tyParam : REFERENCE TO tyHermesRmtParam;
+	p_sIPAddr : REFERENCE TO STRING[15];
+	p_tyDTStructure : REFERENCE TO DTStructure;
+	p_dtCurrDT : REFERENCE TO DATE_AND_TIME;
+	p_sMcId : REFERENCE TO STRING[80];
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_bRmtPrep : REFERENCE TO BOOL;
+	p_bRmtEn : REFERENCE TO BOOL;
+	p_udiSndBffrSize : REFERENCE TO UDINT;
+	p_udiRcvBffrSize : REFERENCE TO UDINT;
+	p_udiAliveIdleTimeInSec : REFERENCE TO UDINT;
+	p_udiFileKeepDay : REFERENCE TO UDINT;
+	p_sConfigFileName : REFERENCE TO STRING[80];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_iInput : REFERENCE TO INT;
+	p_iOutput : REFERENCE TO INT;
+	p_sInfoMsg : REFERENCE TO STRING[200];
+	p_tyHermesConfiguration : REFERENCE TO tyHermesConfiguration;
+	p_eHermesStat : REFERENCE TO eHermesAction;
+	p_eHermesStatus : REFERENCE TO eFBStatus;
+	p_eMcParamStat : REFERENCE TO eMcParamAction;
+	p_eMcParamStatus : REFERENCE TO eFBStatus;
+END_VAR

@@ -1,0 +1,27 @@
+(*2020-08-06*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_LFFollowerStatus : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_LFFollowerAlmData : UDINT;
+	p_LFFollowerInfoData : UDINT;
+	p_LFFollowerInfoData1 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_LFFollowerUSAllow : UDINT;
+	p_LFFollowerDSAllow : UDINT;
+	p_LFFollowerProdAccDataMnl : UDINT;
+	p_LFFollowerProdUpdtDataMnl : UDINT;
+	p_LFFollowerMagAccDataMnl : UDINT;
+	p_LFFollowerTimeAct : UDINT;
+	p_LFFollowerSetDT : UDINT;
+	p_LFFollowerWaitRlsBrd : UDINT;
+	p_LFFollowerUpdtProdRcp : UDINT;
+	p_LFFollowerLdrSeqCtrlInActive : UDINT;
+END_VAR

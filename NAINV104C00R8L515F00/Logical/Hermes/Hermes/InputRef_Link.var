@@ -1,0 +1,29 @@
+(*2019-05-04*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eLinkMcParamUSCommMod : REFERENCE TO eMcSetCommMod;
+	p_eLinkMcParamUSComm2Mod : REFERENCE TO eMcSetCommMod;
+	pa_tyLinkXMLTableDataBrdAvl : REFERENCE TO ARRAY[0..200] OF tyXMLTableDat;
+	p_iLinkXMLTableDataBrdAvlTtlIdx : REFERENCE TO INT;
+END_VAR
+(**)
+VAR
+	p_bLinkOpsInvertStepInitDone : REFERENCE TO BOOL;
+	p_bLinkOpsInvertStepEntToEnd : REFERENCE TO BOOL;
+	p_bLinkOpsInvertStepEntToInOff : REFERENCE TO BOOL;
+	p_bLinkOpsInvertStepExitBrd : REFERENCE TO BOOL;
+	p_bLinkConvHvBrd : REFERENCE TO BOOL;
+	p_bLinkOpsInvertStepInvert : REFERENCE TO BOOL;
+	p_tyUSHermestyBoardAvailable : REFERENCE TO tyHermesBoardAvailable;
+END_VAR
+(**)
+VAR
+	tyHermesBrdAvlData : tyHermesBrdAvlDat;
+	a_tyHermesBrdAvlData : ARRAY[0..6] OF tyHermesBrdAvlDat; (*Cater Up to 6 Zones*)
+	bHermesWriteRetain : BOOL;
+	sLowerCase : STRING[254] := '';
+END_VAR

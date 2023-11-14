@@ -1,0 +1,156 @@
+(*2021-08-01*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eHermesAction := HermesActIdle;
+	eStat : eHermesAction := HermesActIdle;
+	eHermesAct : eHermesAction;
+	eMcParamAct : eMcParamAction;
+	eMainStatus : eFBStatus := Idle;
+	eStatus : eFBStatus := Idle;
+	eStatus1 : eFBStatus := Idle;
+	eStatus2 : eFBStatus := Idle;
+	eStatus3 : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	udiStatus1 : UDINT := 0;
+	udiStatus2 : UDINT := 0;
+	udiStatus3 : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Background Starting Operations','Background Stopping Operations','Deleting Old Log File','Creating Directory','Writing Retain File','Reading Retain File','Saving Configuration',43('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	tyAlmData1 : tyAlmDat;
+	tyAlmData2 : tyAlmDat;
+	tyAlmData3 : tyAlmDat;
+	tyInfoData : tyAlmDat;
+	sInfoMsg : STRING[200];
+	a_tyAlmText : ARRAY[10000..10199] OF tyAlmTxt := [(sAlmText:='Invalid Ident While Creating Server',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='Setting Keep Alive Interval Time Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='Setting Keep Alive Idle Time Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='Setting Keep Alive Count Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='Setting Keep Alive Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='Setting Receive Buffer Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='Setting Send Buffer Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='Setting No Waiting Error While Creating Server',sRcyText:='Unable To Establish Connection Between Machine. Check For Setting And Resume Operation.'),(sAlmText:='TCP Open Port Error While Creating Server',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='Closing TCP Error While Creating Server',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='Invalid Ident While Listening Client',sRcyText:='There Was A Problem Connecting To The Server. The Server May Not Exist or It is Unavailable At This Time. Check The Connection and Try Again.'),(0),(sAlmText:='Listen To Client Error While Listening Client',sRcyText:='There Was A Problem Connecting To The Server. The Server May Not Exist or It is Unavailable At This Time. Check The Connection and Try Again.'),(0),(sAlmText:='Invalid Ident While Receiving Data',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='TCP Receive Data Error While Receiving Data',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='Receive BoardAvailable While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Not Connected State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Service Description State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Not Available Not Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Board Available State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Machine Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Available And Ready State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Transporting State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While In Transport Finished State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(sAlmText:='File Open Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Config File',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Reading Config File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Config File',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Config File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),12((0)),(sAlmText:='Check Alive Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Check Alive Ping Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Check Alive Pong Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Receive BoardForecast While Downstream In Transport Stopped State',sRcyText:='Receive Illegal Message.'),(0),(sAlmText:='Get Directory Info Error While Deleting Old Log',sRcyText:='An Error Was Encountered While Getting Directory Info. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Read Error While Deleting Old Log',sRcyText:='An Error Was Encountered While Reading Directory. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Delete Error While Deleting Old Log',sRcyText:='An Error Was Encountered While Trying To Delete File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Receive Check Alive While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive Check Alive Ping While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive Check Alive Pong While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive ServiceDescription While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardAvailable While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeBoardAvailable While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive MachineReady While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive RevokeMachineReady While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StartTransport While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive StopTransport While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive TransportFinished While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive CurrentConfiguration While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive BoardForecast While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive QueryBoardInfo While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sAlmText:='Receive SendBoardInfo While In Remote Configuration',sRcyText:='Receive Illegal Message.'),(sRcyText:='Sending Illegal Message.'),(sAlmText:='Service Description Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Board Available Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Revoke Board Available Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Stop Transport Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Transport Finished Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Machine Ready Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Revoke Machine Ready Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Start Transport Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Set Configuration Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Get Configuration Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Current Configuration Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Board Forecast Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Query Board Info Request To Send From Remote Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Invalid Ident While Sending Data',sRcyText:='Invalid Ident Value.'),(sAlmText:='TCP Retry Send Data Error While Sending Data',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='TCP Send Data Error',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='Invalid Ident While Closing TCP',sRcyText:='Invalid Ident Value.'),(sAlmText:='Closing TCP Error',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),(sAlmText:='File Open Error While Writing Log',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Log',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Get File Info Error While Writing Log',sRcyText:='An Error Was Encountered While Getting File Info. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Log',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Log',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Log',sRcyText:='The Directory Does Not Exist.Please Contact Nutek For A Possible Solution.'),(sAlmText:='Invalid Ident While Closing TCP',sRcyText:='Invalid Ident Value.'),(sAlmText:='Closing TCP Error',sRcyText:='Problem Occurred In The TCP/IP Connection. Check The Connection And Try To Reconnect.'),3((0)),(sAlmText:='Send Board Info Request To Send From Upstream Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Query Work Order Info Request To Send From Upstream Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Send Work Order Info Request To Send From Upstream Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Board Arrived Request To Send From Upstream Hermes',sRcyText:='Sending Illegal Message.'),(sAlmText:='Board Departed Request To Send From Upstream Hermes',sRcyText:='Sending Illegal Message.'),36((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bFileNotFound : BOOL;
+	bConnected : BOOL;
+	bWriteConfig : BOOL := FALSE;
+	bUpdateUIData : BOOL := FALSE;
+	tyCurrentConfiguration : tyHermesCurrentConfiguration;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bRmtPrep : BOOL := FALSE;
+	bRmtEn : BOOL := FALSE;
+	tyParam : tyHermesRmtParam := (uiSvrPort:=1248);
+	sIPAddr : STRING[15] := '192.168.0.100';
+	tyDTStructure : DTStructure := (year:=2020,month:=11,day:=11,wday:=05,hour:=21,minute:=28,second:=30,millisec:=123,microsec:=456);
+	dtCurrDT : DATE_AND_TIME := DT#2019-02-23-12:30:50;
+	sMcId : STRING[80] := '';
+	udiSndBffrSize : UDINT := 65536;
+	udiRcvBffrSize : UDINT := 65536;
+	udiAliveIdleTimeInSec : UDINT := 5;
+	udiFileKeepDay : UDINT := 30;
+	sConfigFileName : STRING[80] := 'RmtHermes.dat';
+	sProgNm : STRING[15] := 'RmtHermes';
+	bNtSettingsLoadDone : BOOL := TRUE;
+	tyHermesCurrConfiguration : tyHermesConfiguration;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	bRun : BOOL;
+	bStop : BOOL;
+	bRstConnection : BOOL;
+	udiSvrIdent : UDINT;
+	udiClntIdent : UDINT;
+	udiXMLTableWriteIdx : UDINT;
+	udiMsgSendBffr : UDINT;
+	udiSndMsgLen : UDINT;
+	sSnd : STRING[65535];
+	sRcv : STRING[65535];
+	a_tyXMLTableDataRcv : ARRAY[0..200] OF tyXMLTableDat;
+	a_tyXMLTableDataSnd : ARRAY[0..200] OF tyXMLTableDat;
+	a_eMsgSend : ARRAY[0..50] OF eHermesMsgType;
+	tyMsgTypeRcv : tyHermesMsgType;
+	tyCheckAlive : tyHermesCheckAlive;
+	tyCheckAlivePing : tyHermesCheckAlive;
+	tyCheckAlivePong : tyHermesCheckAlive;
+	tyServiceDescriptionRcv : tyHermesServiceDescription;
+	tyNotificationSnd : tyHermesNotification;
+	tyNotificationRcv : tyHermesNotification;
+	tyBoardAvailableRcv : tyHermesBoardAvailable;
+	tyMachineReady : tyHermesMachineReady;
+	tyStartTransport : tyHermesStartTransport;
+	tyStopTransport : tyHermesStopTransport;
+	tyTransportFinished : tyHermesTransportFinished;
+	tySetConfiguration : tyHermesSetConfiguration;
+	tySetConfigurationRcv : tyHermesSetConfiguration;
+	tySetConfigurationModified : tyHermesSetConfiguration;
+	tyCurrentConfigurationRcv : tyHermesCurrentConfiguration;
+	tyCurrentConfigurationSnd : tyHermesCurrentConfiguration;
+	tyBoardForecast : tyHermesBoardForecast;
+	tyQueryBoardInfo : tyHermesQueryBoardInfo;
+	tySendBoardInfo : tyHermesSendBoardInfo;
+	fbCreateSvr : fbTCPCreateSvr;
+	fbListen : fbTCPListen;
+	fbRcv : fbTCPRcv;
+	fbSend : fbTCPSnd;
+	fbCloseSvr : fbTCPClose;
+	fbCloseClnt : fbTCPClose;
+	fbParseXMLTable : fbHermesParseXMLTable;
+	eStatOld : eHermesAction := HermesActIdle;
+	tyParamOld : tyHermesRmtParam;
+	udiLogCntr : UDINT := 1;
+	udiWriteLogCntr : UDINT := 1;
+	a_sLogList : ARRAY[1..10] OF STRING[65535];
+	sDT : STRING[80];
+	dtCurrDTTemp : DATE_AND_TIME;
+	fbFileAppend1 : fbFileFullAppend;
+	fbFileOldDel1 : fbFileOldDel;
+	fbDelayTm : TON;
+	fbDelayTm1 : TON;
+	bFoundIndexUS1 : BOOL;
+	bFoundIndexUS2 : BOOL;
+	bFoundIndexUS3 : BOOL;
+	bFoundIndexUS4 : BOOL;
+	bFoundIndexDS1 : BOOL;
+	bFoundIndexDS2 : BOOL;
+	bFoundIndexDS3 : BOOL;
+	bFoundIndexDS4 : BOOL;
+	udiFoundIndexUS1 : UDINT;
+	udiFoundIndexUS2 : UDINT;
+	udiFoundIndexUS3 : UDINT;
+	udiFoundIndexUS4 : UDINT;
+	udiFoundIndexDS1 : UDINT;
+	udiFoundIndexDS2 : UDINT;
+	udiFoundIndexDS3 : UDINT;
+	udiFoundIndexDS4 : UDINT;
+	udiTargetAddress : UDINT := 0;
+	udiTargetAddress1 : UDINT := 0;
+	udiSizeAddress : UDINT := 0;
+	udiSizeAddress1 : UDINT := 0;
+	k : UDINT := 0;
+	kk : UDINT := 0;
+	j : INT := 1;
+	jj : INT := 2;
+	jjj : INT := 3;
+	jjjj : INT := 4;
+	i : INT;
+	ii : INT;
+	iii : INT;
+	iiii : INT;
+	iInput : INT := 1;
+	iOutput : INT := 1;
+	iWriteLogStep : INT := 0;
+	udiModuleNum : UDINT := 3601;
+END_VAR

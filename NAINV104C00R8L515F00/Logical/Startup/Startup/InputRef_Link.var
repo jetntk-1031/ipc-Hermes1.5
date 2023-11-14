@@ -1,0 +1,91 @@
+(*2020-09-22*)
+(**)
+(*User Folder*)
+VAR
+	p_eUsrFolderStat : REFERENCE TO eUsrFolderAction;
+	p_eUsrFolderStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Hardware Info*)
+VAR
+	p_eHWInfoStat : REFERENCE TO eHWInfoAction;
+	p_eHWInfoStatus : REFERENCE TO eFBStatus;
+	p_sHWInfoIPAddr : REFERENCE TO STRING[15];
+	p_sHWInfoSubnetMask : REFERENCE TO STRING[15];
+	p_udiHWInfoEthMode : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Library Version*)
+VAR
+	p_eLibVerStat : REFERENCE TO eLibVerAction;
+	p_eLibVerStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Nutek Parameter*)
+VAR
+	p_eNtParamStat : REFERENCE TO eNtParamAction;
+	p_eNtParamStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Machine Parameter*)
+VAR
+	p_eMcParamStat : REFERENCE TO eMcParamAction;
+	p_eMcParamStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Product Recipe*)
+VAR
+	p_eProdRcpStat : REFERENCE TO eProdRcpAction;
+	p_eProdRcpStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Mp Product Recipe*)
+VAR
+	p_eMpProdRcpStat : REFERENCE TO eMpProdRcpAction;
+	p_eMpProdRcpStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*User Management*)
+VAR
+	p_eUsrMgmtStat : REFERENCE TO eUsrMgmtAction;
+	p_eUsrMgmtStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Alarm Log*)
+VAR
+	p_eAlarmStat : REFERENCE TO eAlarmAction;
+	p_eAlarmStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Hermes*)
+VAR
+	p_eHermesStat : REFERENCE TO eHermesAction;
+	p_eHermesStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eRmtHermesStat : REFERENCE TO eHermesAction;
+	p_eRmtHermesStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eUSHermesStat : REFERENCE TO eHermesAction;
+	p_eUSHermesStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eDSHermesStat : REFERENCE TO eHermesAction;
+	p_eDSHermesStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*Auto Width*)
+VAR
+	p_eAWStat : REFERENCE TO eAWAction;
+	p_eAWStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+(*User Interface*)
+VAR
+	p_eUIStat : REFERENCE TO eUIAction;
+	p_eUIStatus : REFERENCE TO eFBStatus;
+END_VAR

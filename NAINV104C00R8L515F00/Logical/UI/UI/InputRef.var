@@ -1,0 +1,365 @@
+(*2020-10-08*)
+(**)
+(*Configuration*)
+VAR
+	p_eAct : REFERENCE TO eUIAction;
+END_VAR
+(**)
+VAR
+	p_bStartupRun : REFERENCE TO BOOL;
+	p_eStartupStat : REFERENCE TO eStartupAction;
+	p_eStartupStatus : REFERENCE TO eFBStatus;
+	p_sStartupStatTxt : REFERENCE TO STRING[200];
+	p_eStartupStep : REFERENCE TO eStartupStep;
+	p_sStartupStepTxt : REFERENCE TO STRING[80];
+	p_bStartupGetConfigDone : REFERENCE TO BOOL;
+	p_bStartupMismatchSetConfigDone : REFERENCE TO BOOL;
+	p_bStartupUISettingsLoadDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eTLBuzStat : REFERENCE TO eTLBuzAction;
+	p_eTLBuzStatus : REFERENCE TO eFBStatus;
+	p_sTLBuzStatTxt : REFERENCE TO STRING[80];
+END_VAR
+(**)
+VAR
+	p_tyAlarmCurrList : REFERENCE TO ARRAY[1..c_udiAlarmCurrMax] OF tyAlarmCurr;
+	p_tyAlarmRcyList : REFERENCE TO ARRAY[1..c_udiAlarmCurrMax] OF UDINT;
+	p_tyAlarmHistoryList : REFERENCE TO ARRAY[1..c_udiAlarmHistoryMax] OF STRING[200];
+	p_bAlarmWarning : REFERENCE TO BOOL;
+	p_bAlarmErr : REFERENCE TO BOOL;
+	p_bAlarmInfo : REFERENCE TO BOOL;
+	p_bAlarmInfoLF : REFERENCE TO BOOL;
+	p_sAlarmInfoMsg : REFERENCE TO STRING[200];
+END_VAR
+(**)
+VAR
+	p_eRstErrStat : REFERENCE TO eRstErrAction;
+	p_eRstErrStatus : REFERENCE TO eFBStatus;
+	p_sRstErrStatTxt : REFERENCE TO STRING[200];
+END_VAR
+(**)
+VAR
+	p_eHWInfoStat : REFERENCE TO eHWInfoAction;
+	p_eHWInfoStatus : REFERENCE TO eFBStatus;
+	p_sHWInfoStatTxt : REFERENCE TO STRING[200];
+	p_sHWInfoIPAddr : REFERENCE TO STRING[15];
+	p_sHWInfoSubnetMask : REFERENCE TO STRING[15];
+	p_udiHWInfoEthMode : REFERENCE TO UDINT;
+END_VAR
+(**)
+VAR
+	p_eProdRcpStat : REFERENCE TO eProdRcpAction;
+	p_eProdRcpStatus : REFERENCE TO eFBStatus;
+	p_sProdRcpStatTxt : REFERENCE TO STRING[200];
+	p_tyProdRcpFilterList : REFERENCE TO ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	p_tyProdRcpSortedList : REFERENCE TO ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	p_tyProdRcpCurrList : REFERENCE TO ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	p_tyProdRcpInfoOut : REFERENCE TO tyProdRcpParam;
+	p_tyProdRcpCurrRcp0 : REFERENCE TO tyProdRcpParam;
+	p_tyProdRcpCurrRcp1 : REFERENCE TO tyProdRcpParam;
+	p_tyProdRcpCurrRcp2 : REFERENCE TO tyProdRcpParam;
+	p_bProdRcpNmEmpty : REFERENCE TO BOOL;
+	p_bProdRcpListFull : REFERENCE TO BOOL;
+	p_bProdRcpNmNotExist : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eMpProdRcpStat : REFERENCE TO eMpProdRcpAction;
+	p_eMpProdRcpStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eMcParamStat : REFERENCE TO eMcParamAction;
+	p_eMcParamStatus : REFERENCE TO eFBStatus;
+	p_sMcParamStatTxt : REFERENCE TO STRING[200];
+	p_tyMcParamCurr : REFERENCE TO tyMcParam;
+END_VAR
+(**)
+VAR
+	p_tyNtParamCurr : REFERENCE TO tyNtParam;
+END_VAR
+(**)
+VAR
+	p_eUsrMgmtStat : REFERENCE TO eUsrMgmtAction;
+	p_eUsrMgmtStatus : REFERENCE TO eFBStatus;
+	p_sUsrMgmtStatTxt : REFERENCE TO STRING[200];
+	p_tyUsrMgmtCurrUsr : REFERENCE TO tyUsrMgmtParam;
+	p_tyUsrMgmtCurrAccessRgt : REFERENCE TO tyUsrMgmtAccessRight;
+	p_tyUsrMgmtAllList : REFERENCE TO ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	p_tyUsrMgmtLv2List : REFERENCE TO ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	p_tyUsrMgmtLv3List : REFERENCE TO ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	p_tyUsrMgmtAdminList : REFERENCE TO ARRAY[1..c_udiUsrMgmtMax] OF tyUsrMgmtParam;
+	p_bUsrMgmtNmEmpty : REFERENCE TO BOOL;
+	p_bUsrMgmtListFull : REFERENCE TO BOOL;
+	p_bUsrMgmtNmExist : REFERENCE TO BOOL;
+	p_bUsrMgmtNmNotExist : REFERENCE TO BOOL;
+	p_bUsrMgmtLastAdmin : REFERENCE TO BOOL;
+	p_bUsrMgmtLoginSuccess : REFERENCE TO BOOL;
+	p_bUsrMgmtPwMismatch : REFERENCE TO BOOL;
+	p_bUsrMgmtUnableDelete : REFERENCE TO BOOL;
+	p_tyUsrMgmtFullData : REFERENCE TO tyUsrMgmtFullDat;
+END_VAR
+(**)
+VAR
+	p_eUSSMEMAStat : REFERENCE TO eSMEMAAction;
+	p_eUSSMEMAStatus : REFERENCE TO eFBStatus;
+	p_sUSSMEMAStatTxt : REFERENCE TO STRING[80];
+	p_bUSSMEMAUSRdy : REFERENCE TO BOOL;
+	p_bUSSMEMAUSGdBrdRdy : REFERENCE TO BOOL;
+	p_bUSSMEMADSRdy : REFERENCE TO BOOL;
+	p_bUSSMEMAUSB : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eDSSMEMAStat : REFERENCE TO eSMEMAAction;
+	p_eDSSMEMAStatus : REFERENCE TO eFBStatus;
+	p_sDSSMEMAStatTxt : REFERENCE TO STRING[80];
+	p_bDSSMEMAUSRdy : REFERENCE TO BOOL;
+	p_bDSSMEMAUSGdBrdRdy : REFERENCE TO BOOL;
+	p_bDSSMEMADSRdy : REFERENCE TO BOOL;
+	p_bDSSMEMADBA : REFERENCE TO BOOL;
+	p_bDSSMEMADBAStat : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eUSSMEMA2Stat : REFERENCE TO eSMEMAAction;
+	p_eUSSMEMA2Status : REFERENCE TO eFBStatus;
+	p_sUSSMEMA2StatTxt : REFERENCE TO STRING[80];
+	p_bUSSMEMA2USRdy : REFERENCE TO BOOL;
+	p_bUSSMEMA2USGdBrdRdy : REFERENCE TO BOOL;
+	p_bUSSMEMA2DSRdy : REFERENCE TO BOOL;
+	p_bUSSMEMA2USB : REFERENCE TO BOOL;
+	p_bUSSMEMA2Transporting : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bUSHermesUSRdy : REFERENCE TO BOOL;
+	p_bUSHermesDSRdy : REFERENCE TO BOOL;
+	p_bUSHermesUSGdRdy : REFERENCE TO BOOL;
+	p_bUSHermesDSGdRdy : REFERENCE TO BOOL;
+	p_bUSHermesConnected : REFERENCE TO BOOL;
+	p_bUSHermesAccDataMnl : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bDSHermesUSRdy : REFERENCE TO BOOL;
+	p_bDSHermesDSRdy : REFERENCE TO BOOL;
+	p_bDSHermesUSGdRdy : REFERENCE TO BOOL;
+	p_bDSHermesDSGdRdy : REFERENCE TO BOOL;
+	p_bDSHermesConnected : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eConvStat : REFERENCE TO eConvAction;
+	p_eConvStatus : REFERENCE TO eFBStatus;
+	p_sConvStatTxt : REFERENCE TO STRING[80];
+	p_bConvHvBrd : REFERENCE TO BOOL;
+	p_bConvGdBrd : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eAWOpenStat : REFERENCE TO eAWAction;
+	p_eAWOpenStatus : REFERENCE TO eFBStatus;
+	p_sAWOpenStatTxt : REFERENCE TO STRING[200];
+	p_udiAWOpenAxisErrID : REFERENCE TO UDINT;
+	p_bAWOpenAxisErr : REFERENCE TO BOOL;
+	p_bAWOpenPwrOn : REFERENCE TO BOOL;
+	p_bAWOpenIsHomed : REFERENCE TO BOOL;
+	p_diAWOpenActualPos : REFERENCE TO DINT;
+	p_bAWOpenFwdLmtSen : REFERENCE TO BOOL;
+	p_bAWOpenRevLmtSen : REFERENCE TO BOOL;
+	p_sAWOpenAxisErrTxt : REFERENCE TO STRING[80];
+	p_bAWOpenJogging : REFERENCE TO BOOL;
+	p_bAWOpenOpenSen : REFERENCE TO BOOL;
+	p_bAWOpenCloseSen : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eInvertStat : REFERENCE TO eMotorBrkAction;
+	p_eInvertStatus : REFERENCE TO eFBStatus;
+	p_sInvertStatTxt : REFERENCE TO STRING[200];
+END_VAR
+(**)
+VAR
+	p_eOpsStat : REFERENCE TO eOperationsAction;
+	p_eOpsStatus : REFERENCE TO eFBStatus;
+	p_sOpsStatTxt : REFERENCE TO STRING[200];
+	p_eOpsOpsStatus : REFERENCE TO eOperationsStatus;
+	p_bOpsStatusRun : REFERENCE TO BOOL;
+	p_bOpsStatusStop : REFERENCE TO BOOL;
+	p_bOpsStatusCycleStop : REFERENCE TO BOOL;
+	p_bOpsStatusStep : REFERENCE TO BOOL;
+	p_bOpsUSStandby : REFERENCE TO BOOL;
+	p_bOpsDSStandby : REFERENCE TO BOOL;
+	p_bOpsRun : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_sOpsInvertStepTxt : REFERENCE TO STRING[80];
+	p_eOpsInvertCurrPos : REFERENCE TO eInvertPos;
+END_VAR
+(**)
+VAR
+	p_bOpsInvertStepInitConv : REFERENCE TO BOOL;
+	p_bOpsInvertStepInitDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bOpsInvertStepAWMove : REFERENCE TO BOOL;
+	p_bOpsSafeMode : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bOpsInvOnceTwicePCBOut : REFERENCE TO BOOL;
+	p_bOpsInvertStepUSStandby : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eHermesStat : REFERENCE TO eHermesAction;
+	p_eHermesStatus : REFERENCE TO eFBStatus;
+	p_tyHermesConfiguration : REFERENCE TO tyHermesConfiguration;
+END_VAR
+(**)
+VAR
+	p_eLFLeaderStat : REFERENCE TO eLFAction;
+	p_eLFLeaderStatus : REFERENCE TO eFBStatus;
+	p_tyLFLeaderFollowerInfo : REFERENCE TO ARRAY[1..c_diLFClntNum] OF tyLFFollowerInfo;
+	p_tyLFLeaderFollowerToLeaderTag : REFERENCE TO ARRAY[1..c_diLFClntNum] OF tyLFFollowerToLeaderTag;
+END_VAR
+(**)
+VAR
+	p_bLFFollowerProdAccDataMnl : REFERENCE TO BOOL;
+	p_bLFFollowerLdrSeqCtrlInActive : REFERENCE TO BOOL;
+	p_bLFFollowerUSAllow : REFERENCE TO BOOL;
+	p_bLFFollowerDSAllow : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bFollower1WaitRlsProd : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bLCSLFAccDataMnl : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_tyDI : REFERENCE TO tyDigitalInput;
+END_VAR
+(**)
+VAR
+	p_tyDO : REFERENCE TO tyDigitalOutput;
+	p_eDOStat : REFERENCE TO eDOAction;
+	p_eDOStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_eStopperStat : REFERENCE TO ePneuAction;
+	p_eStopperStatus : REFERENCE TO eFBStatus;
+	p_sStopperStatTxt : REFERENCE TO STRING[200];
+	p_bStopperTwoCtrlOut : REFERENCE TO BOOL;
+	p_bStopperExtCtrl : REFERENCE TO BOOL;
+	p_bStopperRetCtrl : REFERENCE TO BOOL;
+	p_bStopperExtended : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClampStat : REFERENCE TO ePneuAction;
+	p_eClampStatus : REFERENCE TO eFBStatus;
+	p_sClampStatTxt : REFERENCE TO STRING[200];
+	p_bClampTwoCtrlOut : REFERENCE TO BOOL;
+	p_bClampExtCtrl : REFERENCE TO BOOL;
+	p_bClampRetCtrl : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eInShutterStat : REFERENCE TO ePneuAction;
+	p_eInShutterStatus : REFERENCE TO eFBStatus;
+	p_sInShutterStatTxt : REFERENCE TO STRING[200];
+	p_bInShutterExtCtrl : REFERENCE TO BOOL;
+	p_bInShutterRetCtrl : REFERENCE TO BOOL;
+	p_bInShutterTwoCtrlOut : REFERENCE TO BOOL;
+	p_bInShutterExtended : REFERENCE TO BOOL;
+	p_bInShutterRetracted : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eOutShutterStat : REFERENCE TO ePneuAction;
+	p_eOutShutterStatus : REFERENCE TO eFBStatus;
+	p_sOutShutterStatTxt : REFERENCE TO STRING[200];
+	p_bOutShutterExtCtrl : REFERENCE TO BOOL;
+	p_bOutShutterRetCtrl : REFERENCE TO BOOL;
+	p_bOutShutterTwoCtrlOut : REFERENCE TO BOOL;
+	p_bOutShutterExtended : REFERENCE TO BOOL;
+	p_bOutShutterRetracted : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClamp1Stat : REFERENCE TO ePneuAction;
+	p_eClamp1Status : REFERENCE TO eFBStatus;
+	p_sClamp1StatTxt : REFERENCE TO STRING[200];
+	p_bClamp1ExtCtrl : REFERENCE TO BOOL;
+	p_bClamp1RetCtrl : REFERENCE TO BOOL;
+	p_bClamp1TwoCtrlOut : REFERENCE TO BOOL;
+	p_bClamp1Extended : REFERENCE TO BOOL;
+	p_bClamp1Retracted : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClamp2Stat : REFERENCE TO ePneuAction;
+	p_eClamp2Status : REFERENCE TO eFBStatus;
+	p_sClamp2StatTxt : REFERENCE TO STRING[200];
+	p_bClamp2ExtCtrl : REFERENCE TO BOOL;
+	p_bClamp2RetCtrl : REFERENCE TO BOOL;
+	p_bClamp2TwoCtrlOut : REFERENCE TO BOOL;
+	p_bClamp2Extended : REFERENCE TO BOOL;
+	p_bClamp2Retracted : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eClamp3Stat : REFERENCE TO ePneuAction;
+	p_eClamp3Status : REFERENCE TO eFBStatus;
+	p_sClamp3StatTxt : REFERENCE TO STRING[200];
+	p_bClamp3ExtCtrl : REFERENCE TO BOOL;
+	p_bClamp3RetCtrl : REFERENCE TO BOOL;
+	p_bClamp3TwoCtrlOut : REFERENCE TO BOOL;
+	p_bClamp3Extended : REFERENCE TO BOOL;
+	p_bClamp3Retracted : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bMtrBrkRls : REFERENCE TO BOOL;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	p_bLeftSen : REFERENCE TO BOOL;
+	p_bRightSen : REFERENCE TO BOOL;
+	p_diInitTm : REFERENCE TO DINT;
+	p_eDirection : REFERENCE TO eConvDir;
+END_VAR
+(**)
+VAR
+	p_bConvAlmData : REFERENCE TO tyAlmDat;
+	p_bDSSMEMAAlmData : REFERENCE TO tyAlmDat;
+END_VAR
+(**)
+VAR
+	p_bUnlockCovPrep : REFERENCE TO BOOL;
+	p_bMachineSafetyPrep : REFERENCE TO BOOL;
+END_VAR
+(*Simulation*)
+VAR
+	p_eSimuStat : REFERENCE TO eSimulationsAction;
+	p_eSimuStatus : REFERENCE TO eFBStatus;
+	p_eSimuSimuStatus : REFERENCE TO eSimulationsStatus;
+	p_bSimuStatusRun : REFERENCE TO BOOL;
+	p_bSimuStatusStop : REFERENCE TO BOOL;
+	p_bSimuStatusCycleStop : REFERENCE TO BOOL;
+	p_bSimuStatusStep : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bUIBtnSectionLdr : REFERENCE TO BOOL;
+	p_bLCSSectionLeaderEn : REFERENCE TO BOOL;
+END_VAR

@@ -1,0 +1,72 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eSMEMAAction := SMEMAActIdle;
+	eStat : eSMEMAAction := SMEMAActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Upstream SMEMA Running','Turning On USB Signal','NA','Turning Off USB Signal','NA','Turning On USB Signal','Turning Off USB Signal',43('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='SMEMA 9851 Transport Time Out While Transporting',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='SMEMA 9851 Transport Time Out After Opposite Machine Transport Finished',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='SMEMA 9851 Transport Time Out After Current Machine Transport Finished',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='SMEMA 9851 Transport Time Out After Both Machine Transport Finished And Waiting Outlet Sensor',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Standard SMEMA Transport Time Out While Transporting',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Standard SMEMA Transport Time Out After Opposite Machine Transport Finished',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Standard SMEMA Transport Time Out After Current Machine Transport Finished',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),(sAlmText:='Standard SMEMA Transport Time Out After Both Machine Transport Finished And Waiting Outlet Sensor',sRcyText:='Timeout Expired Before Operation Completed. Reset And Resume Operation.'),92((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bUSRdy : BOOL := FALSE;
+	bUSGdBrdRdy : BOOL := FALSE;
+	bDSRdy : BOOL := FALSE;
+	bTransporting : BOOL := FALSE;
+	bConvStart : BOOL := FALSE;
+	bConvStop : BOOL := FALSE;
+	bUSB : BOOL := FALSE;
+	bTimer : BOOL;
+	bVirtual : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	bManual : BOOL := FALSE;
+	tyParam : tySMEMAParam;
+	diTransferInTO : DINT := 20000;
+	bDirLToR : BOOL := FALSE;
+	bRdyRcv : BOOL := TRUE;
+	bLeftSen : BOOL := FALSE;
+	bRightSen : BOOL := FALSE;
+	bComplSigOn : BOOL := FALSE;
+	bUBA : BOOL := FALSE;
+	bUBAStat : BOOL := FALSE;
+	bTimerEnSen : BOOL;
+	bTimerEnSenEdge : BOOL;
+	bVirtualEn : BOOL;
+	bUBAVirtual : BOOL;
+	bUBAStatVirtual : BOOL;
+	tRstDlyTm : TIME := T#500ms;
+	tSigInChkTm : TIME := T#100ms;
+	sProgNm : STRING[15] := 'USSMEMA2';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	fbTimerDlyTm : TON := (PT:=T#1s);
+	fbTimeTrig : R_TRIG;
+	fbSMEMA_Std : fbSMEMAUS_Std;
+	fbSMEMA_9851 : fbSMEMAUS_9851;
+	fbSigInChk : fbSMEMASigInChk;
+	eStatOld : eSMEMAAction := SMEMAActIdle;
+	udiModuleNum : UDINT := 2701;
+END_VAR

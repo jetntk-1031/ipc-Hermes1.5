@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Loading_Screen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="12171" Value="Source[local].Bitmap[Loading_1]"/>
+    <BitmapRef ID="12172" Value="Source[local].Bitmap[Loading_2]"/>
+    <BitmapRef ID="12173" Value="Source[local].Bitmap[Loading_3]"/>
+    <BitmapRef ID="12174" Value="Source[local].Bitmap[Loading_4]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="12171" Value="0"/>
+    <Index ID="12172" Value="1"/>
+    <Index ID="12173" Value="2"/>
+    <Index ID="12174" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

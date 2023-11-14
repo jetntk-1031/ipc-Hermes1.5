@@ -1,0 +1,36 @@
+(*2020-09-16*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_StartupStat : UDINT;
+	p_StartupStatus : UDINT;
+	p_StartupStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_StartupRun : UDINT;
+	p_StartupUsrFolderAct : UDINT;
+	p_StartupHWInfoAct : UDINT;
+	p_StartupLibVerAct : UDINT;
+	p_StartupNtParamAct : UDINT;
+	p_StartupMcParamAct : UDINT;
+	p_StartupProdRcpAct : UDINT;
+	p_StartupMpProdRcpAct : UDINT;
+	p_StartupUsrMgmtAct : UDINT;
+	p_StartupAlarmAct : UDINT;
+	p_StartupUIAct : UDINT;
+	p_StartupAWAct : UDINT;
+	p_StartupHermesAct : UDINT;
+	p_StartupRmtHermesAct : UDINT;
+	p_StartupUSHermesAct : UDINT;
+	p_StartupDSHermesAct : UDINT;
+	p_StartupStep : UDINT;
+	p_StartupNtSettingsLoadDone : UDINT;
+	p_StartupUISettingsLoadDone : UDINT;
+	p_StartupStepTxt : UDINT;
+	p_StartupGetConfigDone : UDINT;
+	p_StartupMismatchSetConfigDone : UDINT;
+END_VAR

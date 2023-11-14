@@ -1,0 +1,10 @@
+(*2019-04-09*)
+(**)
+(*External*)
+VAR
+	p_bLinkOpsRun : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bLinkDISafetyRlySig : REFERENCE TO BOOL;
+END_VAR

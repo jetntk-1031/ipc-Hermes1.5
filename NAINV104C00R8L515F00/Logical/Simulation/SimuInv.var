@@ -1,0 +1,18 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_SimuInvPaused : UDINT;
+END_VAR
+(**)
+VAR
+	p_SimuInvInvAct : UDINT;
+	p_SimuInvStopperAct : UDINT;
+	p_SimuInvInShutterAct : UDINT;
+	p_SimuInvOutShutterAct : UDINT;
+	p_SimuInvConvAct : UDINT;
+END_VAR

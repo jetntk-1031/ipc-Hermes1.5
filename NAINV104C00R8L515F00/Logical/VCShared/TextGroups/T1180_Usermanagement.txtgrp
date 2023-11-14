@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1180_Usermanagement">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="18"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="sUsrMgmtUsrLv1Nm">
+      <Property Name="Alignment" Value="Left"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyTxtSnippets.sUsrMgmtUsrLv1Nm]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillCharacter" Value=""/>
+      <Property Name="MaxChars" Value="None"/>
+      <Property Name="MinChars" Value="None"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="sUsrMgmtUsrLv2Nm">
+      <Property Name="Alignment" Value="Left"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyTxtSnippets.sUsrMgmtUsrLv2Nm]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillCharacter" Value=""/>
+      <Property Name="MaxChars" Value="None"/>
+      <Property Name="MinChars" Value="None"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="sUsrMgmtUsrLv3Nm">
+      <Property Name="Alignment" Value="Left"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyTxtSnippets.sUsrMgmtUsrLv3Nm]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillCharacter" Value=""/>
+      <Property Name="MaxChars" Value="None"/>
+      <Property Name="MinChars" Value="None"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="190996" Value="Username"/>
+    <Text ID="190997" Value="Password"/>
+    <Text ID="191000" Value="Level"/>
+    <Text ID="191001" Value="User ID"/>
+    <Text ID="191008" Value="Login"/>
+    <Text ID="191013" Value="Edit Detail"/>
+    <Text ID="191017" Value="Create New"/>
+    <Text ID="191021" Value="Logout"/>
+    <Text ID="191022" Value="Add/Edit/TableCol2 Level Name:"/>
+    <Text ID="191023" Value="{sUsrMgmtUsrLv2Nm}"/>
+    <Text ID="191024" Value="{sUsrMgmtUsrLv3Nm}"/>
+    <Text ID="191025" Value="Admin"/>
+    <Text ID="191026" Value="Nutek Engineer"/>
+    <Text ID="191027" Value="Nutek Admin"/>
+    <Text ID="191028" Value=""/>
+    <Text ID="191030" Value=" "/>
+    <Text ID="191031" Value=" "/>
+    <Text ID="441533" Value="Level 2"/>
+    <Text ID="441534" Value="Level 1"/>
+    <Text ID="441535" Value=""/>
+    <Text ID="441536" Value="Delete User"/>
+    <Text ID="515945" Value="Edit Access"/>
+    <Text ID="515950" Value=""/>
+    <Text ID="515954" Value="Operation"/>
+    <Text ID="515955" Value=""/>
+    <Text ID="515957" Value="Product Selection"/>
+    <Text ID="515958" Value="Machine Info"/>
+    <Text ID="515959" Value="Alarm"/>
+    <Text ID="515960" Value="Buffer Info"/>
+    <Text ID="515961" Value="Oven Info"/>
+    <Text ID="515962" Value="Magazine Info"/>
+    <Text ID="515963" Value="Lead Follow Control"/>
+    <Text ID="515964" Value="Manual"/>
+    <Text ID="515965" Value="Product Setting"/>
+    <Text ID="515966" Value="Magazine Setting"/>
+    <Text ID="515967" Value="Machine Setting"/>
+    <Text ID="515968" Value="Language &amp; Setup"/>
+    <Text ID="515969" Value="Mnl FB Ctrl Only"/>
+    <Text ID="515970" Value="Lead Follow Setting"/>
+    <Text ID="515971" Value="Change Parameter"/>
+    <Text ID="526070" Value="Level Name"/>
+    <Text ID="529547" Value=""/>
+    <Text ID="529548" Value="Level 3"/>
+    <Text ID="529549" Value="Edit Access Level Name DropDown:"/>
+    <Text ID="529550" Value=""/>
+    <Text ID="529551" Value="All "/>
+    <Text ID="529552" Value="{sUsrMgmtUsrLv2Nm}"/>
+    <Text ID="529553" Value="{sUsrMgmtUsrLv3Nm}"/>
+    <Text ID="529554" Value="Nutek All"/>
+    <Text ID="529555" Value="Nutek Engineer"/>
+    <Text ID="529556" Value="Nutek Admin"/>
+    <Text ID="529557" Value="Table Level Name DropDown List:"/>
+    <Text ID="529558" Value="Admin"/>
+    <Text ID="531087" Value="Magazine Selection"/>
+    <Text ID="531088" Value="Simulation"/>
+    <Text ID="532506" Value=""/>
+    <Text ID="533929" Value="Nutek Engineer"/>
+    <Text ID="533930" Value="Nutek Admin"/>
+    <Text ID="533931" Value=""/>
+    <Text ID="533932" Value=""/>
+    <Text ID="533933" Value=""/>
+    <Text ID="533934" Value=""/>
+    <Text ID="533935" Value=""/>
+    <Text ID="515956" Value="Notif Name:"/>
+    <Text ID="533924" Value=""/>
+    <Text ID="533925" Value="{sUsrMgmtUsrLv1Nm}"/>
+    <Text ID="533926" Value="{sUsrMgmtUsrLv2Nm}"/>
+    <Text ID="533927" Value="{sUsrMgmtUsrLv3Nm}"/>
+    <Text ID="533928" Value="Admin"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="190996" Value="Benutzername"/>
+    <Text ID="190997" Value="Passwort"/>
+    <Text ID="191000" Value="Benutzerebene"/>
+    <Text ID="191001" Value="Benutzer-ID"/>
+    <Text ID="191008" Value="Anmeldung"/>
+    <Text ID="191013" Value="Bearbeiten"/>
+    <Text ID="191017" Value="Neue erstellen"/>
+    <Text ID="191021" Value="Abmeldung"/>
+    <Text ID="191022" Value=""/>
+    <Text ID="191023" Value=""/>
+    <Text ID="191024" Value=""/>
+    <Text ID="191025" Value=" "/>
+    <Text ID="191026" Value=" "/>
+    <Text ID="191027" Value=""/>
+    <Text ID="191028" Value=""/>
+    <Text ID="191030" Value=" "/>
+    <Text ID="191031" Value=" "/>
+    <Text ID="441533" Value=""/>
+    <Text ID="441534" Value=""/>
+    <Text ID="441535" Value=""/>
+    <Text ID="441536" Value=""/>
+    <Text ID="515945" Value=""/>
+    <Text ID="515950" Value=""/>
+    <Text ID="515954" Value=""/>
+    <Text ID="515955" Value=""/>
+    <Text ID="515957" Value=""/>
+    <Text ID="515958" Value=""/>
+    <Text ID="515959" Value=""/>
+    <Text ID="515960" Value=""/>
+    <Text ID="515961" Value=""/>
+    <Text ID="515962" Value=""/>
+    <Text ID="515963" Value=""/>
+    <Text ID="515964" Value=""/>
+    <Text ID="515965" Value=""/>
+    <Text ID="515966" Value=""/>
+    <Text ID="515967" Value=""/>
+    <Text ID="515968" Value=""/>
+    <Text ID="515969" Value=""/>
+    <Text ID="515970" Value=""/>
+    <Text ID="515971" Value=""/>
+    <Text ID="526070" Value=""/>
+    <Text ID="529547" Value=""/>
+    <Text ID="529548" Value=""/>
+    <Text ID="529549" Value=""/>
+    <Text ID="529550" Value=""/>
+    <Text ID="529551" Value=""/>
+    <Text ID="529552" Value=""/>
+    <Text ID="529553" Value=""/>
+    <Text ID="529554" Value=""/>
+    <Text ID="529555" Value=""/>
+    <Text ID="529556" Value=""/>
+    <Text ID="529557" Value=""/>
+    <Text ID="529558" Value=""/>
+    <Text ID="531087" Value=""/>
+    <Text ID="531088" Value=""/>
+    <Text ID="532506" Value=""/>
+    <Text ID="533929" Value=""/>
+    <Text ID="533930" Value=""/>
+    <Text ID="533931" Value=""/>
+    <Text ID="533932" Value=""/>
+    <Text ID="533933" Value=""/>
+    <Text ID="533934" Value=""/>
+    <Text ID="533935" Value=""/>
+    <Text ID="515956" Value=""/>
+    <Text ID="533924" Value=""/>
+    <Text ID="533925" Value=""/>
+    <Text ID="533926" Value=""/>
+    <Text ID="533927" Value=""/>
+    <Text ID="533928" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="190996" Value="用户名"/>
+    <Text ID="190997" Value="密码"/>
+    <Text ID="191000" Value="用户级别"/>
+    <Text ID="191001" Value="用户标识"/>
+    <Text ID="191008" Value="登陆"/>
+    <Text ID="191013" Value="编辑"/>
+    <Text ID="191017" Value="创建新的"/>
+    <Text ID="191021" Value="登出"/>
+    <Text ID="191022" Value=""/>
+    <Text ID="191023" Value=""/>
+    <Text ID="191024" Value=""/>
+    <Text ID="191025" Value=""/>
+    <Text ID="191026" Value=" "/>
+    <Text ID="191027" Value=""/>
+    <Text ID="191028" Value=""/>
+    <Text ID="191030" Value=" "/>
+    <Text ID="191031" Value=" "/>
+    <Text ID="441533" Value=""/>
+    <Text ID="441534" Value=""/>
+    <Text ID="441535" Value=""/>
+    <Text ID="441536" Value=""/>
+    <Text ID="515945" Value=""/>
+    <Text ID="515950" Value=""/>
+    <Text ID="515954" Value=""/>
+    <Text ID="515955" Value=""/>
+    <Text ID="515957" Value=""/>
+    <Text ID="515958" Value=""/>
+    <Text ID="515959" Value=""/>
+    <Text ID="515960" Value=""/>
+    <Text ID="515961" Value=""/>
+    <Text ID="515962" Value=""/>
+    <Text ID="515963" Value=""/>
+    <Text ID="515964" Value=""/>
+    <Text ID="515965" Value=""/>
+    <Text ID="515966" Value=""/>
+    <Text ID="515967" Value=""/>
+    <Text ID="515968" Value=""/>
+    <Text ID="515969" Value=""/>
+    <Text ID="515970" Value=""/>
+    <Text ID="515971" Value=""/>
+    <Text ID="526070" Value=""/>
+    <Text ID="529547" Value=""/>
+    <Text ID="529548" Value=""/>
+    <Text ID="529549" Value=""/>
+    <Text ID="529550" Value=""/>
+    <Text ID="529551" Value=""/>
+    <Text ID="529552" Value=""/>
+    <Text ID="529553" Value=""/>
+    <Text ID="529554" Value=""/>
+    <Text ID="529555" Value=""/>
+    <Text ID="529556" Value=""/>
+    <Text ID="529557" Value=""/>
+    <Text ID="529558" Value=""/>
+    <Text ID="531087" Value=""/>
+    <Text ID="531088" Value=""/>
+    <Text ID="532506" Value=""/>
+    <Text ID="533929" Value=""/>
+    <Text ID="533930" Value=""/>
+    <Text ID="533931" Value=""/>
+    <Text ID="533932" Value=""/>
+    <Text ID="533933" Value=""/>
+    <Text ID="533934" Value=""/>
+    <Text ID="533935" Value=""/>
+    <Text ID="515956" Value=""/>
+    <Text ID="533924" Value=""/>
+    <Text ID="533925" Value=""/>
+    <Text ID="533926" Value=""/>
+    <Text ID="533927" Value=""/>
+    <Text ID="533928" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="190996" Value=""/>
+    <Text ID="190997" Value=""/>
+    <Text ID="191000" Value=""/>
+    <Text ID="191001" Value=""/>
+    <Text ID="191008" Value=""/>
+    <Text ID="191013" Value=""/>
+    <Text ID="191017" Value=""/>
+    <Text ID="191021" Value=""/>
+    <Text ID="191022" Value=""/>
+    <Text ID="191023" Value=""/>
+    <Text ID="191024" Value=""/>
+    <Text ID="191025" Value=""/>
+    <Text ID="191026" Value=""/>
+    <Text ID="191027" Value=""/>
+    <Text ID="191028" Value=""/>
+    <Text ID="191030" Value=""/>
+    <Text ID="191031" Value=""/>
+    <Text ID="441533" Value=""/>
+    <Text ID="441534" Value=""/>
+    <Text ID="441535" Value=""/>
+    <Text ID="441536" Value=""/>
+    <Text ID="515945" Value=""/>
+    <Text ID="515950" Value=""/>
+    <Text ID="515954" Value=""/>
+    <Text ID="515955" Value=""/>
+    <Text ID="515957" Value=""/>
+    <Text ID="515958" Value=""/>
+    <Text ID="515959" Value=""/>
+    <Text ID="515960" Value=""/>
+    <Text ID="515961" Value=""/>
+    <Text ID="515962" Value=""/>
+    <Text ID="515963" Value=""/>
+    <Text ID="515964" Value=""/>
+    <Text ID="515965" Value=""/>
+    <Text ID="515966" Value=""/>
+    <Text ID="515967" Value=""/>
+    <Text ID="515968" Value=""/>
+    <Text ID="515969" Value=""/>
+    <Text ID="515970" Value=""/>
+    <Text ID="515971" Value=""/>
+    <Text ID="526070" Value=""/>
+    <Text ID="529547" Value=""/>
+    <Text ID="529548" Value=""/>
+    <Text ID="529549" Value=""/>
+    <Text ID="529550" Value=""/>
+    <Text ID="529551" Value=""/>
+    <Text ID="529552" Value=""/>
+    <Text ID="529553" Value=""/>
+    <Text ID="529554" Value=""/>
+    <Text ID="529555" Value=""/>
+    <Text ID="529556" Value=""/>
+    <Text ID="529557" Value=""/>
+    <Text ID="529558" Value=""/>
+    <Text ID="531087" Value=""/>
+    <Text ID="531088" Value=""/>
+    <Text ID="532506" Value=""/>
+    <Text ID="533929" Value=""/>
+    <Text ID="533930" Value=""/>
+    <Text ID="533931" Value=""/>
+    <Text ID="533932" Value=""/>
+    <Text ID="533933" Value=""/>
+    <Text ID="533934" Value=""/>
+    <Text ID="533935" Value=""/>
+    <Text ID="515956" Value=""/>
+    <Text ID="533924" Value=""/>
+    <Text ID="533925" Value=""/>
+    <Text ID="533926" Value=""/>
+    <Text ID="533927" Value=""/>
+    <Text ID="533928" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="190996" Value="1"/>
+    <Index ID="190997" Value="2"/>
+    <Index ID="191000" Value="3"/>
+    <Index ID="191001" Value="4"/>
+    <Index ID="191008" Value="10"/>
+    <Index ID="191013" Value="7"/>
+    <Index ID="191017" Value="6"/>
+    <Index ID="191021" Value="11"/>
+    <Index ID="191022" Value="29"/>
+    <Index ID="191023" Value="32"/>
+    <Index ID="191024" Value="33"/>
+    <Index ID="191025" Value="34"/>
+    <Index ID="191026" Value="35"/>
+    <Index ID="191027" Value="36"/>
+    <Index ID="191028" Value="31"/>
+    <Index ID="191030" Value="28"/>
+    <Index ID="191031" Value="30"/>
+    <Index ID="441533" Value="17"/>
+    <Index ID="441534" Value="16"/>
+    <Index ID="441535" Value="0"/>
+    <Index ID="441536" Value="8"/>
+    <Index ID="515945" Value="9"/>
+    <Index ID="515950" Value="37"/>
+    <Index ID="515954" Value="50"/>
+    <Index ID="515955" Value="38"/>
+    <Index ID="515957" Value="51"/>
+    <Index ID="515958" Value="53"/>
+    <Index ID="515959" Value="54"/>
+    <Index ID="515960" Value="55"/>
+    <Index ID="515961" Value="56"/>
+    <Index ID="515962" Value="57"/>
+    <Index ID="515963" Value="58"/>
+    <Index ID="515964" Value="59"/>
+    <Index ID="515965" Value="61"/>
+    <Index ID="515966" Value="62"/>
+    <Index ID="515967" Value="63"/>
+    <Index ID="515968" Value="64"/>
+    <Index ID="515969" Value="67"/>
+    <Index ID="515970" Value="65"/>
+    <Index ID="515971" Value="66"/>
+    <Index ID="526070" Value="5"/>
+    <Index ID="529547" Value="12"/>
+    <Index ID="529548" Value="18"/>
+    <Index ID="529549" Value="15"/>
+    <Index ID="529550" Value="19"/>
+    <Index ID="529551" Value="21"/>
+    <Index ID="529552" Value="22"/>
+    <Index ID="529553" Value="23"/>
+    <Index ID="529554" Value="25"/>
+    <Index ID="529555" Value="26"/>
+    <Index ID="529556" Value="27"/>
+    <Index ID="529557" Value="20"/>
+    <Index ID="529558" Value="24"/>
+    <Index ID="531087" Value="52"/>
+    <Index ID="531088" Value="60"/>
+    <Index ID="532506" Value="14"/>
+    <Index ID="533929" Value="46"/>
+    <Index ID="533930" Value="47"/>
+    <Index ID="533931" Value="48"/>
+    <Index ID="533932" Value="49"/>
+    <Index ID="533933" Value="68"/>
+    <Index ID="533934" Value="69"/>
+    <Index ID="533935" Value="70"/>
+    <Index ID="515956" Value="40"/>
+    <Index ID="533924" Value="41"/>
+    <Index ID="533925" Value="42"/>
+    <Index ID="533926" Value="43"/>
+    <Index ID="533927" Value="44"/>
+    <Index ID="533928" Value="45"/>
+  </IndexMap>
+</TextGroup>

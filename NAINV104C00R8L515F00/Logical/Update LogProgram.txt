@@ -1,0 +1,821 @@
+2023_08-10(R8)
+Add LCSLF Phase2
+
+Add Display of the Languages and Time
+	UI	- Act_Background - P1000_ LangTime - Update the arrangement and display of the Languages and time
+	NtParam - Add Chinese & German Prep
+
+Manual Accept Condition Modification
+	1)	LFFollower, Follower1, Follower2, etc.:
+ 		> Act_Background_AccData Script			
+	2) LCSLF:
+	    > Act_Main Script
+	3) USHermes: 
+    	> Act_Background_AccData Script
+	UI:
+	4) Act_OptP0200ToP0201AccDat
+	
+After power cycle the machine, buzzer will sound on due to the safety relay haven’t reset.
+
+	DInput > Act_Background
+	
+Debug for Inshutter Hide in UI when Inlet Shutter disable in Ntparam.
+
+
+2023-07-03(R7)
+Add - Invert Once(PassThrough > Return & Invert) and Invert Twice(Invert > Return & Invert) Mode with Clmap(NoStopper)
+
+	UI		> P0200 - add Upstream 2 Indication,PCB Reset
+			> P1023 - add Upstream Selection
+			> P0940	- Communication Control
+	
+	SMEMA	> Add - USSMEMA 2
+	
+	Conv	> Add - Conveyor Direction Access in Act_Link
+	
+	Operations	> Add - Act_OpsClampNoStopperInvOnceAndTwice, Act_Link
+	
+	McParam	> USCom2 Mod,Param,Selection
+	NtParam > InvertOnce Prep, InvertTwicePrep, USSMEMA2Prep, RetrnBrdConvDir
+	DI/DO	> Upstream SMEMA2
+	Alarm 	> Latest Version
+
+2023-05-08
+Ops,ActLink p_bGoToStandby linked to USAllow 
+
+
+2022-08-12 
+
+DInput - Act_background, add Safety Relay Reset Alarm
+FTP - Add addition user to access FTP
+
+2022-04-01
+ProdRcp -Act_Main,Act_EntP1040Disp,Act_OptP1040Save,Act_OptP1040Del,Act_OptP1040ToXML,Act_OptP1040FromXML,Act_EntP0400Disp
+
+2022-06-10 (R5)
+Hermes - Act_Link - Add flippedboard feature
+
+2022-05-04
+LFFollower, Follower1, DInput - Act_Link -  Add another US width check sensor at remote side. 
+
+2021-12-29
+LFFollower, Follower1 - Act_Background - Add p_bDBAOnWOAllign to fbFolllower to send DBA even width check sensor is not alligned. 
+
+2021-10-19
+CANOpenServo - Act_Background - Add error code for Estun Servo Motor.
+                              - Reset control word 6040.4 to 0 when servo motor is in position
+
+2021-09-01
+LFLeader, LFFollower - Local,Input_Ref variables - Modify Product Recipe Related Variables to STRING[254]
+LFFollower - Act_Background - Modify bUSAllow To Include p_bInternalReqProdRcpDiff
+
+2021-06-19
+R4 - Debug LF stopper extend retract bug
+
+2021-06-12
+R3 - P1021 - Debug Auto Log Out Time save problem.
+   - Add Inverter_XStd_WShutter & Inverter_XStd_WClamp in Configuration View
+
+2021-05-18
+LFFollower - Act_Link - Change Info Message
+		   - Act_Background, Act_Background_AccData - Change Product NameNot Exist and Width Mismatch Error To Info
+		   - Act Main_Disable - Reset Variables When Function Is Disabled
+Follower1  - Act_Background, Act_Background_AccData - Change Product NameNot Exist and Width Mismatch Error To Info
+		   - Act Main_Disable - Reset Variables When Function Is Disabled
+		   
+2021-04-20
+Alarm - Act_Background - Add bInfoLF.
+LFLeader - Act_Main - remove input for sequential mode (one time or always active)
+
+2021-02-24
+LFLeader - Act_Main - add input to select sequential mode (one time or always active)
+LCS - Act_Link - Debug of second width parameter being empty when passing from LCS
+2021-02-22
+LifterBtm - Act_Link -> Add InterruptSensor3.
+
+2021-02-18
+Update - Visu - C0005
+Update - UI - UI Folder - Act_Background - Act_OptC0005ChgPage.
+
+2021-02-17
+CANOpenServo - Act_Background - PosDiff updated from 50 to 500.
+			 - Act_Alarm - udiCode change to 10299
+			 - Local.var - update alarm message a_tyAlmText[10298] and a_tyAlmText[10299]
+
+2021-01-11
+TLBuz - Update Act_Background1, Act_Background2, Act_Background3.
+
+2020-11-19
+NtParam		 - Add variable bMagSafetyBarOrientation
+Operations	 - OpsMagSafetyBar - ActOpsRun - Add p_bMagSafetyBarOrientation
+
+2020-11-11
+Tuning.diAsdaA2FirstTorqueCmd default setting is 300 in NtParam for all Delta servo motor.
+
+2020-10-06
+DOutput		 - Act_Link - add p_tyDISettings.diPCBOutJamSen > 0
+			 - Act_InitGlobal - add p_tyDISettings ACCESS p_NtParamDISettings;
+			 - Act_InitLocal - add p_tyDISettings ACCESS ADR(tyDISettings); 
+			 
+2020-10-05
+Startup 	 - Act_Main_GetHWInfo - Debug Steps In Network Recovering
+LFLeader 	 - Act_Initial, Act_Background_Process and Local.var - Rename and change the type of fbBlkUS to fbBlkUSDS
+LFFollower, Follower1 - Act_Background, Act_Background_AccData - Add bLeaderOnline, replacing the direct usage of tyLeaderInfo.bOnline
+
+2020-09-22
+LFFollower 	 - Reset bLeaderSeqCtrlInActive in Act_Main_Disable.
+HWInfo.typ 	 - Add One Enumeration (eNetworkConfigMod) & Two Actions (fbGetETHConfigMode and fbSetETHConfigMode) - Retrieve Or Set Network Configuration Of The PLC.
+HWInfo 		 - Init, InitGlobal, InitLocal, Act Main, Act_Initial, Local.var and InputRef.var - Add The Additional Actions Related Variables
+McParam  	 - McParam.typ Add eNetworkMod in tyMcParam.
+NtParam  	 - NtParam.typ Add tyNetworkMOde (UILmt) in tyNtParam.
+Startup	   	 - InitGlobal, InitLocal, Act_Main_GetHWInfo - Add Function To Load Saved Network Configuration s When New Configuration Detected.
+		   	   InputRef_Link.var, InputRef.var & Local.var - Add New Startup Function Variables.
+
+2020-09-16
+McParam  	 - McParam.typ Add sIPAddr & sSubnetMask in tyMcParam.
+HWInfo	 	 - Init, InitGlobal, InitLocal, Act_Main_GetHWInfo 	- Add Function To Load Saved IP Parameters When New IP Detected.
+		   	   InputRef_Link.var, InputRef.var & Local.var 	- Add New HWInfo Function Variables.
+
+2020-09-10
+DSHermes 	 - Init, Cyclic, Act_Background_TCPListen, Act_Alarm4 - Improvise Alarm For Connection Lost.
+		   	   Local.var - Add New Alarm Variables & Modify Alarm Text.
+
+2020-08-24
+LiftMagConv  - Act_Link - add fbSenOn1 for left sensor	by aiman
+TopMagConv 	 - Act_Link - add fbSenOn2 for left sensor	by aiman
+OpsMagLdr 	 - Act_OpsRun - changed condition in MagConvStepMagConv for Mag Exit
+		   
+2020-08-17
+LibVer 		 - Act_Main - Modify Function To Function Block In LibVerActReadChk.
+		 	   Act_Initial - Initialize Newly Added Function Blocks.
+		 	   Local.var - Declare New Function Blocks.
+
+2020-08-06
+NtParam.typ  - Add Two Actions (NtParamSave and NtParamLoad) - Export and import NtParam in XML Format
+NtParam Act Main, Act_Initial, tyNtParam, InitLocal, Local.var and InputRef.var - Add The Additional Actions Related Variables
+TLBuz 		 - All Act_Backgrounds Change Manual Mode Towerlight To Cater For Error Indication
+LFLeader 	 - Add More Tags For Improving Leader Follower Concept, Modify p_diReqProdWidth To Use Downstream Width
+LFFollower, 
+Follower 1 	 - Add fbOnlineChk For Leader Online Status
+			 - Modify Act_Initial,Act_Background, Act_Background_AccData
+			 - Add eCurrMachineStat For Status Indication
+ProdRcp.typ	 - Add second width
+LibVer 		 - Act_Main - Modify LibVerActReadChk, Add Step To Check File Validity.
+		 	   Local.var - Add Alarm Text For File Coruption.
+
+2020-07-24
+MagRcp 		 - Add One Action in Act Main - MagRcpActSort
+ProdRcp,	 - p_sSearch and sSearch in Local changed to STRING[254]
+MagRcp 		 - sRcpNm for RcpParam in both ProdRcp.typ and MagRcp.typ temporary changed to STRING[30]
+
+2020-06-30
+Revert Traverser Main.st and AWClose Background.st program.
+Add Estun error code "65362: sAxisErrTxt := 'Torque output alarm'";
+
+2020-06-08
+ProdRcp 	 - Increase Product Recipe Name Length to 254, Add Two Actions in Act Main - ProdRcpActSort & ProdRcpActEndCharFilter
+LibVer 		 - Act_Main - LibVerActReadChk, made error if library data files corrupted.
+
+2020-06-05
+MagConv 	 - Update the Status of Mag Conv.Add one Action - MagConvActEntToMid.
+
+2020-06-01
+Stepper 	 - New package for stepper control.
+MotorBrk 	 - Renewed package. Added MotorBrkActSetMtrDirOrCCW1 and MotorBrkActRstMtrDirOrCCW1.
+	 	 	 - Modified fbRotCW and fbRotCCW and the access type to fbConvSenToSenBrkTm2Lmt.
+	 	 	 - Added diMtrSigOnDlyTm (500), diMtrDirOffDlyTm (500), diMtrBrkOnDlyTm(100).
+		 
+2020-04-28
+MagConv 	 - Add MagConvActEntToMid Action.
+		 
+2020-03-20
+NtParam  	 - Add the selection of Motor model. 		
+		 
+2020-03-16
+TLBuz 		 - Add two inputs for buzzer behaviour, towerlight flash function to act_background and reset fbwarning.
+
+2019-12-24
+LFLeader 	 - Remove fbBlkDS2 in Act_Initial & Act_Background_Process, add pa_bLFOnline in Act_Background_Process
+
+2019-10-31
+TLBuz 		 - Regroup Structure Into Nutek, Aptiv & MEK.
+MagConv 	 - Separate Program Into MagConv1Clamper & MagConv2Clamper.
+
+2019-10-21
+MagConv 	 - Improve with Action MagConvActPreExit & MagConvActPreExitClpr.
+LFFollower 	 - Improve Change All Function Without Manually Accept Data.
+LFLeader 	 - Add Second Oven Index, Improve Change All Function Without Manually Accept Data.
+OpcUaMap.uad - Enable bBypassMnlAccDat Tag Name.
+Startup 	 - Act_Main_SDOWrite, Remove SDOWrite.
+CANOpenServo - Change Structure Of SDOWrite And Abnormal Movement.
+
+2019-07-30
+CANOpenServo - Due To Upgrade of NtMotion.
+
+2019-07-18
+LFFollower 	 - Act_Link, Minor debug.
+
+2019-07-15
+LCS 		 - Act_Link, Check Recipe Name Must Not Exceed 15 Char.
+
+2019-07-10
+LCS 		 - Add More Parameter For Live Data.
+
+2019-07-04
+LFFollower 	 - Improve of Recipe Compare Method For p_tyInternalReqProdRcp, tyUpdtProdRcp & tyRlsBrdProdRcpNm.
+
+2019-07-03
+LFFollower 	 - Improve Act_Background To Check Whole Product Recipe Different Instead of Name & Width Only.
+Buffer 		 - Add p_tyBufferStat & p_tyDispBuffer And Improve For Two Program Control One Memory.
+
+2019-06-28
+USHermes 	 - Improve of Act_Background_AccData.
+DSHermes 	 - Move of Act_Background_ChgConfig.
+Buffer 		 - Improve of bParamDiff Condition.
+LCSLF 		 - Improve of LCSActRunProd.
+
+2019-06-27
+LFFollower 	 - Improvement To Change Name & Width To Whole Product Recipe Type.
+
+2019-06-17
+Conv 		 - Add Two Action : ConvActEntToInOff & ConvActRevImmedStart.
+
+2019-06-12
+LFFollower 	 - Add Act_Background_ChkRlsBrd. Improvement of Act_Background_UpdtData.
+LCSLF 		 - Add Update Data in Act_Background.
+
+2019-06-11
+TLBuz 	 	 - Modify ChgRcp.
+LFFollower 	 - Improvement of UpdtData.
+
+2019-06-10
+ProdRcp 	 - Update tyCurrRcp To a_tyCurrRcp (Array).
+LFFollower 	 - Add p_bInternalUse.
+USHermes 	 - Add p_bInternalUse.
+DSHermes 	 - Add p_bInternalUse.
+
+2019-06-07
+TLBuz 		 - Add Warning & ChgRcp.
+TCP 		 - Add Start Code & End Code Checking.
+Buffer 		 - Improve bParamDiff. Add bFIFOOld.
+
+2019-06-04
+USHermes 	 - Improvement At Accept Date (Act_Background_AccData).
+
+2019-06-02
+TCP 		 - New.
+
+2019-05-30
+Hermes 		 - Debug CheckAlive. SequenceTO Start Only After Connection Establish.
+Flatstream 	 - Debug Act_Main.
+USHermes 	 - Update Act_Link to Accept New Recipe.
+
+2019-05-29
+DVFrame 	 - Change From RS232. Improvement & Debug.
+Flatstream 	 - New.
+
+2019-05-28
+MagConv 	 - Add MagConvActInitClpStop.
+DCConv 		 - Improvement of DC Motor Alarm Trigger Time.
+LFFollower 	 - Improve of Act_Background.
+LCS 		 - Add "Warning" & "Info" For Live Data.
+
+2019-05-27
+LFFollower 	 - Debug Act_Link.
+LCS 		 - Debug Act_Link. Add sErrMsg.
+Buffer 		 - Debug Act_Main_Bffr. Add bMagRemoved.
+Data 		 - Update of Default User.dat.
+
+2019-05-24
+LFFollower 	 - Improve of Act_Background.
+MagConv 	 - Add MagConvActEntClpStop.
+TLBuz 		 - Modify Warning Condition.
+
+2019-05-22
+OpcUaMap.uad - Update Tag Name.
+LF 			 - Modify Set Time. Improve Of Act_Background for Accept Data.
+LFLeader 	 - Add New Tag Name.
+Time 		 - Update of Act_InitGlobal For LF Sync Time.
+LCS 		 - Update To Reset If Receive Idle From LCS.
+
+2019-05-21
+RS232 		 - Add FullReadUntilValid.
+LCS 		 - Move Some Program From Act_Background To Act_Link. Bug Fixed.
+
+2019-05-20
+RS232 		 - Modify to work with start code & end code.
+ProdRcp 	 - Modify on dtLastModified in Act_LinkAction.
+LCS 		 - Act_Background Show Boolean & dtLastModified Working Sample. Add Function Enable.
+TLBuz 		 - Add Aptiv Mode.
+
+2019-05-18
+Buffer 		 - Check Next Unload Ignore Product Name.
+
+2019-05-15
+OvenInfo 	 - Improve of Act_Background.
+Buffer 		 - Add bParamDiff to check current parameter and request parameter different.
+
+2019-05-14
+LCS 		 - Update Act_InitGlobal.
+RS232 		 - New.
+
+2019-05-11
+LFFollower 	 - Improve And Able To Ignore MagRcp If Necessary.
+
+2019-05-10
+TLBuz 		 - Add Simulation Mode.
+ProdRcp 	 - Improve Act_LinkAction.
+Buffer 		 - Improve Act_LinkAction.
+HWInfo 		 - Improve Act_Main While In Simulation.
+
+2019-05-09
+CANOpenServo - Improve of Error Axis Move Abnormally By External Force (10000).
+ProdRcp 	 - Debug Write Recipe. Add Save List.
+MagRcp 	 	 - Debug Write Recipe. Add Save List.
+UsrFolder 	 - Create LCS Directory.
+Startup 	 - Act_Main_UsrFolder, Create LCS Directory.
+Alarm 		 - Combine Two Alarm Info.
+
+2019-05-08
+RmtHermes 	 - Debug Log title.
+UsrMgmt 	 - Add Access Right Output.
+
+2019-05-07
+MagConv 	 - Debug.
+ConvBffr 	 - Add Individual Have Board Output.
+LF 			 - Major update.
+LCSLF 		 - Change Name to tyCurrProdRcp.
+ProdRcp 	 - Add Write Recipe Parameter.
+MagRcp 		 - Add Write Recipe Parameter.
+LCS 		 - Update to match LCS (PC).
+
+2019-05-04
+MagRcp 		 - Split Current Magazine Recipe From McParam.
+ProdRcp 	 - Split Current Product Recipe From McParam.
+UsrMgmt 	 - Split Access Right From McParam. Remove Nutek User.
+Hermes 		 - Split Configuration From McParam. Add RmtHermes.
+Startup 	 - Split Parameters From McParam. Add RmtHermes.
+Remove "File Device" "NutekUser". Please Refer Configuration "4PPC30_043F_21F001".
+
+2019-05-01
+Hermes 		 - Log file change to day instead of hour. Due to startup too long to check old log when production run for long.
+
+2019-04-30
+LCS 		 - Improve To Match LCS (PC).
+LFLeader 	 - Make a_tyFollowerToLeaderTag as Output.
+All 		 - sStatTxt & a_sStatText Change To String[200].
+ProdRcp 	 - Modify For LCS.
+
+2019-04-28
+MpProdRcp 	 - New.
+Add "Config.mprecipexml" Under Configuration View > mapp. Please Refer Configuration "4PPC30_043F_21F001".
+Add "File devices" For "MpProdRcp". Please Refer Configuration "4PPC30_043F_21F001".
+Startup 	 - Modify Due To MpProdRcp.
+
+2019-04-27
+DSSMEMA 	 - Update due to NtSMEMA upgrade.
+
+2019-04-26
+Buffer 		 - Debug tyBuffer to p_tyBuffer. Improve bLastProductUnload Condition In Unload Board.
+Startup 	 - Get Retain ConvBffr.
+ConvBffr 	 - Update Link with Startup. Improve bLastProduct Condition In Remove Board. Add Have Board Output.
+LFFollower 	 - Improve Act_LinkEn. Add Condition in Act_Link to update current recipe into leader tag.
+
+2019-04-25
+LibVer 		 - Modify To Move LibVer From "Private" To "User".
+Update "File devices" For "LibVer". Please Refer Configuration "4PPC30_043F_21F001".
+Add "File devices" For "LCS". Please Refer Configuration "4PPC30_043F_21F001".
+Modify "FTP Server" "Users". Please Refer Configuration "4PPC30_043F_21F001".
+Modify "OpcUaMap.uad". Please Refer Configuration "4PPC30_043F_21F001".
+LFLeader 	 - Improvement.
+
+2019-04-24
+CANOpenServo - Add actual limit sensor output.
+ProdRcp 	 - Add "Add" & "Edit" action. Improve of Act_LinkAction to suit LCS.
+LCS 	 	 - New.
+
+2019-04-23
+LFLeader 	 - New.
+
+2019-04-21
+USHermes 	 - Modify Alarm Info.
+LFFollower 	 - New.
+
+2019-04-18
+ConvBffr 	 - New.
+Buffer 		 - Change of NtBffr.
+
+2019-04-17
+CANOpenServo - Remove Extra Homing Parameter, All Use Under tyMotionCANParamInHm.
+
+2019-04-16
+Operations 	 - Remove Accept Data & New Data.
+Hermes 		 - Debug Log File. Modify Accept Data.
+
+2019-04-11
+USHermes 	 - Debug Log by adding step. Add p_bAccDataRdy.
+DSHermes 	 - Debug Log by adding step.
+
+2019-04-10
+Startup 	 - bNtSettingsLoadDone should be FALSE as default.
+
+2019-04-09
+Ops2 		 - Update of p_bAccDat interlock by Ops1.
+USHermes 	 - Update AccDatStep in Act_Link. Remove p_bChkBrdAvl. eStatus2 = Error then bRdyRcv = false. Update Act_Background_BoardAvailableChk. Add Manual Accept Data.
+DSHermes 	 - Make local.var BoardAvailable new board parameter to default value.
+NtParam 	 - Change of Act_LinkAction.
+TLBuz 		 - Change of Act_LinkAction.
+Buffer 		 - Change of Act_LinkAction.
+Conv 		 - Change of Act_LinkAction.
+DCConv 		 - Change of Act_LinkAction.
+MagConv 	 - Change of Act_LinkAction.
+MotorBrk 	 - Change of Act_LinkAction.
+ConvSpd 	 - Change of Act_LinkAction.
+SMEMA 	 	 - Change of Act_LinkAction.
+Pneu 		 - Change of Act_LinkAction.
+CANOpenServo - Change of Act_LinkAction.
+Hermes 		 - Change of Act_LinkAction.
+
+2019-04-08
+DSHermes 	 - Minor debug on fbParseBrdAvlExternal.
+Hermes 		 - Add program Hermes for board available memory use.
+Startup 	 - Due to change of Hermes.
+
+2019-04-04
+OvenInfo 	 - Add p_bBGRun.
+Startup 	 - Change eStartupStep member order for better display in UI.
+UsrMgmt 	 - Add UsrMgmtActUsrBypassLogin & UsrMgmtActNtBypassLogin.
+DSHermes 	 - Debug BoardAvailable for "New" and "External".
+UI 			 - Remove Not Use Page.
+
+2019-03-29
+All 		 - Add Act_LinkAction.
+
+2019-03-28
+Startup 	 - Change "DelOldLogFile" to "Alarm". Add "Hermes". Error will reset Action to IDLE.
+
+2019-03-25
+All 	 	 - Change Action become input. Merge Alarm Text & Recovery Text into one type.
+
+2019-03-22
+Startup 	 - Add bNtSettingsLoadDone. Move StartupStepParameter after StartupStepUsrFolder in Act_Main.st.
+All 		 - Update to match latest method of NtParam.
+
+2019-03-16
+Startup 	 - Act_Main_Bffr. Add BufferActBGStartCoolFan in Step 8.
+
+2019-03-15
+Hermes 		 - New Release
+
+2019-03-13
+UsrFolder 	 - Debug of Log directory path. Add "FileDevice" for "Log".
+
+2019-03-11
+DCConv 		 - Minor debug.
+
+2019-02-26
+AWClose 	 - Minor debug.
+
+2019-02-23
+Alarm 		 - Minor debug.
+UsrFolder 	 - Add Create Log Directory.
+Startup 	 - Improve of "Act_Main_UsrFolder" due to UsrFolder update.
+
+2019-02-22
+CANOpenServo - Change of Act_Action.
+
+2019-02-21
+DOutput 	 - Add Act_Link.
+
+2019-02-20
+DCConv 		 - Debug of ConvEngage.
+CANOpenServo - fbModuleOK delay time change to 5s.
+
+2019-02-19
+CANOpenServo - Reset Error need to reset control word 6040.
+TLBuz 		 - Improve of condition while p_bManual = True.
+
+2019-02-18
+Buffer 		 - Add background control of cool fan run.
+
+2019-02-15
+Conv 		 - Improve of condition while p_bManual = True.
+DCConv 		 - Improve of condition while p_bManual = True.
+MagConv 	 - Improve of condition while p_bManual = True.
+MotorBrk 	 - Improve of condition while p_bManual = True.
+SMEMA 		 - Improve of condition while p_bManual = True.
+
+2019-02-14
+ConvSpd 	 - Improve of condition while p_bManual = TRUE.
+Change of Cyclic Time.
+CANOpenServo - Change of Position Different Threshold.
+Convert Library Into Binary
+
+2019-02-11
+TLBuz 		 - Warning Rest Time Change To 5s.
+Buffer 		 - Add Magazine Present Timer.
+
+2019-01-27
+Buffer 		 - Add error code.
+
+2019-01-26
+Buffer 		 - Debug.
+
+2019-01-25
+Buffer 		 - Debug a_bSkip array size.
+Lifter 		 - Debug Act_Background.
+User.dat & NtUser.dat update.
+
+2019-01-24
+Pneu 		 - Modify Cyclic for disable.
+AW 		 	 - Add GoWidthOff to turn off motor after auto width move.
+Lifter 		 - Debug.
+Traverser 	 - Debug.
+Buffer 		 - Debug. Add background update display.
+OvenInfo 	 - Modify Act_Main_Disable.
+
+2019-01-23
+Lifter 		 - Major debug in slot calculation. Add FullMovRel.
+CANOpenServo - Debug reset error. Debug Act_Alarm.
+DCConv 		 - Debug reset error.
+Machine 	 - Debug reset error.
+Operation 	 - Debug reset error.
+
+2019-01-22
+CANOpenServo - Minor debug.
+
+2019-01-21
+DInput 		 - Debug reset error.
+CANOpenServo - Add eMainStatus. Add bJogging.
+Time 		 - Add eMainStatus.
+Operations 	 - Rename eStatus & udiStatus.
+
+2019-01-20
+Operations 	 - Update Structure.
+SMEMA 		 - Update due to Library update.
+Buffer 		 - Add error code.
+
+2019-01-19
+TLBuz 		 - Add Warning.
+
+2019-01-18
+RstErr 		 - Act_Main update.
+CANOpenServo - Add output. Set Default Value for siModOfOptDisp_6061:=6.
+Change of Cyclic time.
+Buffer 		 - Update Local.var
+Add file for NtUser, LibrariesVersion & User.
+Conv 		 - Add Pneu status output.
+DCConv 		 - Add Pneu status output.
+Operations 	 - Modify structure in Cyclic.
+
+2019-01-17
+DCConv 		 - Act_Main debug.
+
+2019-01-16
+Trav 		 - Remove diPitch.
+Lifter 		 - Remove diPitch.
+Operations 	 - Modify Reset methos.
+
+2019-01-15
+McParam 	 - File name as input.
+NtParam 	 - File name as input.
+Buffer 		 - File name as input.
+Operations 	 - Add bAccData.
+
+2019-01-14
+Operations 	 - Update Alarm & Sequence.
+SMEMA 		 - bTimer & bVirtual as output. Debug Act_Background timer interlock.
+
+2019-01-12
+Conv 		 - Convert time out type.
+DCConv 		 - Convert time out type.
+MagConv 	 - Convert time out type.
+OvenInfo 	 - diBrdInOven change to retain.
+SMEMA 		 - Update timer condition. Add bComplSigOn.
+Startup 	 - Debug for HWInfo.
+
+2019-01-11
+SMEMA 		 - Minor debug. Add Act_LinkEn.
+Operations 	 - Add alarm. Add Act_LinkEn.
+MagRcp 		 - Add Act_LinkEn.
+OvenInfo 	 - Add Act_LinkEn. Minor debug.
+Conv 		 - Add Act_LinkEn. Add conveyor time out.
+DCConv 		 - Add Act_LinkEn. Add conveyor time out.
+MagConv 	 - Add Act_LinkEn. Add conveyor time out.
+MotorBrk 	 - Add Act_LinkEn.
+ConvSpd 	 - Add Act_LinkEn.
+RS232Mirtec  - Add Act_LinkEn.
+Pneu 		 - Add Act_LinkEn.
+CANOpenServo - Add Act_LinkEn. Major Update.
+
+2019-01-10
+McParam 	 - Remove ProdRcpWrite & MagRcpWrite.
+OvenInfo 	 - Act_Main modify for change of eStat.
+Conv 	 	 - Act_Main modify for change of eStat.
+DCConv 		 - Act_Main modify for change of eStat.
+MagConv 	 - Act_Main modify for change of eStat.
+MotorBrk 	 - Act_Main modify for change of eStat.
+ConvSpd 	 - Act_Main modify for change of eStat.
+SMEMA 		 - Act_Main modify for change of eStat.
+DOutput 	 - Act_Main modify for change of eStat.
+Pneu 		 - Act_Main modify for change of eStat.
+Operations 	 - Act_Main modify for change of eStat.
+
+2019-01-09
+AW 			 - Update bWidthPosDiff when disable.
+Lifter 		 - Update bSltPosDiff when disable.
+Conv 		 - Add bGdBrdInit. Debug tMtrOffDlyTm. Improve Act_Action to let eStatus = DONE also able change eStat directly.
+DCConv 		 - Add bGdBrdInit. Improve Act_Action to let eStatus = DONE also able change eStat directly.
+SMEMA 		 - Add tRstDlyTm. Improve Act_Action to let eStatus = DONE also able change eStat directly.
+Operations 	 - Add Act_Main_Disable. Improve Act_Action to let eStatus = DONE also able change eStat directly.
+TLBuz 		 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+OvenInfo 	 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+MagConv 	 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+MotorBrk 	 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+ConvSpd 	 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+DOutput 	 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+Pneu 		 - Improve Act_Action to let eStatus = DONE also able change eStat directly.
+
+2019-01-08 //Until Here////
+DOutput 	 - Add output.
+SMEMA 		 - bTimer will be trigger only during SMEMAActRun.
+Operations 	 - Combine Ops1 & Ops2 into Ops.
+
+2019-01-07
+SMEMA 		 - Add bUSRdy, bUSGdBrdRdy & bDSRdy for USSMEMA & DSSMEMA.
+Conv 		 - Add tMtrOffDlyTm.
+DCConv 		 - Add tMtrOffDlyTm.
+MagConv 	 - Add tMtrOffDlyTm.
+Time 		 - Combine Error
+CANOpenServo - Combine Error
+Alarm 		 - Remove link data.
+
+2019-01-04
+Machine 	 - Debug Act_Alarm1.
+Time 		 - Debug Init.st.
+Operations 	 - Debug Ops1 > Act_Main. Add sStepTxt into Act_Main. Add Act_Dummy.
+Conv 		 - Due to NtConv update, add one more type of Exit.
+DCConv 		 - Due to NtConv update, add one more type of Exit.
+MagConv 	 - Due to NtConv update, add one more type of Exit.
+SMEMA 		 - Add Timer & Virtual.
+
+2019-01-03
+Machine 	 - Debug Act_Alarm & Act_Alarm1. Modify background error handling.
+CANOpenServo - Modify background error handling. Update sStatTxt in Act_Initial.
+AW 			 - Replace diStandPitchInUM (Input) to diPitchInUM (Local).
+Time 		 - Modify background error handling. Update sStatTxt in Act_Initial.
+DCConv 		 - Modify background error handling. Update sStatTxt in Act_Initial.
+DInput 		 - Modify background error handling.
+UsrMgmt 	 - Update sStatTxt in Act_Initial.
+McParam 	 - Update sStatTxt in Act_Initial.
+NtParam 	 - Update sStatTxt in Act_Initial.
+ProdRcp 	 - Update sStatTxt in Act_Initial.
+MagRcp 		 - Update sStatTxt in Act_Initial.
+HWInfo 		 - Update sStatTxt in Act_Initial.
+UsrFolder 	 - Update sStatTxt in Act_Initial.
+LibVer 		 - Update sStatTxt in Act_Initial.
+General 	 - Update sStatTxt in Act_Initial.
+TLBuz 		 - Update sStatTxt in Act_Initial.
+OvenInfo 	 - Update sStatTxt in Act_Initial.
+Buffer 		 - Update sStatTxt in Act_Initial.
+RstErr 		 - Update sStatTxt in Act_Initial.
+Conv 		 - Update sStatTxt in Act_Initial.
+MagConv 	 - Update sStatTxt in Act_Initial.
+MotorBrk 	 - Update sStatTxt in Act_Initial.
+ConvSpd 	 - Update sStatTxt in Act_Initial.
+Alarm 		 - Update sStatTxt in Act_Initial.
+RS232Mirtec  - Update sStatTxt in Act_Initial.
+SMEMA 		 - Update sStatTxt in Act_Initial.
+UI 			 - Update sStatTxt in Act_Initial.
+DOutput 	 - Update sStatTxt in Act_Initial.
+Pneu 		 - Update sStatTxt in Act_Initial.
+Operations   - Update sStatTxt in Act_Initial.
+Startup 	 - Update sStatTxt in Act_Initial.
+
+2019-01-02
+UsrMgmt 	 - Change of sStatTxt update.
+McParam 	 - Change of sStatTxt update.
+NtParam 	 - Change of sStatTxt update.
+ProdRcp 	 - Change of sStatTxt update.
+MagRcp 		 - Change of sStatTxt update.
+Time 		 - Change of sStatTxt update.
+HWInfo 		 - Change of sStatTxt update.
+UsrFolder 	 - Change of sStatTxt update.
+LibVer 		 - Change of sStatTxt update.
+General 	 - Change of sStatTxt update.
+TLBuz 		 - Change of sStatTxt update.
+OvenInfo 	 - Change of sStatTxt update.
+Buffer 		 - Change of sStatTxt update.
+RstErr 		 - Change of sStatTxt update.
+Conv 		 - Change of sStatTxt update.
+DCConv 		 - Change of sStatTxt update.
+MagConv 	 - Change of sStatTxt update.
+MotorBrk 	 - Change of sStatTxt update.
+ConvSpd 	 - Change of sStatTxt update.
+Alarm 		 - Change of sStatTxt update.
+RS232Mirtec  - Change of sStatTxt update.
+SMEMA 		 - Change of sStatTxt update.
+UI 			 - Change of sStatTxt update.
+DOutput 	 - Change of sStatTxt update.
+Pneu 		 - Change of sStatTxt update.
+Operations 	 - Change of sStatTxt update.
+CANOpenServo - Change of sStatTxt update. Update eStatus to Busy while running.
+Startup 	 - Change of sStatTxt update.
+
+2018-12-31
+CANOpenServo - Seperate input reference.
+
+2018-12-27
+Time 		 - Remove bBGRun.
+TLBuz 		 - Remove bBGRun. Add manual reset.
+OvenInfo 	 - Background direct link to input bPrepExtdd, bEnExtdd & bDisExtdd. Add manual reset.
+Buffer 		 - Background Cool Fan Control direct link to input bPrepCoolTm & bCoolFanTm.
+DCConv 	 	 - Remove bBGRun. Add manual reset.
+AlarmLog 	 - Background run is control by Action.
+Machine 	 - Remove bBGRun.
+SMEMA 		 - Remove bBGRun. Add manual reset.
+DInput 		 - Remove bBGRun.
+DOutput 	 - Remove bBGRun. Add manual reset.
+CANOpenServo - Remove bBGRun. Background run is control by Action. Add manual reset.
+AW 			 - Add bWidthPosDiff.
+Lifter 		 - Add bSltPosDiff.
+Startup 	 - Background run is control by Action. Shorten local variable name.
+McParam 	 - Add McParam program without Magazine (McParam2).
+RstErr 		 - Add manual reset.
+Conv 		 - Add manual reset.
+MagConv 	 - Add manual reset.
+MotorBrk 	 - Add manual reset.
+ConvSpd 	 - Add manual reset.
+Pneu 		 - Add manual reset.
+
+2018-12-26
+CPU 		 - Update distribute of program in CPU. Update cyclic time.
+FTP 		 - Update of FTP server configurations.
+Startup 	 - Remove bStartupErr.
+HWInfo 		 - After set new IPAddr & Subnetmask will update output.
+TLBuz 		 - Rising of bManual will set Amber Light ON.
+Conv 		 - Remove functions reset in individual eStat.
+MagConv 	 - Remove functions reset in individual eStat.
+MotorBrk 	 - Remove functions reset in individual eStat.
+DCConv 		 - New program.
+Operations 	 - Update of OperationsActStep.
+
+2018-12-24
+Operations 	 - Add bRun.Sequence will execute base on bRun instead of bStatusRun.
+
+2018-12-21
+Buffer 		 - Add individual cooling fan control.
+McParam 	 - Move Hermes parameter to Hermes program type.
+MagConv 	 - Add bClprTwoOutputControl. Remove bClprUnclampCtrl.
+
+2018-12-20
+TLBuz 		 - Add bMuteBuz.
+OvenInfo 	 - Add bDis.
+Conv 		 - Add bEn.
+MagConv 	 - Add bEn.
+MotorBrk 	 - Add bEn.
+ConvSpd 	 - Add bEn.
+RS232Mirtec  - Add bEn.
+SMEMA 		 - Add bDis.
+Pneu 		 - Add bEn.
+CANOpenServo - Add bEn.
+CANOpenServo - AutoWidth - Add diMaxWidthInUM, diMinWidthInUM, diWidthOffsetInUM & diStdPitch.
+Operations 	 - Add bPrep, bEn & bDis. Add OperationsStatusCycleStopping. Default Status is OperationsStatusStop. Add Boolean output for Status.
+MagRcp 	 	 - Change sDisplayInfo & Magazine Parameter.
+Startup 	 - Add bRun.
+
+2018-12-14
+RstErr 		 - Add bManual to control reset of output in Idle. Reset output in Idle after ManualMode off.
+Conv 		 - Add bManual to control reset of output in Idle. Rename eAction. Reset output in Idle after ManualMode off.
+ConvSpd 	 - Add bManual to control reset of output in Idle. Reset output in Idle after ManualMode off.
+MtrBrk 		 - Add bManual to control reset of output in Idle. Rename eAction. Reset output in Idle after ManualMode off. Reset after change eStat.
+MagConv 	 - Add bManual to control reset of output in Idle. Rename eAction. Reset output in Idle after ManualMode off. Reset after change eStat.
+OvenInfo 	 - Set bOvenAllow to TRUE, if all functions not activated.
+SMEMA 		 - Reset output in Idle after ManualMode off.
+Pneu 		 - Add Extended & Retracted output.
+
+2018-12-13
+Conv 		 - Change of Conv2Sen to Conv. Add Reject & Inspection functions. Add individual output control.
+Pneu 		 - Add bTwoCtrlIn & bTwoCtrlOut.
+TLBuz 		 - Add individual output control.
+ConvSpd 	 - Add individual output control.
+OvenInfo 	 - Add individual output control. Move functions into Act_Background.
+RstErr 		 - Add individual output control.
+MtrBrk 		 - Add individual output control.
+MagConv 	 - Add individual output control.
+DOutput 	 - Add individual output control.
+SMEMA 		 - Add individual output control.
+
+2018-12-12
+Startup 	 - Add Logout during User Management Startup.
+Time 	 	 - Move Act_Background above Act_Main.
+Buffer 		 - Move Act_Background above Act_Main.
+Alarm 		 - Move Act_Background above Act_Main.
+CANOpenServo - Move Act_Background above Act_Main.
+Operations 	 - Change of Conv2Sen to Conv.
+
+2018-12-11
+DOutput 	 - Split to Act_InitGlobal & Act_InitLocal.
+Pneu 		 - Change in all program. Add Pneu3Sen program.
+Operations 	 - Update sample to 2 operations. Rename variable.
+CANOpenServo - Rename variable.

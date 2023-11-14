@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P1050_LFSet">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="1050"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BackgroundColorBlack]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <Layer Name="A0_Leader">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="0"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[1].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="2"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="133"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[2].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="3"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[3].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="4"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="191"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[4].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="5"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[5].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="6"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[6].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="7"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="278"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[7].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0Title">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="No"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="75"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyStringTitle0Col0Row0.sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row12">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[12].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[12].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="3"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="423"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row11">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[11].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[11].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="394"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row10">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[10].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[10].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row9">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[9].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[9].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="336"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row8">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[8].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[8].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="3"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="307"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row7">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[7].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[7].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="278"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row6">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[6].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[6].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row5">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[5].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[5].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row4">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[4].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[4].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="3"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="191"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row3">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[3].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[3].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="2"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row2">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[2].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[2].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="133"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Txt_Col3_Row1">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[1].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyTxtDataCol3[1].usiValueIdx]"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableContents]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="50"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row1">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[1].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[1].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row2">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[2].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="133"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[2].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row3">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[3].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[3].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row4">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[4].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="191"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[4].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row5">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[5].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[5].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row6">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[6].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[6].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row7">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[7].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="278"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[7].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2Title">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="IP Address"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="75"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyStringTitle2Col2Row0.sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Offline">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[LeadFollow]"/>
+          <Property Name="BitmapIndex" Value="4"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Border" Value="Source[local].Border[ColorBtn_Silver_150x50_R8]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_59]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[ColorBtn_Green_150x50_R8]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndex" Value="24"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="400"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_59]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Edit">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[LeadFollow]"/>
+          <Property Name="BitmapIndex" Value="2"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Border" Value="Source[local].Border[ColorBtn_Silver_150x50_R8]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_60]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[ColorBtn_Green_150x50_R8]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndex" Value="21"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="235"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_60]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Delete">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[LeadFollow]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Border" Value="Source[local].Border[ColorBtn_Silver_150x50_R8]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_61]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[ColorBtn_Green_150x50_R8]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndex" Value="22"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="290"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_61]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="8"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="307"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[8].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row9">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="9"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="336"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[9].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row10">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[10].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row11">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="11"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="394"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[11].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col0_Row12">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="SimulationValue" Value="12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="423"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol0[12].sValue]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row9">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[9].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="336"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[9].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row8">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[8].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="307"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[8].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row10">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[10].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[10].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row11">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[11].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="394"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[11].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Col2_Row12">
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[12].usiColor]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="135"/>
+          <Property Name="SimulationValue" Value="192.168.0.101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableData]"/>
+          <Property Name="Top" Value="423"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyStringDataCol2[12].sValue]"/>
+          <Property Name="Width" Value="230"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_Status">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="364"/>
+          <Property Name="SimulationValue" Value="Status"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TableTitle]"/>
+          <Property Name="Top" Value="75"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyStringTitle3Col3Row0.sValue]"/>
+          <Property Name="Width" Value="189"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Online">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[LeadFollow]"/>
+          <Property Name="BitmapIndex" Value="12"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Border" Value="Source[local].Border[ColorBtn_Silver_150x50_R8]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_238]"/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[ColorBtn_Green_150x50_R8]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_IconLft]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndex" Value="23"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="345"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_238]"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_12">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_73]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="96"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="423"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_73]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_11">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_76]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="394"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_76]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_10">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_79]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="365"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_79]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_9">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_86]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="336"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_86]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_112]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="307"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_112]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_115]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="278"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_115]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_116]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_116]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_117]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_117]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_145]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="191"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_145]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_160]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_160]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_282]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="133"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_282]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_305]"/>
+          <Property Name="GroupID" Value="3"/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_305]"/>
+          <Property Name="Width" Value="457"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_Lead">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyUISlider.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="325"/>
+          <Property Name="Left" Value="527"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyUISlider.iMaxValue]"/>
+          <Property Name="MaxValue" Value="2000"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyUISlider.iMinValue]"/>
+          <Property Name="MinValue" Value="1"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyUISlider.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Slider]"/>
+          <Property Name="Top" Value="116"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.tyUISlider.iValue]"/>
+          <Property Name="Width" Value="20"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Edit">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnEdit.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="235"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Delete">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnDelete.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="290"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Online">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnOnline.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="345"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Offline">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="50"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="575"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnOffline.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="400"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_Table">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="380"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="95"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="73"/>
+          <Property Name="Width" Value="458"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_ShftDwn">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_113]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="46"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_Table_ShiftDown]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="414"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_113]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_ShftUp">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_47]"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="46"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_Table_ShiftUp]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="343"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_47]"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_ShftUp">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="46"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnShftUp.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="343"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Mask_ShftDwn">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="46"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnShftDwn.uiMaskRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="414"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Lbl_MachineIndexBeforeOven">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="61"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="64"/>
+          <Property Name="Width" Value="138"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Lbl_MachineIndexAfterOven">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="62"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="140"/>
+          <Property Name="Width" Value="129"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_McIdxBeforeOven">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="629"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="89"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_McIdxAfterOven">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="629"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="167"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Lbl_MachineIndexBeforeOven1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="63"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="89"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_McIdxBeforeOven1">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven2.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="629"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven2.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven2.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumBeforeOven2.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Lbl_MachineIndexBeforeOven2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="64"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="113"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Lbl_MachineIndexAfterOven1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="63"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="167"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_McIdxBeforeOven2">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven2.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="629"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven2.diValueMax]"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven2.diValueMin]"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven2.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="201"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyNumAfterOven2.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Lbl_MachineIndexAfterOven2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="573"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1140_RecipeLabels]"/>
+          <Property Name="TextIndexOffset" Value="64"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="198"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_238">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnOnline.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnOnline.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_59">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnOffline.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnOffline.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_60">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnEdit.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnEdit.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_61">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnDelete.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnDelete.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_73">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[12].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[12].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_76">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[11].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[11].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_79">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[10].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[10].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_86">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[9].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[9].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_112">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[8].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[8].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_115">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[7].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[7].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_116">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[6].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[6].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_117">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[5].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[5].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_145">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[4].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[4].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_160">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[3].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[3].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_282">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[2].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[2].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_305">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[1].bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyTable1List.a_tyHotspot[1].bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_113">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnShftDwn.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnShftDwn.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_47">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnShftUp.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdr.tyBtnShftUp.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <Layer Name="E0_EditInput">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Lock Position"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyLyr.uiRtStat]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="zh"/>
+        <TextLayer LanguageId="pt"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_Mask">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="480"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Mask]"/>
+          <Property Name="Top" Value="0"/>
+          <Property Name="Width" Value="800"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_Edit">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="249"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="200"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Border_MsgBox]"/>
+          <Property Name="Top" Value="112"/>
+          <Property Name="Width" Value="400"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_IPAdd">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyStringIPAddr.bRtCompl]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="390"/>
+          <Property Name="SimulationValue" Value="192.168.0.100"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyStringIPAddr.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="Top" Value="221"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyStringIPAddr.sValue]"/>
+          <Property Name="Width" Value="130"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_MacNo">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="240"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="30"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="170"/>
+          <Property Name="Width" Value="120"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_IPAdd">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="240"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text_Label]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="31"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="Width" Value="120"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Num_MacNo">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="390"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Display]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="170"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyNumMcNum.diValue]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="40"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_OK">
+          <Property Name="BitmapAlignmentHorizontal" Value="Left of Text"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Dialog]"/>
+          <Property Name="BitmapIndex" Value="1"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_2]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="270"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_NoIcon]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndex" Value="33"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="295"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_2]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Btn_Cancel">
+          <Property Name="BitmapAlignmentHorizontal" Value="Left of Text"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Dialog]"/>
+          <Property Name="BitmapIndex" Value="3"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_16]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="420"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Btn_General_Grey_NoIcon]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndex" Value="34"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="295"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_16]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Disp_InfoMsg">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="391"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyTxtLblInfoThirdParty.uiRtStat]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[InfoMessage]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T2000_LFText]"/>
+          <Property Name="TextIndexOffset" Value="32"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="251"/>
+          <Property Name="Width" Value="170"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="lbl_AlertMsg">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="227"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MessageBoxCaption]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[T1110_MessageBox_Title]"/>
+          <Property Name="TextIndexOffset" Value="9"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="129"/>
+          <Property Name="Width" Value="333"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_2">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyBtnOk.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyBtnOk.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_16">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016A">
+              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyBtnCancel.bRtCompl]"/>
+              <Property Name="CompletionValue" Value="1"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1050LFSetLdrEdit.tyBtnCancel.bValue]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[C0005_MainLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0005_MainLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0006_SetLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0006_SetLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0007_NotifLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0007_NotifLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0008_MsgBoxLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0008_MsgBoxLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0009_InfoLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0009_InfoLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Outline"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[C0011_LoadingLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="C0011_LoadingLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="7"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row2]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row6]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row6]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row7]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row7]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row7]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row8]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row8]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row9]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row10]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row10]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row8]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row8]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row9]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row9]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row10]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row11]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row11]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row11]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row11]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row12]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row12]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row12]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row10]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row12]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row11]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[E0_EditInput].Control[String_IPAdd]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[Num_McIdxAfterOven]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven1]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxAfterOven]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven2]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxAfterOven]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[E0_EditInput].Control[String_IPAdd]">
+      <Property Name="Down" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row2]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row3]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row4]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row5]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row6]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row7]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0Title]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row1]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row2]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row3]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row4]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row5]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row6]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row7]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2Title]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row8]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row9]"/>
+    <TabSeqItem Index="18" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row10]"/>
+    <TabSeqItem Index="19" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row11]"/>
+    <TabSeqItem Index="20" Value="Source[embedded].Layer[A0_Leader].Control[String_Col0_Row12]"/>
+    <TabSeqItem Index="21" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row8]"/>
+    <TabSeqItem Index="22" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row9]"/>
+    <TabSeqItem Index="23" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row10]"/>
+    <TabSeqItem Index="24" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row11]"/>
+    <TabSeqItem Index="25" Value="Source[embedded].Layer[A0_Leader].Control[String_Col2_Row12]"/>
+    <TabSeqItem Index="26" Value="Source[embedded].Layer[A0_Leader].Control[String_Status]"/>
+    <TabSeqItem Index="27" Value="Source[embedded].Layer[A0_Leader].Control[Slider_Lead]"/>
+    <TabSeqItem Index="28" Value="Source[embedded].Layer[E0_EditInput].Control[Num_MacNo]"/>
+    <TabSeqItem Index="29" Value="Source[embedded].Layer[E0_EditInput].Control[String_IPAdd]"/>
+    <TabSeqItem Index="30" Value="Source[local].Layer[C0007_NotifLayer].Control[Disp_UsrNm]"/>
+    <TabSeqItem Index="31" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven]"/>
+    <TabSeqItem Index="32" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxAfterOven]"/>
+    <TabSeqItem Index="33" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven1]"/>
+    <TabSeqItem Index="34" Value="Source[embedded].Layer[A0_Leader].Control[Num_McIdxBeforeOven2]"/>
+  </TabSequence>
+</Page>

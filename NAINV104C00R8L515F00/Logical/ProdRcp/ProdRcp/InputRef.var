@@ -1,0 +1,23 @@
+(*2020-06-08*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eProdRcpAction;
+	p_udiMax : REFERENCE TO UDINT;
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_dtCurrDT : REFERENCE TO DATE_AND_TIME;
+	p_uiSortNo : REFERENCE TO UINT;
+	p_sSearch : REFERENCE TO STRING[254];
+	p_sScan : REFERENCE TO STRING[254];
+	p_tyInfoIn : REFERENCE TO tyProdRcpParam;
+	p_tyCurrRcpWr : REFERENCE TO tyProdRcpParam;
+	p_sListFileName : REFERENCE TO STRING[80];
+	p_sSingleFileName : REFERENCE TO STRING[80];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_bWidth2Prep : REFERENCE TO BOOL;
+END_VAR

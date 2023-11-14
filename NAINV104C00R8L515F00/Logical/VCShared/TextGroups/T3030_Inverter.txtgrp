@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T3030_Inverter">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="29"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="386698" Value="Belt Buffer Machine Status:"/>
+    <Text ID="402103" Value="Auto"/>
+    <Text ID="402104" Value="Stop"/>
+    <Text ID="402105" Value="Manual"/>
+    <Text ID="402106" Value="Settings"/>
+    <Text ID="402107" Value="Simulation"/>
+    <Text ID="402108" Value="Error"/>
+    <Text ID="402109" Value="Warning"/>
+    <Text ID="402194" Value="Invert Home Sensor"/>
+    <Text ID="402240" Value="Invert Remote Sensor"/>
+    <Text ID="402250" Value="Digital Input :"/>
+    <Text ID="402251" Value="Safety Relay Signal"/>
+    <Text ID="402252" Value="E-Stop Signal"/>
+    <Text ID="402253" Value="Cover Switch Signal"/>
+    <Text ID="402254" Value="UBA Signal"/>
+    <Text ID="402255" Value="DSB Signal"/>
+    <Text ID="402266" Value="Conv Left Sensor"/>
+    <Text ID="402267" Value="Conv Right Sensor"/>
+    <Text ID="402274" Value="Board Clear Sensor "/>
+    <Text ID="402275" Value="Digital Output:"/>
+    <Text ID="402276" Value="Safety Relay Reset"/>
+    <Text ID="402277" Value="Tower Light Green"/>
+    <Text ID="402278" Value="Tower Light Amber"/>
+    <Text ID="402279" Value="Tower Light Red"/>
+    <Text ID="402280" Value="Buzzer"/>
+    <Text ID="402281" Value="Conv Motor On"/>
+    <Text ID="402282" Value="Flipper Valve Open Control"/>
+    <Text ID="402283" Value="USB Signal"/>
+    <Text ID="402284" Value="DBA Signal"/>
+    <Text ID="403350" Value="Low Board Sensor"/>
+    <Text ID="403353" Value="Flipper Valve Close Control"/>
+    <Text ID="451793" Value="Flipper Open Sensor Front"/>
+    <Text ID="451794" Value="Flipper Close Sensor Front"/>
+    <Text ID="508267" Value="Clamp In Position Sensor"/>
+    <Text ID="525092" Value="Lifter Home Position Sensor"/>
+    <Text ID="525093" Value="Lifter Remote Position Sensor"/>
+    <Text ID="525094" Value="Loading Position Sensor"/>
+    <Text ID="525095" Value="Clamp Home Reed Switch "/>
+    <Text ID="525096" Value="Clamp Remote Reed Switch"/>
+    <Text ID="525097" Value="Guide Home Sensor Front"/>
+    <Text ID="525098" Value="US Width Check Sensor"/>
+    <Text ID="525099" Value="DS Width Check Sensor"/>
+    <Text ID="525100" Value="Clamp Valve Close Control"/>
+    <Text ID="525101" Value="Guide Valve Open Control"/>
+    <Text ID="525102" Value="Lifter Motor Start"/>
+    <Text ID="525103" Value="Lifter AC Brake"/>
+    <Text ID="525104" Value="Lifter Rotation Dir"/>
+    <Text ID="525105" Value="Board Stack Present Sensor"/>
+    <Text ID="525106" Value="Lifter Motor Thermal Protector Signal"/>
+    <Text ID="525107" Value="Flipper Open Sensor Rear"/>
+    <Text ID="525108" Value="Flipper Close Sensor Rear"/>
+    <Text ID="525109" Value="Guide Home Sensor Rear"/>
+    <Text ID="525110" Value="Board Sensed Sensor"/>
+    <Text ID="525111" Value="Top Cover Switch Signal"/>
+    <Text ID="525112" Value="UBAStat Signal"/>
+    <Text ID="543527" Value="Bypass Top Cover Switch Holding Relay"/>
+    <Text ID="543528" Value="Vacuum 1 On"/>
+    <Text ID="543529" Value="Vacuum 1 Off"/>
+    <Text ID="543530" Value="Vacuum 2 On"/>
+    <Text ID="543531" Value="Vacuum 2 Off"/>
+    <Text ID="543532" Value="Vacuum 3 On"/>
+    <Text ID="543533" Value="Vacuum 3 Off"/>
+    <Text ID="543610" Value="DBAStat Signal"/>
+    <Text ID="578319" Value="Stopper Unblock Control"/>
+    <Text ID="578320" Value="Stopper Block Control"/>
+    <Text ID="578321" Value="Conv Motor On\nCW"/>
+    <Text ID="578322" Value="Conv Motor On\nCCW"/>
+    <Text ID="578327" Value="Coating Sensor"/>
+    <Text ID="578328" Value="Pressure Switch"/>
+    <Text ID="586149" Value="Stopper1 Unblock Control"/>
+    <Text ID="586150" Value="Stopper1 Block Control"/>
+    <Text ID="586155" Value="Stopper1 Ret Reed Switch"/>
+    <Text ID="586156" Value="Stopper1 Ext Reed Switch"/>
+    <Text ID="586157" Value="Invert Bypass Mode Signal"/>
+    <Text ID="591076" Value="Invert Invert Mode Signal"/>
+    <Text ID="607601" Value="Tower Light White"/>
+    <Text ID="607602" Value="Tower Light Blue"/>
+    <Text ID="618699" Value="Inlet Shutter Open\nReed Switch"/>
+    <Text ID="618700" Value="Inlet Shutter Close\nReed Switch"/>
+    <Text ID="618701" Value="Outlet Shutter Open\nReed Switch"/>
+    <Text ID="618702" Value="Outlet Shutter Close\nReed Switch"/>
+    <Text ID="618703" Value="Inlet Shutter\nOpen Control"/>
+    <Text ID="618704" Value="Inlet Shutter\nClose Control"/>
+    <Text ID="618705" Value="Outlet Shutter\nOpen Control"/>
+    <Text ID="618706" Value="Outlet Shutter\nClose Control"/>
+    <Text ID="618707" Value="Clamp 2 Sensor"/>
+    <Text ID="618708" Value="Clamp 3 Sensor"/>
+    <Text ID="618709" Value="Clamp 1 Home\nReed Switch "/>
+    <Text ID="618710" Value="Clamp 1 Remote\nReed Switch "/>
+    <Text ID="618711" Value="Clamp 2 Home\nReed Switch"/>
+    <Text ID="618712" Value="Clamp 2 Remote\nReed Switch"/>
+    <Text ID="618713" Value="Clamp 3 Home\nReed Switch"/>
+    <Text ID="618714" Value="Clamp 3 Remote\nReed Switch"/>
+    <Text ID="618715" Value="Clamp 1\nOpen Control"/>
+    <Text ID="618716" Value="Clamp 1\nClose Control"/>
+    <Text ID="618717" Value="Clamp 2\nOpen Control"/>
+    <Text ID="618718" Value="Clamp 2\nClose Control"/>
+    <Text ID="618719" Value="Clamp 3\nOpen Control"/>
+    <Text ID="618720" Value="Clamp 3\nClose Control"/>
+    <Text ID="619744" Value="Clamp Unblock\nControl"/>
+    <Text ID="619745" Value="Clamp Block\nControl"/>
+    <Text ID="619746" Value="Invert Home"/>
+    <Text ID="619747" Value="Invert Remote"/>
+    <Text ID="619748" Value="Invert Brake"/>
+    <Text ID="619752" Value="Thermal Protection\nSignal"/>
+    <Text ID="619756" Value="Coating Stopper\nControl"/>
+    <Text ID="619761" Value="Motor Power Relay"/>
+    <Text ID="643102" Value="Safety Signal To US&amp;DS"/>
+    <Text ID="643103" Value="Top Cover Unlock To US&amp;DS"/>
+    <Text ID="643104" Value="Unlock Cover Holding Relay"/>
+    <Text ID="643105" Value="Unlock Cover PB LED"/>
+    <Text ID="643108" Value="Top Cover Switch Signal"/>
+    <Text ID="643109" Value="Safety Signal From US"/>
+    <Text ID="643110" Value="Safety Signal From DS"/>
+    <Text ID="643111" Value="Unlock Cover Signal From US"/>
+    <Text ID="643112" Value="Unlock Cover Signal From DS"/>
+    <Text ID="643113" Value="Unlock Cover PB"/>
+    <Text ID="643114" Value="Safety Unlock Cover SW Coil"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="386698" Value="Belt Buffer Maschinenstatus:"/>
+    <Text ID="402103" Value="Auto"/>
+    <Text ID="402104" Value="Stopp"/>
+    <Text ID="402105" Value="Manuell"/>
+    <Text ID="402106" Value="Einstellungen"/>
+    <Text ID="402107" Value="Simulation"/>
+    <Text ID="402108" Value="Fehler"/>
+    <Text ID="402109" Value=" "/>
+    <Text ID="402194" Value=""/>
+    <Text ID="402240" Value=" "/>
+    <Text ID="402250" Value="Digital Input :"/>
+    <Text ID="402251" Value="Safety Relay Signal"/>
+    <Text ID="402252" Value="E-Stop Signal"/>
+    <Text ID="402253" Value="Cover Switch Signal"/>
+    <Text ID="402254" Value="UBA Signal"/>
+    <Text ID="402255" Value="DSB Signal"/>
+    <Text ID="402266" Value="Conv Left Sensor"/>
+    <Text ID="402267" Value="Conv Right Sensor"/>
+    <Text ID="402274" Value=""/>
+    <Text ID="402275" Value="Digital Output:"/>
+    <Text ID="402276" Value="Safety Relay Reset"/>
+    <Text ID="402277" Value="Tower Light Green"/>
+    <Text ID="402278" Value="Tower Light Amber"/>
+    <Text ID="402279" Value="Tower Light Red"/>
+    <Text ID="402280" Value="Buzzer"/>
+    <Text ID="402281" Value="Conv Motor On"/>
+    <Text ID="402282" Value=""/>
+    <Text ID="402283" Value="USB"/>
+    <Text ID="402284" Value="DBA"/>
+    <Text ID="403350" Value=""/>
+    <Text ID="403353" Value="Flipper Valve Close Control"/>
+    <Text ID="451793" Value=""/>
+    <Text ID="451794" Value=""/>
+    <Text ID="508267" Value=""/>
+    <Text ID="525092" Value=""/>
+    <Text ID="525093" Value=""/>
+    <Text ID="525094" Value=""/>
+    <Text ID="525095" Value=""/>
+    <Text ID="525096" Value=""/>
+    <Text ID="525097" Value=""/>
+    <Text ID="525098" Value=""/>
+    <Text ID="525099" Value=""/>
+    <Text ID="525100" Value=""/>
+    <Text ID="525101" Value=""/>
+    <Text ID="525102" Value=""/>
+    <Text ID="525103" Value=""/>
+    <Text ID="525104" Value=""/>
+    <Text ID="525105" Value=""/>
+    <Text ID="525106" Value=""/>
+    <Text ID="525107" Value=""/>
+    <Text ID="525108" Value=""/>
+    <Text ID="525109" Value=""/>
+    <Text ID="525110" Value=""/>
+    <Text ID="525111" Value=""/>
+    <Text ID="525112" Value=""/>
+    <Text ID="543527" Value=""/>
+    <Text ID="543528" Value=""/>
+    <Text ID="543529" Value=""/>
+    <Text ID="543530" Value=""/>
+    <Text ID="543531" Value=""/>
+    <Text ID="543532" Value=""/>
+    <Text ID="543533" Value=""/>
+    <Text ID="543610" Value=""/>
+    <Text ID="578319" Value=""/>
+    <Text ID="578320" Value=""/>
+    <Text ID="578321" Value=""/>
+    <Text ID="578322" Value=""/>
+    <Text ID="578327" Value=""/>
+    <Text ID="578328" Value=""/>
+    <Text ID="586149" Value=""/>
+    <Text ID="586150" Value=""/>
+    <Text ID="586155" Value=""/>
+    <Text ID="586156" Value=""/>
+    <Text ID="586157" Value=""/>
+    <Text ID="591076" Value=""/>
+    <Text ID="607601" Value=""/>
+    <Text ID="607602" Value=""/>
+    <Text ID="618699" Value=" "/>
+    <Text ID="618700" Value=" "/>
+    <Text ID="618701" Value=" "/>
+    <Text ID="618702" Value=" "/>
+    <Text ID="618703" Value=" "/>
+    <Text ID="618704" Value=" "/>
+    <Text ID="618705" Value=" "/>
+    <Text ID="618706" Value=" "/>
+    <Text ID="618707" Value=""/>
+    <Text ID="618708" Value=""/>
+    <Text ID="618709" Value=""/>
+    <Text ID="618710" Value=""/>
+    <Text ID="618711" Value=""/>
+    <Text ID="618712" Value=""/>
+    <Text ID="618713" Value=""/>
+    <Text ID="618714" Value=""/>
+    <Text ID="618715" Value=""/>
+    <Text ID="618716" Value=""/>
+    <Text ID="618717" Value=""/>
+    <Text ID="618718" Value=""/>
+    <Text ID="618719" Value=""/>
+    <Text ID="618720" Value=""/>
+    <Text ID="619744" Value=" "/>
+    <Text ID="619745" Value=" "/>
+    <Text ID="619746" Value=""/>
+    <Text ID="619747" Value=""/>
+    <Text ID="619748" Value=""/>
+    <Text ID="619752" Value=""/>
+    <Text ID="619756" Value=""/>
+    <Text ID="619761" Value=""/>
+    <Text ID="643102" Value=""/>
+    <Text ID="643103" Value=""/>
+    <Text ID="643104" Value=""/>
+    <Text ID="643105" Value=""/>
+    <Text ID="643108" Value=""/>
+    <Text ID="643109" Value=""/>
+    <Text ID="643110" Value=""/>
+    <Text ID="643111" Value=""/>
+    <Text ID="643112" Value=""/>
+    <Text ID="643113" Value=""/>
+    <Text ID="643114" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="386698" Value="皮带缓存机状态："/>
+    <Text ID="402103" Value="自动"/>
+    <Text ID="402104" Value="停止"/>
+    <Text ID="402105" Value="手动"/>
+    <Text ID="402106" Value="设置"/>
+    <Text ID="402107" Value="模拟"/>
+    <Text ID="402108" Value="报警"/>
+    <Text ID="402109" Value=" "/>
+    <Text ID="402194" Value=""/>
+    <Text ID="402240" Value=" "/>
+    <Text ID="402250" Value="Digital Input :"/>
+    <Text ID="402251" Value="Safety Relay Signal"/>
+    <Text ID="402252" Value="E-Stop Signal"/>
+    <Text ID="402253" Value="Cover Switch Signal"/>
+    <Text ID="402254" Value="UBA Signal"/>
+    <Text ID="402255" Value="DSB Signal"/>
+    <Text ID="402266" Value="Conv Left Sensor"/>
+    <Text ID="402267" Value="Conv Right Sensor"/>
+    <Text ID="402274" Value=""/>
+    <Text ID="402275" Value="Digital Output:"/>
+    <Text ID="402276" Value="Safety Relay Reset"/>
+    <Text ID="402277" Value="Tower Light Green"/>
+    <Text ID="402278" Value="Tower Light Amber"/>
+    <Text ID="402279" Value="Tower Light Red"/>
+    <Text ID="402280" Value="Buzzer"/>
+    <Text ID="402281" Value="Conv Motor On"/>
+    <Text ID="402282" Value=""/>
+    <Text ID="402283" Value="USB"/>
+    <Text ID="402284" Value="DBA"/>
+    <Text ID="403350" Value=""/>
+    <Text ID="403353" Value="Flipper Valve Close Control"/>
+    <Text ID="451793" Value=""/>
+    <Text ID="451794" Value=""/>
+    <Text ID="508267" Value=""/>
+    <Text ID="525092" Value=""/>
+    <Text ID="525093" Value=""/>
+    <Text ID="525094" Value=""/>
+    <Text ID="525095" Value=""/>
+    <Text ID="525096" Value=""/>
+    <Text ID="525097" Value=""/>
+    <Text ID="525098" Value=""/>
+    <Text ID="525099" Value=""/>
+    <Text ID="525100" Value=""/>
+    <Text ID="525101" Value=""/>
+    <Text ID="525102" Value=""/>
+    <Text ID="525103" Value=""/>
+    <Text ID="525104" Value=""/>
+    <Text ID="525105" Value=""/>
+    <Text ID="525106" Value=""/>
+    <Text ID="525107" Value=""/>
+    <Text ID="525108" Value=""/>
+    <Text ID="525109" Value=""/>
+    <Text ID="525110" Value=""/>
+    <Text ID="525111" Value=""/>
+    <Text ID="525112" Value=""/>
+    <Text ID="543527" Value=""/>
+    <Text ID="543528" Value=""/>
+    <Text ID="543529" Value=""/>
+    <Text ID="543530" Value=""/>
+    <Text ID="543531" Value=""/>
+    <Text ID="543532" Value=""/>
+    <Text ID="543533" Value=""/>
+    <Text ID="543610" Value=""/>
+    <Text ID="578319" Value=""/>
+    <Text ID="578320" Value=""/>
+    <Text ID="578321" Value=""/>
+    <Text ID="578322" Value=""/>
+    <Text ID="578327" Value=""/>
+    <Text ID="578328" Value=""/>
+    <Text ID="586149" Value=""/>
+    <Text ID="586150" Value=""/>
+    <Text ID="586155" Value=""/>
+    <Text ID="586156" Value=""/>
+    <Text ID="586157" Value=""/>
+    <Text ID="591076" Value=""/>
+    <Text ID="607601" Value=""/>
+    <Text ID="607602" Value=""/>
+    <Text ID="618699" Value=" "/>
+    <Text ID="618700" Value=" "/>
+    <Text ID="618701" Value=" "/>
+    <Text ID="618702" Value=" "/>
+    <Text ID="618703" Value=" "/>
+    <Text ID="618704" Value=" "/>
+    <Text ID="618705" Value=" "/>
+    <Text ID="618706" Value=" "/>
+    <Text ID="618707" Value=""/>
+    <Text ID="618708" Value=""/>
+    <Text ID="618709" Value=""/>
+    <Text ID="618710" Value=""/>
+    <Text ID="618711" Value=""/>
+    <Text ID="618712" Value=""/>
+    <Text ID="618713" Value=""/>
+    <Text ID="618714" Value=""/>
+    <Text ID="618715" Value=""/>
+    <Text ID="618716" Value=""/>
+    <Text ID="618717" Value=""/>
+    <Text ID="618718" Value=""/>
+    <Text ID="618719" Value=""/>
+    <Text ID="618720" Value=""/>
+    <Text ID="619744" Value=" "/>
+    <Text ID="619745" Value=" "/>
+    <Text ID="619746" Value=""/>
+    <Text ID="619747" Value=""/>
+    <Text ID="619748" Value=""/>
+    <Text ID="619752" Value=""/>
+    <Text ID="619756" Value=""/>
+    <Text ID="619761" Value=""/>
+    <Text ID="643102" Value=""/>
+    <Text ID="643103" Value=""/>
+    <Text ID="643104" Value=""/>
+    <Text ID="643105" Value=""/>
+    <Text ID="643108" Value=""/>
+    <Text ID="643109" Value=""/>
+    <Text ID="643110" Value=""/>
+    <Text ID="643111" Value=""/>
+    <Text ID="643112" Value=""/>
+    <Text ID="643113" Value=""/>
+    <Text ID="643114" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="386698" Value=""/>
+    <Text ID="402103" Value=""/>
+    <Text ID="402104" Value=""/>
+    <Text ID="402105" Value=""/>
+    <Text ID="402106" Value=""/>
+    <Text ID="402107" Value=""/>
+    <Text ID="402108" Value=""/>
+    <Text ID="402109" Value=""/>
+    <Text ID="402194" Value=""/>
+    <Text ID="402240" Value=""/>
+    <Text ID="402250" Value=""/>
+    <Text ID="402251" Value=""/>
+    <Text ID="402252" Value=""/>
+    <Text ID="402253" Value=""/>
+    <Text ID="402254" Value=""/>
+    <Text ID="402255" Value=""/>
+    <Text ID="402266" Value=""/>
+    <Text ID="402267" Value=""/>
+    <Text ID="402274" Value=""/>
+    <Text ID="402275" Value=""/>
+    <Text ID="402276" Value=""/>
+    <Text ID="402277" Value=""/>
+    <Text ID="402278" Value=""/>
+    <Text ID="402279" Value=""/>
+    <Text ID="402280" Value=""/>
+    <Text ID="402281" Value=""/>
+    <Text ID="402282" Value=""/>
+    <Text ID="402283" Value=""/>
+    <Text ID="402284" Value=""/>
+    <Text ID="403350" Value=""/>
+    <Text ID="403353" Value=""/>
+    <Text ID="451793" Value=""/>
+    <Text ID="451794" Value=""/>
+    <Text ID="508267" Value=""/>
+    <Text ID="525092" Value=""/>
+    <Text ID="525093" Value=""/>
+    <Text ID="525094" Value=""/>
+    <Text ID="525095" Value=""/>
+    <Text ID="525096" Value=""/>
+    <Text ID="525097" Value=""/>
+    <Text ID="525098" Value=""/>
+    <Text ID="525099" Value=""/>
+    <Text ID="525100" Value=""/>
+    <Text ID="525101" Value=""/>
+    <Text ID="525102" Value=""/>
+    <Text ID="525103" Value=""/>
+    <Text ID="525104" Value=""/>
+    <Text ID="525105" Value=""/>
+    <Text ID="525106" Value=""/>
+    <Text ID="525107" Value=""/>
+    <Text ID="525108" Value=""/>
+    <Text ID="525109" Value=""/>
+    <Text ID="525110" Value=""/>
+    <Text ID="525111" Value=""/>
+    <Text ID="525112" Value=""/>
+    <Text ID="543527" Value=""/>
+    <Text ID="543528" Value=""/>
+    <Text ID="543529" Value=""/>
+    <Text ID="543530" Value=""/>
+    <Text ID="543531" Value=""/>
+    <Text ID="543532" Value=""/>
+    <Text ID="543533" Value=""/>
+    <Text ID="543610" Value=""/>
+    <Text ID="578319" Value=""/>
+    <Text ID="578320" Value=""/>
+    <Text ID="578321" Value=""/>
+    <Text ID="578322" Value=""/>
+    <Text ID="578327" Value=""/>
+    <Text ID="578328" Value=""/>
+    <Text ID="586149" Value=""/>
+    <Text ID="586150" Value=""/>
+    <Text ID="586155" Value=""/>
+    <Text ID="586156" Value=""/>
+    <Text ID="586157" Value=""/>
+    <Text ID="591076" Value=""/>
+    <Text ID="607601" Value=""/>
+    <Text ID="607602" Value=""/>
+    <Text ID="618699" Value=""/>
+    <Text ID="618700" Value=""/>
+    <Text ID="618701" Value=""/>
+    <Text ID="618702" Value=""/>
+    <Text ID="618703" Value=""/>
+    <Text ID="618704" Value=""/>
+    <Text ID="618705" Value=""/>
+    <Text ID="618706" Value=""/>
+    <Text ID="618707" Value=""/>
+    <Text ID="618708" Value=""/>
+    <Text ID="618709" Value=""/>
+    <Text ID="618710" Value=""/>
+    <Text ID="618711" Value=""/>
+    <Text ID="618712" Value=""/>
+    <Text ID="618713" Value=""/>
+    <Text ID="618714" Value=""/>
+    <Text ID="618715" Value=""/>
+    <Text ID="618716" Value=""/>
+    <Text ID="618717" Value=""/>
+    <Text ID="618718" Value=""/>
+    <Text ID="618719" Value=""/>
+    <Text ID="618720" Value=""/>
+    <Text ID="619744" Value=""/>
+    <Text ID="619745" Value=""/>
+    <Text ID="619746" Value=""/>
+    <Text ID="619747" Value=""/>
+    <Text ID="619748" Value=""/>
+    <Text ID="619752" Value=""/>
+    <Text ID="619756" Value=""/>
+    <Text ID="619761" Value=""/>
+    <Text ID="643102" Value=""/>
+    <Text ID="643103" Value=""/>
+    <Text ID="643104" Value=""/>
+    <Text ID="643105" Value=""/>
+    <Text ID="643108" Value=""/>
+    <Text ID="643109" Value=""/>
+    <Text ID="643110" Value=""/>
+    <Text ID="643111" Value=""/>
+    <Text ID="643112" Value=""/>
+    <Text ID="643113" Value=""/>
+    <Text ID="643114" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="386698" Value="0"/>
+    <Index ID="402103" Value="1"/>
+    <Index ID="402104" Value="2"/>
+    <Index ID="402105" Value="3"/>
+    <Index ID="402106" Value="4"/>
+    <Index ID="402107" Value="5"/>
+    <Index ID="402108" Value="6"/>
+    <Index ID="402109" Value="7"/>
+    <Index ID="402194" Value="149"/>
+    <Index ID="402240" Value="150"/>
+    <Index ID="402250" Value="100"/>
+    <Index ID="402251" Value="201"/>
+    <Index ID="402252" Value="202"/>
+    <Index ID="402253" Value="203"/>
+    <Index ID="402254" Value="204"/>
+    <Index ID="402255" Value="205"/>
+    <Index ID="402266" Value="207"/>
+    <Index ID="402267" Value="208"/>
+    <Index ID="402274" Value="206"/>
+    <Index ID="402275" Value="253"/>
+    <Index ID="402276" Value="254"/>
+    <Index ID="402277" Value="255"/>
+    <Index ID="402278" Value="256"/>
+    <Index ID="402279" Value="257"/>
+    <Index ID="402280" Value="258"/>
+    <Index ID="402281" Value="261"/>
+    <Index ID="402282" Value="263"/>
+    <Index ID="402283" Value="259"/>
+    <Index ID="402284" Value="260"/>
+    <Index ID="403350" Value="209"/>
+    <Index ID="403353" Value="262"/>
+    <Index ID="451793" Value="216"/>
+    <Index ID="451794" Value="217"/>
+    <Index ID="508267" Value="210"/>
+    <Index ID="525092" Value="211"/>
+    <Index ID="525093" Value="212"/>
+    <Index ID="525094" Value="213"/>
+    <Index ID="525095" Value="214"/>
+    <Index ID="525096" Value="215"/>
+    <Index ID="525097" Value="218"/>
+    <Index ID="525098" Value="227"/>
+    <Index ID="525099" Value="228"/>
+    <Index ID="525100" Value="264"/>
+    <Index ID="525101" Value="265"/>
+    <Index ID="525102" Value="267"/>
+    <Index ID="525103" Value="268"/>
+    <Index ID="525104" Value="269"/>
+    <Index ID="525105" Value="219"/>
+    <Index ID="525106" Value="220"/>
+    <Index ID="525107" Value="221"/>
+    <Index ID="525108" Value="222"/>
+    <Index ID="525109" Value="223"/>
+    <Index ID="525110" Value="224"/>
+    <Index ID="525111" Value="225"/>
+    <Index ID="525112" Value="226"/>
+    <Index ID="543527" Value="266"/>
+    <Index ID="543528" Value="270"/>
+    <Index ID="543529" Value="271"/>
+    <Index ID="543530" Value="272"/>
+    <Index ID="543531" Value="273"/>
+    <Index ID="543532" Value="274"/>
+    <Index ID="543533" Value="275"/>
+    <Index ID="543610" Value="276"/>
+    <Index ID="578319" Value="277"/>
+    <Index ID="578320" Value="278"/>
+    <Index ID="578321" Value="279"/>
+    <Index ID="578322" Value="280"/>
+    <Index ID="578327" Value="101"/>
+    <Index ID="578328" Value="145"/>
+    <Index ID="586149" Value="283"/>
+    <Index ID="586150" Value="282"/>
+    <Index ID="586155" Value="285"/>
+    <Index ID="586156" Value="284"/>
+    <Index ID="586157" Value="286"/>
+    <Index ID="591076" Value="287"/>
+    <Index ID="607601" Value="289"/>
+    <Index ID="607602" Value="288"/>
+    <Index ID="618699" Value="192"/>
+    <Index ID="618700" Value="193"/>
+    <Index ID="618701" Value="194"/>
+    <Index ID="618702" Value="195"/>
+    <Index ID="618703" Value="322"/>
+    <Index ID="618704" Value="323"/>
+    <Index ID="618705" Value="324"/>
+    <Index ID="618706" Value="325"/>
+    <Index ID="618707" Value="102"/>
+    <Index ID="618708" Value="103"/>
+    <Index ID="618709" Value="104"/>
+    <Index ID="618710" Value="105"/>
+    <Index ID="618711" Value="106"/>
+    <Index ID="618712" Value="107"/>
+    <Index ID="618713" Value="108"/>
+    <Index ID="618714" Value="109"/>
+    <Index ID="618715" Value="310"/>
+    <Index ID="618716" Value="311"/>
+    <Index ID="618717" Value="312"/>
+    <Index ID="618718" Value="313"/>
+    <Index ID="618719" Value="314"/>
+    <Index ID="618720" Value="315"/>
+    <Index ID="619744" Value="316"/>
+    <Index ID="619745" Value="317"/>
+    <Index ID="619746" Value="318"/>
+    <Index ID="619747" Value="319"/>
+    <Index ID="619748" Value="320"/>
+    <Index ID="619752" Value="144"/>
+    <Index ID="619756" Value="321"/>
+    <Index ID="619761" Value="281"/>
+    <Index ID="643102" Value="326"/>
+    <Index ID="643103" Value="327"/>
+    <Index ID="643104" Value="328"/>
+    <Index ID="643105" Value="329"/>
+    <Index ID="643108" Value="295"/>
+    <Index ID="643109" Value="296"/>
+    <Index ID="643110" Value="297"/>
+    <Index ID="643111" Value="298"/>
+    <Index ID="643112" Value="299"/>
+    <Index ID="643113" Value="300"/>
+    <Index ID="643114" Value="330"/>
+  </IndexMap>
+</TextGroup>

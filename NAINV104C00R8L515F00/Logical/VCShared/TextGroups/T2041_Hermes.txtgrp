@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T2041_Hermes">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="1"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="415331" Value="Idle"/>
+    <Text ID="415332" Value="Reset"/>
+    <Text ID="415333" Value="Not Connected"/>
+    <Text ID="415334" Value="Service Description DS"/>
+    <Text ID="415335" Value="Not Available Not Ready"/>
+    <Text ID="415336" Value="Board Available"/>
+    <Text ID="415337" Value="Machine Ready"/>
+    <Text ID="415338" Value="Available &amp; Ready"/>
+    <Text ID="415339" Value="Transporting"/>
+    <Text ID="415340" Value="Stop Transport"/>
+    <Text ID="415341" Value="Transport Finished"/>
+    <Text ID="415342" Value="Done"/>
+    <Text ID="415343" Value="Send Notification"/>
+    <Text ID="415344" Value="Error"/>
+    <Text ID="415345" Value="SEND"/>
+    <Text ID="415346" Value=""/>
+    <Text ID="415347" Value=""/>
+    <Text ID="415348" Value=""/>
+    <Text ID="415349" Value="US Hermes:"/>
+    <Text ID="415350" Value="Revoke Machine Ready"/>
+    <Text ID="415351" Value="Start Transport"/>
+    <Text ID="415352" Value="Stop Transport"/>
+    <Text ID="415353" Value="Reset"/>
+    <Text ID="415354" Value=""/>
+    <Text ID="415355" Value="DS Hermes:"/>
+    <Text ID="415356" Value="Check Alive"/>
+    <Text ID="415357" Value="Board Available"/>
+    <Text ID="415358" Value="Revoke Board Available"/>
+    <Text ID="415359" Value="Transport Finished"/>
+    <Text ID="415360" Value="Reset"/>
+    <Text ID="415361" Value="Client:"/>
+    <Text ID="415362" Value="Server:"/>
+    <Text ID="415363" Value="Status:"/>
+    <Text ID="415364" Value="Actions:"/>
+    <Text ID="415365" Value=""/>
+    <Text ID="415366" Value=""/>
+    <Text ID="415367" Value=""/>
+    <Text ID="415368" Value=""/>
+    <Text ID="415369" Value=""/>
+    <Text ID="415370" Value=""/>
+    <Text ID="415371" Value=""/>
+    <Text ID="415372" Value=""/>
+    <Text ID="415373" Value=""/>
+    <Text ID="415374" Value=""/>
+    <Text ID="415375" Value=""/>
+    <Text ID="415376" Value=""/>
+    <Text ID="415377" Value="Check Alive"/>
+    <Text ID="415378" Value="Machine Ready"/>
+    <Text ID="415379" Value="Service Description"/>
+    <Text ID="415380" Value="Service Description"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="415331" Value="Leerlauf"/>
+    <Text ID="415332" Value="Reset"/>
+    <Text ID="415333" Value="Nicht Verbunden"/>
+    <Text ID="415334" Value="Betriebsbeschreibung DS"/>
+    <Text ID="415335" Value="NichtVerfügbarNichtBereit"/>
+    <Text ID="415336" Value="Leiterplatte Verfügbar"/>
+    <Text ID="415337" Value="Maschine Bereit"/>
+    <Text ID="415338" Value="Verfügbar &amp; Bereit"/>
+    <Text ID="415339" Value="Transportieren Beendet"/>
+    <Text ID="415340" Value="Transportieren Stopp"/>
+    <Text ID="415341" Value="Transportieren Beendet"/>
+    <Text ID="415342" Value="Fertig"/>
+    <Text ID="415343" Value="Senden Benachrichtigung"/>
+    <Text ID="415344" Value="Fehler"/>
+    <Text ID="415345" Value="SENDEN"/>
+    <Text ID="415346" Value=""/>
+    <Text ID="415347" Value=""/>
+    <Text ID="415348" Value=""/>
+    <Text ID="415349" Value="US Hermes:"/>
+    <Text ID="415350" Value="Widerrufen Maschine Bereit"/>
+    <Text ID="415351" Value="Transportieren Beginnen"/>
+    <Text ID="415352" Value="Transportieren Stopp"/>
+    <Text ID="415353" Value="zurücksetzen"/>
+    <Text ID="415354" Value=""/>
+    <Text ID="415355" Value="DS Hermes:"/>
+    <Text ID="415356" Value="Prüfe Lebendig"/>
+    <Text ID="415357" Value="Leiterplatte Verfügbar"/>
+    <Text ID="415358" Value="Widerrufen Leiterplatte Verfügbar"/>
+    <Text ID="415359" Value="Transport Beendet"/>
+    <Text ID="415360" Value="zurücksetzen"/>
+    <Text ID="415361" Value="Client:"/>
+    <Text ID="415362" Value="Server:"/>
+    <Text ID="415363" Value="Status:"/>
+    <Text ID="415364" Value="Aktionen:"/>
+    <Text ID="415365" Value=""/>
+    <Text ID="415366" Value=""/>
+    <Text ID="415367" Value=""/>
+    <Text ID="415368" Value=""/>
+    <Text ID="415369" Value=""/>
+    <Text ID="415370" Value=""/>
+    <Text ID="415371" Value=""/>
+    <Text ID="415372" Value=""/>
+    <Text ID="415373" Value=""/>
+    <Text ID="415374" Value=""/>
+    <Text ID="415375" Value=""/>
+    <Text ID="415376" Value=""/>
+    <Text ID="415377" Value="Prüfe Lebendig"/>
+    <Text ID="415378" Value="Maschine Bereit"/>
+    <Text ID="415379" Value="Betriebsbeschreibung"/>
+    <Text ID="415380" Value="Betriebsbeschreibung"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="415331" Value="闲置"/>
+    <Text ID="415332" Value="重置"/>
+    <Text ID="415333" Value="未连接"/>
+    <Text ID="415334" Value="下线服务说明"/>
+    <Text ID="415335" Value="无效未就绪"/>
+    <Text ID="415336" Value="有效电路板"/>
+    <Text ID="415337" Value="机器准备"/>
+    <Text ID="415338" Value="有效 &amp; 就绪"/>
+    <Text ID="415339" Value="运输完成"/>
+    <Text ID="415340" Value="停止运输"/>
+    <Text ID="415341" Value="运输完成"/>
+    <Text ID="415342" Value="完成"/>
+    <Text ID="415343" Value="发送通知"/>
+    <Text ID="415344" Value="警报"/>
+    <Text ID="415345" Value="发送"/>
+    <Text ID="415346" Value=""/>
+    <Text ID="415347" Value=""/>
+    <Text ID="415348" Value=""/>
+    <Text ID="415349" Value="上游 Hermes"/>
+    <Text ID="415350" Value="取消机器准备"/>
+    <Text ID="415351" Value="开始运输"/>
+    <Text ID="415352" Value="停止运输"/>
+    <Text ID="415353" Value="重置"/>
+    <Text ID="415354" Value=""/>
+    <Text ID="415355" Value="下游 Hermes:"/>
+    <Text ID="415356" Value="检测激活"/>
+    <Text ID="415357" Value="有效电路板"/>
+    <Text ID="415358" Value="取消有效电路板"/>
+    <Text ID="415359" Value="运输完成"/>
+    <Text ID="415360" Value="重置"/>
+    <Text ID="415361" Value="客户端:"/>
+    <Text ID="415362" Value="服务端:"/>
+    <Text ID="415363" Value="状态:"/>
+    <Text ID="415364" Value="动作:"/>
+    <Text ID="415365" Value=""/>
+    <Text ID="415366" Value=""/>
+    <Text ID="415367" Value=""/>
+    <Text ID="415368" Value=""/>
+    <Text ID="415369" Value=""/>
+    <Text ID="415370" Value=""/>
+    <Text ID="415371" Value=""/>
+    <Text ID="415372" Value=""/>
+    <Text ID="415373" Value=""/>
+    <Text ID="415374" Value=""/>
+    <Text ID="415375" Value=""/>
+    <Text ID="415376" Value=""/>
+    <Text ID="415377" Value="检测激活"/>
+    <Text ID="415378" Value="机器准备"/>
+    <Text ID="415379" Value="服务说明"/>
+    <Text ID="415380" Value="服务说明"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="415331" Value=""/>
+    <Text ID="415332" Value=""/>
+    <Text ID="415333" Value=""/>
+    <Text ID="415334" Value=""/>
+    <Text ID="415335" Value=""/>
+    <Text ID="415336" Value=""/>
+    <Text ID="415337" Value=""/>
+    <Text ID="415338" Value=""/>
+    <Text ID="415339" Value=""/>
+    <Text ID="415340" Value=""/>
+    <Text ID="415341" Value=""/>
+    <Text ID="415342" Value=""/>
+    <Text ID="415343" Value=""/>
+    <Text ID="415344" Value=""/>
+    <Text ID="415345" Value=""/>
+    <Text ID="415346" Value=""/>
+    <Text ID="415347" Value=""/>
+    <Text ID="415348" Value=""/>
+    <Text ID="415349" Value=""/>
+    <Text ID="415350" Value=""/>
+    <Text ID="415351" Value=""/>
+    <Text ID="415352" Value=""/>
+    <Text ID="415353" Value=""/>
+    <Text ID="415354" Value=""/>
+    <Text ID="415355" Value=""/>
+    <Text ID="415356" Value=""/>
+    <Text ID="415357" Value=""/>
+    <Text ID="415358" Value=""/>
+    <Text ID="415359" Value=""/>
+    <Text ID="415360" Value=""/>
+    <Text ID="415361" Value=""/>
+    <Text ID="415362" Value=""/>
+    <Text ID="415363" Value=""/>
+    <Text ID="415364" Value=""/>
+    <Text ID="415365" Value=""/>
+    <Text ID="415366" Value=""/>
+    <Text ID="415367" Value=""/>
+    <Text ID="415368" Value=""/>
+    <Text ID="415369" Value=""/>
+    <Text ID="415370" Value=""/>
+    <Text ID="415371" Value=""/>
+    <Text ID="415372" Value=""/>
+    <Text ID="415373" Value=""/>
+    <Text ID="415374" Value=""/>
+    <Text ID="415375" Value=""/>
+    <Text ID="415376" Value=""/>
+    <Text ID="415377" Value=""/>
+    <Text ID="415378" Value=""/>
+    <Text ID="415379" Value=""/>
+    <Text ID="415380" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="415331" Value="0"/>
+    <Index ID="415332" Value="1"/>
+    <Index ID="415333" Value="2"/>
+    <Index ID="415334" Value="3"/>
+    <Index ID="415335" Value="4"/>
+    <Index ID="415336" Value="5"/>
+    <Index ID="415337" Value="6"/>
+    <Index ID="415338" Value="7"/>
+    <Index ID="415339" Value="8"/>
+    <Index ID="415340" Value="10"/>
+    <Index ID="415341" Value="9"/>
+    <Index ID="415342" Value="11"/>
+    <Index ID="415343" Value="12"/>
+    <Index ID="415344" Value="13"/>
+    <Index ID="415345" Value="14"/>
+    <Index ID="415346" Value="15"/>
+    <Index ID="415347" Value="16"/>
+    <Index ID="415348" Value="17"/>
+    <Index ID="415349" Value="18"/>
+    <Index ID="415350" Value="22"/>
+    <Index ID="415351" Value="23"/>
+    <Index ID="415352" Value="24"/>
+    <Index ID="415353" Value="25"/>
+    <Index ID="415354" Value="26"/>
+    <Index ID="415355" Value="27"/>
+    <Index ID="415356" Value="28"/>
+    <Index ID="415357" Value="30"/>
+    <Index ID="415358" Value="31"/>
+    <Index ID="415359" Value="32"/>
+    <Index ID="415360" Value="33"/>
+    <Index ID="415361" Value="34"/>
+    <Index ID="415362" Value="35"/>
+    <Index ID="415363" Value="36"/>
+    <Index ID="415364" Value="37"/>
+    <Index ID="415365" Value="38"/>
+    <Index ID="415366" Value="39"/>
+    <Index ID="415367" Value="40"/>
+    <Index ID="415368" Value="41"/>
+    <Index ID="415369" Value="42"/>
+    <Index ID="415370" Value="43"/>
+    <Index ID="415371" Value="44"/>
+    <Index ID="415372" Value="45"/>
+    <Index ID="415373" Value="46"/>
+    <Index ID="415374" Value="47"/>
+    <Index ID="415375" Value="48"/>
+    <Index ID="415376" Value="49"/>
+    <Index ID="415377" Value="19"/>
+    <Index ID="415378" Value="21"/>
+    <Index ID="415379" Value="20"/>
+    <Index ID="415380" Value="29"/>
+  </IndexMap>
+</TextGroup>

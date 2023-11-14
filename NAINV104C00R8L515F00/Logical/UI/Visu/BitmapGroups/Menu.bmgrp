@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Menu">
+  <Property Name="Description" Value="Bitmap Group for Main page general icons"/>
+  <Property Name="Index" Value="40"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="1849" Value="Source[local].Bitmap[Icon_Menu_Operation]"/>
+    <BitmapRef ID="1851" Value="Source[local].Bitmap[Icon_Menu_ModeSelection]"/>
+    <BitmapRef ID="1853" Value="Source[local].Bitmap[Icon_Menu_RecipeSelection]"/>
+    <BitmapRef ID="1855" Value="Source[local].Bitmap[Icon_Menu_BufferSelection]"/>
+    <BitmapRef ID="1857" Value="Source[local].Bitmap[Icon_Menu_OvenInfo]"/>
+    <BitmapRef ID="1858" Value="Source[local].Bitmap[Icon_Menu_BufferInfo]"/>
+    <BitmapRef ID="1861" Value="Source[local].Bitmap[Icon_Menu_Alarm]"/>
+    <BitmapRef ID="1863" Value="Source[local].Bitmap[Icon_Menu_MachineInfo]"/>
+    <BitmapRef ID="1865" Value="Source[local].Bitmap[Icon_Menu_UserLogin]"/>
+    <BitmapRef ID="1866" Value="Source[local].Bitmap[Icon_Menu_UserLogout]"/>
+    <BitmapRef ID="1989" Value="Source[local].Bitmap[Icon_Menu_InputManual]"/>
+    <BitmapRef ID="1991" Value="Source[local].Bitmap[Icon_Menu_OutputManual]"/>
+    <BitmapRef ID="1993" Value="Source[local].Bitmap[Icon_Menu_MotionManual]"/>
+    <BitmapRef ID="1996" Value="Source[local].Bitmap[Icon_Menu_SMEMAManual]"/>
+    <BitmapRef ID="1998" Value="Source[local].Bitmap[Icon_Menu_Simulation]"/>
+    <BitmapRef ID="2000" Value="Source[local].Bitmap[Icon_Menu_RecipeSetting]"/>
+    <BitmapRef ID="2002" Value="Source[local].Bitmap[Icon_Menu_BufferSetting]"/>
+    <BitmapRef ID="2004" Value="Source[local].Bitmap[Icon_Menu_SMEMASetting]"/>
+    <BitmapRef ID="2006" Value="Source[local].Bitmap[Icon_Menu_MachineSetting]"/>
+    <BitmapRef ID="2008" Value="Source[local].Bitmap[Icon_Menu_UserSetting]"/>
+    <BitmapRef ID="2010" Value="Source[local].Bitmap[Icon_Menu_LangDateTime]"/>
+    <BitmapRef ID="2012" Value="Source[local].Bitmap[Icon_Menu_Nutek]"/>
+    <BitmapRef ID="2767" Value="Source[local].Bitmap[Icon_Menu_LF]"/>
+    <BitmapRef ID="2770" Value="Source[local].Bitmap[Icon_Menu_LFSetting]"/>
+    <BitmapRef ID="7066" Value="Source[local].Bitmap[Icon_Menu_ManualReset]"/>
+    <BitmapRef ID="7067" Value="Source[local].Bitmap[Icon_Menu_ManualResetting]"/>
+    <BitmapRef ID="7875" Value="Source[local].Bitmap[Icon_Menu_Backup]"/>
+    <BitmapRef ID="8265" Value="Source[local].Bitmap[Icon_Hermes_Logo_40x40]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="1849" Value="0"/>
+    <Index ID="1851" Value="2"/>
+    <Index ID="1853" Value="4"/>
+    <Index ID="1855" Value="6"/>
+    <Index ID="1857" Value="8"/>
+    <Index ID="1858" Value="10"/>
+    <Index ID="1861" Value="12"/>
+    <Index ID="1863" Value="14"/>
+    <Index ID="1865" Value="16"/>
+    <Index ID="1866" Value="17"/>
+    <Index ID="1989" Value="18"/>
+    <Index ID="1991" Value="20"/>
+    <Index ID="1993" Value="22"/>
+    <Index ID="1996" Value="24"/>
+    <Index ID="1998" Value="26"/>
+    <Index ID="2000" Value="28"/>
+    <Index ID="2002" Value="30"/>
+    <Index ID="2004" Value="32"/>
+    <Index ID="2006" Value="34"/>
+    <Index ID="2008" Value="36"/>
+    <Index ID="2010" Value="38"/>
+    <Index ID="2012" Value="40"/>
+    <Index ID="2767" Value="42"/>
+    <Index ID="2770" Value="44"/>
+    <Index ID="7066" Value="46"/>
+    <Index ID="7067" Value="47"/>
+    <Index ID="7875" Value="48"/>
+    <Index ID="8265" Value="49"/>
+  </IndexMap>
+</BitmapGroup>

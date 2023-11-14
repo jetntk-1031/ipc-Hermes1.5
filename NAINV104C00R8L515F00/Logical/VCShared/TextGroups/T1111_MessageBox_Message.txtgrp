@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T1111_MessageBox_Message">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="sLibraryNm">
+      <Property Name="Alignment" Value="Left"/>
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyTxtSnippets.sLibraryNm]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillCharacter" Value=""/>
+      <Property Name="MaxChars" Value="None"/>
+      <Property Name="MinChars" Value="None"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="190187" Value=""/>
+    <Text ID="190203" Value=""/>
+    <Text ID="190204" Value="Login Failed."/>
+    <Text ID="190205" Value="User Name Or Password Invalid."/>
+    <Text ID="190206" Value="User Name Exist."/>
+    <Text ID="190207" Value="Login Failed. User Name Not Exist."/>
+    <Text ID="190208" Value="Login Failed. Mismatch Password"/>
+    <Text ID="190209" Value="Delete User?"/>
+    <Text ID="190210" Value="Unable To Delete Last Admin"/>
+    <Text ID="190211" Value="Add User Error."/>
+    <Text ID="190212" Value="Edit User Error"/>
+    <Text ID="190213" Value="Save Recipe Error."/>
+    <Text ID="190214" Value="Load Recipe Error."/>
+    <Text ID="190215" Value="List Recipe Error."/>
+    <Text ID="190216" Value="Load Selected Recipe?"/>
+    <Text ID="190217" Value="Load Recipe Name Is Invalid."/>
+    <Text ID="190218" Value="Recipe Loaded."/>
+    <Text ID="190219" Value="Save Selected Recipe?"/>
+    <Text ID="190220" Value="Save Recipe Name Is Invalid."/>
+    <Text ID="190221" Value="Recipe Saved."/>
+    <Text ID="190222" Value="Unable To Delete, Recipe Loaded."/>
+    <Text ID="190223" Value="Delete Recipe Error."/>
+    <Text ID="190224" Value="Delete Selected Recipe?"/>
+    <Text ID="190225" Value="Delete Recipe Name Is Not Exist"/>
+    <Text ID="190226" Value="Recipe Deleted."/>
+    <Text ID="190227" Value="Delete Recipe Name Is Invalid"/>
+    <Text ID="190228" Value="Save All Recipe To XML File?"/>
+    <Text ID="190229" Value="Save All Recipe To XML File Error."/>
+    <Text ID="190230" Value="Load All Recipe From XML File?"/>
+    <Text ID="190231" Value="Load All Recipe From XML File Error."/>
+    <Text ID="190232" Value="Traverser Lane A Position Updated."/>
+    <Text ID="190233" Value="Traverser Lane B Position Updated."/>
+    <Text ID="190234" Value="Traverser Front Magazine Position Updated."/>
+    <Text ID="190235" Value="Traverser Rear Magazine Position Updated."/>
+    <Text ID="190236" Value="Lifter Slot 1 Position Updated."/>
+    <Text ID="190237" Value="Lifter Slot 2 Position Updated."/>
+    <Text ID="190238" Value="Process SDO Write Failed."/>
+    <Text ID="190239" Value="Save Language &amp; Time Error."/>
+    <Text ID="190240" Value="Buffer Available But Magazine Not Present."/>
+    <Text ID="190241" Value="Confirm Reset Buffer Memory?"/>
+    <Text ID="190242" Value="Bad Board Signal Occur."/>
+    <Text ID="190250" Value="Recipe Back Up Completed."/>
+    <Text ID="190251" Value="Refresh User Error."/>
+    <Text ID="190252" Value="Unable To Delete. Invalid User Name or Password"/>
+    <Text ID="190253" Value="Load User Error."/>
+    <Text ID="190254" Value="User Deleted."/>
+    <Text ID="190255" Value="Save User Access?"/>
+    <Text ID="190256" Value="Save User Access Error"/>
+    <Text ID="190257" Value="User Managment List Full"/>
+    <Text ID="190258" Value="Unable To Delete Last Nutek Admin"/>
+    <Text ID="190259" Value="Unable To Delete. No User Name Not Exist"/>
+    <Text ID="190260" Value=" "/>
+    <Text ID="190261" Value=""/>
+    <Text ID="190262" Value="Unable To Save Recipe, Last Slot Is Smaller Than Max Slot."/>
+    <Text ID="190263" Value="Recipe Saved Is Selected Recipe (Reminder: Load Recipe)."/>
+    <Text ID="190264" Value="Reset Buffer Memory?"/>
+    <Text ID="190265" Value="Reset Buffer Memory Error."/>
+    <Text ID="190266" Value="Buffer Memory Reseted."/>
+    <Text ID="190267" Value="Recipe List Full"/>
+    <Text ID="190268" Value="Inverter Stopper At Right Position Updated."/>
+    <Text ID="190269" Value="Save Recipe List Error."/>
+    <Text ID="190270" Value=" "/>
+    <Text ID="190271" Value=" "/>
+    <Text ID="190272" Value="Exit Without Saving?\nAll Changed Data Will Be Lost."/>
+    <Text ID="190273" Value="Save Machine Parameter Error."/>
+    <Text ID="190274" Value=""/>
+    <Text ID="190275" Value="Save Nutek Parameter?"/>
+    <Text ID="190276" Value="Save Nutek Parameter Error."/>
+    <Text ID="190282" Value=" "/>
+    <Text ID="190283" Value="Update Subnet IP Address?"/>
+    <Text ID="194434" Value="Save Digital Output  Configuration Error."/>
+    <Text ID="194435" Value="Update IP Address? (May Cause System Malfunction)"/>
+    <Text ID="194436" Value="Update IP Address Error."/>
+    <Text ID="194437" Value=""/>
+    <Text ID="194438" Value="Warning : Different Subnet Configuration.\n\nSubnet Address Mismatch.\n\nUse Previous Configuration ?"/>
+    <Text ID="194439" Value="Warning : Different IP &amp; Subnet Configuration.\n\nIP &amp; Subnet Address Mismatch.\n\nUse Previous Configuration ?"/>
+    <Text ID="194440" Value="IP Address Invalid."/>
+    <Text ID="194441" Value=""/>
+    <Text ID="194442" Value=" "/>
+    <Text ID="194443" Value=" "/>
+    <Text ID="194444" Value="Warning : Different IP Configuration.\n\nIP Address Mismatch.\n\nUse Previous Configuration ?"/>
+    <Text ID="194445" Value=" "/>
+    <Text ID="194446" Value=" "/>
+    <Text ID="194447" Value=" "/>
+    <Text ID="194448" Value="Recipe Back Up Error."/>
+    <Text ID="194449" Value="Recipe Restore Completed."/>
+    <Text ID="194451" Value="Save Digital Input Configuration?"/>
+    <Text ID="194452" Value="Save Digital Input Configuration Error."/>
+    <Text ID="194453" Value="Save Digital Output Configuration?"/>
+    <Text ID="194454" Value=" "/>
+    <Text ID="194455" Value="Confirm to Reset Waiting for Return Board?"/>
+    <Text ID="194456" Value=" "/>
+    <Text ID="194457" Value=" "/>
+    <Text ID="194458" Value=" "/>
+    <Text ID="194459" Value=" "/>
+    <Text ID="194460" Value="Error Creating Directory, Restart?"/>
+    <Text ID="194461" Value="Error Retriving Nutek Parameters, Restart?"/>
+    <Text ID="194462" Value="Error Retriving Machine Parameters, Restart?"/>
+    <Text ID="194463" Value="Error Retriving Product Recipes, Restart?"/>
+    <Text ID="194464" Value="Error Retriving Magazine Recipes, Restart? "/>
+    <Text ID="194465" Value="Error Retriving Users, Restart?"/>
+    <Text ID="194466" Value="Error Retriving IP Address, Restart?"/>
+    <Text ID="194467" Value="Error Configuring Traverser, Restart?"/>
+    <Text ID="194468" Value="Error Configuring Auto Width, Restart?"/>
+    <Text ID="194469" Value="Error Configuring Lifter, Restart?"/>
+    <Text ID="194470" Value="Library {sLibraryNm} Version Error."/>
+    <Text ID="194471" Value="Error Reading Libraries Version File, Restart?"/>
+    <Text ID="194472" Value="Error Retriving Mac Address"/>
+    <Text ID="194473" Value=" "/>
+    <Text ID="194474" Value=" "/>
+    <Text ID="194475" Value=" "/>
+    <Text ID="194476" Value=" "/>
+    <Text ID="194477" Value=" "/>
+    <Text ID="194478" Value=" "/>
+    <Text ID="194479" Value=""/>
+    <Text ID="194481" Value="Recipe Sync Completed."/>
+    <Text ID="194480" Value="Recipe Restore Error."/>
+    <Text ID="302540" Value=""/>
+    <Text ID="367398" Value="Change Leader Recipe Failed (List Recipe Error)."/>
+    <Text ID="367399" Value="Change Leader Recipe Failed (Load Recipe Error)."/>
+    <Text ID="367400" Value="Save Machine Parameter Error (Operation Resume With Leader Recipe)."/>
+    <Text ID="367401" Value="Delete Selected Machine?"/>
+    <Text ID="367402" Value="Machine Name Is Invalid."/>
+    <Text ID="367403" Value="IP Address Is Invalid."/>
+    <Text ID="367404" Value="Perform Change All Operation?"/>
+    <Text ID="367405" Value="Perform Auto Change Sequential Operation?"/>
+    <Text ID="367406" Value="Perform Manual Change Sequential Operation?"/>
+    <Text ID="367407" Value="Perform Sync PLC Time Operation?"/>
+    <Text ID="367408" Value="Terminate The Operation?"/>
+    <Text ID="372795" Value="Recipe Sync Error."/>
+    <Text ID="372796" Value=""/>
+    <Text ID="372797" Value="Set Buffer Empty Error (Operation Resume With Leader Recipe)."/>
+    <Text ID="190245" Value="USB Back Up Error."/>
+    <Text ID="190244" Value="USB Restore Completed."/>
+    <Text ID="190246" Value="USB Restore Error."/>
+    <Text ID="190243" Value="USB Back Up Completed."/>
+    <Text ID="410444" Value="Recipe Back Up Error."/>
+    <Text ID="441526" Value="Go To Lead Follow Page &amp; Start Operation?"/>
+    <Text ID="517642" Value=""/>
+    <Text ID="517643" Value=""/>
+    <Text ID="517644" Value=""/>
+    <Text ID="519382" Value="Save Project Parameter?"/>
+    <Text ID="519383" Value="Save Project Parameter Error."/>
+    <Text ID="519384" Value=""/>
+    <Text ID="519385" Value=""/>
+    <Text ID="519386" Value="Machine is Waiting for Return PCB from Upstream 2.\nPlease Reset the Waiting Return Board"/>
+    <Text ID="521126" Value="Update Subnet IP Address Error."/>
+    <Text ID="521127" Value="Unable to Delete, Subnet IP Address Invalid."/>
+    <Text ID="521128" Value="Inverter Stopper At Left Position Updated."/>
+    <Text ID="604122" Value="Session Expired."/>
+    <Text ID="610113" Value="Error Performing Leader Follower Control"/>
+    <Text ID="611915" Value="IP Address Entered Is Invalid."/>
+    <Text ID="611916" Value="Subnet Mask Entered Is Invalid."/>
+    <Text ID="611917" Value="Get Subnet Mask Error."/>
+    <Text ID="611918" Value="Get IP Address Error."/>
+    <Text ID="611919" Value="Error Setting Network Configuration (IF2)"/>
+    <Text ID="611920" Value="Change Network Configuration? (May Cause System Malfunction)\n\nNew Configuration      : Get IP Address from DHCP Server\nCurrent Configuration  : Set IP Address Manually"/>
+    <Text ID="611921" Value="Change Network Configuration? (May Cause System Malfunction)\n\nNew Configuration      : Set IP Address Manually\nCurrent Configuration  : Getting IP Address From DHCP Server"/>
+    <Text ID="611922" Value="Warning : Different Network Configuration.\n\nNetwork Configuration Mismatch.\n\nUse Previous Configuration ?"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="190187" Value=""/>
+    <Text ID="190203" Value=""/>
+    <Text ID="190204" Value="Anmeldung fehlgeschlagen."/>
+    <Text ID="190205" Value="Benutzername oder Passwort ungültig,"/>
+    <Text ID="190206" Value="Benutzername existiert bereits."/>
+    <Text ID="190207" Value="Benutzername existiert nicht."/>
+    <Text ID="190208" Value="Ungültiges Passwort oder Benutzer-ID."/>
+    <Text ID="190209" Value="Benutzer löschen?"/>
+    <Text ID="190210" Value="Letzter Benutzer kann nicht gelöscht werden."/>
+    <Text ID="190211" Value="Benutzer hinzufügen Fehler."/>
+    <Text ID="190212" Value="Benutzer bearbeiten Fehler."/>
+    <Text ID="190213" Value="Rezept speichern Fehler."/>
+    <Text ID="190214" Value="Rezept laden Fehler."/>
+    <Text ID="190215" Value="Rezept auflisten Fehler."/>
+    <Text ID="190216" Value="Ausgewähltes Rezept laden?"/>
+    <Text ID="190217" Value="Lade Rezept Name ist ungültig."/>
+    <Text ID="190218" Value="Rezept geladen."/>
+    <Text ID="190219" Value="Ausgewähltes Rezept speichern?"/>
+    <Text ID="190220" Value="Speichern Sie den Rezeptnamen ist ungültig."/>
+    <Text ID="190221" Value="Rezept gespeichert."/>
+    <Text ID="190222" Value="Löschen nicht möglich, Rezept geladen."/>
+    <Text ID="190223" Value="Rezept löschen Fehler."/>
+    <Text ID="190224" Value="Ausgewähltes Rezept löschen?"/>
+    <Text ID="190225" Value="Löschen des Rezeptnamens ist ungültig."/>
+    <Text ID="190226" Value="Rezept gelöscht."/>
+    <Text ID="190227" Value=""/>
+    <Text ID="190228" Value=""/>
+    <Text ID="190229" Value=""/>
+    <Text ID="190230" Value=""/>
+    <Text ID="190231" Value=""/>
+    <Text ID="190232" Value="Schiebebühne Spur A Position aktualisiert."/>
+    <Text ID="190233" Value="Schiebebühne Spur B Position aktualisiert."/>
+    <Text ID="190234" Value="Schiebebühne Vorderes Magazin Position aktualisiert."/>
+    <Text ID="190235" Value="Schiebebühne Hinteres Magazin Position aktualisiert."/>
+    <Text ID="190236" Value="Heber Steckplatz 1 Position aktualisiert."/>
+    <Text ID="190237" Value="Heber Steckplatz 2 Position aktualisiert."/>
+    <Text ID="190238" Value="Prozess SDO-Schreiben fehlgeschlagen."/>
+    <Text ID="190239" Value=""/>
+    <Text ID="190240" Value="Puffer verfügbar, aber Magazin nicht vorhanden."/>
+    <Text ID="190241" Value="Bestätigen Sie den Pufferspeicher zurücksetzen?"/>
+    <Text ID="190242" Value="Schlechtes Signal der Leiterplatte tritt auf."/>
+    <Text ID="190250" Value="Rezept Sicherung abgeschlossen."/>
+    <Text ID="190251" Value="Benutzer aktualisieren Fehler."/>
+    <Text ID="190252" Value="Benutzer löschen Fehler."/>
+    <Text ID="190253" Value="Benutzer laden Fehler."/>
+    <Text ID="190254" Value="Benutzer gelöscht."/>
+    <Text ID="190255" Value=""/>
+    <Text ID="190256" Value=" "/>
+    <Text ID="190257" Value=" "/>
+    <Text ID="190258" Value=" "/>
+    <Text ID="190259" Value=" "/>
+    <Text ID="190260" Value=" "/>
+    <Text ID="190261" Value=""/>
+    <Text ID="190262" Value="Rezept kann nicht gespeichert werden, Der letzte Steckplatz ist kleiner als der maximale Steckplatz."/>
+    <Text ID="190263" Value="Rezept gespeichert ist ausgewähltes Rezept (Erinnerung: Rezept laden)."/>
+    <Text ID="190264" Value="Pufferspeicher zurücksetzen?"/>
+    <Text ID="190265" Value="Pufferspeicher zurücksetzen Fehler."/>
+    <Text ID="190266" Value="Pufferspeicher wurde zurückgesetzt."/>
+    <Text ID="190267" Value=" "/>
+    <Text ID="190268" Value=" "/>
+    <Text ID="190269" Value=" "/>
+    <Text ID="190270" Value=" "/>
+    <Text ID="190271" Value=" "/>
+    <Text ID="190272" Value=""/>
+    <Text ID="190273" Value="Maschinenparameter speichern Fehler."/>
+    <Text ID="190274" Value=""/>
+    <Text ID="190275" Value="Speichern Sie Nutek-Parameter?"/>
+    <Text ID="190276" Value="Speichern Sie Nutek-Parameter Fehler."/>
+    <Text ID="190282" Value=" "/>
+    <Text ID="190283" Value=" "/>
+    <Text ID="194434" Value=" "/>
+    <Text ID="194435" Value="IP-Adresse aktualisieren? (Kann Systemfehlfunktion verursachen)"/>
+    <Text ID="194436" Value="IP-Adresse aktualisieren Fehler."/>
+    <Text ID="194437" Value=""/>
+    <Text ID="194438" Value=""/>
+    <Text ID="194439" Value=""/>
+    <Text ID="194440" Value=""/>
+    <Text ID="194441" Value=""/>
+    <Text ID="194442" Value=" "/>
+    <Text ID="194443" Value=" "/>
+    <Text ID="194444" Value=" "/>
+    <Text ID="194445" Value=" "/>
+    <Text ID="194446" Value=" "/>
+    <Text ID="194447" Value=" "/>
+    <Text ID="194448" Value="Rezept Sicherungsfehler."/>
+    <Text ID="194449" Value="Rezept Wiederherstellung abgeschlossen."/>
+    <Text ID="194451" Value=" "/>
+    <Text ID="194452" Value=" "/>
+    <Text ID="194453" Value=" "/>
+    <Text ID="194454" Value=" "/>
+    <Text ID="194455" Value=" "/>
+    <Text ID="194456" Value=" "/>
+    <Text ID="194457" Value=" "/>
+    <Text ID="194458" Value=" "/>
+    <Text ID="194459" Value=" "/>
+    <Text ID="194460" Value="Fehler beim Erstellen des Verzeichnisses, Neustart?"/>
+    <Text ID="194461" Value="Fehler beim Abrufen des Nutek-Parameters, Neustart?"/>
+    <Text ID="194462" Value="Fehler beim Abrufen des Maschinenparameters, Neustart?"/>
+    <Text ID="194463" Value="Fehler beim Abrufen des Produktrezepts, Neustart?"/>
+    <Text ID="194464" Value="Fehler beim Abrufen des Magazinrezepts, Neustart?"/>
+    <Text ID="194465" Value="Fehler beim Abrufen der Benutzer, Neustart?"/>
+    <Text ID="194466" Value="Fehler beim Abrufen der IP-Adresse, Neustart?"/>
+    <Text ID="194467" Value="Fehler beim Konfigurieren des Schiebebühne, Neustart?"/>
+    <Text ID="194468" Value="Fehler beim Konfigurieren des Auto Breite, Neustart?"/>
+    <Text ID="194469" Value="Fehler beim Konfigurieren des Heber, Neustart?"/>
+    <Text ID="194470" Value="Bibliothek &quot;&quot; Versionsfehler."/>
+    <Text ID="194471" Value="Fehler beim Lesen der Bibliotheken, Versionsdatei, Neustart?"/>
+    <Text ID="194472" Value="Fehler beim Abrufen Mac-Adresse, Neustart?"/>
+    <Text ID="194473" Value=" "/>
+    <Text ID="194474" Value=" "/>
+    <Text ID="194475" Value=" "/>
+    <Text ID="194476" Value=" "/>
+    <Text ID="194477" Value=" "/>
+    <Text ID="194478" Value=" "/>
+    <Text ID="194479" Value=""/>
+    <Text ID="194481" Value="Rezept Synchroner abgeschlossen."/>
+    <Text ID="194480" Value="Rezept Wiederherstellungsfehler."/>
+    <Text ID="302540" Value=""/>
+    <Text ID="367398" Value="Change Leader-Rezept fehlgeschlagen (Rezeptlistenfehler)."/>
+    <Text ID="367399" Value="Change Leader-Rezept fehlgeschlagen (Rezept Ladefehler)."/>
+    <Text ID="367400" Value="Maschinenparameter speichern Fehler (Operation Resume mit Leader Rezept)."/>
+    <Text ID="367401" Value="Ausgewählte Maschine löschen?"/>
+    <Text ID="367402" Value="Maschinenname ist ungültig."/>
+    <Text ID="367403" Value="IP-Adresse ist ungültig."/>
+    <Text ID="367404" Value="Operation ausführen Alle ändern?"/>
+    <Text ID="367405" Value="Operation ausführen Automatisch Sequenziell ändern?"/>
+    <Text ID="367406" Value="Operation ausführen Manuell Sequenziell ändern?"/>
+    <Text ID="367407" Value="Operation ausführen Synchrone PLC Zeit?"/>
+    <Text ID="367408" Value="Beenden Sie die Operation?"/>
+    <Text ID="372795" Value="Rezept Synchroner Fehler."/>
+    <Text ID="372796" Value=""/>
+    <Text ID="372797" Value="Puffer leeren Fehler setzen (Operation Resume mit Leader Recipe)."/>
+    <Text ID="190245" Value="USB-Sicherungsfehler."/>
+    <Text ID="190244" Value="USB-Wiederherstellung abgeschlossen."/>
+    <Text ID="190246" Value="USB-Wiederherstellungsfehler."/>
+    <Text ID="190243" Value="USB-Sicherung abgeschlossen."/>
+    <Text ID="410444" Value="Rezept Sicherungsfehler."/>
+    <Text ID="441526" Value=""/>
+    <Text ID="517642" Value=""/>
+    <Text ID="517643" Value=""/>
+    <Text ID="517644" Value=""/>
+    <Text ID="519382" Value=""/>
+    <Text ID="519383" Value=""/>
+    <Text ID="519384" Value=""/>
+    <Text ID="519385" Value=""/>
+    <Text ID="519386" Value=""/>
+    <Text ID="521126" Value=""/>
+    <Text ID="521127" Value=""/>
+    <Text ID="521128" Value=""/>
+    <Text ID="604122" Value=""/>
+    <Text ID="610113" Value=""/>
+    <Text ID="611915" Value=""/>
+    <Text ID="611916" Value=""/>
+    <Text ID="611917" Value=""/>
+    <Text ID="611918" Value=""/>
+    <Text ID="611919" Value=""/>
+    <Text ID="611920" Value=""/>
+    <Text ID="611921" Value=""/>
+    <Text ID="611922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="190187" Value=""/>
+    <Text ID="190203" Value=""/>
+    <Text ID="190204" Value="登录失败。"/>
+    <Text ID="190205" Value="用户或密码错误。"/>
+    <Text ID="190206" Value="用户名存在。"/>
+    <Text ID="190207" Value="用户名不存在。"/>
+    <Text ID="190208" Value="密码或用户名无效。"/>
+    <Text ID="190209" Value="删除用户？"/>
+    <Text ID="190210" Value="无法删除最后一个用户。"/>
+    <Text ID="190211" Value="添加用户报警。"/>
+    <Text ID="190212" Value="编辑用户报警。"/>
+    <Text ID="190213" Value="保存参数报警。"/>
+    <Text ID="190214" Value="加载参数报警。"/>
+    <Text ID="190215" Value="列出参数报警。"/>
+    <Text ID="190216" Value="加载所选参数？"/>
+    <Text ID="190217" Value="加载参数名称无效。"/>
+    <Text ID="190218" Value="加载的参数。"/>
+    <Text ID="190219" Value="保存所选参数？"/>
+    <Text ID="190220" Value="保存参数名称无效。"/>
+    <Text ID="190221" Value="参数已保存。"/>
+    <Text ID="190222" Value="无法删除，参数已加载。"/>
+    <Text ID="190223" Value="删除参数报警。"/>
+    <Text ID="190224" Value="删除选定的参数？"/>
+    <Text ID="190225" Value="删除参数名称无效。"/>
+    <Text ID="190226" Value="参数已删除。"/>
+    <Text ID="190227" Value=""/>
+    <Text ID="190228" Value=""/>
+    <Text ID="190229" Value=""/>
+    <Text ID="190230" Value=""/>
+    <Text ID="190231" Value=""/>
+    <Text ID="190232" Value="路线A平移机位置更新。"/>
+    <Text ID="190233" Value="路线B平移机位置更新。"/>
+    <Text ID="190234" Value="前料架平移机位置更新。"/>
+    <Text ID="190235" Value="后料架平移机位置更新。"/>
+    <Text ID="190236" Value="插槽1升降机位置更新。"/>
+    <Text ID="190237" Value="插槽2升降机位置更新。"/>
+    <Text ID="190238" Value="处理SDO写入失败。"/>
+    <Text ID="190239" Value=""/>
+    <Text ID="190240" Value="缓存可用，但料架不存在。"/>
+    <Text ID="190241" Value="确认重置缓存记忆？"/>
+    <Text ID="190242" Value="坏的电路板信号产生。"/>
+    <Text ID="190250" Value="参数备份完成。"/>
+    <Text ID="190251" Value="刷新用户报警。"/>
+    <Text ID="190252" Value="删除用户报警。"/>
+    <Text ID="190253" Value="加载用户报警。"/>
+    <Text ID="190254" Value="用户已删除。"/>
+    <Text ID="190255" Value=""/>
+    <Text ID="190256" Value=" "/>
+    <Text ID="190257" Value=" "/>
+    <Text ID="190258" Value=" "/>
+    <Text ID="190259" Value=" "/>
+    <Text ID="190260" Value=" "/>
+    <Text ID="190261" Value=""/>
+    <Text ID="190262" Value="无法保存参数，最后一个插槽比最大插槽小。"/>
+    <Text ID="190263" Value="保存的参数是选定的参数（提醒：加载参数）。"/>
+    <Text ID="190264" Value="重置缓存记忆？"/>
+    <Text ID="190265" Value="重置缓存记忆报警。"/>
+    <Text ID="190266" Value="缓存记忆已重置。"/>
+    <Text ID="190267" Value=" "/>
+    <Text ID="190268" Value=" "/>
+    <Text ID="190269" Value=" "/>
+    <Text ID="190270" Value=" "/>
+    <Text ID="190271" Value=" "/>
+    <Text ID="190272" Value=""/>
+    <Text ID="190273" Value="保存机器参数报警。"/>
+    <Text ID="190274" Value=""/>
+    <Text ID="190275" Value="保存Nutek参数？"/>
+    <Text ID="190276" Value="保存Nutek参数报警。"/>
+    <Text ID="190282" Value=" "/>
+    <Text ID="190283" Value=" "/>
+    <Text ID="194434" Value=" "/>
+    <Text ID="194435" Value="更新IP地址？ （可能导致系统故障）"/>
+    <Text ID="194436" Value="更新IP地址报警。"/>
+    <Text ID="194437" Value=""/>
+    <Text ID="194438" Value=""/>
+    <Text ID="194439" Value=""/>
+    <Text ID="194440" Value=""/>
+    <Text ID="194441" Value=""/>
+    <Text ID="194442" Value=" "/>
+    <Text ID="194443" Value=" "/>
+    <Text ID="194444" Value=" "/>
+    <Text ID="194445" Value=" "/>
+    <Text ID="194446" Value=" "/>
+    <Text ID="194447" Value=" "/>
+    <Text ID="194448" Value="参数备份警报。"/>
+    <Text ID="194449" Value="参数恢复完成。"/>
+    <Text ID="194451" Value=" "/>
+    <Text ID="194452" Value=" "/>
+    <Text ID="194453" Value=" "/>
+    <Text ID="194454" Value=" "/>
+    <Text ID="194455" Value=" "/>
+    <Text ID="194456" Value=" "/>
+    <Text ID="194457" Value=" "/>
+    <Text ID="194458" Value=" "/>
+    <Text ID="194459" Value=" "/>
+    <Text ID="194460" Value="创建目录时出错，重新启动？"/>
+    <Text ID="194461" Value="检索Nutek参数时出错，重新启动？"/>
+    <Text ID="194462" Value="检索机器参数时出错，重新启动？"/>
+    <Text ID="194463" Value="检索产品参数时出错，重新启动？"/>
+    <Text ID="194464" Value="检索料架参数时出错，重新启动？"/>
+    <Text ID="194465" Value="检索用户时出错，重新启动？"/>
+    <Text ID="194466" Value="检索IP地址时出错，重新启动？"/>
+    <Text ID="194467" Value="配置平移机时出错，重新启动？"/>
+    <Text ID="194468" Value="配置自动改宽时出错，重新启动？"/>
+    <Text ID="194469" Value="配置升降机时出错，重新启动？"/>
+    <Text ID="194470" Value="软体库{sLibraryNm}版本错误。"/>
+    <Text ID="194471" Value="读取软体库版本文件时出错，重新启动？"/>
+    <Text ID="194472" Value="配置 Mac 地址失败, 重新配置？"/>
+    <Text ID="194473" Value=" "/>
+    <Text ID="194474" Value=" "/>
+    <Text ID="194475" Value=" "/>
+    <Text ID="194476" Value=" "/>
+    <Text ID="194477" Value=" "/>
+    <Text ID="194478" Value=" "/>
+    <Text ID="194479" Value=""/>
+    <Text ID="194481" Value="参数同步完成。"/>
+    <Text ID="194480" Value="参数恢复报警。"/>
+    <Text ID="302540" Value=""/>
+    <Text ID="367398" Value="更改主机参数失败（列表参数错误）。"/>
+    <Text ID="367399" Value="更改主机参数失败（加载参数错误）。"/>
+    <Text ID="367400" Value="保存机器参数错误（使用引导参数恢复操作）。"/>
+    <Text ID="367401" Value="删除所选机器？"/>
+    <Text ID="367402" Value="机器名称无效。"/>
+    <Text ID="367403" Value="IP地址无效。"/>
+    <Text ID="367404" Value="执行全部调整的操作？"/>
+    <Text ID="367405" Value="执行自动顺序调整的操作？"/>
+    <Text ID="367406" Value="执行手动顺序调整的操作？"/>
+    <Text ID="367407" Value="执行PLC时间同步的操作？"/>
+    <Text ID="367408" Value="终止操作？"/>
+    <Text ID="372795" Value="参数同步报警。"/>
+    <Text ID="372796" Value=""/>
+    <Text ID="372797" Value="设置缓存为空报警（使用领导者参数恢复操作）。"/>
+    <Text ID="190245" Value="USB备份警报。"/>
+    <Text ID="190244" Value="USB恢复完成。"/>
+    <Text ID="190246" Value="USB恢复报警。"/>
+    <Text ID="190243" Value="USB备份完成。"/>
+    <Text ID="410444" Value="参数备份警报。"/>
+    <Text ID="441526" Value=""/>
+    <Text ID="517642" Value=""/>
+    <Text ID="517643" Value=""/>
+    <Text ID="517644" Value=""/>
+    <Text ID="519382" Value=""/>
+    <Text ID="519383" Value=""/>
+    <Text ID="519384" Value=""/>
+    <Text ID="519385" Value=""/>
+    <Text ID="519386" Value=""/>
+    <Text ID="521126" Value=""/>
+    <Text ID="521127" Value=""/>
+    <Text ID="521128" Value=""/>
+    <Text ID="604122" Value=""/>
+    <Text ID="610113" Value=""/>
+    <Text ID="611915" Value=""/>
+    <Text ID="611916" Value=""/>
+    <Text ID="611917" Value=""/>
+    <Text ID="611918" Value=""/>
+    <Text ID="611919" Value=""/>
+    <Text ID="611920" Value=""/>
+    <Text ID="611921" Value=""/>
+    <Text ID="611922" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="190187" Value=""/>
+    <Text ID="190203" Value=""/>
+    <Text ID="190204" Value=""/>
+    <Text ID="190205" Value=""/>
+    <Text ID="190206" Value=""/>
+    <Text ID="190207" Value=""/>
+    <Text ID="190208" Value=""/>
+    <Text ID="190209" Value=""/>
+    <Text ID="190210" Value=""/>
+    <Text ID="190211" Value=""/>
+    <Text ID="190212" Value=""/>
+    <Text ID="190213" Value=""/>
+    <Text ID="190214" Value=""/>
+    <Text ID="190215" Value=""/>
+    <Text ID="190216" Value=""/>
+    <Text ID="190217" Value=""/>
+    <Text ID="190218" Value=""/>
+    <Text ID="190219" Value=""/>
+    <Text ID="190220" Value=""/>
+    <Text ID="190221" Value=""/>
+    <Text ID="190222" Value=""/>
+    <Text ID="190223" Value=""/>
+    <Text ID="190224" Value=""/>
+    <Text ID="190225" Value=""/>
+    <Text ID="190226" Value=""/>
+    <Text ID="190227" Value=""/>
+    <Text ID="190228" Value=""/>
+    <Text ID="190229" Value=""/>
+    <Text ID="190230" Value=""/>
+    <Text ID="190231" Value=""/>
+    <Text ID="190232" Value=""/>
+    <Text ID="190233" Value=""/>
+    <Text ID="190234" Value=""/>
+    <Text ID="190235" Value=""/>
+    <Text ID="190236" Value=""/>
+    <Text ID="190237" Value=""/>
+    <Text ID="190238" Value=""/>
+    <Text ID="190239" Value=""/>
+    <Text ID="190240" Value=""/>
+    <Text ID="190241" Value=""/>
+    <Text ID="190242" Value=""/>
+    <Text ID="190250" Value=""/>
+    <Text ID="190251" Value=""/>
+    <Text ID="190252" Value=""/>
+    <Text ID="190253" Value=""/>
+    <Text ID="190254" Value=""/>
+    <Text ID="190255" Value=""/>
+    <Text ID="190256" Value=""/>
+    <Text ID="190257" Value=""/>
+    <Text ID="190258" Value=""/>
+    <Text ID="190259" Value=""/>
+    <Text ID="190260" Value=""/>
+    <Text ID="190261" Value=""/>
+    <Text ID="190262" Value=""/>
+    <Text ID="190263" Value=""/>
+    <Text ID="190264" Value=""/>
+    <Text ID="190265" Value=""/>
+    <Text ID="190266" Value=""/>
+    <Text ID="190267" Value=""/>
+    <Text ID="190268" Value=""/>
+    <Text ID="190269" Value=""/>
+    <Text ID="190270" Value=""/>
+    <Text ID="190271" Value=""/>
+    <Text ID="190272" Value=""/>
+    <Text ID="190273" Value=""/>
+    <Text ID="190274" Value=""/>
+    <Text ID="190275" Value=""/>
+    <Text ID="190276" Value=""/>
+    <Text ID="190282" Value=""/>
+    <Text ID="190283" Value=""/>
+    <Text ID="194434" Value=""/>
+    <Text ID="194435" Value=""/>
+    <Text ID="194436" Value=""/>
+    <Text ID="194437" Value=""/>
+    <Text ID="194438" Value=""/>
+    <Text ID="194439" Value=""/>
+    <Text ID="194440" Value=""/>
+    <Text ID="194441" Value=""/>
+    <Text ID="194442" Value=""/>
+    <Text ID="194443" Value=""/>
+    <Text ID="194444" Value=""/>
+    <Text ID="194445" Value=""/>
+    <Text ID="194446" Value=""/>
+    <Text ID="194447" Value=""/>
+    <Text ID="194448" Value=""/>
+    <Text ID="194449" Value=""/>
+    <Text ID="194451" Value=""/>
+    <Text ID="194452" Value=""/>
+    <Text ID="194453" Value=""/>
+    <Text ID="194454" Value=""/>
+    <Text ID="194455" Value=""/>
+    <Text ID="194456" Value=""/>
+    <Text ID="194457" Value=""/>
+    <Text ID="194458" Value=""/>
+    <Text ID="194459" Value=""/>
+    <Text ID="194460" Value=""/>
+    <Text ID="194461" Value=""/>
+    <Text ID="194462" Value=""/>
+    <Text ID="194463" Value=""/>
+    <Text ID="194464" Value=""/>
+    <Text ID="194465" Value=""/>
+    <Text ID="194466" Value=""/>
+    <Text ID="194467" Value=""/>
+    <Text ID="194468" Value=""/>
+    <Text ID="194469" Value=""/>
+    <Text ID="194470" Value=""/>
+    <Text ID="194471" Value=""/>
+    <Text ID="194472" Value=""/>
+    <Text ID="194473" Value=""/>
+    <Text ID="194474" Value=""/>
+    <Text ID="194475" Value=""/>
+    <Text ID="194476" Value=""/>
+    <Text ID="194477" Value=""/>
+    <Text ID="194478" Value=""/>
+    <Text ID="194479" Value=""/>
+    <Text ID="194481" Value=""/>
+    <Text ID="194480" Value=""/>
+    <Text ID="302540" Value=""/>
+    <Text ID="367398" Value=""/>
+    <Text ID="367399" Value=""/>
+    <Text ID="367400" Value=""/>
+    <Text ID="367401" Value=""/>
+    <Text ID="367402" Value=""/>
+    <Text ID="367403" Value=""/>
+    <Text ID="367404" Value=""/>
+    <Text ID="367405" Value=""/>
+    <Text ID="367406" Value=""/>
+    <Text ID="367407" Value=""/>
+    <Text ID="367408" Value=""/>
+    <Text ID="372795" Value=""/>
+    <Text ID="372796" Value=""/>
+    <Text ID="372797" Value=""/>
+    <Text ID="190245" Value=""/>
+    <Text ID="190244" Value=""/>
+    <Text ID="190246" Value=""/>
+    <Text ID="190243" Value=""/>
+    <Text ID="410444" Value=""/>
+    <Text ID="441526" Value=""/>
+    <Text ID="517642" Value=""/>
+    <Text ID="517643" Value=""/>
+    <Text ID="517644" Value=""/>
+    <Text ID="519382" Value=""/>
+    <Text ID="519383" Value=""/>
+    <Text ID="519384" Value=""/>
+    <Text ID="519385" Value=""/>
+    <Text ID="519386" Value=""/>
+    <Text ID="521126" Value=""/>
+    <Text ID="521127" Value=""/>
+    <Text ID="521128" Value=""/>
+    <Text ID="604122" Value=""/>
+    <Text ID="610113" Value=""/>
+    <Text ID="611915" Value=""/>
+    <Text ID="611916" Value=""/>
+    <Text ID="611917" Value=""/>
+    <Text ID="611918" Value=""/>
+    <Text ID="611919" Value=""/>
+    <Text ID="611920" Value=""/>
+    <Text ID="611921" Value=""/>
+    <Text ID="611922" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="190187" Value="0"/>
+    <Index ID="190203" Value="19"/>
+    <Index ID="190204" Value="20"/>
+    <Index ID="190205" Value="21"/>
+    <Index ID="190206" Value="22"/>
+    <Index ID="190207" Value="23"/>
+    <Index ID="190208" Value="24"/>
+    <Index ID="190209" Value="25"/>
+    <Index ID="190210" Value="26"/>
+    <Index ID="190211" Value="27"/>
+    <Index ID="190212" Value="28"/>
+    <Index ID="190213" Value="40"/>
+    <Index ID="190214" Value="41"/>
+    <Index ID="190215" Value="42"/>
+    <Index ID="190216" Value="43"/>
+    <Index ID="190217" Value="44"/>
+    <Index ID="190218" Value="45"/>
+    <Index ID="190219" Value="46"/>
+    <Index ID="190220" Value="47"/>
+    <Index ID="190221" Value="49"/>
+    <Index ID="190222" Value="51"/>
+    <Index ID="190223" Value="52"/>
+    <Index ID="190224" Value="53"/>
+    <Index ID="190225" Value="54"/>
+    <Index ID="190226" Value="55"/>
+    <Index ID="190227" Value="60"/>
+    <Index ID="190228" Value="61"/>
+    <Index ID="190229" Value="62"/>
+    <Index ID="190230" Value="63"/>
+    <Index ID="190231" Value="64"/>
+    <Index ID="190232" Value="79"/>
+    <Index ID="190233" Value="80"/>
+    <Index ID="190234" Value="81"/>
+    <Index ID="190235" Value="82"/>
+    <Index ID="190236" Value="83"/>
+    <Index ID="190237" Value="84"/>
+    <Index ID="190238" Value="78"/>
+    <Index ID="190239" Value="65"/>
+    <Index ID="190240" Value="110"/>
+    <Index ID="190241" Value="111"/>
+    <Index ID="190242" Value="112"/>
+    <Index ID="190250" Value="117"/>
+    <Index ID="190251" Value="29"/>
+    <Index ID="190252" Value="30"/>
+    <Index ID="190253" Value="31"/>
+    <Index ID="190254" Value="32"/>
+    <Index ID="190255" Value="33"/>
+    <Index ID="190256" Value="34"/>
+    <Index ID="190257" Value="35"/>
+    <Index ID="190258" Value="36"/>
+    <Index ID="190259" Value="37"/>
+    <Index ID="190260" Value="38"/>
+    <Index ID="190261" Value="39"/>
+    <Index ID="190262" Value="48"/>
+    <Index ID="190263" Value="50"/>
+    <Index ID="190264" Value="56"/>
+    <Index ID="190265" Value="57"/>
+    <Index ID="190266" Value="58"/>
+    <Index ID="190267" Value="59"/>
+    <Index ID="190268" Value="86"/>
+    <Index ID="190269" Value="66"/>
+    <Index ID="190270" Value="67"/>
+    <Index ID="190271" Value="68"/>
+    <Index ID="190272" Value="70"/>
+    <Index ID="190273" Value="71"/>
+    <Index ID="190274" Value="89"/>
+    <Index ID="190275" Value="90"/>
+    <Index ID="190276" Value="91"/>
+    <Index ID="190282" Value="88"/>
+    <Index ID="190283" Value="75"/>
+    <Index ID="194434" Value="95"/>
+    <Index ID="194435" Value="72"/>
+    <Index ID="194436" Value="73"/>
+    <Index ID="194437" Value="87"/>
+    <Index ID="194438" Value="192"/>
+    <Index ID="194439" Value="193"/>
+    <Index ID="194440" Value="74"/>
+    <Index ID="194441" Value="106"/>
+    <Index ID="194442" Value="101"/>
+    <Index ID="194443" Value="102"/>
+    <Index ID="194444" Value="191"/>
+    <Index ID="194445" Value="107"/>
+    <Index ID="194446" Value="108"/>
+    <Index ID="194447" Value="109"/>
+    <Index ID="194448" Value="118"/>
+    <Index ID="194449" Value="119"/>
+    <Index ID="194451" Value="92"/>
+    <Index ID="194452" Value="93"/>
+    <Index ID="194453" Value="94"/>
+    <Index ID="194454" Value="124"/>
+    <Index ID="194455" Value="125"/>
+    <Index ID="194456" Value="126"/>
+    <Index ID="194457" Value="127"/>
+    <Index ID="194458" Value="128"/>
+    <Index ID="194459" Value="129"/>
+    <Index ID="194460" Value="130"/>
+    <Index ID="194461" Value="131"/>
+    <Index ID="194462" Value="132"/>
+    <Index ID="194463" Value="133"/>
+    <Index ID="194464" Value="134"/>
+    <Index ID="194465" Value="135"/>
+    <Index ID="194466" Value="136"/>
+    <Index ID="194467" Value="137"/>
+    <Index ID="194468" Value="138"/>
+    <Index ID="194469" Value="139"/>
+    <Index ID="194470" Value="140"/>
+    <Index ID="194471" Value="141"/>
+    <Index ID="194472" Value="142"/>
+    <Index ID="194473" Value="143"/>
+    <Index ID="194474" Value="144"/>
+    <Index ID="194475" Value="145"/>
+    <Index ID="194476" Value="146"/>
+    <Index ID="194477" Value="147"/>
+    <Index ID="194478" Value="148"/>
+    <Index ID="194479" Value="149"/>
+    <Index ID="194481" Value="121"/>
+    <Index ID="194480" Value="120"/>
+    <Index ID="302540" Value="69"/>
+    <Index ID="367398" Value="150"/>
+    <Index ID="367399" Value="151"/>
+    <Index ID="367400" Value="152"/>
+    <Index ID="367401" Value="153"/>
+    <Index ID="367402" Value="154"/>
+    <Index ID="367403" Value="155"/>
+    <Index ID="367404" Value="156"/>
+    <Index ID="367405" Value="157"/>
+    <Index ID="367406" Value="158"/>
+    <Index ID="367407" Value="159"/>
+    <Index ID="367408" Value="160"/>
+    <Index ID="372795" Value="122"/>
+    <Index ID="372796" Value="123"/>
+    <Index ID="372797" Value="161"/>
+    <Index ID="190245" Value="114"/>
+    <Index ID="190244" Value="115"/>
+    <Index ID="190246" Value="116"/>
+    <Index ID="190243" Value="113"/>
+    <Index ID="410444" Value="162"/>
+    <Index ID="441526" Value="163"/>
+    <Index ID="517642" Value="1"/>
+    <Index ID="517643" Value="2"/>
+    <Index ID="517644" Value="3"/>
+    <Index ID="519382" Value="96"/>
+    <Index ID="519383" Value="97"/>
+    <Index ID="519384" Value="98"/>
+    <Index ID="519385" Value="99"/>
+    <Index ID="519386" Value="100"/>
+    <Index ID="521126" Value="76"/>
+    <Index ID="521127" Value="77"/>
+    <Index ID="521128" Value="85"/>
+    <Index ID="604122" Value="173"/>
+    <Index ID="610113" Value="165"/>
+    <Index ID="611915" Value="184"/>
+    <Index ID="611916" Value="185"/>
+    <Index ID="611917" Value="186"/>
+    <Index ID="611918" Value="187"/>
+    <Index ID="611919" Value="188"/>
+    <Index ID="611920" Value="189"/>
+    <Index ID="611921" Value="190"/>
+    <Index ID="611922" Value="194"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,120 @@
+(*2021-05-18*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	tyInfoData : tyAlmDat;
+	tyInfoData1 : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='New Recipe Not Found In Product Recipe List',sRcyText:='Create New Recipe In Product Setting.'),(sAlmText:='Product Recipe Width Not Match',sRcyText:='Check Product Width And Leader Request Width'),(sAlmText:='New Recipe Not Found In Magazine Recipe List',sRcyText:='Create New Recipe In Magazine Setting.'),(sAlmText:='New Recipe Name Empty',sRcyText:='Request Recipe Name From Leader Is Empty, Check Leader Machine'),96(0)];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bUSAllow : BOOL;
+	bDSAllow : BOOL;
+	bLeaderSeqCtrlInActive : BOOL;
+	bProdAccDataMnl : BOOL;
+	bProdUpdtDataMnl : BOOL;
+	bMagAccDataMnl : BOOL;
+	eTimeAct : eTimeAction;
+	bWaitRlsBrd : BOOL;
+	tyLeaderInfo : tyLFLeaderInfo;
+	tyUpdtProdRcp : tyProdRcpParam;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	sIPAddr : STRING[15] := '192.168.0.100';
+	sMcNm : STRING[30];
+	bAWPrep : BOOL := TRUE;
+	bAWDis : BOOL;
+	bMnlAccData : BOOL;
+	bSectionLeader : BOOL;
+	sMagRcpNm : STRING[30];
+	diWidthLimit : DINT;
+	bWidth2Prep : BOOL;
+	bUSWidthChkPrep : BOOL;
+	bUSWidthChkEn : BOOL;
+	bUSWidthChkSen : BOOL;
+	bDSWidthChkPrep : BOOL;
+	bDSWidthChkEn : BOOL;
+	bDSWidthChkSen : BOOL;
+	bProdWidthChk : BOOL;
+	bUIProdAccData : BOOL;
+	bUIProdUpdtData : BOOL;
+	bUIMagAccData : BOOL;
+	a_tyProdRcpList : ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	tyCurrProdRcp : tyProdRcpParam;
+	sCurrMagRcpNm : STRING[30];
+	eTimeStat : eTimeAction;
+	eTimeStatus : eFBStatus;
+	bAccNewRcpCond : BOOL;
+	bUpdtNewRcpCond : BOOL;
+	bAutoUpdtData : BOOL;
+	sInfoMsg : STRING[200];
+	bInternalUse : BOOL;
+	tyInternalReqProdRcp : tyProdRcpParam;
+	bNewBrdEnteredCond : BOOL;
+	bOldBrdExitedCond : BOOL;
+	bRlsBrd : BOOL;
+	tyToLeaderProdRcp : tyProdRcpParam;
+	bInternalReqProdRcpDiff : BOOL;
+	bUpdtProdRcpDiff : BOOL;
+	bRlsBrdProdRcpDiff : BOOL;
+	sProgNm : STRING[15] := 'Follower';
+	bNtSettingsLoadDone : BOOL := TRUE;
+	tOnlineChkDlyTm : TIME;
+	bManual : BOOL := FALSE;
+	bErr : BOOL := FALSE;
+	bWarning : BOOL := FALSE;
+	bOps : BOOL := FALSE;
+	bStandby : BOOL := FALSE;
+	eAWStat : eAWAction;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	bAutoAccData : BOOL;
+	bProdRcpErr : BOOL;
+	bMagRcpErr : BOOL;
+	bSetTmErr : BOOL;
+	bProdAccDataReq : BOOL;
+	sReqProdRcpNm : STRING[254];
+	diReqProdRcpWidth : DINT;
+	bMagAccDataReq : BOOL;
+	sReqMagRcpNm : STRING[30];
+	usiProdAccDatStep : USINT;
+	usiMagAccDatStep : USINT;
+	usiProdUpdtDatStep : USINT;
+	tyRlsBrdProdRcpNm : tyProdRcpParam;
+	bNewBrdEntered : BOOL;
+	bOldBrdExited : BOOL;
+	i : INT;
+	bSetTm : BOOL;
+	fbOnlineChk : fbLFFollowerOnlineChk;
+	fbFollower : fbLFFollower;
+	tyLeaderToFollowerTag : tyLFLeaderToFollowerTag;
+	tyFollowerToLeaderTag : tyLFFollowerToLeaderTag;
+	eCurrMachineStat : eMachineStat;
+	bLeaderOnline : BOOL;
+	bLeaderInfo : BOOL;
+	bFollowerInfo : BOOL;
+	bProdRcpErrNotExist : BOOL;
+	bProdRcpErrWidthMismatch : BOOL;
+	bDBAOnWOAlign : BOOL;
+	udiModuleNum : UDINT := 3901;
+END_VAR

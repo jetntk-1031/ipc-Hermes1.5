@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="AW" Type="FBC.0x000001DD.0x00000001.NUTEK_DELTA_EDS_V101" Version="1.0" OrderNumber="NUTEK_DELTA_V101">
+    <Connection Connector="CAN1" TargetModule="X20BB57" TargetConnector="IF7" NodeNumber="16" />
+    <Parameter ID="Supervision" Value="on" />
+  </Module>
+  <Module Name="X20BB57" Type="X20BB57" Version="1.1.1.0">
+    <Connector Name="IF7">
+      <Parameter ID="Baudrate" Value="1000000" />
+      <Parameter ID="ActivateCanOpen" Value="1" />
+      <Parameter ID="p100c_parametervalue" Value="1000" />
+      <Parameter ID="p100d_parametervalue" Value="3" />
+    </Connector>
+  </Module>
+  <Module Name="X20BM01" Type="X20BM01" Version="2.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BB57" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11f" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM01" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11d" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11g" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11e" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11f" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11e" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11g" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11b" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20CP0483" Type="X20CP0483" Version="1.2.1.0">
+    <Connection Connector="SL" TargetModule="X20BB57" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.0.34" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaNodeNumber" Value="42" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncMaxConnections1" Value="3" />
+      <Parameter ID="VncRefreshRate1" Value="100" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="NAINV104" />
+    <Parameter ID="UserPartitionSize" Value="150" />
+    <Parameter ID="EnableUsbRemoteInstall" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
+    <Parameter ID="Cyclic1Duration" Value="10000" />
+    <Parameter ID="Cyclic1Tolerance" Value="10000" />
+    <Parameter ID="Cyclic2Duration" Value="20000" />
+    <Parameter ID="Cyclic2Tolerance" Value="20000" />
+    <Parameter ID="Cyclic3Duration" Value="50000" />
+    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic4Duration" Value="10000" />
+    <Parameter ID="Cyclic4Tolerance" Value="10000" />
+    <Parameter ID="Cyclic5Duration" Value="150000" />
+    <Parameter ID="Cyclic5Tolerance" Value="150000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="10000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="F" />
+    <Parameter ID="FileDevicePath1" Value="F:" />
+    <Group ID="FileDevice2" />
+    <Parameter ID="FileDeviceName2" Value="User" />
+    <Parameter ID="FileDevicePath2" Value="F:\User" />
+    <Group ID="FileDevice3" />
+    <Parameter ID="FileDeviceName3" Value="Private" />
+    <Parameter ID="FileDevicePath3" Value="F:\Private" />
+    <Group ID="FileDevice4" />
+    <Parameter ID="FileDeviceName4" Value="CustomerUser" />
+    <Parameter ID="FileDevicePath4" Value="F:\User\UserMgmt" />
+    <Group ID="FileDevice5" />
+    <Parameter ID="FileDeviceName5" Value="ProdRcp" />
+    <Parameter ID="FileDevicePath5" Value="F:\User\ProductRecipe" />
+    <Group ID="FileDevice6" />
+    <Parameter ID="FileDeviceName6" Value="MagRcp" />
+    <Parameter ID="FileDevicePath6" Value="F:\User\MagazineRecipe" />
+    <Group ID="FileDevice7" />
+    <Parameter ID="FileDeviceName7" Value="Alarm" />
+    <Parameter ID="FileDevicePath7" Value="F:\User\Alarm" />
+    <Group ID="FileDevice8" />
+    <Parameter ID="FileDeviceName8" Value="McParam" />
+    <Parameter ID="FileDevicePath8" Value="F:\User\MachineParameter" />
+    <Group ID="FileDevice9" />
+    <Parameter ID="FileDeviceName9" Value="NtParam" />
+    <Parameter ID="FileDevicePath9" Value="F:\Private\NutekParameter" />
+    <Group ID="FileDevice10" />
+    <Parameter ID="FileDeviceName10" Value="LibVer" />
+    <Parameter ID="FileDevicePath10" Value="F:\User\LibrariesVersion" />
+    <Group ID="FileDevice11" />
+    <Parameter ID="FileDeviceName11" Value="Retain" />
+    <Parameter ID="FileDevicePath11" Value="F:\User\Retain" />
+    <Group ID="FileDevice12" />
+    <Parameter ID="FileDeviceName12" Value="Log" />
+    <Parameter ID="FileDevicePath12" Value="F:\User\Log" />
+    <Group ID="FileDevice13" />
+    <Parameter ID="FileDeviceName13" Value="LCS" />
+    <Parameter ID="FileDevicePath13" Value="F:\User\LCS" />
+    <Group ID="FileDevice14" />
+    <Parameter ID="FileDeviceName14" Value="MpProdRcp" />
+    <Parameter ID="FileDevicePath14" Value="F:\User\ProductRecipeXml" />
+    <Group ID="FileDevice15" />
+    <Parameter ID="FileDeviceName15" Value="MpNtParam" />
+    <Parameter ID="FileDevicePath15" Value="F:\Private\NutekParameterXml" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="NTAFTP" />
+    <Parameter ID="FtpUserPassword1" Value="AX0LBkHXk5z+64iWno3s7Za7qAB1ef/xlwoQUvfPuPs=" Description="NTA4BH" />
+    <Parameter ID="FtpUserSalt1" Value="ulQWWQjW" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Parameter ID="FTPdevice1" Value="ALL" />
+    <Group ID="FtpUser2" />
+    <Parameter ID="FtpUsername2" Value="admin" />
+    <Parameter ID="FtpUserPassword2" Value="oOnwLF+CCxXL8HlJuADbdqMAHEOaZat9TyrIEGDt79E=" Description="admin" />
+    <Parameter ID="FtpUserSalt2" Value="uTI38Rtv" />
+    <Parameter ID="FTPAccessRight2" Value="0" />
+    <Parameter ID="FTPMSpath2" Value="User" />
+    <Group ID="FtpUser3" />
+    <Parameter ID="FtpUsername3" Value="LCS" />
+    <Parameter ID="FtpUserPassword3" Value="aZ5TTuYKHpukMjerDxdtnomIopt08VfYSbHSRSZ/6LI=" Description="LCS" />
+    <Parameter ID="FtpUserSalt3" Value="ciWQito9" />
+    <Parameter ID="FTPAccessRight3" Value="0" />
+    <Parameter ID="FTPMSpath3" Value="User\LCS" />
+    <Group ID="FtpUser4" />
+    <Parameter ID="FtpUsername4" Value="user" />
+    <Parameter ID="FtpUserPassword4" Value="ZSNVrCTF84rK225EpwbOTF9hgjmxleDX5xeb+GcCkC0=" />
+    <Parameter ID="FtpUserSalt4" Value="jV67T8tr" />
+    <Parameter ID="FTPMSpath4" Value="User\ProductRecipeXml" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUa_ConversationSecurityPolicy_EnableBasic256Rsa256" Value="0" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+  </Module>
+  <Module Name="X20DI9372" Type="X20DI9372" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12g" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11e" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DI9372-X2" Type="X20DI9372" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DI9372a" Type="X20DI9372" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12h" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11f" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DO6321-X4" Type="X20DO6321" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DO6321_X7" Type="X20DO6321" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12e" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11d" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DO9321-X6" Type="X20DO9321" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DO9321-X8" Type="X20DO9321" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12i" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11g" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20PS2100-X5" Type="X20PS2100" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12f" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM01" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20PS9602_X1" Type="X20PS9602" Version="1.0.2.0">
+    <Connection Connector="PS" TargetModule="X20BB57" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12c" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12e" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12f" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12g" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12h" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12i" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>

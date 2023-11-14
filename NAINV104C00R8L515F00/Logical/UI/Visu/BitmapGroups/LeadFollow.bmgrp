@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="LeadFollow">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="16"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3645" Value="Source[local].Bitmap[Icon_LF_Delete_7]"/>
+    <BitmapRef ID="3647" Value="Source[local].Bitmap[Icon_LF_Edit_7]"/>
+    <BitmapRef ID="3649" Value="Source[local].Bitmap[Icon_LF_Offline_7]"/>
+    <BitmapRef ID="3651" Value="Source[local].Bitmap[Icon_LF_From_7]"/>
+    <BitmapRef ID="3653" Value="Source[local].Bitmap[Icon_LF_To_7]"/>
+    <BitmapRef ID="3655" Value="Source[local].Bitmap[Icon_LF_Time_7]"/>
+    <BitmapRef ID="3657" Value="Source[local].Bitmap[Icon_LF_Online_7]"/>
+    <BitmapRef ID="3659" Value="Source[local].Bitmap[Icon_LF_Leader_7]"/>
+    <BitmapRef ID="3661" Value="Source[local].Bitmap[Icon_LF_Follower_7]"/>
+    <BitmapRef ID="3663" Value="Source[local].Bitmap[Icon_LF_Tx_7]"/>
+    <BitmapRef ID="3875" Value="Source[local].Bitmap[Icon_Table_ShiftUp_Active_7]"/>
+    <BitmapRef ID="3876" Value="Source[local].Bitmap[Icon_Table_ShiftUp_Pressed_7]"/>
+    <BitmapRef ID="7438" Value="Source[local].Bitmap[Icon_Table_ShiftDown_Active_7]"/>
+    <BitmapRef ID="7439" Value="Source[local].Bitmap[Icon_Table_ShiftDown_Pressed_7]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3645" Value="0"/>
+    <Index ID="3647" Value="2"/>
+    <Index ID="3649" Value="4"/>
+    <Index ID="3651" Value="6"/>
+    <Index ID="3653" Value="8"/>
+    <Index ID="3655" Value="10"/>
+    <Index ID="3657" Value="12"/>
+    <Index ID="3659" Value="14"/>
+    <Index ID="3661" Value="16"/>
+    <Index ID="3663" Value="18"/>
+    <Index ID="3875" Value="50"/>
+    <Index ID="3876" Value="51"/>
+    <Index ID="7438" Value="52"/>
+    <Index ID="7439" Value="53"/>
+  </IndexMap>
+</BitmapGroup>

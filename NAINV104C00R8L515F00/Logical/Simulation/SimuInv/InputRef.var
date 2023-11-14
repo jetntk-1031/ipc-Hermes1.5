@@ -1,0 +1,47 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+	p_bRun : REFERENCE TO BOOL;
+	p_bStop : REFERENCE TO BOOL;
+	p_bStep : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bInletShutterPrep : REFERENCE TO BOOL;
+	p_bOutletShutterPrep : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eInvertStat : REFERENCE TO eMotorBrkAction;
+	p_eInvertStatus : REFERENCE TO eFBStatus;
+	p_eConvStat : REFERENCE TO eConvAction;
+	p_eConvStatus : REFERENCE TO eFBStatus;
+	p_eStopperStat : REFERENCE TO ePneuAction;
+	p_eStopperStatus : REFERENCE TO eFBStatus;
+	p_eInletShutterStat : REFERENCE TO ePneuAction;
+	p_eInletShutterStatus : REFERENCE TO eFBStatus;
+	p_eOutletShutterStat : REFERENCE TO ePneuAction;
+	p_eOutletShutterStatus : REFERENCE TO eFBStatus;
+END_VAR
+(**)
+VAR
+	p_bConvLeftSen : REFERENCE TO BOOL;
+	p_bConvRightSen : REFERENCE TO BOOL;
+	p_bInverterHomeSen : REFERENCE TO BOOL;
+	p_bInverterRemoteSen : REFERENCE TO BOOL;
+	p_bStopperExtended : REFERENCE TO BOOL;
+	p_bStopperRetracted : REFERENCE TO BOOL;
+	p_bInletShutterOpenRs : REFERENCE TO BOOL;
+	p_bInletShutterCloseRs : REFERENCE TO BOOL;
+	p_bOutletShutterOpenRs : REFERENCE TO BOOL;
+	p_bOutletShutterCloseRs : REFERENCE TO BOOL;
+END_VAR

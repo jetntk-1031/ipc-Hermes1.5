@@ -1,0 +1,24 @@
+(*2019-06-12*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_LCSLFStat : UDINT;
+	p_LCSLFStatus : UDINT;
+	p_LCSLFStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_LCSLFAlmData : UDINT;
+	p_LCSLFInfoData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_LCSLF_PLCStatus : UDINT;
+	p_LCSLFChkLmt : UDINT;
+	p_LCSLFAccDataMnl : UDINT;
+	p_LCSLFUpdtDataMnl : UDINT;
+	p_LCSLFUpdtProdRcpNm : UDINT;
+	p_LCSLFUpdtProdWidth : UDINT;
+END_VAR

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Alarm">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2521" Value="Source[local].Bitmap[Icon_Alarm_Current_7]"/>
+    <BitmapRef ID="2522" Value="Source[local].Bitmap[Icon_Alarm_History_7]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2521" Value="0"/>
+    <Index ID="2522" Value="1"/>
+  </IndexMap>
+</BitmapGroup>

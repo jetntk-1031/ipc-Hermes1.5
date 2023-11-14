@@ -1,0 +1,21 @@
+(*2019-04-09*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+	p_eLinkMcParamDSCommMod : REFERENCE TO eMcSetCommMod;
+	bHermesRun : BOOL;
+	bHermesStop : BOOL;
+END_VAR
+(**)
+VAR
+	p_eLinkConvDir : REFERENCE TO eConvDir;
+	p_bLinkConvGdBrd : REFERENCE TO BOOL;
+	p_bLinkDILeftSen : REFERENCE TO BOOL;
+	p_bLinkDIRightSen : REFERENCE TO BOOL;
+	p_bLinkConvHvBrd : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	fbDlyTmr : TON := (PT:=T#5s);
+	fbDeleteLogTmr : TON := (PT:=T#24h);
+END_VAR

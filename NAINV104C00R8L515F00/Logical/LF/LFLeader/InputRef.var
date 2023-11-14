@@ -1,0 +1,32 @@
+(*2020-08-06*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eLFAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_sReqProdRcpNm : REFERENCE TO STRING[254];
+	p_diReqProdWidth : REFERENCE TO DINT;
+	p_sReqMagRcpNm : REFERENCE TO STRING[15];
+	p_diBeforeOven : REFERENCE TO DINT;
+	p_bWidth2Prep : REFERENCE TO BOOL;
+	p_diAfterOven : REFERENCE TO DINT;
+	p_diBeforeOven2 : REFERENCE TO DINT;
+	p_diAfterOven2 : REFERENCE TO DINT;
+	p_tOnlineChkDlyTm : REFERENCE TO TIME;
+	p_tSetTmOffDlyTm : REFERENCE TO TIME;
+	p_dtCurrDT : REFERENCE TO DATE_AND_TIME;
+	pa_sLFIPAddr : REFERENCE TO ARRAY[1..c_diLFClntNum] OF STRING[15];
+	pa_bLFOnline : REFERENCE TO ARRAY[1..c_diLFClntNum] OF BOOL;
+	p_sLeaderProgTagNm : REFERENCE TO STRING[15];
+	p_sFollowerProgTagNm : REFERENCE TO STRING[15];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bLFSeqStayActive : REFERENCE TO BOOL;
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

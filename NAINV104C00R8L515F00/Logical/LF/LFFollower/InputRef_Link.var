@@ -1,0 +1,26 @@
+(*2019-05-07*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+	p_eLinkMcParamUSCommMod : REFERENCE TO eMcSetCommMod;
+END_VAR
+(**)
+VAR
+	p_bLinkOpsRun : REFERENCE TO BOOL;
+	p_bLinkConvHvBrd : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	sWidthInUMTemp : STRING[80];
+	p_bLinkUSWidthChkSen : REFERENCE TO BOOL;
+	p_bLinkUSWidthChkSen1 : REFERENCE TO BOOL;
+	p_bLinkDIInvertHomeSen : REFERENCE TO BOOL;
+	p_bLinkDIInvertRemoteSen : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eLinkUIProdRcpAct : REFERENCE TO eProdRcpAction;
+	p_eProdRcpStat : REFERENCE TO eProdRcpAction;
+	p_eProdRcpStatus : REFERENCE TO eFBStatus;
+	p_tyProdRcpCurrRcpWr : REFERENCE TO tyProdRcpParam;
+END_VAR

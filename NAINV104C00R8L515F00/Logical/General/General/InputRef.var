@@ -1,0 +1,8 @@
+(*2019-03-25*)
+(**)
+(*Configuration*)
+VAR
+	p_eAct : REFERENCE TO eGeneralAction;
+	p_sIPAddr : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

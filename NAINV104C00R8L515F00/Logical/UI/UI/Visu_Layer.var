@@ -1,0 +1,242 @@
+(*2020-10-08*)
+(**)
+(*Reference Common Layer*)
+VAR
+	p_tyC0001MotionStd : REFERENCE TO tyLyrC0001MotionStd; (*Motion Standard*)
+END_VAR
+(**)
+VAR
+	p_tyC0002FullMask : REFERENCE TO tyLyrC0002FullMask; (*Full Mask*)
+END_VAR
+(**)
+VAR
+	p_tyC0003DualMask : REFERENCE TO tyLyrC0003DualMask; (*Dual Mask*)
+END_VAR
+(**)
+VAR
+	p_tyC0004Navi : REFERENCE TO tyLyrC0004Navi; (*Navigation*)
+END_VAR
+(**)
+VAR
+	p_tyC0005Main : REFERENCE TO tyLyrC0005Main; (*Main*)
+END_VAR
+(**)
+VAR
+	p_tyC0006Set : REFERENCE TO tyLyrC0006Set; (*Setting*)
+END_VAR
+(**)
+VAR
+	p_tyC0007Notif : REFERENCE TO tyLyrC0007Notif; (*Notification*)
+END_VAR
+(**)
+VAR
+	p_tyC0008MsgBox : REFERENCE TO tyLyrC0008MsgBox; (*Message Box*)
+END_VAR
+(**)
+VAR
+	p_tyC0009Info : REFERENCE TO tyLyrC0009Info; (*Info*)
+END_VAR
+(**)
+VAR
+	p_tyC0010RcyMsg : REFERENCE TO tyLyrC0010RcyMsg; (*Recover Msg*)
+END_VAR
+(**)
+VAR
+	p_tyC0011Loading : REFERENCE TO tyLyrC0011Loading; (*Recover Msg*)
+END_VAR
+(**)
+VAR
+	p_tyC0012RcpPopUp : REFERENCE TO tyLyrC0012RcpPopUp; (*254 Char Rcp Pop Up Layer*)
+END_VAR
+(**)
+VAR
+	p_tyP0000SSaver : REFERENCE TO tyLyrP0000SSaver; (*Screen Saver*)
+END_VAR
+(*Reference Layer*)
+(**)
+VAR
+	p_tyP0001Startup : REFERENCE TO tyLyrP0001Startup; (*Startup*)
+	p_tyP0001Initial : REFERENCE TO tyLyrP0001Initial; (*Startup*)
+END_VAR
+(**)
+VAR
+	p_tyP0002Menu : REFERENCE TO tyLyrP0002Menu; (*Menu*)
+END_VAR
+(**)
+VAR
+	p_tyP0100Login : REFERENCE TO tyLyrP0100Login; (*Login*)
+	p_tyP0100Logout : REFERENCE TO tyLyrP0100Logout; (*Logout*)
+END_VAR
+(**)
+VAR
+	p_tyP0200OpsGen : REFERENCE TO tyLyrP0200OpsGen; (*Operation*)
+	p_tyP0200OpsUSVSMEMA : REFERENCE TO tyLyrP0200OpsUSVSMEMA; (*Operation*)
+	p_tyP0200OpsDSVSMEMA : REFERENCE TO tyLyrP0200OpsDSVSMEMA; (*Operation*)
+	p_tyP0200OpsUSVSMEMA1 : REFERENCE TO tyLyrP0200OpsUSVSMEMA1; (*Operation*)
+	p_tyP0200OpsDSVSMEMA1 : REFERENCE TO tyLyrP0200OpsDSVSMEMA1; (*Operation*)
+	p_tyP0200OpsUSVSMEMA2 : REFERENCE TO tyLyrP0200OpsUSVSMEMA2; (*Operation*)
+	p_tyP0200OpsBypsInitConv : REFERENCE TO tyLyrP0200OpsBypsInitConv; (*Operation - Reminder Message*)
+END_VAR
+(**)
+VAR
+	p_tyP0201OpsConv : REFERENCE TO tyLyrP0201OpsConv;
+	p_tyP0201OpsConvIOMonitor : REFERENCE TO tyLyrP0201OpsConvIOMonitor; (*Operation - IO Monitor*)
+	p_tyP0201OpsConvIOMonitorMacSafe : REFERENCE TO tyLyrP0201OpsConvIOMonitorMSafe; (*Operation - IO Monitor*)
+	p_tyP0201OpsConvIOMonitorXStd : REFERENCE TO tyLyrP0201OpsConvIOMonitorXStd; (*Operation - IO Monitor*)
+	p_tyP0201OpsConvChgParam : REFERENCE TO tyLyrP0201OpsConvChgParam; (*Operation - Change Parameter*)
+	p_tyP0201OpsConvBypsInitConv : REFERENCE TO tyLyrP0201OpsConvBypsInitConv; (*Operation - Bypass Init Conv*)
+END_VAR
+(**)
+VAR
+	p_tyP0300McInfo : REFERENCE TO tyLyrP0300McInfo; (*Operation*)
+END_VAR
+(**)
+VAR
+	p_tyP0400ProdSel : REFERENCE TO tyLyrP0400ProdSel; (*Product Selection*)
+	p_tyP0400RcpDet : REFERENCE TO tyLyrP0400RcpDet; (*Product Selection_Recipe Detail*)
+END_VAR
+(**)
+VAR
+	p_tyP0600Alm : REFERENCE TO tyLyrP0600Alm; (*Alarm*)
+END_VAR
+(**)
+VAR
+	p_tyP0700LFCtrl : REFERENCE TO tyLyrP0700LFCtrl; (*Lead Follow*)
+END_VAR
+(**)
+VAR
+	p_tyP0900GenIn : REFERENCE TO tyLyrP0900GenIn; (*General Input*)
+END_VAR
+(**)
+VAR
+	p_tyP0910GenOut : REFERENCE TO tyLyrP0910GenOut; (*General Output*)
+END_VAR
+(**)
+VAR
+	p_tyP0920MtrNPneuCtrl : REFERENCE TO tyLyrP0920MtrNPneuCtrl; (*Motor And Pneumatic Control*)
+END_VAR
+(**)
+VAR
+	p_tyP0921ClampNoRSCom : REFERENCE TO tyLyrP0921ClampNoRSCom; (*Clamp*)
+	p_tyP0921ClampNoRSDC : REFERENCE TO tyLyrP0921ClampNoRSDC;
+	p_tyP0921ClampNoRSFB : REFERENCE TO tyLyrP0921ClampNoRSFB;
+END_VAR
+(**)
+VAR
+	p_tyP0922InletShutterCom : REFERENCE TO tyLyrP0922InletShutterCom; (*Shutter*)
+	p_tyP0922InletShutterDC : REFERENCE TO tyLyrP0922InletShutterDC;
+	p_tyP0922InletShutterFB : REFERENCE TO tyLyrP0922InletShutterFB;
+	p_tyP0922InletShutterDis : REFERENCE TO tyLyrP0922InletShutterDis;
+	p_tyP0922OutletShutterCom : REFERENCE TO tyLyrP0922OutletShutterCom;
+	p_tyP0922OutletShutterDC : REFERENCE TO tyLyrP0922OutletShutterDC;
+	p_tyP0922OutletShutterFB : REFERENCE TO tyLyrP0922OutletShutterFB;
+	p_tyP0922OutletShutterDis : REFERENCE TO tyLyrP0922OutletShutterDis;
+END_VAR
+(**)
+VAR
+	p_tyP0923StopperCom : REFERENCE TO tyLyrP0923StopperCom; (*Stopper_Comm*)
+	p_tyP0923StopperDC : REFERENCE TO tyLyrP0923StopperDC; (*Stopper_DC*)
+	p_tyP0923StopperFB : REFERENCE TO tyLyrP0923StopperFB; (*Stopper_FB*)
+END_VAR
+(**)
+VAR
+	p_tyP0924Clamp1WithRSCom : REFERENCE TO tyLyrP0924Clamp1WithRSCom; (*Clamp1WithRS&2*)
+	p_tyP0924Clamp1WithRSDC : REFERENCE TO tyLyrP0924Clamp1WithRSDC;
+	p_tyP0924Clamp1WithRSFB : REFERENCE TO tyLyrP0924Clamp1WithRSFB;
+	p_tyP0924Clamp1WithRSDis : REFERENCE TO tyLyrP0924Clamp1WithRSDis;
+	p_tyP0924Clamp2WithRSCom : REFERENCE TO tyLyrP0924Clamp2WithRSCom;
+	p_tyP0924Clamp2WithRSDC : REFERENCE TO tyLyrP0924Clamp2WithRSDC;
+	p_tyP0924Clamp2WithRSFB : REFERENCE TO tyLyrP0924Clamp2WithRSFB;
+	p_tyP0924Clamp2WithRSDis : REFERENCE TO tyLyrP0924Clamp2WithRSDis;
+	p_tyP0924Clamp3WithRSCom : REFERENCE TO tyLyrP0924Clamp3WithRSCom;
+	p_tyP0924Clamp3WithRSDC : REFERENCE TO tyLyrP0924Clamp3WithRSDC;
+	p_tyP0924Clamp3WithRSFB : REFERENCE TO tyLyrP0924Clamp3WithRSFB;
+	p_tyP0924Clamp3WithRSDis : REFERENCE TO tyLyrP0924Clamp3WithRSDis;
+END_VAR
+(**)
+VAR
+	p_tyP0931ConvCom : REFERENCE TO tyLyrP0931ConvCom; (*Conveyor_Com*)
+	p_tyP0931ConvDC : REFERENCE TO tyLyrP0931ConvDC; (*Conveyor_DC*)
+	p_tyP0931ConvFB : REFERENCE TO tyLyrP0931ConvFB; (*Conveyor_FB*)
+END_VAR
+(**)
+VAR
+	p_tyP0931InvCom : REFERENCE TO tyLyrP0931InvCom; (*Invertor_Com*)
+	p_tyP0931InvDC : REFERENCE TO tyLyrP0931InvDC; (*Invertor_DC*)
+	p_tyP0931InvFB : REFERENCE TO tyLyrP0931InvFB; (*Invertor_FB*)
+END_VAR
+(**)
+VAR
+	p_tyP0934AW : REFERENCE TO tyLyrP0934AW; (*Auto Width*)
+END_VAR
+(**)
+VAR
+	p_tyP0940CommCtrlUSSMEMA : REFERENCE TO tyLyrP0940CommCtrlUSSMEMA; (*Communication Control_SMEMAUS*)
+	p_tyP0940CommCtrlDSSMEMA : REFERENCE TO tyLyrP0940CommCtrlDSSMEMA; (*Communication Control_SMEMADS*)
+	p_tyP0940CommCtrlUSSMEMA2 : REFERENCE TO tyLyrP0940CommCtrlUSSMEMA2; (*Communication Control_SMEMAUS*)
+END_VAR
+(**)
+VAR
+	p_tyP0950Simu : REFERENCE TO tyLyrP0950Simu; (*Simulation*)
+END_VAR
+(**)
+VAR
+	p_tyP1000Lang : REFERENCE TO tyLyrP1000Lang; (*Language And Setup*)
+END_VAR
+(**)
+VAR
+	p_tyP1020McSetNavi : REFERENCE TO tyLyrP1020McSetNavi; (*Machine Setting - Navigation*)
+END_VAR
+(**)
+VAR
+	p_tyP1021McSetGen : REFERENCE TO tyLyrP1021McSetGen; (*Machine Setting - General*)
+	p_tyP1021McSetNetwork : REFERENCE TO tyLyrP1021McSetNetwork;
+END_VAR
+(**)
+VAR
+	p_tyP1022McSetVCommSel : REFERENCE TO tyLyrP1022McSetVCommSel; (*Machine Setting - US Commnunication SMEMA*)
+	p_tyP1022McSetVCommLF : REFERENCE TO tyLyrP1022McSetVCommLF; (*Machine Setting - US Commnunication SMEMA*)
+	p_tyP1022McSetVCommSvy : REFERENCE TO tyLyrP1022McSetVCommSvy;
+END_VAR
+(**)
+VAR
+	p_tyP1023McSetHCommUSSel : REFERENCE TO tyLyrP1023McSetHCommSel; (*Machine Setting - Commnunication Selection*)
+	p_tyP1023McSetHCommUSSel2 : REFERENCE TO tyLyrP1023McSetHCommSel; (*Machine Setting - Commnunication Selection*)
+	p_tyP1023McSetHCommUSSMEMA : REFERENCE TO tyLyrP1023McSetHCommSMEMA; (*Machine Setting - Commnunication SMEMA*)
+	p_tyP1023McSetHCommUSSMEMA2 : REFERENCE TO tyLyrP1023McSetHCommSMEMA; (*Machine Setting - Commnunication SMEMA*)
+	p_tyP1023McSetHCommUSHermes : REFERENCE TO tyLyrP1023McSetHCommUSHermes; (*Machine Setting - Commnunication Hermes US*)
+	p_tyP1023McSetHCommDSSel : REFERENCE TO tyLyrP1023McSetHCommSel; (*Machine Setting - Commnunication Selection*)
+	p_tyP1023McSetHCommDSSMEMA : REFERENCE TO tyLyrP1023McSetHCommSMEMA; (*Machine Setting - Commnunication SMEMA*)
+	p_tyP1023McSetHCommDSHermes : REFERENCE TO tyLyrP1023McSetHCommDSHermes; (*Machine Setting - Commnunication Hermes DS*)
+	p_tyP1023McSetHCommGen : REFERENCE TO tyLyrP1023McSetHCommGen; (*Machine Setting - Commnunication Selection*)
+END_VAR
+(**)
+VAR
+	p_tyP1024McSetAntiGap : REFERENCE TO tyLyrP1024McSetAntiGap; (*Machine Setting - Anti Gap Sensor*)
+END_VAR
+(**)
+VAR
+	p_tyP1040ProdSet : REFERENCE TO tyLyrP1040ProdSet; (*Product Setting*)
+END_VAR
+(**)
+VAR
+	p_tyP1050LFSetLdr : REFERENCE TO tyLyrP1050LFSetLdr; (*Leader Follower Setup*)
+	p_tyP1050LFSetLdrEdit : REFERENCE TO tyLyrP1050LFSetLdrEdit; (*Leader Follower Setup - Edit*)
+END_VAR
+(**)
+VAR
+	p_tyP1080UsrMgmt : REFERENCE TO tyLyrP1080UsrMgmt; (*User Management*)
+	p_tyP1080UsrMgmtAct : REFERENCE TO tyLyrP1080UsrMgmtAct; (*User Management Edit*)
+END_VAR
+(**)
+VAR
+	p_tyP1081UsrMgmtUsrAccessRgtSel : REFERENCE TO tyLyrP1081UsrMgmtUsrAccessRgtSel; (*User Management Edit Access*)
+	p_tyP1081UsrMgmtUsrAccessRgt : REFERENCE TO tyLyrP1081UsrMgmtUsrAccessRgt; (*User Management Edit Access*)
+END_VAR
+(**)
+(*Reference Visu Property*)
+VAR
+	p_tyTxtSnippets : REFERENCE TO tyTxtSnippets; (*Text Snippets*)
+	p_tyKeypad : REFERENCE TO tyKeypad; (*Keypad*)
+	p_tyVisu : REFERENCE TO tyVisu; (*Visualization Properties*)
+END_VAR

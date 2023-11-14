@@ -1,0 +1,13 @@
+(*2019-04-09*)
+(**)
+VAR
+	p_bLinkOpsRun : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_eLinkConvDir : REFERENCE TO eConvDir;
+	p_bLinkNtParamUSWidthChkPrep : REFERENCE TO BOOL;
+	p_bLinkMcParamUSWidthChkEn : REFERENCE TO BOOL;
+	p_bLinkDIUSWidthChkSen : REFERENCE TO BOOL;
+	p_usiLinkMcMod : REFERENCE TO USINT;
+END_VAR

@@ -1,0 +1,30 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eGeneralAction := GeneralActIdle;
+	eStat : eGeneralAction := GeneralActIdle;
+	eStatus : eFBStatus := Idle;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Checking IP Validity',49('')];
+END_VAR
+(**)
+(*Local Alarm*)
+(**)
+(*Local Output*)
+VAR
+	a_iIPPart : ARRAY[1..4] OF INT;
+	bIPValid : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	sIPAddr : STRING[15];
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+END_VAR

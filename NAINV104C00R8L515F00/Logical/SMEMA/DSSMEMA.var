@@ -1,0 +1,27 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_DSSMEMAStat : UDINT;
+	p_DSSMEMAStatus : UDINT;
+	p_DSSMEMAStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_DSSMEMAAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_DSSMEMAUSRdy : UDINT;
+	p_DSSMEMAUSGdBrdRdy : UDINT;
+	p_DSSMEMADSRdy : UDINT;
+	p_DSSMEMATransporting : UDINT;
+	p_DSSMEMAConvStart : UDINT;
+	p_DSSMEMAConvStop : UDINT;
+	p_DSSMEMADBA : UDINT;
+	p_DSSMEMADBAStat : UDINT;
+	p_DSSMEMATimer : UDINT;
+	p_DSSMEMAVirtual : UDINT;
+END_VAR

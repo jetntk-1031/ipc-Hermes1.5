@@ -1,0 +1,48 @@
+(*2020-08-17*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eLibVerAction := LibVerActIdle;
+	eStat : eLibVerAction := LibVerActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Creating Directory','Writing Files','Reading Files','Checking Version',46('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Creating Private Directory Error',sRcyText:='An Error Occurred While Attempting To Create Private Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Creating User Management Directory Error',sRcyText:='An Error Occurred While Attempting To Create User Management Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='File Open Error While Writing',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Reading',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Checking',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Checking',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Checking',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Libraries Version Mismatch',sRcyText:='Libraries Version Mismatch. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Not Found While Reading',sRcyText:='File Not Found. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Not Found While Checking',sRcyText:='File Not Found. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Libraries Version File Check Error',sRcyText:='Libraries Files Corrupted. Please Contact Nutek For A Possible Solution.'),83((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	a_tyInfoOut : ARRAY[0..c_diLibNum] OF tyLibrariesVer;
+	a_bVerMismatch : ARRAY[0..c_diLibNum] OF BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	a_tyInfoIn : ARRAY[0..c_diLibNum] OF tyLibrariesVer;
+	sProgNm : STRING[15] := 'LibVer';
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	usiStep : USINT;
+	di : DINT;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbFileRead1 : fbFileFullRead;
+	fbFileWrite1 : fbFileFullWrite;
+	fbChkLibVerFile : fbChkFileValidity;
+	fbChkLibVer : fbChkLibrariesVer;
+	udiModuleNum : UDINT := 5451;
+END_VAR

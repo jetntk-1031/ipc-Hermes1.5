@@ -1,0 +1,12 @@
+(*2019-04-25*)
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+	p_bLinkNtParamLFPrep : REFERENCE TO BOOL;
+	p_bLinkNtParamLeaderMc : REFERENCE TO BOOL;
+	p_bLinkNtParamLFUsrSetPrep : REFERENCE TO BOOL;
+	p_bLinkMcParamLFLeaderMc : REFERENCE TO BOOL;
+	p_bLinkUILeaderRun : REFERENCE TO BOOL;
+	bUILeaderStart : BOOL;
+	bUILeaderStop : BOOL;
+END_VAR

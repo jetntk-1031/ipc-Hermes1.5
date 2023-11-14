@@ -1,0 +1,126 @@
+(*2019-04-17*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_McParamStat : UDINT;
+	p_McParamStatus : UDINT;
+	p_McParamStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_McParamAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_McParamFileNotFound : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamCurr : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamLFOnline : UDINT;
+	p_McParamLFIPAddr : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamMcNm : UDINT;
+	p_McParamWidthAtHmPos : UDINT;
+	p_McParamWidthOffset : UDINT;
+	p_McParamSSaverEn : UDINT;
+	p_McParamSSaverTm : UDINT;
+	p_McParamConvInitTm : UDINT;
+	p_McParamTranInErrDlyTm : UDINT;
+	p_McParamTranOutErrDlyTm : UDINT;
+	p_McParamDefaultMcMod : UDINT;
+	p_McParamDefaultFlippedBrd : UDINT;
+	p_McParamAutoStepEn : UDINT;
+	p_McParamAWDis : UDINT;
+	p_McParamVSMEMAEn : UDINT;
+	p_McParamMnlAccDat : UDINT;
+	p_McParamChgParamEn : UDINT;
+	p_McParamHermesRmtEn : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamLang : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamLFEn : UDINT;
+	p_McParamLCSLFEn : UDINT;
+	p_McParamLCSReqRcpEn : UDINT;
+	p_McParamLCSManageRcpEn : UDINT;
+	p_McParamLCSLiveDatEn : UDINT;
+	p_McParamSectionLeader : UDINT;
+	p_McParamUSWidthChkEn : UDINT;
+	p_McParamDSWidthChkEn : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamConvLftSenAntiGap : UDINT;
+	p_McParamConvLftSenOnTm : UDINT;
+	p_McParamConvLftSenOffTm : UDINT;
+	p_McParamConvRgtSenAntiGap : UDINT;
+	p_McParamConvRgtSenOnTm : UDINT;
+	p_McParamConvRgtSenOffTm : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamUSCommMod : UDINT;
+	p_McParamUSSMEMAParam : UDINT;
+	p_McParamUSSMEMASelection : UDINT;
+	p_McParamUBAStatSetGd : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamDSCommMod : UDINT;
+	p_McParamDSSMEMAParam : UDINT;
+	p_McParamDSSMEMASelection : UDINT;
+	p_McParamDBAStatSetGd : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamUSComm2Mod : UDINT;
+	p_McParamUSSMEMA2Param : UDINT;
+	p_McParamUSSMEMA2Selection : UDINT;
+	p_McParamUBAStat2SetGd : UDINT;
+END_VAR
+(*  *)
+VAR
+	p_McParamDSComm2Mod : UDINT;
+	p_McParamDSSMEMA2Param : UDINT;
+	p_McParamDSSMEMA2Selection : UDINT;
+	p_McParamDBAStat2SetGd : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamStopperDis : UDINT;
+	p_McParamClampDis : UDINT;
+	p_McParamInShutterDis : UDINT;
+	p_McParamOutShutterDis : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamStopperAtLftPos : UDINT;
+	p_McParamStopperAtRgtPos : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamLFLeaderMc : UDINT;
+	p_McParamLFMcIdxBeforeOven : UDINT;
+	p_McParamLFMcIdxAfterOven : UDINT;
+	p_McParamLFMcIdxBeforeOven2 : UDINT;
+	p_McParamLFMcIdxAfterOven2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_McParamNetworkMod : UDINT;
+	p_McParamLFSeqStayActive : UDINT;
+	p_McParamLFBuzMute : UDINT;
+	p_McParamDBAOnWOAlign : UDINT;
+END_VAR
+(**)

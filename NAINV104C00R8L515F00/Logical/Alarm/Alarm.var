@@ -1,0 +1,89 @@
+(*2019-03-25*)
+(**)
+(*Constant*)
+VAR CONSTANT
+	c_udiAlarmCurrMax : UDINT := 200;
+	c_udiAlarmHistoryMax : UDINT := 300;
+	c_udiAlarmMaxModule : UDINT := 60;
+	c_udiAlarminfoMaxModule : UDINT := 10;
+END_VAR
+(**)
+(*Action & State & Status*)
+VAR
+	p_AlarmStat : UDINT;
+	p_AlarmStatus : UDINT;
+	p_AlarmStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_AlarmErr : UDINT;
+	p_AlarmWarning : UDINT;
+	p_AlarmCurrList : UDINT;
+	p_AlarmRecoveryList : UDINT;
+	p_AlarmHistoryList : UDINT;
+	p_AlarmInfo : UDINT;
+	p_AlarmInfoLF : UDINT;
+	p_AlarmInfoMsg : UDINT;
+	p_AlarmHistoryFileNotFound : UDINT;
+END_VAR
+(**)
+(**)
+(*Alarm Program Name: Declare Global Variables Based on the Projects' Packages.*)
+VAR
+	g_sAWOpenProgNm : STRING[15];
+	g_sAWCloseProgNm : STRING[15];
+	g_sMagAWOpenProgNm : STRING[15];
+	g_sTravProgNm : STRING[15];
+	g_sLifterBtmProgNm : STRING[15];
+	g_sConvProgNm : STRING[15];
+	g_sDCConvProgNm : STRING[15];
+	g_sMagConvProgNm : STRING[15];
+	g_sMagConv2ClpProgNm : STRING[15];
+	g_sBufferProgNm : STRING[15];
+	g_sMotorBrkProgNm : STRING[15];
+	g_sMtrPshrProgNm : STRING[15];
+	g_sStepperProgNm : STRING[15];
+	g_sPneuNoSenProgNm : STRING[15];
+	g_sPneuExtSenProgNm : STRING[15];
+	g_sPneuRetSenProgNm : STRING[15];
+	g_sPneu2SenProgNm : STRING[15];
+	g_sPneu3SenProgNm : STRING[15];
+	g_sUSSMEMAProgNm : STRING[15];
+	g_sDSSMEMAProgNm : STRING[15];
+	g_sHermesProgNm : STRING[15];
+	g_sUSHermesProgNm : STRING[15];
+	g_sDSHermesProgNm : STRING[15];
+	g_sRmtHermesProgNm : STRING[15];
+	g_sLFLeaderProgNm : STRING[15];
+	g_sLFFollowerProgNm : STRING[15];
+	g_sLCSProgNm : STRING[15];
+	g_sLCSLFProgNm : STRING[15];
+	g_sLCSMngRcpProgNm : STRING[15];
+	g_sTCPProgNm : STRING[15];
+	g_sUSSOTProgNm : STRING[15];
+	g_sDSSOTProgNm : STRING[15];
+	g_sBarcodeRdrProgNm : STRING[15];
+	g_sRS232MirtecProgNm : STRING[15];
+	g_sProdRcpProgNm : STRING[15];
+	g_sMagRcpProgNm : STRING[15];
+	g_sMpProdRcpProgNm : STRING[15];
+	g_sAlarmProgNm : STRING[15];
+	g_sNtParamProgNm : STRING[15];
+	g_sMcParamProgNm : STRING[15];
+	g_sUsrMgmtProgNm : STRING[15];
+	g_sLibVerProgNm : STRING[15];
+	g_sUsrFolderProgNm : STRING[15];
+	g_sHWInfoProgNm : STRING[15];
+	g_sDInputProgNm : STRING[15];
+	g_sTimeProgNm : STRING[15];
+	g_sMachineProgNm : STRING[15];
+	g_sOpsInvertProgNm : STRING[15];
+	g_sLiberWarnName : STRING[15];
+	g_sOps2ProgNm : STRING[15];
+	g_sOps3ProgNm : STRING[15];
+	g_sOps4ProgNm : STRING[15];
+END_VAR
+(**)

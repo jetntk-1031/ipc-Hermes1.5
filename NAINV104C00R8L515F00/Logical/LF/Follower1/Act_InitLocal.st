@@ -1,0 +1,56 @@
+(** 2020-08-06 **)
+ACTION Act_InitLocal:
+	
+	//Input Reference Link To Local Variable
+	p_udiRstErr ACCESS ADR(udiRstErr);
+	p_bPrep ACCESS ADR(bPrep);
+	p_bEn ACCESS ADR(bEn);
+	p_bDis ACCESS ADR(bDis);
+	p_sIPAddr ACCESS ADR(sIPAddr);
+	p_sMcNm ACCESS ADR(sMcNm);
+	p_bAWPrep ACCESS ADR(bAWPrep);
+	p_bAWDis ACCESS ADR(bAWDis);
+	p_bMnlAccData ACCESS ADR(bMnlAccData);
+	p_bSectionLeader ACCESS ADR(bSectionLeader);
+	p_sMagRcpNm ACCESS ADR(sMagRcpNm);
+	p_diWidthLimit ACCESS ADR(diWidthLimit);
+	p_bUSWidthChkPrep ACCESS ADR(bUSWidthChkPrep);
+	p_bUSWidthChkEn ACCESS ADR(bUSWidthChkEn);
+	p_bUSWidthChkSen ACCESS ADR(bUSWidthChkSen);
+	p_bDSWidthChkPrep ACCESS ADR(bDSWidthChkPrep);
+	p_bDSWidthChkEn ACCESS ADR(bDSWidthChkEn);
+	p_bDSWidthChkSen ACCESS ADR(bDSWidthChkSen);
+	p_bProdWidthChk ACCESS ADR(bProdWidthChk);
+	p_bUIProdAccData ACCESS ADR(bUIProdAccData);
+	p_bUIProdUpdtData ACCESS ADR(bUIProdUpdtData);
+	p_bUIMagAccData ACCESS ADR(bUIMagAccData);
+	pa_tyProdRcpList ACCESS ADR(a_tyProdRcpList);
+	p_tyCurrProdRcp ACCESS ADR(tyCurrProdRcp);
+	p_sCurrMagRcpNm ACCESS ADR(sCurrMagRcpNm);
+	p_eTimeStat ACCESS ADR(eTimeStat);
+	p_eTimeStatus ACCESS ADR(eTimeStatus);
+	p_bAccNewRcpCond ACCESS ADR(bAccNewRcpCond);
+	p_bUpdtNewRcpCond ACCESS ADR(bUpdtNewRcpCond);
+	p_bAutoUpdtData ACCESS ADR(bAutoUpdtData);
+	p_sInfoMsg ACCESS ADR(sInfoMsg);
+	p_bInternalUse ACCESS ADR(bInternalUse);
+	p_tyInternalReqProdRcp ACCESS ADR(tyInternalReqProdRcp);
+	p_bNewBrdEnteredCond ACCESS ADR(bNewBrdEnteredCond);
+	p_bOldBrdExitedCond ACCESS ADR(bOldBrdExitedCond);
+	p_bRlsBrd ACCESS ADR(bRlsBrd);
+	p_tyToLeaderProdRcp ACCESS ADR(tyToLeaderProdRcp);
+	p_bInternalReqProdRcpDiff ACCESS ADR(bInternalReqProdRcpDiff);
+	p_bUpdtProdRcpDiff ACCESS ADR(bUpdtProdRcpDiff);
+	p_bRlsBrdProdRcpDiff ACCESS ADR(bRlsBrdProdRcpDiff);
+	p_sProgNm ACCESS ADR(sProgNm);
+	p_bNtSettingsLoadDone ACCESS ADR(bNtSettingsLoadDone);
+	p_tOnlineChkDlyTm ACCESS ADR(tOnlineChkDlyTm);
+	p_bManual ACCESS ADR(bManual);
+	p_bErr ACCESS ADR(bErr);
+	p_bWarning ACCESS ADR(bWarning);
+	p_bOps ACCESS ADR(bOps);
+	p_bStandby ACCESS ADR(bStandby);
+	p_eAWStat ACCESS ADR(eAWStat);
+	p_bWidth2Prep ACCESS ADR(bWidth2Prep);
+	p_bDBAOnWOAlign ACCESS ADR(bDBAOnWOAlign);
+END_ACTION

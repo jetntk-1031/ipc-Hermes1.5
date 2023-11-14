@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="T2040_FileIO">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="24"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="262032" Value="File IO Process Status"/>
+    <Text ID="262033" Value="Idle"/>
+    <Text ID="262034" Value="Ready"/>
+    <Text ID="262035" Value="Done"/>
+    <Text ID="262036" Value="Error"/>
+    <Text ID="262037" Value="Create User Folder"/>
+    <Text ID="262038" Value="File Back Up"/>
+    <Text ID="262039" Value="File Recovery"/>
+    <Text ID="262040" Value="Create"/>
+    <Text ID="262041" Value="Copy"/>
+    <Text ID="262042" Value="Delete"/>
+    <Text ID="262043" Value="Sync By Time"/>
+    <Text ID="262044" Value="Send to Leader"/>
+    <Text ID="262045" Value="Send to Follower"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="262032" Value="Datei-E / A-Prozessstatus"/>
+    <Text ID="262033" Value="Leerlauf"/>
+    <Text ID="262034" Value="Bereit"/>
+    <Text ID="262035" Value="Fertig"/>
+    <Text ID="262036" Value="Fehler"/>
+    <Text ID="262037" Value="Erstellen Sie einen Benutzerordner"/>
+    <Text ID="262038" Value="Dateisicherung"/>
+    <Text ID="262039" Value="Wiederherstellung von Dateien"/>
+    <Text ID="262040" Value="Erstellen"/>
+    <Text ID="262041" Value="Kopie"/>
+    <Text ID="262042" Value="Löschen"/>
+    <Text ID="262043" Value="Sync nach Zeit"/>
+    <Text ID="262044" Value="Senden an Führer"/>
+    <Text ID="262045" Value="Senden an Anhänger"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh">
+    <Text ID="262032" Value="文件进出进程状态"/>
+    <Text ID="262033" Value="闲置"/>
+    <Text ID="262034" Value="准备"/>
+    <Text ID="262035" Value="完成"/>
+    <Text ID="262036" Value="报警"/>
+    <Text ID="262037" Value="创建用户文件夹"/>
+    <Text ID="262038" Value="文件备份"/>
+    <Text ID="262039" Value="文件恢复"/>
+    <Text ID="262040" Value="创建"/>
+    <Text ID="262041" Value="复制"/>
+    <Text ID="262042" Value="删除"/>
+    <Text ID="262043" Value="按时间同步"/>
+    <Text ID="262044" Value="发给主机"/>
+    <Text ID="262045" Value="发给从机"/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="262032" Value=""/>
+    <Text ID="262033" Value=""/>
+    <Text ID="262034" Value=""/>
+    <Text ID="262035" Value=""/>
+    <Text ID="262036" Value=""/>
+    <Text ID="262037" Value=""/>
+    <Text ID="262038" Value=""/>
+    <Text ID="262039" Value=""/>
+    <Text ID="262040" Value=""/>
+    <Text ID="262041" Value=""/>
+    <Text ID="262042" Value=""/>
+    <Text ID="262043" Value=""/>
+    <Text ID="262044" Value=""/>
+    <Text ID="262045" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="262032" Value="0"/>
+    <Index ID="262033" Value="1"/>
+    <Index ID="262034" Value="2"/>
+    <Index ID="262035" Value="3"/>
+    <Index ID="262036" Value="4"/>
+    <Index ID="262037" Value="5"/>
+    <Index ID="262038" Value="6"/>
+    <Index ID="262039" Value="7"/>
+    <Index ID="262040" Value="8"/>
+    <Index ID="262041" Value="9"/>
+    <Index ID="262042" Value="10"/>
+    <Index ID="262043" Value="11"/>
+    <Index ID="262044" Value="12"/>
+    <Index ID="262045" Value="13"/>
+  </IndexMap>
+</TextGroup>

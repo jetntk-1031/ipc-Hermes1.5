@@ -1,0 +1,14 @@
+(*2020-09-22*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eStartupAction;
+	p_tyNtParamCurr : REFERENCE TO tyNtParam;
+	p_tyMcParamCurr : REFERENCE TO tyMcParam;
+	p_bUIMismatchOverWriteConfig : REFERENCE TO BOOL;
+	p_bUITempAddrFillDone : REFERENCE TO BOOL;
+	p_bUIChgConfigDone : REFERENCE TO BOOL;
+	p_bUIOverwriteIP : REFERENCE TO BOOL;
+	p_bUIOverwriteSubnet : REFERENCE TO BOOL;
+	p_bUIOverwriteEthMode : REFERENCE TO BOOL;
+END_VAR

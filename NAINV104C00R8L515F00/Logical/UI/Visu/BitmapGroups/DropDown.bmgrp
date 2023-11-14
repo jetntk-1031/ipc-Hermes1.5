@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DropDown">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="8259" Value="Source[local].Bitmap[GenBtn_32x32_Arrow_Down_Active]"/>
+    <BitmapRef ID="8260" Value="Source[local].Bitmap[GenBtn_32x32_Arrow_Down_Pressed]"/>
+    <BitmapRef ID="8261" Value="Source[local].Bitmap[GenBtn_32x32_Arrow_Up_Active]"/>
+    <BitmapRef ID="8262" Value="Source[local].Bitmap[GenBtn_32x32_Arrow_Down_Active]"/>
+    <BitmapRef ID="8263" Value="Source[local].Bitmap[GenBtn_32x32_Arrow_Up_Pressed]"/>
+    <BitmapRef ID="8264" Value="Source[local].Bitmap[GenBtn_32x32_Arrow_Down_Pressed]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="8259" Value="0"/>
+    <Index ID="8260" Value="1"/>
+    <Index ID="8261" Value="2"/>
+    <Index ID="8262" Value="3"/>
+    <Index ID="8263" Value="4"/>
+    <Index ID="8264" Value="5"/>
+  </IndexMap>
+</BitmapGroup>

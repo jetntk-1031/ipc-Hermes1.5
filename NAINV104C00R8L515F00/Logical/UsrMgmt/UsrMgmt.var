@@ -1,0 +1,41 @@
+(*2019-05-08*)
+(**)
+(*Constant*)
+VAR CONSTANT
+	c_udiUsrMgmtMax : UDINT := 50;
+END_VAR
+(**)
+(*Action & State & Status*)
+VAR
+	p_UsrMgmtStat : UDINT;
+	p_UsrMgmtStatus : UDINT;
+	p_UsrMgmtStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_UsrMgmtAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_UsrMgmtCurrAccessRight : UDINT;
+	p_UsrMgmtCurrUsr : UDINT;
+	p_UsrMgmtFullData : UDINT;
+	p_UsrMgmtAllList : UDINT;
+	p_UsrMgmtAccessRightLvl1 : UDINT;
+	p_UsrMgmtAccessRightLvl2 : UDINT;
+	p_UsrMgmtAccessRightLvl3 : UDINT;
+	p_UsrMgmtLvl2List : UDINT;
+	p_UsrMgmtLvl3List : UDINT;
+	p_UsrMgmtAdminList : UDINT;
+	p_UsrMgmtLastAdmin : UDINT;
+	p_UsrMgmtUnableDelete : UDINT;
+	p_UsrMgmtLoginSuccess : UDINT;
+	p_UsrMgmtNmExist : UDINT;
+	p_UsrMgmtNmNotExist : UDINT;
+	p_UsrMgmtPwMismatch : UDINT;
+	p_UsrMgmtNmEmpty : UDINT;
+	p_UsrMgmtListFull : UDINT;
+	p_UsrMgmtFileNotFound : UDINT;
+END_VAR

@@ -1,0 +1,17 @@
+(*2019-03-25*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eRstErrAction;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_bSafetyRlySig : REFERENCE TO BOOL;
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

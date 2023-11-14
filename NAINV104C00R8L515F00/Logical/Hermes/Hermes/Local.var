@@ -1,0 +1,175 @@
+(*2021-08-01*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eHermesAction := HermesActIdle;
+	eStat : eHermesAction := HermesActIdle;
+	eStatus : eFBStatus := Idle;
+	udiStatus : UDINT := 0;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Background Starting Operations','Background Stopping Operations','Deleting Old Log File','Creating Directory','Writing Retain File','Reading Retain File','Writing Configuration File','Reading Configuration File',42('')];
+END_VAR
+(**)
+(*Local Alarm*)
+VAR
+	tyAlmData : tyAlmDat;
+	a_tyAlmText : ARRAY[10000..10099] OF tyAlmTxt := [(sAlmText:='Create User Directory Error',sRcyText:='An Error Occurred While Attempting To Create User Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Retain Directory Error',sRcyText:='An Error Occurred While Attempting To Create Retain Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='File Open Error While Reading Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Retain File',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Retain File',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Retain File',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Retain File',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Create Log Directory Error',sRcyText:='An Error Occurred While Attempting To Create Log Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='Create Machine Parameter Directory Error',sRcyText:='An Error Occurred While Attempting To Create Machine Parameter Directory. Please Contact Nutek For A Possible Solution'),(sAlmText:='File Open Error While Reading Config File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Config File',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Config File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Config File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Config File',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),(0),2(0),3((0)),0,3((0)),(sAlmText:='File Open Error While Writing Retain File Lane 2',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(0),(sAlmText:='File Open Error While Reading Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Lane 2 Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Lane 2 Retain File',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),2((0)),(sAlmText:='File Open Error While Reading Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Lane 3 Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Lane 3 Retain File',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),2((0)),(sAlmText:='File Open Error While Reading Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Read Error While Reading Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Read File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Reading Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Open Error While Writing Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Open File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Create Error While Writing Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Create File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Write Error While Writing Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Write File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='File Close Error While Writing Lane 4 Retain File',sRcyText:='An Error Was Encountered While Trying To Close File. Please Contact Nutek For A Possible Solution.'),(sAlmText:='Directory Does Not Exist While Writing Lane 4 Retain File',sRcyText:='The Directory Does Not Exist. Please Contact Nutek For A Possible Solution.'),40((0))];
+END_VAR
+(**)
+(*Local Output*)
+VAR
+	bFileNotFound : BOOL;
+	tyConfiguration : tyHermesConfiguration;
+	tyCurrConfiguration : tyHermesConfiguration;
+	tyConfigurationWr : tyHermesConfiguration;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPrep : BOOL := TRUE;
+	bEn : BOOL := TRUE;
+	bDis : BOOL := FALSE;
+	a_tyUSParam : ARRAY[0..c_diHermesConfigMaxIdx] OF tyHermesUSParam;
+	a_tyDSParam : ARRAY[0..c_diHermesConfigMaxIdx] OF tyHermesDSParam;
+	bRmtPrep : BOOL := FALSE;
+	bRmtEn : BOOL := FALSE;
+	sRetainFileName : STRING[80] := 'Hermes.dat';
+	udiRetainDataAddr : UDINT;
+	udiRetainDataLen : UDINT;
+	tyRmtParam : tyHermesRmtParam;
+	tySvyParam : tyHermesSvyParam;
+	tyRmtSetConfiguration : tyHermesCurrentConfiguration;
+	tySvySetConfiguration : tyHermesCurrentConfiguration;
+	bSvyPrep : BOOL := FALSE;
+	bSvyEn : BOOL := FALSE;
+	sRetainFileName1 : STRING[80] := 'HermesLane1.dat';
+	sRetainFileName2 : STRING[80] := 'HermesLane2.dat';
+	sRetainFileName3 : STRING[80] := 'HermesLane3.dat';
+	sRetainFileName4 : STRING[80] := 'HermesLane4.dat';
+	udiRetainDataAddr1 : UDINT;
+	udiRetainDataLen1 : UDINT;
+	udiRetainDataAddr2 : UDINT;
+	udiRetainDataLen2 : UDINT;
+	udiRetainDataAddr3 : UDINT;
+	udiRetainDataLen3 : UDINT;
+	udiRetainDataAddr4 : UDINT;
+	udiRetainDataLen4 : UDINT;
+	sConfigFileName : STRING[80] := 'Hermes.dat';
+	sProgNm : STRING[15] := 'Hermes';
+	bNtSettingsLoadDone : BOOL := TRUE;
+	bRmtHermesWriteConfig : BOOL := TRUE;
+	bSvyHermesWriteConfig : BOOL := TRUE;
+	bUISaveHMIConfigure : BOOL := TRUE;
+	bUISaveHMISvyConfig : BOOL := TRUE;
+	sMcId : STRING[30] := '';
+	bRmtFoundIndexUS1 : BOOL := FALSE;
+	bRmtFoundIndexUS2 : BOOL := FALSE;
+	bRmtFoundIndexUS3 : BOOL := FALSE;
+	bRmtFoundIndexUS4 : BOOL := FALSE;
+	bRmtFoundIndexDS1 : BOOL := FALSE;
+	bRmtFoundIndexDS2 : BOOL := FALSE;
+	bRmtFoundIndexDS3 : BOOL := FALSE;
+	bRmtFoundIndexDS4 : BOOL := FALSE;
+	udiRmtIndexUS1 : UDINT := 0;
+	udiRmtIndexUS2 : UDINT := 0;
+	udiRmtIndexUS3 : UDINT := 0;
+	udiRmtIndexUS4 : UDINT := 0;
+	udiRmtIndexDS1 : UDINT := 0;
+	udiRmtIndexDS2 : UDINT := 0;
+	udiRmtIndexDS3 : UDINT := 0;
+	udiRmtIndexDS4 : UDINT := 0;
+	bSvyFoundIndexUS1 : BOOL := FALSE;
+	bSvyFoundIndexUS2 : BOOL := FALSE;
+	bSvyFoundIndexUS3 : BOOL := FALSE;
+	bSvyFoundIndexUS4 : BOOL := FALSE;
+	bSvyFoundIndexDS1 : BOOL := FALSE;
+	bSvyFoundIndexDS2 : BOOL := FALSE;
+	bSvyFoundIndexDS3 : BOOL := FALSE;
+	bSvyFoundIndexDS4 : BOOL := FALSE;
+	udiSvyIndexUS1 : UDINT := 0;
+	udiSvyIndexUS2 : UDINT := 0;
+	udiSvyIndexUS3 : UDINT := 0;
+	udiSvyIndexUS4 : UDINT := 0;
+	udiSvyIndexDS1 : UDINT := 0;
+	udiSvyIndexDS2 : UDINT := 0;
+	udiSvyIndexDS3 : UDINT := 0;
+	udiSvyIndexDS4 : UDINT := 0;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	bHermesWriteRetainLane1 : BOOL;
+	bHermesWriteRetainLane2 : BOOL;
+	bHermesWriteRetainLane3 : BOOL;
+	bHermesWriteRetainLane4 : BOOL;
+	usiStep : USINT;
+	tyConfigurationLocal : tyHermesConfiguration;
+	tyConfigurationHMI : tyHermesConfiguration;
+	eStatOld : eHermesAction := HermesActIdle;
+	fbDirCreate1 : fbDirCreate;
+	fbDirCreate2 : fbDirCreate;
+	fbDirCreate3 : fbDirCreate;
+	fbDirCreate4 : fbDirCreate;
+	fbFileRead1 : fbFileFullRead;
+	fbFileWrite1 : fbFileFullWrite;
+	fbFileRead2 : fbFileFullRead;
+	fbFileWrite2 : fbFileFullWrite;
+	fbFileRead3 : fbFileFullRead;
+	fbFileWrite3 : fbFileFullWrite;
+	fbFileRead4 : fbFileFullRead;
+	fbFileWrite4 : fbFileFullWrite;
+	fbFileRead5 : fbFileFullRead;
+	fbFileWrite5 : fbFileFullWrite;
+	i : INT;
+	usiUSHermesCommand : USINT;
+	usiDSHermesCommand : USINT;
+	usiProcessCmdBffr : USINT;
+	a_tyCommandProcessList : ARRAY[0..c_diHermesConfigMaxInterfaceIdx] OF tyHermesCmdProcessList;
+	a_tyCommandPause : ARRAY[0..c_diHermesConfigMaxInterfaceIdx] OF tyHermesCommandPause;
+	a_tyCommandLockInputConv : ARRAY[0..c_diHermesConfigMaxInterfaceIdx] OF tyHermesCommandLockConv;
+	a_tyCommandOvenInfeed : ARRAY[0..c_diHermesConfigMaxInterfaceIdx] OF tyHermesCommandOvenInfeed;
+	a_usiCommandIdx : ARRAY[0..c_diHermesConfigMaxInterfaceIdx] OF USINT;
+	usiIdx : USINT;
+	usiCmpIdx : USINT;
+	usiPrevCmdIdx : USINT;
+	usiDSIdent : USINT;
+	usiUSIdent : USINT;
+	usiUSIdent2 : USINT;
+	bCmdInitialCompl : BOOL;
+	udiModuleNum : UDINT := 2901;
+END_VAR
+(*route*)
+VAR
+	bBFWithoutBoardID : BOOL;
+	bSwitchtoReverseTransport : BOOL;
+	bReqReverseAfterTransptFinished : BOOL;
+	bSelfReverseAfterTransptFinished : BOOL;
+	bPrevReversalCondition : BOOL;
+	bNotifyRstReverseRcvGate : BOOL;
+	bReverseReceiveRoute : BOOL;
+	bReverseSendRoute : BOOL;
+	bProcessRouteMachine : BOOL;
+	bTriggerRouteMachine : BOOL;
+	bProcessRouteReversal : BOOL;
+	bEntToReversePosition : USINT;
+	bTriggerRouteReversal : BOOL;
+	bRouteHaveBeenTriggerred : BOOL;
+	bStopTransportSucceed : BOOL;
+	bStopTransportFailed : BOOL;
+	iGotoLane : INT;
+	fbRstReverseRcvGate : TON;
+	fbRstReverseDSSndBF : TON := (PT:=T#2m);
+	bManualRmvBrdCond : BOOL;
+	usidx : USINT;
+	iMinDis : INT;
+	bManualRmvRoute : BOOL;
+	bReturnRoute : BOOL;
+	bNomRouteEn : BOOL;
+	usiReverseDS1SndBfWBrdID : USINT;
+	usiReverseDS2SndBfWBrdID : USINT;
+END_VAR

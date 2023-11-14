@@ -1,0 +1,41 @@
+(*2019-04-30*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eOperationsAction := OperationsActIdle;
+	eStat : eOperationsAction := OperationsActIdle;
+	eStatus : eFBStatus := Idle;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Starting Operations','Sequence Stopping Operations','Pause Operations In Step','Accepting New Data','Accepted New Data','Error Immediate Stop Operations',44('')];
+END_VAR
+(**)
+(*Local Alarm*)
+(**)
+(*Local Output*)
+VAR
+	eOpsStatus : eOperationsStatus := OperationsStatusStop;
+	bStatusRun : BOOL;
+	bStatusStop : BOOL := TRUE;
+	bStatusCycleStop : BOOL;
+	bStatusStep : BOOL;
+	bRun : BOOL;
+	bStop : BOOL;
+	bStep : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPaused : BOOL;
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	eStatOld : eOperationsAction := OperationsActIdle;
+	usiStep : USINT;
+END_VAR

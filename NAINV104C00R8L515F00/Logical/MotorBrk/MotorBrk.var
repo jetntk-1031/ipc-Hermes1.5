@@ -1,0 +1,20 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_MotorBrkStat : UDINT;
+	p_MotorBrkStatus : UDINT;
+	p_MotorBrkStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_MotorBrkAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_MotorBrkMtrSigOnOrCW : UDINT;
+	p_MotorBrkMtrDirOrCCW : UDINT;
+	p_MotorBrkMtrBrkRls : UDINT;
+END_VAR

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Pneumatic">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="35"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2281" Value="Source[local].Bitmap[Icon_Pneumatic_Open_7]"/>
+    <BitmapRef ID="2282" Value="Source[local].Bitmap[Icon_Pneumatic_Close_7]"/>
+    <BitmapRef ID="2283" Value="Source[local].Bitmap[Icon_Pneumatic_Extend_7]"/>
+    <BitmapRef ID="2284" Value="Source[local].Bitmap[Icon_Pneumatic_Retract_7]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2281" Value="0"/>
+    <Index ID="2282" Value="2"/>
+    <Index ID="2283" Value="4"/>
+    <Index ID="2284" Value="6"/>
+  </IndexMap>
+</BitmapGroup>

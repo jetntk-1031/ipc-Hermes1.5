@@ -1,0 +1,18 @@
+(*2019-05-04*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eUsrMgmtAction;
+	p_udiMax : REFERENCE TO UDINT;
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_tyInfoIn : REFERENCE TO tyUsrMgmtParam;
+	p_tyAccessRightLvl1 : REFERENCE TO tyUsrMgmtAccessRight;
+	p_tyAccessRightLvl2 : REFERENCE TO tyUsrMgmtAccessRight;
+	p_tyAccessRightLvl3 : REFERENCE TO tyUsrMgmtAccessRight;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

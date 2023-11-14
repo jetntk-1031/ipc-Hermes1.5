@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Motion">
+  <Property Name="Description" Value="Bitmap Group for Motor and Pneumatic Control"/>
+  <Property Name="Index" Value="42"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="508" Value="Source[local].Bitmap[Icon_Motion_Up_7]"/>
+    <BitmapRef ID="511" Value="Source[local].Bitmap[Icon_Motion_Down_7]"/>
+    <BitmapRef ID="512" Value="Source[local].Bitmap[Icon_Motion_Front_7]"/>
+    <BitmapRef ID="513" Value="Source[local].Bitmap[Icon_Motion_Rear_7]"/>
+    <BitmapRef ID="635" Value="Source[local].Bitmap[Icon_Motion_Open_7]"/>
+    <BitmapRef ID="636" Value="Source[local].Bitmap[Icon_Motion_Close_7]"/>
+    <BitmapRef ID="637" Value="Source[local].Bitmap[Icon_Motion_Abs_7]"/>
+    <BitmapRef ID="655" Value="Source[local].Bitmap[Icon_Motion_Get_7]"/>
+    <BitmapRef ID="992" Value="Source[local].Bitmap[Icon_Motion_Run_7]"/>
+    <BitmapRef ID="993" Value="Source[local].Bitmap[Icon_Motion_Power_7]"/>
+    <BitmapRef ID="994" Value="Source[local].Bitmap[Icon_Motion_Rel_7]"/>
+    <BitmapRef ID="996" Value="Source[local].Bitmap[Icon_Motion_Stop_7]"/>
+    <BitmapRef ID="1365" Value="Source[local].Bitmap[Icon_Motion_Reset_7]"/>
+    <BitmapRef ID="1366" Value="Source[local].Bitmap[Icon_Motion_Teach_7]"/>
+    <BitmapRef ID="2425" Value="Source[local].Bitmap[Icon_Motion_Setting_7]"/>
+    <BitmapRef ID="8267" Value="Source[local].Bitmap[Icon_Motion_Home_7]"/>
+    <BitmapRef ID="8917" Value="Source[local].Bitmap[Icon_Motion_TopUp_7]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="508" Value="4"/>
+    <Index ID="511" Value="5"/>
+    <Index ID="512" Value="0"/>
+    <Index ID="513" Value="1"/>
+    <Index ID="635" Value="2"/>
+    <Index ID="636" Value="3"/>
+    <Index ID="637" Value="12"/>
+    <Index ID="655" Value="14"/>
+    <Index ID="992" Value="16"/>
+    <Index ID="993" Value="18"/>
+    <Index ID="994" Value="20"/>
+    <Index ID="996" Value="24"/>
+    <Index ID="1365" Value="22"/>
+    <Index ID="1366" Value="26"/>
+    <Index ID="2425" Value="15"/>
+    <Index ID="8267" Value="27"/>
+    <Index ID="8917" Value="6"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,59 @@
+(*2020-10-06*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eAWAction;
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_bOps : REFERENCE TO BOOL;
+	p_bManual : REFERENCE TO BOOL;
+	p_diWidthAtHmPos : REFERENCE TO DINT;
+	p_tyTuning : REFERENCE TO tyMotionCANTuning;
+	p_diGoWidth : REFERENCE TO DINT;
+	p_diJogVelInUMPS : REFERENCE TO DINT;
+	p_diMovePosInUM : REFERENCE TO DINT;
+	p_diMoveDistInUM : REFERENCE TO DINT;
+	p_diMoveVelInUMPS : REFERENCE TO DINT;
+	p_diMoveAcc : REFERENCE TO DINT;
+	p_diMoveDec : REFERENCE TO DINT;
+	p_diMinAbsPosInUM : REFERENCE TO DINT;
+	p_diMaxAbsPosInUM : REFERENCE TO DINT;
+	p_diMinWidthInUM : REFERENCE TO DINT;
+	p_diMaxWidthInUM : REFERENCE TO DINT;
+	p_diWidthOffsetInUM : REFERENCE TO DINT;
+	p_bInletSensor : REFERENCE TO BOOL;
+	p_bOutletSensor : REFERENCE TO BOOL;
+	p_bClearSensor : REFERENCE TO BOOL;
+	p_bMiddleSensor : REFERENCE TO BOOL;
+	p_bClamp2Sensor : REFERENCE TO BOOL;
+	p_bClamp3Sensor : REFERENCE TO BOOL;
+	p_bInterruptSensor : REFERENCE TO BOOL;
+	p_bOpenInterruptSensor : REFERENCE TO BOOL;
+	p_bCloseInterruptSensor : REFERENCE TO BOOL;
+	p_bSafetyInterruptSen : REFERENCE TO BOOL;
+	p_bDir : REFERENCE TO BOOL;
+	p_bDirBl : REFERENCE TO BOOL;
+	p_bNoIndexPulse : REFERENCE TO BOOL;
+	p_usiNode : REFERENCE TO USINT;
+	p_sDevice : REFERENCE TO STRING[3];
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_diMoveBacklashDistInUM : REFERENCE TO DINT;
+	p_diPitchInUM : REFERENCE TO DINT;
+	p_tyParamInHm : REFERENCE TO tyMotionCANParamInHm;
+	p_tyParamInConvert : REFERENCE TO tyMotionCANParamInConvert;
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_bOpsAWStepMove : REFERENCE TO BOOL;
+	p_eNtParamMotorType : REFERENCE TO eServoMotorType;
+	p_bInletShutterCloseRS : REFERENCE TO BOOL;
+	p_bOutletShutterCloseRS : REFERENCE TO BOOL;
+	p_bInletShutterPrep : REFERENCE TO BOOL;
+	p_bInletShutterDis : REFERENCE TO BOOL;
+	p_bOutletShutterPrep : REFERENCE TO BOOL;
+	p_bOutletShutterDis : REFERENCE TO BOOL;
+END_VAR

@@ -1,0 +1,65 @@
+(*2021-05-18*)
+(**)
+(*General*)
+VAR
+	p_udiRstErr : REFERENCE TO UDINT;
+	p_bPrep : REFERENCE TO BOOL;
+	p_bEn : REFERENCE TO BOOL;
+	p_bDis : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_eAWStat : REFERENCE TO eAWAction;
+	p_sIPAddr : REFERENCE TO STRING[15];
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_sMcNm : REFERENCE TO STRING[30];
+	p_bAWPrep : REFERENCE TO BOOL;
+	p_bAWDis : REFERENCE TO BOOL;
+	p_bMnlAccData : REFERENCE TO BOOL;
+	p_bSectionLeader : REFERENCE TO BOOL;
+	p_sMagRcpNm : REFERENCE TO STRING[30];
+	p_diWidthLimit : REFERENCE TO DINT;
+	p_bWidth2Prep : REFERENCE TO BOOL;
+	p_bUSWidthChkPrep : REFERENCE TO BOOL;
+	p_bUSWidthChkEn : REFERENCE TO BOOL;
+	p_bUSWidthChkSen : REFERENCE TO BOOL;
+	p_bDSWidthChkPrep : REFERENCE TO BOOL;
+	p_bDSWidthChkEn : REFERENCE TO BOOL;
+	p_bDSWidthChkSen : REFERENCE TO BOOL;
+	p_bProdWidthChk : REFERENCE TO BOOL;
+	p_bUIProdAccData : REFERENCE TO BOOL;
+	p_bUIProdUpdtData : REFERENCE TO BOOL;
+	p_bUIMagAccData : REFERENCE TO BOOL;
+	p_bDBAOnWOAlign : REFERENCE TO BOOL;
+	pa_tyProdRcpList : REFERENCE TO ARRAY[1..c_udiProdRcpMax] OF tyProdRcpParam;
+	p_tyCurrProdRcp : REFERENCE TO tyProdRcpParam;
+	p_tyDispProdRcp : REFERENCE TO tyProdRcpParam;
+	p_sCurrMagRcpNm : REFERENCE TO STRING[30];
+	p_eTimeStat : REFERENCE TO eTimeAction;
+	p_eTimeStatus : REFERENCE TO eFBStatus;
+	p_bAccNewRcpCond : REFERENCE TO BOOL;
+	p_bUpdtNewRcpCond : REFERENCE TO BOOL;
+	p_bAutoUpdtData : REFERENCE TO BOOL;
+	p_sInfoMsg : REFERENCE TO STRING[200];
+	p_bInternalUse : REFERENCE TO BOOL;
+	p_tyInternalReqProdRcp : REFERENCE TO tyProdRcpParam;
+	p_bNewBrdEnteredCond : REFERENCE TO BOOL;
+	p_bOldBrdExitedCond : REFERENCE TO BOOL;
+	p_bRlsBrd : REFERENCE TO BOOL;
+	p_tyToLeaderProdRcp : REFERENCE TO tyProdRcpParam;
+	p_bInternalReqProdRcpDiff : REFERENCE TO BOOL;
+	p_bUpdtProdRcpDiff : REFERENCE TO BOOL;
+	p_bRlsBrdProdRcpDiff : REFERENCE TO BOOL;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+	p_tOnlineChkDlyTm : REFERENCE TO TIME;
+	p_bManual : REFERENCE TO BOOL;
+	p_bErr : REFERENCE TO BOOL;
+	p_bWarning : REFERENCE TO BOOL;
+	p_bOps : REFERENCE TO BOOL;
+	p_bStandby : REFERENCE TO BOOL;
+END_VAR

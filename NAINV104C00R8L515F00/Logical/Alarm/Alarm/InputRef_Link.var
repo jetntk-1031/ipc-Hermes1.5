@@ -1,0 +1,67 @@
+(*2019-01-07*)
+(**)
+(*External Data*)
+VAR
+	p_tyLinkDIAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkDIAlmData2 : REFERENCE TO tyAlmDat;
+	p_tyLinkUsrMgmtAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkUSSMEMAAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkDSSMEMAAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkUSSMEMA2AlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkMcParamAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkNtParamAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkProdRcpAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkAWAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkAWAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkAWAlmData2 : REFERENCE TO tyAlmDat;
+	p_tyLinkAWAlmData3 : REFERENCE TO tyAlmDat;
+	p_tyLinkMotorBrkAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkTimeAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkTimeAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkUsrFolderAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkLibVerAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkHWInfoAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkConvAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkMcAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkMcAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkPneuNoSenStopperAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkPneuNoSenClampAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkPneu2SenInShutterAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkPneu2SenOutShuttrAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkPneu2SenClamp1AlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkPneu2SenClamp2AlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkPneu2SenClamp3AlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkOpsInvertAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkOpsInvertAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkHermesAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesAlmData2 : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesAlmData3 : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesAlmData4 : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesAlmData5 : REFERENCE TO tyAlmDat;
+	p_tyLinkUSHermesInfoData : REFERENCE TO tyAlmDat;
+	p_tyLinkDSHermesAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkDSHermesAlmData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkDSHermesAlmData2 : REFERENCE TO tyAlmDat;
+	p_tyLinkDSHermesAlmData3 : REFERENCE TO tyAlmDat;
+	p_tyLinkDSHermesAlmData4 : REFERENCE TO tyAlmDat;
+	p_tyLinkDSHermesInfoData : REFERENCE TO tyAlmDat;
+	p_tyLinkLFLeaderAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkLFFollowerAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkLFFollowerInfoData : REFERENCE TO tyAlmDat;
+	p_tyLinkLFFollowerInfoData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkFollower1AlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkFollower1InfoData : REFERENCE TO tyAlmDat;
+	p_tyLinkFollower1InfoData1 : REFERENCE TO tyAlmDat;
+	p_tyLinkLCSMngRcpAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkLCSLFAlmData : REFERENCE TO tyAlmDat;
+	p_tyLinkLCSLFInfoData : REFERENCE TO tyAlmDat;
+	p_tyLinkMpProdRcpAlmData : REFERENCE TO tyAlmDat;
+END_VAR
+(**)
+VAR
+	fbDlyTmr : TON := (PT:=T#5s);
+	fbDeleteLogTmr : TON := (PT:=T#24h);
+END_VAR
+(**)

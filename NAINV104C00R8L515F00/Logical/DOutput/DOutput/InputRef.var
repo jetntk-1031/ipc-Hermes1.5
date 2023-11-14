@@ -1,0 +1,81 @@
+(*2020-10-08*)
+(**)
+(*General*)
+VAR
+	p_eAct : REFERENCE TO eDOAction;
+	p_udiMax : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_tyDOSettings : REFERENCE TO tyDigitalOutputSettings;
+END_VAR
+(**)
+VAR
+	p_bManual : REFERENCE TO BOOL;
+	p_bSafetyRlyRst : REFERENCE TO BOOL;
+	p_bTLRed : REFERENCE TO BOOL;
+	p_bTLAmber : REFERENCE TO BOOL;
+	p_bTLGreen : REFERENCE TO BOOL;
+	p_bTLWhite : REFERENCE TO BOOL;
+	p_bTLBlue : REFERENCE TO BOOL;
+	p_bBuz : REFERENCE TO BOOL;
+	p_bUSB : REFERENCE TO BOOL;
+	p_bDBA : REFERENCE TO BOOL;
+	p_bDBAStat : REFERENCE TO BOOL;
+	p_bUSB2 : REFERENCE TO BOOL;
+	p_bConvMtrCW : REFERENCE TO BOOL;
+	p_bConvMtrCCW : REFERENCE TO BOOL;
+	p_bStprUnblkCtrl : REFERENCE TO BOOL;
+	p_bStprBlkCtrl : REFERENCE TO BOOL;
+	p_bInvertBrake : REFERENCE TO BOOL;
+	p_bInvertHome : REFERENCE TO BOOL;
+	p_bInvertRemote : REFERENCE TO BOOL;
+	p_bClampControl : REFERENCE TO BOOL;
+	p_bUnclampControl : REFERENCE TO BOOL;
+	p_bMtrPwrRly : REFERENCE TO BOOL;
+	p_bInShutterOpenCtrl : REFERENCE TO BOOL;
+	p_bInShutterCloseCtrl : REFERENCE TO BOOL;
+	p_bOutShutterOpenCtrl : REFERENCE TO BOOL;
+	p_bOutShutterCloseCtrl : REFERENCE TO BOOL;
+	p_bClamp1Ctrl : REFERENCE TO BOOL;
+	p_bUnClamp1Ctrl : REFERENCE TO BOOL;
+	p_bClamp2Ctrl : REFERENCE TO BOOL;
+	p_bUnClamp2Ctrl : REFERENCE TO BOOL;
+	p_bClamp3Ctrl : REFERENCE TO BOOL;
+	p_bUnClamp3Ctrl : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bLinkConvMtrSigOnOrLToR : REFERENCE TO BOOL;
+	p_bLinkConvMtrDirOrRToL : REFERENCE TO BOOL;
+	p_eLinkOpsInvertInvertCurrPos : REFERENCE TO eInvertPos;
+	p_bLinkUIConvDCCtrl : REFERENCE TO BOOL;
+	p_bLinkUIInvertDCCtrl : REFERENCE TO BOOL;
+	p_usiLinkProdRcpCurrRcpMcMod : REFERENCE TO USINT;
+	p_eConvStatus : REFERENCE TO eFBStatus;
+	p_bLinkOpsInvertStepInitTwdStpr : REFERENCE TO BOOL;
+	p_bLinkOpsInvertStepInitAwayStpr : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_tyDI : REFERENCE TO tyDigitalInput;
+END_VAR
+(**)
+VAR
+	p_bBypsCoverSW1 : REFERENCE TO BOOL;
+	p_bTopCvrUnlckToDS : REFERENCE TO BOOL;
+	p_bTopCvrUnlckToUS : REFERENCE TO BOOL;
+	p_bMachineSafetySigToDS : REFERENCE TO BOOL;
+	p_bMachineSafetySigToUS : REFERENCE TO BOOL;
+	p_bSafetyTopCoverSWCoil1 : REFERENCE TO BOOL;
+	p_bCoverPBLED1 : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bHermesCmdInitialCompl : REFERENCE TO BOOL;
+	p_bHermesUSCmdFeaturePause : REFERENCE TO BOOL;
+	p_tyHermesUSCmdPause : REFERENCE TO tyHermesCommandPause;
+	p_bHermesDSCmdFeaturePause : REFERENCE TO BOOL;
+	p_tyHermesDSCmdPause : REFERENCE TO tyHermesCommandPause;
+END_VAR

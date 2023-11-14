@@ -1,0 +1,73 @@
+(*2020-10-08*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eDOAction := DOActIdle;
+	eStat : eDOAction := DOActIdle;
+	eStatus : eFBStatus := Idle;
+	sStatTxt : STRING[200] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[200] := ['Idling','Resetting All Special Output','Turning On Bypass Cover Switch','Turning Off Bypass Cover Switch',47('')];
+END_VAR
+(**)
+(*Local Alarm*)
+(**)
+(*Local Output*)
+VAR
+	tyDOutput : tyDigitalOutput;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	tyDOSettings : tyDigitalOutputSettings;
+END_VAR
+(**)
+VAR
+	bManual : BOOL := FALSE;
+	bSafetyRlyRst : BOOL := FALSE;
+	bTLRed : BOOL := FALSE;
+	bTLAmber : BOOL := FALSE;
+	bTLGreen : BOOL := FALSE;
+	bTLBlue : BOOL := FALSE;
+	bTLWhite : BOOL := FALSE;
+	bBuz : BOOL := FALSE;
+	bUSB : BOOL := FALSE;
+	bDBA : BOOL := FALSE;
+	bDBAStat : BOOL := FALSE;
+	bUSB2 : BOOL := FALSE;
+	bConvMtrCW : BOOL := FALSE;
+	bConvMtrCCW : BOOL := FALSE;
+	bStprUnblkCtrl : BOOL := FALSE;
+	bStprBlkCtrl : BOOL := FALSE;
+	bInvertHome : BOOL := FALSE;
+	bInvertRemote : BOOL := FALSE;
+	bInvertBrake : BOOL := FALSE;
+	bClampControl : BOOL := FALSE;
+	bUnclampControl : BOOL := FALSE;
+	bMtrPwrRly : BOOL := TRUE;
+	bInShutterOpenCtrl : BOOL;
+	bInShutterCloseCtrl : BOOL;
+	bOutShutterOpenCtrl : BOOL;
+	bOutShutterCloseCtrl : BOOL;
+	bClamp1Ctrl : BOOL;
+	bUnClamp1Ctrl : BOOL;
+	bClamp2Ctrl : BOOL;
+	bUnClamp2Ctrl : BOOL;
+	bClamp3Ctrl : BOOL;
+	bUnClamp3Ctrl : BOOL;
+	bBypassTopCover1 : BOOL;
+	bTopCvrUnlckToDS : BOOL;
+	bTopCvrUnlckToUS : BOOL;
+	bMachineSafetySigToDS : BOOL;
+	bMachineSafetySigToUS : BOOL;
+	bCoverPBLED1 : BOOL;
+	bSafetyTopCoverSWCoil1 : BOOL;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	a_bPhysicalDO : ARRAY[1..c_udiDOutputMax] OF BOOL;
+	eStatOld : eDOAction := DOActIdle;
+	bHermesDummyMem : BOOL;
+END_VAR

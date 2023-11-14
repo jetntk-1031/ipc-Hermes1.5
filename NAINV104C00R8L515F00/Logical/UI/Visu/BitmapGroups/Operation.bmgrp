@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Operation">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="20"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2390" Value="Source[local].Bitmap[Icon_Ops_Auto_7]"/>
+    <BitmapRef ID="2392" Value="Source[local].Bitmap[Icon_Ops_Stop_7]"/>
+    <BitmapRef ID="6386" Value="Source[local].Bitmap[ColorBtn_Green_150x50_R8]"/>
+    <BitmapRef ID="6387" Value="Source[local].Bitmap[ColorBtn_Red_150x50_R8]"/>
+    <BitmapRef ID="6388" Value="Source[local].Bitmap[ColorBtn_Silver_150x50_R8]"/>
+    <BitmapRef ID="8271" Value="Source[local].Bitmap[ColorBtn_Yellow_150x50_R8]"/>
+    <BitmapRef ID="8272" Value="Source[local].Bitmap[Icon_Ops_Pause_7]"/>
+    <BitmapRef ID="9427" Value="Source[local].Bitmap[Icon_LftToRgt_7]"/>
+    <BitmapRef ID="9428" Value="Source[local].Bitmap[SMEMA_Logo_Lft_7]"/>
+    <BitmapRef ID="9429" Value="Source[local].Bitmap[Icon_Ops_Hermes]"/>
+    <BitmapRef ID="10079" Value="Source[local].Bitmap[Mc_PDestacker_AWClose_210x250]"/>
+    <BitmapRef ID="10295" Value="Source[local].Bitmap[Icon_RgtToLft_7]"/>
+    <BitmapRef ID="10511" Value="Source[local].Bitmap[ColorBtn_Silver_400x300]"/>
+    <BitmapRef ID="10512" Value="Source[local].Bitmap[ColorBtn_Yellow_400x300]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2390" Value="0"/>
+    <Index ID="2392" Value="1"/>
+    <Index ID="6386" Value="11"/>
+    <Index ID="6387" Value="12"/>
+    <Index ID="6388" Value="10"/>
+    <Index ID="8271" Value="13"/>
+    <Index ID="8272" Value="9"/>
+    <Index ID="9427" Value="2"/>
+    <Index ID="9428" Value="4"/>
+    <Index ID="9429" Value="5"/>
+    <Index ID="10079" Value="6"/>
+    <Index ID="10295" Value="3"/>
+    <Index ID="10511" Value="14"/>
+    <Index ID="10512" Value="15"/>
+  </IndexMap>
+</BitmapGroup>

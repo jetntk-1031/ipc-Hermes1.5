@@ -1,0 +1,22 @@
+(*2019-03-25*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_Pneu2SenClamp2Stat : UDINT;
+	p_Pneu2SenClamp2Status : UDINT;
+	p_Pneu2SenClamp2StatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_Pneu2SenClamp2AlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_Pneu2SenClamp2ExtCtrl : UDINT;
+	p_Pneu2SenClamp2RetCtrl : UDINT;
+	p_Pneu2SenClamp2TwoCtrlOut : UDINT;
+	p_Pneu2SenClamp2Extended : UDINT;
+	p_Pneu2SenClamp2Retracted : UDINT;
+END_VAR

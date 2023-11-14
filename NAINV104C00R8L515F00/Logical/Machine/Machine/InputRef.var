@@ -1,0 +1,20 @@
+(*2020-10-06*)
+(**)
+(*General*)
+VAR
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_tyNtParamCurr : REFERENCE TO tyNtParam;
+	p_bOpsRun : REFERENCE TO BOOL;
+	p_bDIThermalPrtSig : REFERENCE TO BOOL;
+	p_bDIPressureSW : REFERENCE TO BOOL;
+END_VAR
+(**)
+(*Input*)
+VAR
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bNtSettingsLoadDone : REFERENCE TO BOOL;
+END_VAR

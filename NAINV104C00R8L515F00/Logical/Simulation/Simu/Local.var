@@ -1,0 +1,41 @@
+(*2019-03-22*)
+(**)
+(*Local Action, State & Status*)
+VAR
+	eAct : eSimulationsAction := SimulationsActIdle;
+	eStat : eSimulationsAction := SimulationsActIdle;
+	eStatus : eFBStatus := Idle;
+	sStatTxt : STRING[100] := '';
+	a_sStatText : ARRAY[0..50] OF STRING[100] := ['Idling','Starting Operations','Sequence Stopping Operations','Pause Operations In Step','Accepting New Data','Accepted New Data','Error Immediate Stop Operations',44('')];
+END_VAR
+(**)
+(*Local Alarm*)
+(**)
+(*Local Output*)
+VAR
+	eSimuStatus : eSimulationsStatus := SimulationsStatusStop;
+	bStatusRun : BOOL;
+	bStatusStop : BOOL := TRUE;
+	bStatusCycleStop : BOOL;
+	bStatusStep : BOOL;
+	bRun : BOOL;
+	bStop : BOOL;
+	bStep : BOOL;
+END_VAR
+(**)
+(*Local Input*)
+VAR
+	udiRstErr : UDINT := 0;
+	bPaused : BOOL;
+	bNtSettingsLoadDone : BOOL := TRUE;
+END_VAR
+(**)
+(*Local*)
+VAR
+	bRstErr : BOOL;
+	udiRstErrOld : UDINT;
+	bInitDone : BOOL;
+	bInitialDone : BOOL;
+	eStatOld : eSimulationsAction := SimulationsActIdle;
+	usiStep : USINT;
+END_VAR

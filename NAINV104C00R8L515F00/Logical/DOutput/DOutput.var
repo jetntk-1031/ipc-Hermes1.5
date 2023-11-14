@@ -1,0 +1,21 @@
+(*2019-01-08*)
+(**)
+(*Constant*)
+VAR CONSTANT
+	c_udiDOutputMax : UDINT := 40; (*Constant Digital Output Quantity (+1 For Damaged)(+1 For Spare)*)
+END_VAR
+(**)
+(*Action & State & Status*)
+VAR
+	p_DOAct : UDINT;
+	p_DOStat : UDINT;
+	p_DOStatus : UDINT;
+	p_DOStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+(**)
+(*Output*)
+VAR
+	p_DO : UDINT;
+END_VAR

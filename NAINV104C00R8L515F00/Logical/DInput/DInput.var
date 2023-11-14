@@ -1,0 +1,54 @@
+(*2020-10-07*)
+(**)
+(*Constant*)
+VAR CONSTANT
+	c_udiDInputMax : UDINT := 40; (*Constant Digital Input Quantity (+1 For Damaged) (+1 For Spare)*)
+END_VAR
+(**)
+(*Action & State & Status*)
+(**)
+(*Alarm*)
+VAR
+	p_DIAlmData1 : UDINT;
+	p_DIAlmData2 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_DI : UDINT;
+	p_DISafetyRlySig : UDINT;
+	p_DIEStopSig : UDINT;
+	p_DICoverSWSig : UDINT;
+	p_DIUBA : UDINT;
+	p_DIUBAStat : UDINT;
+	p_DIDSB : UDINT;
+	p_DIUBA2 : UDINT;
+	p_DIUBAStat2 : UDINT;
+	p_DIConvLftSen : UDINT;
+	p_DIConvRgtSen : UDINT;
+	p_DIPressureSW : UDINT;
+	p_DIThermalPrtSig : UDINT;
+	p_DIUSWidthChkSen : UDINT;
+	p_DIUSWidthChkSen1 : UDINT;
+	p_DIDSWidthChkSen : UDINT;
+	p_DIInvertHomeSen : UDINT;
+	p_DIInvertRemoteSen : UDINT;
+	p_DICoatingSen : UDINT;
+	p_DIInShutterOpenRS : UDINT;
+	p_DIInShutterCloseRS : UDINT;
+	p_DIOutShutterOpenRS : UDINT;
+	p_DIOutShutterCloseRS : UDINT;
+	p_DIClamp2Sen : UDINT;
+	p_DIClamp3Sen : UDINT;
+	p_DIClampRS1 : UDINT;
+	p_DIUnClampRS1 : UDINT;
+	p_DIClampRS2 : UDINT;
+	p_DIUnClampRS2 : UDINT;
+	p_DIClampRS3 : UDINT;
+	p_DIUnClampRS3 : UDINT;
+	p_DICoverSWSig2 : UDINT;
+	p_DIUnlockCoverSigFromDS : UDINT;
+	p_DIUnlockSafetySigFromDS : UDINT;
+	p_DIUnlockSafetySigFromUS : UDINT;
+	p_DIUnlockCoverSigFromUS : UDINT;
+END_VAR

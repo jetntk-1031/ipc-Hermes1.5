@@ -1,0 +1,59 @@
+(*2020-09-10*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_USHermesStat : UDINT;
+	p_USHermesStatus : UDINT;
+	p_USHermesStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_USHermesAlmData : UDINT;
+	p_USHermesAlmData1 : UDINT;
+	p_USHermesAlmData2 : UDINT;
+	p_USHermesAlmData3 : UDINT;
+	p_USHermesAlmData4 : UDINT;
+	p_USHermesAlmData5 : UDINT;
+	p_USHermesInfoData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_USHermesTableDataBrdAvl : UDINT;
+	p_USHermesTableDataBrdAvlTtlIdx : UDINT;
+	p_USHermesConnected : UDINT;
+	p_USHermesHandshakeDone : UDINT;
+	p_USHermesAccDataReq : UDINT;
+	p_USHermesOverWriteSlt : UDINT;
+	p_USHermesOverWriteWidth : UDINT;
+	p_USHermesReqRecipeNm : UDINT;
+	p_USHermesReqWidthInUM : UDINT;
+	p_USHermesReqMinSltValue : UDINT;
+	p_USHermesReqMaxSltValue : UDINT;
+	p_USHermesReqPitch : UDINT;
+	p_USHermesUSRdy : UDINT;
+	p_USHermesDSRdy : UDINT;
+	p_USHermesUSGdRdy : UDINT;
+	p_USHermesDSGdRdy : UDINT;
+	p_USHermesTransporting : UDINT;
+	p_USHermesStopTransport : UDINT;
+	p_USHermesBlkUS : UDINT;
+	p_USHermesInternalSnd : UDINT;
+	p_USHermesAccDataMnl : UDINT;
+	p_USHermesStopTransportSnd : UDINT;
+	p_USHermestyBoardAvailable : UDINT;
+	p_USHermesBoardArrivedData : UDINT;
+	p_USHermesRcvBoardInfoOk : UDINT;
+	p_USHermesRcvbBoardInfoIncompl : UDINT;
+	p_USHermesBoardInfoData : UDINT;
+	p_USHermesCommandParam : UDINT;
+	p_USHermesReverseDSSendBFId : UDINT;
+	p_USHermesProcessRouteTrigger : UDINT;
+	p_USHermesAction : UDINT;
+	p_USHermesBrdForecastRcv : UDINT;
+	p_USHermesBoardAvailableRcved : UDINT;
+	p_USHermesStopTransportSent : UDINT;
+	p_USHermesStopTransportSentMsg : UDINT;
+	p_USHermesBrdForecast : UDINT;
+END_VAR

@@ -1,0 +1,105 @@
+(*2020-06-08*)
+(**)
+(*Constant*)
+VAR CONSTANT
+	c_udiProdRcpMax : UDINT := 2000;
+END_VAR
+(**)
+(*Action & State & Status*)
+VAR
+	p_ProdRcpStat : UDINT;
+	p_ProdRcpStatus : UDINT;
+	p_ProdRcpStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_ProdRcpAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_ProdRcpNmExist : UDINT;
+	p_ProdRcpNmNotExist : UDINT;
+	p_ProdRcpNmEmpty : UDINT;
+	p_ProdRcpListFull : UDINT;
+	p_ProdRcpCurrList : UDINT;
+	p_ProdRcpFilterList : UDINT;
+	p_ProdRcpSortedList : UDINT;
+	p_ProdRcpScanList : UDINT;
+	p_ProdRcpInfoOut : UDINT;
+	p_ProdRcpFileNotFound : UDINT;
+	p_ProdRcpCurrRcpAll : UDINT;
+END_VAR
+(**)
+VAR
+	p_ProdRcpCurrRcp0 : UDINT;
+	p_ProdRcpCurrRcp0Nm : UDINT;
+	p_ProdRcpCurrRcp0Width : UDINT;
+	p_ProdRcpCurrRcp0McMod : UDINT;
+	p_ProdRcpCurrRcp0FlippedBrd : UDINT;
+	p_ProdRcpCurrRcp0MatchCode : UDINT;
+	p_ProdRcpCurrRcp0DisplayInfo : UDINT;
+	p_ProdRcpCurrRcp0LastModified : UDINT;
+	p_ProdRcpCurrRcp0Width2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_ProdRcpCurrRcp1 : UDINT;
+	p_ProdRcpCurrRcp1Nm : UDINT;
+	p_ProdRcpCurrRcp1Width : UDINT;
+	p_ProdRcpCurrRcp1McMod : UDINT;
+	p_ProdRcpCurrRcp1FlippedBrd : UDINT;
+	p_ProdRcpCurrRcp1MatchCode : UDINT;
+	p_ProdRcpCurrRcp1DisplayInfo : UDINT;
+	p_ProdRcpCurrRcp1LastModified : UDINT;
+	p_ProdRcpCurrRcp1Width2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_ProdRcpCurrRcp2 : UDINT;
+	p_ProdRcpCurrRcp2Nm : UDINT;
+	p_ProdRcpCurrRcp2Width : UDINT;
+	p_ProdRcpCurrRcp2McMod : UDINT;
+	p_ProdRcpCurrRcp2FlippedBrd : UDINT;
+	p_ProdRcpCurrRcp2MatchCode : UDINT;
+	p_ProdRcpCurrRcp2DisplayInfo : UDINT;
+	p_ProdRcpCurrRcp2LastModified : UDINT;
+	p_ProdRcpCurrRcp2Width2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_ProdRcpCurrRcp3 : UDINT;
+	p_ProdRcpCurrRcp3Nm : UDINT;
+	p_ProdRcpCurrRcp3Width : UDINT;
+	p_ProdRcpCurrRcp3McMod : UDINT;
+	p_ProdRcpCurrRcp3FlippedBrd : UDINT;
+	p_ProdRcpCurrRcp3MatchCode : UDINT;
+	p_ProdRcpCurrRcp3DisplayInfo : UDINT;
+	p_ProdRcpCurrRcp3LastModified : UDINT;
+	p_ProdRcpCurrRcp3Width2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_ProdRcpCurrRcp4 : UDINT;
+	p_ProdRcpCurrRcp4Nm : UDINT;
+	p_ProdRcpCurrRcp4Width : UDINT;
+	p_ProdRcpCurrRcp4McMod : UDINT;
+	p_ProdRcpCurrRcp4FlippedBrd : UDINT;
+	p_ProdRcpCurrRcp4MatchCode : UDINT;
+	p_ProdRcpCurrRcp4DisplayInfo : UDINT;
+	p_ProdRcpCurrRcp4LastModified : UDINT;
+	p_ProdRcpCurrRcp4Width2 : UDINT;
+END_VAR
+(**)
+VAR
+	p_ProdRcpCurrRcp5 : UDINT;
+	p_ProdRcpCurrRcp5Nm : UDINT;
+	p_ProdRcpCurrRcp5Width : UDINT;
+	p_ProdRcpCurrRcp5McMod : UDINT;
+	p_ProdRcpCurrRcp5FlippedBrd : UDINT;
+	p_ProdRcpCurrRcp5MatchCode : UDINT;
+	p_ProdRcpCurrRcp5DisplayInfo : UDINT;
+	p_ProdRcpCurrRcp5LastModified : UDINT;
+	p_ProdRcpCurrRcp5Width2 : UDINT;
+END_VAR

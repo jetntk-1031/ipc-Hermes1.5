@@ -1,0 +1,24 @@
+(*2019-04-24*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_LCSMngRcpStat : UDINT;
+	p_LCSMngRcpStatus : UDINT;
+	p_LCSMngRcpStatTxt : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_LCSMngRcpAlmData : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_LCSMngRcp_PLCStatus : UDINT;
+	p_LCSMngRcp_PLCIdxAct : UDINT;
+	p_LCSMngRcp_PLCIdxStat : UDINT;
+	p_LCSMngRcp_PLCProdRcpInfo : UDINT;
+	p_LCSMngRcpProdRcpAct : UDINT;
+	p_LCSMngRcpProdRcpInfoIn : UDINT;
+	p_LCSMngRcpChkLmt : UDINT;
+END_VAR

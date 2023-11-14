@@ -1,0 +1,59 @@
+(*2021-08-01*)
+(**)
+(*Action & State & Status*)
+VAR
+	p_SvyHermesStat : UDINT;
+	p_SvyHermesStatus : UDINT;
+	p_SvyHermesStatTxt : UDINT;
+	p_SvyHermesAct : UDINT;
+	p_SvyHermesMcParamAct : UDINT;
+END_VAR
+(**)
+(*Alarm*)
+VAR
+	p_SvyHermesAlmData : UDINT;
+	p_SvyHermesAlmData1 : UDINT;
+	p_SvyHermesAlmData2 : UDINT;
+	p_SvyHermesAlmData3 : UDINT;
+	p_SvyHermesAlmData4 : UDINT;
+	p_SvyHermesInfoData : UDINT;
+	p_SvyHermesInfoData1 : UDINT;
+	p_SvyHermesInfoData2 : UDINT;
+	p_SvyHermesInfoData3 : UDINT;
+	p_SvyHermesInfoData4 : UDINT;
+	p_SvyHermesInfoData5 : UDINT;
+	p_SvyHermesInfoData6 : UDINT;
+END_VAR
+(**)
+(*Output*)
+VAR
+	p_SvyHermesConnected : UDINT;
+	p_SvyHermesHandshakeDone : UDINT;
+	p_SvyHermesFileNotFound : UDINT;
+	p_SvyHermesSetConfiguration : UDINT;
+	p_SvyHermesWriteConfig : UDINT;
+	p_SvyHermesUpdateUIData : UDINT;
+	p_SvyHermesInternalSnd : UDINT;
+	p_SvyHermesWorkOrderId : UDINT;
+	p_SvyHermesBatchId : UDINT;
+	p_SvyHermesFoundIndexUS1 : UDINT;
+	p_SvyHermesFoundIndexUS2 : UDINT;
+	p_SvyHermesFoundIndexUS3 : UDINT;
+	p_SvyHermesFoundIndexUS4 : UDINT;
+	p_SvyHermesFoundIndexDS1 : UDINT;
+	p_SvyHermesFoundIndexDS2 : UDINT;
+	p_SvyHermesFoundIndexDS3 : UDINT;
+	p_SvyHermesFoundIndexDS4 : UDINT;
+	p_SvyHermesIndexUS1 : UDINT;
+	p_SvyHermesIndexUS2 : UDINT;
+	p_SvyHermesIndexUS3 : UDINT;
+	p_SvyHermesIndexUS4 : UDINT;
+	p_SvyHermesIndexDS1 : UDINT;
+	p_SvyHermesIndexDS2 : UDINT;
+	p_SvyHermesIndexDS3 : UDINT;
+	p_SvyHermesIndexDS4 : UDINT;
+	p_SvyHermesSendWorkOrderInfo : UDINT;
+	p_SvyHermesRcvInsertBoardInfo : UDINT;
+	p_RcvWorkOrderInfo1 : UDINT;
+	p_ManualInsertData : UDINT := 0;
+END_VAR

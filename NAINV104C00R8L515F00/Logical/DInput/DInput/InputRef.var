@@ -1,0 +1,33 @@
+(*2019-03-22*)
+(**)
+(*General*)
+VAR
+	p_udiMax : REFERENCE TO UDINT;
+	p_udiRstErr : REFERENCE TO UDINT;
+END_VAR
+(**)
+(*Configuration*)
+VAR
+	p_tyDISettings : REFERENCE TO tyDigitalInputSettings;
+END_VAR
+(**)
+VAR
+	p_diConvLftSenOnTm : REFERENCE TO DINT;
+	p_diConvLftSenOffTm : REFERENCE TO DINT;
+	p_diConvRgtSenOnTm : REFERENCE TO DINT;
+	p_diConvRgtSenOffTm : REFERENCE TO DINT;
+	p_sProgNm : REFERENCE TO STRING[15];
+	p_bRstErrSafetyRlyRst : REFERENCE TO BOOL;
+END_VAR
+(**)
+VAR
+	p_bLinkStartupRun : REFERENCE TO BOOL;
+END_VAR
+(* *)
+VAR
+	p_bHermesCmdInitialCompl : REFERENCE TO BOOL;
+	p_bHermesUSCmdFeaturePause : REFERENCE TO BOOL;
+	p_tyHermesUSCmdPause : REFERENCE TO tyHermesCommandPause;
+	p_bHermesDSCmdFeaturePause : REFERENCE TO BOOL;
+	p_tyHermesDSCmdPause : REFERENCE TO tyHermesCommandPause;
+END_VAR

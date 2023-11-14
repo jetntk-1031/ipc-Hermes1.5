@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.8.4.50 SP?>
+<Library Version="5.01.5" SubType="Binary" Description="5.01.5 - Add bDBAOnWOAlign To Send DBA Even Width Check Sensor Is Not Alligned.. (20211229)&#xD;&#xA;5.01.4 - Modify Product Recipe Name Related Variables to STRING[254]. (20210901)&#xD;&#xA;5.01.3 - Update fLFUSAllow &amp; fLFDSAllow Block Conditions. Change Error To Info For Product Exist &amp; Mismatch Width. (20210420)&#xD;&#xA;5.01.2 - Two Modes For Sequential. Modify fLFUSAllow For 3rd Party Usage. (20210224)&#xD;&#xA;5.01.1 - Improve Change All For Section Leader, Debug Change Sequential. (20201005)&#xD;&#xA;5.01.0 - Improve Leader Follower Concept, Add More Tags. (20200812)&#xD;&#xA;-------------------------------------------------------------------------------------------------------------------------------------------------&#xD;&#xA;5.00.5 - Modify fbBlkDS, Add Two Inputs For Oven (20191121)&#xD;&#xA;5.00.4 - Add bBypassMnlAccDat Tag Name, Improve Change All Function Without Manually Accept Data. (20191010)&#xD;&#xA;5.00.3 - ChgAll Will Bypass Width Check Sensor. (20190522)&#xD;&#xA;5.00.2 - Debug fLFUSAllow. Modify fbLFFollower. (20190507)&#xD;&#xA;5.00.1 - Major upgrade. (20190423)" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">NtLF.fun</File>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="asieccon" FromVersion="0.00.0" />
+    <Dependency ObjectName="runtime" FromVersion="0.00.0" />
+    <Dependency ObjectName="standard" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>
