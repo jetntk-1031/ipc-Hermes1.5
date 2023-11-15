@@ -113,4 +113,7 @@ ACTION Act_InitGlobal:
 	p_bOpsInvertHvBrd ACCESS p_OpsInvertHvBrd;
 	(* Always Change If Project Change *)
 
+	//action
+	pa_usiMacAddr ACCESS p_HWInfoMacAddr;
+	p_tyDTStructure ACCESS p_TimeCurrDTStruct;
 END_ACTION

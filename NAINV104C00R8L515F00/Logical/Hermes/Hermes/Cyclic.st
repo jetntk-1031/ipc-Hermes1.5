@@ -23,6 +23,7 @@ PROGRAM _CYCLIC
 		
 		IF (p_bPrep = TRUE) AND (p_bEn = TRUE) AND (p_bDis = FALSE) THEN
 			Act_Background_Route;
+			Act_Background_Action;
 			Act_Link;
 			Act_Background;
 			Act_Main;

@@ -162,8 +162,21 @@ ACTION Act_Background_Sequence:
 			//do not need to count 
 			fHermesAddOneMsgSend(ADR(a_eMsgSend) , ADR(udiMsgSendBffr) , HermesMsgTypeBoardForecast);
 			tyBoardForecastSnd.tyData.sForecastId		        := ''; //Do not need to generate ForecastID to downstream
-			
-			IF p_bNewBrdAvlFirstZone AND p_bManualInsertData = FALSE THEN
+
+			IF p_bNewBrdAvlFirstZone AND p_usiUSHermesReverseDSSendBFId <> 0 THEN //Tigger by US hermes to Reverse DS Hermes
+				
+				IF p_usiUSHermesReverseDSSendBFId = 1 THEN //up pulse trigger with BrdId
+					fbParseBrdAvlExternal.p_XMLTable		:= ADR(pa_RevtyXMLTableDataBrdAvl);//last zone B.A
+					fbParseBrdAvlExternal.iTotalIdxWrite	:= p_ReviXMLTableDataBrdAvlTtlIdx; //last zone
+					fbParseBrdAvlExternal;
+					fHermesBrdAvltoBF(ADR(tyBoardForecastSnd),ADR(fbParseBrdAvlExternal.tyBoardAvailable));
+				ELSIF p_usiUSHermesReverseDSSendBFId = 2 THEN  //downpulse , reset 
+					memset(ADR(tyBoardForecastSnd),0,SIZEOF(tyBoardForecastSnd));
+				
+					tyBoardForecastSnd.tyAvl.bFailedBoard 			    := TRUE;
+					tyBoardForecastSnd.tyAvl.bFlippedBoard 			    := TRUE;
+				END_IF	
+			ELSIF p_bNewBrdAvlFirstZone AND p_bManualInsertData = FALSE THEN
 				fHermesGenerateUUID(ADR(tyBoardForecastSnd.tyData.sBoardId) , p_tyDTStructure , pa_usiMacAddr);
 				tyBoardForecastSnd.tyData.sBoardIdCreatedBy         := p_sMcId; 
 				tyBoardForecastSnd.tyData.eFailedBoard 		    	:= p_eFailedBoard;			
@@ -235,16 +248,7 @@ ACTION Act_Background_Sequence:
 				tyBoardForecastSnd.tyAvl.bWeight 			    	:= tyBoardForecastSnd.tyData.rWeight <> 0;			
 				tyBoardForecastSnd.tyAvl.bWorkOrderId 		    	:= tyBoardForecastSnd.tyData.sWorkOrderId <> '';	
 				tyBoardForecastSnd.tyAvl.bBatchId 		        	:= tyBoardForecastSnd.tyData.sBatchId <> '';
-			ELSIF p_bNewBrdAvlFirstZone AND bSendBFNoID THEN //Tigger by US hermes to Reverse DS Hermes
-				fHermesAddOneMsgSend(ADR(a_eMsgSend) , ADR(udiMsgSendBffr) , HermesMsgTypeBoardForecast);
-				IF EDGEPOS(bSndReverseBF) THEN //up pulse trigger with BrdId
-					fbParseBrdAvlExternal.p_XMLTable		:= ADR(pa_RevtyXMLTableDataBrdAvl);//last zone B.A
-					fbParseBrdAvlExternal.iTotalIdxWrite	:= p_ReviXMLTableDataBrdAvlTtlIdx; //last zone
-					fbParseBrdAvlExternal;
-					fHermesBrdAvltoBF(ADR(tyBoardForecastSnd),ADR(fbParseBrdAvlExternal.tyBoardAvailable));
-				ELSIF EDGENEG(bSndReverseBF) THEN //downpulse , reset 
-					memset(ADR(tyBoardForecastSnd),0,SIZEOF(tyBoardForecastSnd));
-				END_IF	
+
 			ELSE   //have brd detail 
 				
 				//fBrdAvltoBFcast(ADR(),ADR());
@@ -401,5 +405,4 @@ ACTION Act_Background_Sequence:
 		
 	END_IF
 
-	
 END_ACTION

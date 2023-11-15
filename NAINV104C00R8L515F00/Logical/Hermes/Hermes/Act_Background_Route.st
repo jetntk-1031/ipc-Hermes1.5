@@ -46,7 +46,7 @@ ACTION Act_Background_Route:
 	usiReverseDS2SndBfWBrdID := 0;
 	
 	
-	IF NOT(p_bReverseReceiveRoute) AND NOT(p_bReverseSentRoute) THEN //flipper on upstream
+	IF NOT(p_bReverseReceiveRoute) AND NOT(p_bReverseSentRoute) THEN 
 		bSwitchtoReverseTransport := FALSE;
 	ELSE
 		IF p_bReverseReceiveRoute THEN //flipper on upstream
@@ -147,7 +147,7 @@ ACTION Act_Background_Route:
 										IF p_tyUSHermestyBoardAvailable.tyData.iRoute = 900 AND bProcessRouteReversal THEN
 											a_tyHermesBrdAvlData[1].a_tyXMLTableDataBrdAvl[i+1].sValue	:= '0';
 										ELSIF p_tyUSHermestyBoardAvailable.tyData.iRoute <> 900 AND bTriggerRouteReversal  THEN
-											a_tyHermesBrdAvlData[1].a_tyXMLTableDataBrdAvl[i+1].sValue	:= '990';
+											a_tyHermesBrdAvlData[1].a_tyXMLTableDataBrdAvl[i+1].sValue	:= '900';
 										END_IF
 										EXIT;
 									END_IF

@@ -41,4 +41,6 @@ ACTION Act_EntP1021Disp:
 	fUIInRtStatHide(ADR(tyP1021McSetGen.tyNetwork.tyLyr.uiRtStat));
 		
 	tyP1021McSetGen.tyGen.tyBtnLFBuzMute.uiRtStat.0 := NOT (p_tyMcParamCurr.bLFEn AND p_tyNtParamCurr.bLFPrep AND p_tyNtParamCurr.tyDOSettings.diBuz > 0);
+
+
 END_ACTION

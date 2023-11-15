@@ -962,6 +962,7 @@ TYPE
 		tyDrpDnNetworkMod : tyUIDrpDn;
 		tyTxtLblFlippedBrd : tyUITxt;
 		tyHermesRemoteEn : tyUIBtn;
+		tyBtnHermesSvyEn : tyUIBtn;
 		tyLyrGen1 : tyUILyr;
 		tyLyrGen2 : tyUILyr;
 		tyNumConvInitTm : tyUINum;

@@ -122,7 +122,20 @@ TYPE
 END_TYPE
 
 (**)
-(**)
+(*Action*)
+
+TYPE
+	eHermesBAMsgAction : 
+		(
+		HermesActionNA,
+		HermesActionBypass,
+		HermesActionInspect,
+		HermesActionInvert,
+		HermesActionFIFO,
+		HermesActionLIFO
+		);
+END_TYPE
+
 (*Command*)
 
 TYPE

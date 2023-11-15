@@ -173,3 +173,22 @@ VAR
 	usiReverseDS1SndBfWBrdID : USINT;
 	usiReverseDS2SndBfWBrdID : USINT;
 END_VAR
+(*Action*)
+VAR CONSTANT
+	usiMaxActionSupported : USINT := 10;
+	usiMaxZoneSupported : USINT := 5;
+END_VAR
+VAR
+	usiZoneSupported : USINT;
+	usiZone : USINT;
+	tbActionSupportedByZone : ARRAY[1..usiMaxZoneSupported,1..usiMaxActionSupported] OF BOOL;
+	a_bUIPromptActionSelect : ARRAY[1..usiMaxZoneSupported] OF BOOL;
+	a_bUIZonePause : ARRAY[1..usiMaxZoneSupported] OF BOOL;
+	a_bBlkDSForAction : ARRAY[1..usiMaxZoneSupported] OF BOOL;
+	a_bOpsDsStandByStep : ARRAY[1..usiMaxZoneSupported] OF BOOL;
+	a_eModSelectedforCurrZone : ARRAY[1..usiMaxZoneSupported] OF eHermesBAMsgAction;
+	tyBoardAvailableGenerated : tyHermesBoardAvailable;
+	udiSelectedModtoUpt : UDINT;
+	udiHermesAttributeEndIdx : UDINT;
+	udiHermesBAEndIdx : UDINT;
+END_VAR

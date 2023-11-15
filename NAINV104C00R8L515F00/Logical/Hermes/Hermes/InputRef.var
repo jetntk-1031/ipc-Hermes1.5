@@ -68,6 +68,11 @@ VAR
 	p_bOpsInvertStepInitDone : REFERENCE TO BOOL;
 	p_bOpsInvertHvBrd : REFERENCE TO BOOL;
 END_VAR
+(*Action*)
+VAR
+	pa_usiMacAddr : REFERENCE TO ARRAY[0..5] OF USINT;
+	p_tyDTStructure : REFERENCE TO DTStructure;
+END_VAR
 (*Gate Configuration*)
 (*RmtHermes*)
 VAR

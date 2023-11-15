@@ -60,7 +60,10 @@ ACTION Act_Main_P1021:
 	
 	//Hermes Remote Configuration
 	tyP1021McSetGen.tyGen.tyBtnHermesRmtEn.uiRtStat.0	:= NOT p_tyNtParamCurr.bHermesRmtPrep;
-		
+	
+	//Hermes Supervisory Configuration
+	tyP1021McSetGen.tyGen.tyBtnHermesSvyEn.uiRtStat.0		:= NOT p_tyNtParamCurr.bHermesSvyPrep; //new for Hermes 1.3
+	
 	//Stopper
 	//tyP1021McSetGen.tyGen.tyBtnStopperDis.uiRtStat.0	:= NOT p_tyNtParamCurr.bProjStopperPrep;
 	tyP1021McSetGen.tyGen.tyBtnStopperDis.uiRtStat.0	:= TRUE;
@@ -96,6 +99,8 @@ ACTION Act_Main_P1021:
 	tyP1021McSetGen.tyGen.tyBtnStopperDis.bValue				:= p_tyMcParamCurr.bStopperDis;
 	tyP1021McSetGen.tyGen.tyNumStopperAtLftPos.diValue			:= p_tyMcParamCurr.diStopperAtLftPos;
 	tyP1021McSetGen.tyGen.tyNumStopperAtRgtPos.diValue			:= p_tyMcParamCurr.diStopperAtRgtPos;
+
+	tyP1021McSetGen.tyGen.tyBtnHermesSvyEn.bValue			:= p_tyMcParamCurr.bHermesSvyEn;//new for Hermes 1.3
 	
 	tyP1021McSetGen.tyGen.tyNumAutoLogoutTm.diValue				:= p_tyMcParamCurr.diAutoLogoutTmInSec;
 	tyP1021McSetGen.tyGen.tyBtnAutoLogoutEn.bValue				:= p_tyMcParamCurr.bAutoLogoutEn;

@@ -4239,6 +4239,37 @@
               <Property Name="VCType" Value="INTEGER"/>
             </DataPoint>
           </Folder>
+          <Folder Name="tyBtnHermesSvyEn">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
+            <DataPoint Name="bRtCompl">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="BOOL"/>
+            </DataPoint>
+            <DataPoint Name="bValue">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="BOOL"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="BOOL"/>
+            </DataPoint>
+            <DataPoint Name="uiRtStat">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="UINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+          </Folder>
         </Folder>
         <Folder Name="p_tyP0934AW">
           <Property Name="Description" Value=""/>
@@ -26954,30 +26985,39 @@
             </DataPoint>
             <DataPoint Name="diValue">
               <Property Name="ConnectedBySharedResource" Value="False"/>
-              <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="ConnectingVisus" Value=""/>
+              <Property Name="DPLimit" Value="Default"/>
               <Property Name="Description" Value=""/>
               <Property Name="PLCType" Value="DINT"/>
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[MilliSec]"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time_s]"/>
               <Property Name="UpdateTime" Value="Default"/>
               <Property Name="UserID" Value="None"/>
-              <Property Name="VCType" Value="INTEGER"/>
+              <Property Name="VCType" Value="SCALED"/>
             </DataPoint>
             <DataPoint Name="diValueMax">
               <Property Name="ConnectedBySharedResource" Value="False"/>
-              <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="ConnectingVisus" Value=""/>
+              <Property Name="DPLimit" Value="Default"/>
               <Property Name="Description" Value=""/>
               <Property Name="PLCType" Value="DINT"/>
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[MilliSec]"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time_s]"/>
               <Property Name="UpdateTime" Value="Default"/>
               <Property Name="UserID" Value="None"/>
-              <Property Name="VCType" Value="INTEGER"/>
+              <Property Name="VCType" Value="SCALED"/>
             </DataPoint>
             <DataPoint Name="diValueMin">
               <Property Name="ConnectedBySharedResource" Value="False"/>
               <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="DPLimit" Value="Default"/>
               <Property Name="Description" Value=""/>
               <Property Name="PLCType" Value="DINT"/>
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[MilliSec]"/>
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time_s]"/>
               <Property Name="UpdateTime" Value="Default"/>
               <Property Name="UserID" Value="None"/>
-              <Property Name="VCType" Value="INTEGER"/>
+              <Property Name="VCType" Value="SCALED"/>
             </DataPoint>
             <DataPoint Name="uiRtStat">
               <Property Name="ConnectedBySharedResource" Value="False"/>
@@ -27152,6 +27192,19 @@
               <Property Name="UserID" Value="None"/>
               <Property Name="VCType" Value="BOOL"/>
             </DataPoint>
+            <DataPoint Name="uiRtStat">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="UI\Visu"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="UINT"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+          </Folder>
+          <Folder Name="tyLyr">
+            <Property Name="Description" Value=""/>
+            <Property Name="FolderType" Value="Struct"/>
             <DataPoint Name="uiRtStat">
               <Property Name="ConnectedBySharedResource" Value="False"/>
               <Property Name="ConnectingVisus" Value="UI\Visu"/>

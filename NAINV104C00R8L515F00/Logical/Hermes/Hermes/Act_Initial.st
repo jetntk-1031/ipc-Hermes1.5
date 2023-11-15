@@ -131,6 +131,17 @@ ACTION Act_Initial:
 	//a_tyCommandLockInputConv[usiDSIdent].bFeatureLockConvFrom := p_bNTParamOvenInfoAPrep;
 	//a_tyCommandLockInputConv[usiUSIdent2].bFeatureLockConvTo  :=  p_bNTParamOvenInfoBPrep;
 
+	//Board Available Action setting
+	usiZoneSupported := 3;
+	//zone 1 supported action
+	tbActionSupportedByZone[1,HermesActionBypass] := TRUE ;
+	tbActionSupportedByZone[1,HermesActionInspect] := TRUE;
+	//zone 2 supported action
+	tbActionSupportedByZone[2,HermesActionFIFO] := TRUE;
+	tbActionSupportedByZone[2,HermesActionInspect] := TRUE;
+	//zone 3 supported action
+	tbActionSupportedByZone[3,HermesActionInvert] := TRUE;
+	tbActionSupportedByZone[3,HermesActionBypass] := TRUE;
 	
 	
 END_ACTION

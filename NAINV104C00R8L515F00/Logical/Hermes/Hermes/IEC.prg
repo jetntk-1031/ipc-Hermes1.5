@@ -17,6 +17,7 @@
     <File Description="Do Not Change!!!">Act_Background.st</File>
     <File Description="Do Not Change!!!">Act_Background_Command.st</File>
     <File Description="Do Not Change!!!">Act_Background_Route.st</File>
+    <File Description="Do Not Change!!!">Act_Background_Action.st</File>
     <File Description="Do Not Change!!!">Act_Alarm.st</File>
     <File Description="Do Not Change!!!" Private="true">InputRef.var</File>
     <File Description="Do Not Change!!!" Private="true">Local.var</File>

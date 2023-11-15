@@ -14,6 +14,7 @@ ACTION Act_OptP1021Save:
 		OR tyP1021McSetGen.tyGen.tyBtnStopperDis.bRtCompl 		 	OR tyP1021McSetGen.tyGen.tyNumWidthOffset.bRtCompl
 		OR tyP1021McSetGen.tyGen.tyBtnAutoLogoutEn.bRtCompl 		OR tyP1021McSetGen.tyGen.tyBtnClampDis.bRtCompl
 		OR tyP1021McSetGen.tyGen.tyBtnLFBuzMute.bRtCompl			OR tyP1021McSetGen.tyGen.tyNumAutoLogoutTm.bRtCompl
+		OR tyP1021McSetGen.tyGen.tyBtnHermesSvyEn.bRtCompl		 //new for Hermes 1.3
 		THEN 
 		
 		fUIInRtStatHide(ADR(tyCommon.tySet.tyBtnSave.uiMaskRtStat));
@@ -43,7 +44,7 @@ ACTION Act_OptP1021Save:
 		tyP1021McSetGen.tyGen.tyBtnClampDis.bRtCompl			:= FALSE;
 		tyP1021McSetGen.tyGen.tyBtnLFBuzMute.bRtCompl			:= FALSE;
 		tyP1021McSetGen.tyGen.tyNumAutoLogoutTm.bRtCompl		:= FALSE;
-		
+		tyP1021McSetGen.tyGen.tyBtnHermesSvyEn.bRtCompl		:= FALSE; 	//new for Hermes 1.3
 	END_IF
 		
 	IF tyCommon.tySet.tyBtnSave.bRtCompl = TRUE AND bSaveNetworkPriority=FALSE THEN
@@ -63,6 +64,7 @@ ACTION Act_OptP1021Save:
 		tyMcParamWr.bAWDis					:= tyP1021McSetGen.tyGen.tyBtnAWDis.bValue;
 		tyMcParamWr.bVSMEMAEn				:= tyP1021McSetGen.tyGen.tyBtnVSMEMAEn.bValue;
 		tyMcParamWr.bHermesRmtEn			:= tyP1021McSetGen.tyGen.tyBtnHermesRmtEn.bValue;
+		tyMcParamWr.bHermesSvyEn			:= tyP1021McSetGen.tyGen.tyBtnHermesSvyEn.bValue;//new for Hermes 1.3
 		tyMcParamWr.bMnlAccDat				:= tyP1021McSetGen.tyGen.tyBtnMnlAccDat.bValue;
 		tyMcParamWr.bAutoStepEn				:= tyP1021McSetGen.tyGen.tyBtnAutoStepEn.bValue;
 		tyMcParamWr.bChgParamEn				:= tyP1021McSetGen.tyGen.tyBtnChgParamEn.bValue;
