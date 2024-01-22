@@ -49,6 +49,11 @@ FUNCTION fHermesParseSServiceDescription
 						
 		p_tySServiceDescription.tyAvl.tySupportedFeatures.bFeatureSendWorkOrderInfo	:= TRUE;
 		p_tySServiceDescription.tyData.tySupportedFeatures.bFeatureSendWorkOrderInfo	:= TRUE;
+		
+	ELSIF (tyXMLTableCurr.sTitle = 'ST') AND (sCurrValueLowerCase = 'featurereplyworkorderinfo') THEN
+						
+		p_tySServiceDescription.tyAvl.tySupportedFeatures.bFeatureReplyWorkOrderInfo	:= TRUE;
+		p_tySServiceDescription.tyData.tySupportedFeatures.bFeatureReplyWorkOrderInfo	:= TRUE;
 						
 	END_IF
 	

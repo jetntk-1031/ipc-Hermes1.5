@@ -1,0 +1,2047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.8.4.50 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="DInput"
+      Disable="false"
+      Source="DInput.DInput"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_InitGlobal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_InitialCompl.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DInput\Act_Alarm2.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\DInput\DInput\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\DInput\DInput\Local.var" />
+    </Task>
+    <Task
+      Name="DOutput"
+      Disable="false"
+      Source="DOutput.DOutput"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_InitGlobal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_InitialCompl.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DOutput\Act_Background.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\DOutput\DOutput\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\DOutput\DOutput\Local.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="Conv"
+      Disable="false"
+      Source="Conv.Conv"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Conv\Conv\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Conv\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Conv\Conv\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Conv\Conv\Local.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="UI"
+      Disable="false"
+      Source="UI.UI"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_InitGlobal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_Main.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UI\Act_Background.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\Local.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\Local.typ" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\Visu_Page.typ" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\Visu_Page.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\Visu_Layer.typ" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UI\UI\Visu_Layer.var" />
+    </Task>
+    <Task
+      Name="Startup"
+      Disable="false"
+      Source="Startup.Startup"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Startup\Startup\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Startup\Act_Main.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Startup\Startup\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Startup\Startup\Local.var" />
+    </Task>
+    <Task
+      Name="General"
+      Disable="false"
+      Source="General.General"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\General\General\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\General\Act_Main.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\General\General\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\General\General\Local.var" />
+    </Task>
+    <Task
+      Name="UsrFolder"
+      Disable="false"
+      Source="UsrFolder.UsrFolder"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UsrFolder\UsrFolder\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrFolder\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UsrFolder\UsrFolder\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UsrFolder\UsrFolder\Local.var" />
+    </Task>
+    <Task
+      Name="LibVer"
+      Disable="false"
+      Source="LibVer.LibVer"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LibVer\LibVer\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LibVer\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LibVer\LibVer\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LibVer\LibVer\Local.var" />
+    </Task>
+    <Task
+      Name="Time"
+      Disable="false"
+      Source="Time.Time"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Time\Time\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Time\Act_Alarm1.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Time\Time\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Time\Time\Local.var" />
+    </Task>
+    <Task
+      Name="HWInfo"
+      Disable="false"
+      Source="HWInfo.HWInfo"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\HWInfo\HWInfo\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\HWInfo\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\HWInfo\HWInfo\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\HWInfo\HWInfo\Local.var" />
+    </Task>
+    <Task
+      Name="TLBuz"
+      Disable="false"
+      Source="TLBuz.TLBuz"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\TLBuz\TLBuz\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Background1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Background2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\TLBuz\Act_Background3.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\TLBuz\TLBuz\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\TLBuz\TLBuz\Local.var" />
+    </Task>
+    <Task
+      Name="Alarm"
+      Disable="false"
+      Source="Alarm.Alarm"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Alarm\Alarm\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Alarm\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Alarm\Alarm\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Alarm\Alarm\Local.var" />
+    </Task>
+    <Task
+      Name="RstErr"
+      Disable="false"
+      Source="RstErr.RstErr"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\RstErr\RstErr\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RstErr\Act_Main.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\RstErr\RstErr\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\RstErr\RstErr\Local.var" />
+    </Task>
+    <Task
+      Name="ProdRcp"
+      Disable="false"
+      Source="ProdRcp.ProdRcp"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\ProdRcp\ProdRcp\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\ProdRcp\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\ProdRcp\ProdRcp\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\ProdRcp\ProdRcp\Local.var" />
+    </Task>
+    <Task
+      Name="MpProdRcp"
+      Disable="false"
+      Source="MpProdRcp.MpProdRcp"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\MpProdRcp\MpProdRcp\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MpProdRcp\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\MpProdRcp\MpProdRcp\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\MpProdRcp\MpProdRcp\Local.var" />
+    </Task>
+    <Task
+      Name="McParam"
+      Disable="false"
+      Source="McParam.McParam"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\McParam\McParam\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\McParam\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\McParam\McParam\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\McParam\McParam\Local.var" />
+    </Task>
+    <Task
+      Name="NtParam"
+      Disable="false"
+      Source="NtParam.NtParam"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\NtParam\NtParam\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\NtParam\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\NtParam\NtParam\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\NtParam\NtParam\Local.var" />
+    </Task>
+    <Task
+      Name="UsrMgmt"
+      Disable="false"
+      Source="UsrMgmt.UsrMgmt"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UsrMgmt\UsrMgmt\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\UsrMgmt\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UsrMgmt\UsrMgmt\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\UsrMgmt\UsrMgmt\Local.var" />
+    </Task>
+    <Task
+      Name="USSMEMA"
+      Disable="false"
+      Source="SMEMA.USSMEMA"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\USSMEMA\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\USSMEMA\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\USSMEMA\Local.var" />
+    </Task>
+    <Task
+      Name="DSSMEMA"
+      Disable="false"
+      Source="SMEMA.DSSMEMA"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\DSSMEMA\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSSMEMA\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\DSSMEMA\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\DSSMEMA\Local.var" />
+    </Task>
+    <Task
+      Name="USSMEMA2"
+      Disable="false"
+      Source="SMEMA.USSMEMA2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\USSMEMA2\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USSMEMA2\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\USSMEMA2\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\SMEMA\USSMEMA2\Local.var" />
+    </Task>
+    <Task
+      Name="PneuNoSenS"
+      Disable="false"
+      Source="Pneu.PneuNoSenStopper"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\PneuNoSenStopper\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenS\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\PneuNoSenStopper\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\PneuNoSenStopper\Local.var" />
+    </Task>
+    <Task
+      Name="PneuNoSenC"
+      Disable="false"
+      Source="Pneu.PneuNoSenClamp"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\PneuNoSenClamp\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\PneuNoSenC\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\PneuNoSenClamp\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\PneuNoSenClamp\Local.var" />
+    </Task>
+    <Task
+      Name="Pneu2SenIn"
+      Disable="false"
+      Source="Pneu.Pneu2SenInShutter"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInShutter\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenIn\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInShutter\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInShutter\Local.var" />
+    </Task>
+    <Task
+      Name="Pneu2SenOu"
+      Disable="false"
+      Source="Pneu.Pneu2SenOutShutter"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenOutShutter\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenOu\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenOutShutter\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenOutShutter\Local.var" />
+    </Task>
+    <Task
+      Name="Pneu2SenI1"
+      Disable="false"
+      Source="Pneu.Pneu2SenInClamp1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp1\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI1\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp1\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp1\Local.var" />
+    </Task>
+    <Task
+      Name="Pneu2SenI2"
+      Disable="false"
+      Source="Pneu.Pneu2SenInClamp2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp2\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI2\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp2\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp2\Local.var" />
+    </Task>
+    <Task
+      Name="Pneu2SenI3"
+      Disable="false"
+      Source="Pneu.Pneu2SenInClamp3"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp3\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Pneu2SenI3\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp3\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Pneu\Pneu2SenInClamp3\Local.var" />
+    </Task>
+    <Task
+      Name="AWOpen"
+      Disable="false"
+      Source="CANOpenServo.AW.AWOpen"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\CANOpenServo\AW\AWOpen\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Alarm2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\AWOpen\Act_Alarm3.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\CANOpenServo\AW\AWOpen\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\CANOpenServo\AW\AWOpen\Local.var" />
+    </Task>
+    <Task
+      Name="Hermes"
+      Disable="false"
+      Source="Hermes.Hermes"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\Hermes\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Background_Command.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Background_Route.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Background_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\Hermes\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\Hermes\Local.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Hermes\Act_Background_GenBrdData.st.var" />
+    </Task>
+    <Task
+      Name="USHermes"
+      Disable="false"
+      Source="Hermes.USHermes"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\USHermes\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Info.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_TCPConnect.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_TCPRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_NotificationRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_IllegalMsg.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_ChkParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_CmpParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Sequence.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_SequenceTO.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_BoardForecast.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_BoardAvailableChk.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_ChkAlive.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_ChkAliveSendPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_ChkAliveRcvPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_ChgConfig.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_ProcessData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Command.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Route.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_NotificationSnd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_QueryBoardInfo.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_TCPSend.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_TCPClose.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Stop.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Log.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_Err.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_AccData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_BFAccData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Alarm2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Alarm3.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Alarm4.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Alarm5.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\USHermes\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\USHermes\Local.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes\Act_Background_RequestedBoardChk.st.var" />
+    </Task>
+    <Task
+      Name="USHermes2"
+      Disable="false"
+      Source="Hermes.USHermes2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\USHermes2\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Info.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_TCPConnect.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_TCPRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_NotificationRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_IllegalMsg.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_ChkParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_CmpParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Sequence.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_SequenceTO.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_BoardForecast.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_BoardAvailableChk.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_ChkAlive.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_ChkAliveSendPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_ChkAliveRcvPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_ChgConfig.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_ProcessData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Command.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Route.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_NotificationSnd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_QueryBoardInfo.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_TCPSend.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_TCPClose.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Stop.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Log.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_Err.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_AccData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_BFAccData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Alarm2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Alarm3.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Alarm4.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Alarm5.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\USHermes2\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\USHermes2\Local.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\USHermes2\Act_Background_RequestedBoardChk.st.var" />
+    </Task>
+    <Task
+      Name="DSHermes"
+      Disable="false"
+      Source="Hermes.DSHermes"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\DSHermes\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_TCPCreateSvr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_TCPListen.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_TCPRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_NotificationRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_IllegalMsg.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_ChkParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_CmpParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_BoardForecast.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_SendBoardInfo.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_Route.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_Sequence.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_SequenceTO.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_ChkAlive.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_ChkAliveSendPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_ChkAliveRcvPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_ChgConfig.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_ProcessData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_Command.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_NotificationSnd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_TCPSend.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_TCPCloseSvr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_TCPCloseClnt.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_Stop.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_Log.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Background_Err.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Alarm2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Alarm3.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes\Act_Alarm4.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\DSHermes\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\DSHermes\Local.var" />
+    </Task>
+    <Task
+      Name="DSHermes2"
+      Disable="false"
+      Source="Hermes.DSHermes2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\DSHermes2\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_TCPCreateSvr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_TCPListen.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_TCPRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_NotificationRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_IllegalMsg.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_ChkParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_CmpParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_BoardForecast.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_SendBoardInfo.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_Route.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_Sequence.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_SequenceTO.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_ChkAlive.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_ChkAliveSendPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_ChkAliveRcvPing.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_ChgConfig.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_ProcessData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_Command.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_NotificationSnd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_TCPSend.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_TCPCloseSvr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_TCPCloseClnt.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_Stop.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_Log.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Background_Err.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Alarm2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Alarm3.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\DSHermes2\Act_Alarm4.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\DSHermes2\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\DSHermes2\Local.var" />
+    </Task>
+    <Task
+      Name="RmtHermes"
+      Disable="false"
+      Source="Hermes.RmtHermes"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\RmtHermes\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_ProcessData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_TCPCreateSvr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_TCPListen.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_TCPRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_NotificationRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_IllegalMsg.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_ChkParamRcv.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_UpdtConfig.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_SendConfig.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_NotificationSnd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_TCPSend.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_TCPCloseSvr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_TCPCloseClnt.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_Stop.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_Log.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Background_Err.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_CombineErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Alarm1.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Alarm2.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\RmtHermes\Act_Alarm3.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\RmtHermes\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Hermes\RmtHermes\Local.var" />
+    </Task>
+    <Task
+      Name="LFLeader"
+      Disable="false"
+      Source="LF.LFLeader"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\LFLeader\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Background_OPCUA.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Background_Process.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Background_Disconnect.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFLeader\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\LFLeader\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\LFLeader\Local.var" />
+    </Task>
+    <Task
+      Name="LFFollower"
+      Disable="false"
+      Source="LF.LFFollower"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\LFFollower\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Background_ChkRlsBrd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Background_UpdtData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Background_AccData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LFFollower\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\LFFollower\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\LFFollower\Local.var" />
+    </Task>
+    <Task
+      Name="Follower1"
+      Disable="false"
+      Source="LF.Follower1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\Follower1\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Background_ChkRlsBrd.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Background_UpdtData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Background_AccData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Follower1\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\Follower1\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LF\Follower1\Local.var" />
+    </Task>
+    <Task
+      Name="LCS"
+      Disable="false"
+      Source="LCS.LCS"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCS\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_Background_LiveData.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCS\Act_Main_Disable.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCS\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCS\Local.var" />
+    </Task>
+    <Task
+      Name="LCSMngRcp"
+      Disable="false"
+      Source="LCS.LCSMngRcp"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCSMngRcp\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSMngRcp\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCSMngRcp\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCSMngRcp\Local.var" />
+    </Task>
+    <Task
+      Name="LCSLF"
+      Disable="false"
+      Source="LCS.LCSLF"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCSLF\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Main_Disable.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\LCSLF\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCSLF\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\LCS\LCSLF\Local.var" />
+    </Task>
+    <Task
+      Name="Ops"
+      Disable="false"
+      Source="Operations.Ops"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Operations\Ops\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Ops\Act_Main.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Operations\Ops\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Operations\Ops\Local.var" />
+    </Task>
+    <Task
+      Name="OpsInvert"
+      Disable="false"
+      Source="Operations.OpsInvert"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Operations\OpsInvert\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Act_AlarmInfo.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\OpsInvert\Sequence.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Operations\OpsInvert\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Operations\OpsInvert\Local.var" />
+    </Task>
+    <Task
+      Name="Machine"
+      Disable="false"
+      Source="Machine.Machine"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_InitGlobal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Machine\Act_AlarmInfo1.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Machine\Machine\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Machine\Machine\Local.var" />
+    </Task>
+    <Task
+      Name="MotorBrk"
+      Disable="false"
+      Source="MotorBrk.MotorBrk"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\MotorBrk\MotorBrk\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_Main.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\MotorBrk\Act_Alarm.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\MotorBrk\MotorBrk\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\MotorBrk\MotorBrk\Local.var" />
+    </Task>
+    <Task
+      Name="Simu"
+      Disable="false"
+      Source="Simulation.Simu"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Simulation\Simu\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_LinkAction.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_Action.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\Simu\Act_Main.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Simulation\Simu\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Simulation\Simu\Local.var" />
+    </Task>
+    <Task
+      Name="SimuInv"
+      Disable="false"
+      Source="Simulation.SimuInv"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_InitGlobal.st.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Simulation\SimuInv\InputRef_Link.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_LinkEn.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_Link.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_RstErr.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_InitLocal.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_Initial.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_Background.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Act_Alarm.st.var" />
+      <InternalFile
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Temp\Objects\Inverter_XStd_WOutShutter_\X20CP0483\SimuInv\Sequence.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Simulation\SimuInv\InputRef.var" />
+      <File
+        Path="C:\Users\wongjl\Desktop\job\Hermes 1_5 29_8_2023\inverter\ipc-Hermes1.5\NAINV104C00R8L515F00\Logical\Simulation\SimuInv\Local.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

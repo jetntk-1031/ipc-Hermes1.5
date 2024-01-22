@@ -38,33 +38,48 @@ ACTION Act_Background_Sequence:
 		ELSIF fbSequenceSvy.eMsgTypeSnd = HermesMsgTypeCurrConfiguration AND bWriteConfig = FALSE AND bUpdateUIData = FALSE THEN
 			fHermesAddOneMsgSend(ADR(a_eMsgSend) , ADR(udiMsgSendBffr) , HermesMsgTypeCurrConfiguration);
 			
+
+			tyCurrentConfigurationSnd.tyAvl.iUpstreamConfigurations	                                 	:= 2;
+			tyCurrentConfigurationSnd.tyAvl.iDownstreamConfigurations	                        	    := 2;
+			tyCurrentConfigurationSnd.tyAvl.bUpstreamConfigurations	                            	    := tyCurrentConfigurationSnd.tyAvl.iUpstreamConfigurations>0;
+			tyCurrentConfigurationSnd.tyAvl.bDownstreamConfigurations	                            	:= tyCurrentConfigurationSnd.tyAvl.bUpstreamConfigurations>0;
+			
 			tyCurrentConfigurationSnd.tyData.sMachineId			                        		        := p_sMcId;
 			tyCurrentConfigurationSnd.tyData.uiSupervisorySystemPort	                             	:= p_tyHermesConfiguration.tySvyParam.uiSvySvstemPort;
-			tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].iUpstreamLaneId	            := p_tyHermesConfiguration.a_tyUSParam[0].iLaneID;
-			tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].sHostAddress	                := p_tyHermesConfiguration.a_tyUSParam[0].sHostAddress;
-			tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].sUpstreamInterfaceId        	:= p_tyHermesConfiguration.a_tyUSParam[0].sUpstreamInterfaceId;
-			tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].uiPort                      	:= p_tyHermesConfiguration.a_tyUSParam[0].uiHostPort;
-			
-			tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].iDownstreamLaneId	        := p_tyHermesConfiguration.a_tyDSParam[0].iLaneID;
-			tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].sClientAddress	            := p_tyHermesConfiguration.a_tyDSParam[0].sClientAddress;
-			tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].sDownstreamInterfaceId	    := p_tyHermesConfiguration.a_tyDSParam[0].sDownstreamInterfaceId;
-			tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].uiPort                 	:= p_tyHermesConfiguration.a_tyDSParam[0].uiSvrPort;
-
 			tyCurrentConfigurationSnd.tyAvl.bMachineId					                              	:= tyCurrentConfigurationSnd.tyData.sMachineId <> '';
 			tyCurrentConfigurationSnd.tyAvl.bSupervisorySystemPort		                            	:= tyCurrentConfigurationSnd.tyData.uiSupervisorySystemPort <> 0;
-			tyCurrentConfigurationSnd.tyAvl.bUpstreamConfigurations	                            	    := TRUE;
-			tyCurrentConfigurationSnd.tyAvl.bDownstreamConfigurations	                            	:= TRUE;
-			tyCurrentConfigurationSnd.tyAvl.iUpstreamConfigurations	                                 	:= 1;
-			tyCurrentConfigurationSnd.tyAvl.iDownstreamConfigurations	                        	    := 1;
-			tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[0].bUpstreamLaneId		        := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].iUpstreamLaneId <> 0;
-			tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[0].bHostAddress		            := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].sHostAddress <> '';
-			tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[0].bUpstreamInterfaceId	        := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].sUpstreamInterfaceId <> '';
-			tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[0].bPort		                    := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[0].uiPort <>0;
 			
-			tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[0].bDownstreamLaneId	    	:= tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].iDownstreamLaneId <>0;
-			tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[0].bClientAddress		        := tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].sClientAddress <> '';
-			tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[0].bDownstreamInterfaceId	    := tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].sDownstreamInterfaceId <> '';
-			tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[0].bPort		                := tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[0].uiPort <> 0;
+			IF tyCurrentConfigurationSnd.tyAvl.iUpstreamConfigurations -1 >= 0 THEN
+				FOR i := 0 TO tyCurrentConfigurationSnd.tyAvl.iUpstreamConfigurations -1  DO
+					tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].iUpstreamLaneId	            := p_tyHermesConfiguration.a_tyUSParam[i].iLaneID;
+					tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].sHostAddress	                := p_tyHermesConfiguration.a_tyUSParam[i].sHostAddress;
+					tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].sUpstreamInterfaceId        	:= p_tyHermesConfiguration.a_tyUSParam[i].sUpstreamInterfaceId;
+					tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].uiPort                      	:= p_tyHermesConfiguration.a_tyUSParam[i].uiHostPort;
+				
+					tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[i].bUpstreamLaneId		        := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].iUpstreamLaneId <> 0;
+					tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[i].bHostAddress		            := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].sHostAddress <> '';
+					tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[i].bUpstreamInterfaceId	        := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].sUpstreamInterfaceId <> '';
+					tyCurrentConfigurationSnd.tyAvl.a_tyUpstreamConfigurations[i].bPort		                    := tyCurrentConfigurationSnd.tyData.a_tyUpstreamConfigurations[i].uiPort <>0;
+				END_FOR
+			END_IF
+
+			
+			IF tyCurrentConfigurationSnd.tyAvl.iDownstreamConfigurations -1 >= 0 THEN
+				FOR i := 0 TO tyCurrentConfigurationSnd.tyAvl.iUpstreamConfigurations -1  DO
+					tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].iDownstreamLaneId	            := p_tyHermesConfiguration.a_tyDSParam[i].iLaneID;
+					tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].sClientAddress	                := p_tyHermesConfiguration.a_tyDSParam[i].sClientAddress;
+					tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].sDownstreamInterfaceId        	:= p_tyHermesConfiguration.a_tyDSParam[i].sDownstreamInterfaceId;
+					tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].uiPort                      	:= p_tyHermesConfiguration.a_tyDSParam[i].uiSvrPort;
+				
+					tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[i].bDownstreamLaneId	    		:= tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].iDownstreamLaneId <>0;
+					tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[i].bClientAddress		       		 := tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].sClientAddress <> '';
+					tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[i].bDownstreamInterfaceId	    	:= tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].sDownstreamInterfaceId <> '';
+					tyCurrentConfigurationSnd.tyAvl.a_tyDownstreamConfigurations[i].bPort							:= tyCurrentConfigurationSnd.tyData.a_tyDownstreamConfigurations[i].uiPort <> 0;
+				END_FOR
+			END_IF
+			
+
+		
 			
 		END_IF
 		

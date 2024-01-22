@@ -6,7 +6,8 @@ ACTION Act_InitGlobal:
 	//Pass Data To Link
 	p_bLinkStartupRun ACCESS p_StartupRun;
 	
-	p_eLinkMcParamUSCommMod ACCESS p_McParamUSCommMod;
+//	p_eLinkMcParamUSCommMod ACCESS p_McParamUSCommMod;
+	p_bLinkUSHermesTransporting ACCESS p_USHermesTransporting;
 	p_eLinkMcParamUSComm2Mod ACCESS p_McParamUSComm2Mod;
 
 	
@@ -16,7 +17,7 @@ ACTION Act_InitGlobal:
 	p_bLinkOpsInvertStepEntToEnd ACCESS p_OpsInvertStepEntToEnd;
 	p_bLinkOpsInvertStepEntToInOff ACCESS p_OpsInvertStepEntToInOff;
 	p_bLinkOpsInvertStepExitBrd ACCESS p_OpsInvertStepExitBrd;
-	p_bLinkConvHvBrd ACCESS p_ConvHvBrd;//p_OpsInvertHvBrd;
+	p_bLinkConvHvBrd ACCESS p_OpsInvertHvBrd; //p_ConvHvBrd;//
 	p_bLinkOpsInvertStepInvert ACCESS p_OpsInvertStepInvert;
 	
 	//p_tyUSHermestyBoardAvailable ACCESS p_USHermestyBoardAvailable;
@@ -40,8 +41,8 @@ ACTION Act_InitGlobal:
 	//p_tySvySetConfiguration ACCESS p_SvyHermesSetConfiguration; //US,DS SetConfigure from SvyHermes
 	p_bRmtPrep ACCESS p_NtParamHermesRmtPrep;
 	p_bRmtEn ACCESS p_McParamHermesRmtEn;
-	p_bSvyPrep ACCESS ADR(bSvyPrep);
-	p_bSvyEn ACCESS ADR(bSvyEn);
+	p_bSvyPrep ACCESS p_NtParamHermesSvyPrep;
+	p_bSvyEn ACCESS p_McParamHermesSvyEn ;
 	p_sRetainFileName1 ACCESS ADR(sRetainFileName1);
 	p_sRetainFileName2 ACCESS ADR(sRetainFileName2);
 	p_sRetainFileName3 ACCESS ADR(sRetainFileName3);
@@ -59,7 +60,7 @@ ACTION Act_InitGlobal:
 	p_sProgNm ACCESS p_NtParamHermesProgNm;
 	p_bNtSettingsLoadDone ACCESS p_StartupNtSettingsLoadDone;
 	p_bRmtHermesWriteConfig ACCESS p_RmtHermesWriteConfig; 
-	//p_bSvyHermesWriteConfig ACCESS p_SvyHermesWriteConfig; 
+	p_bSvyHermesWriteConfig ACCESS p_SvyHermesWriteConfig; 
 	p_bUISaveHMIConfigure ACCESS p_UISaveHMIConfigure; 
 	p_bUISaveHMISvyConfig ACCESS p_UISaveHMISvyConfig; 
 	p_sMcId ACCESS p_McParamMcNm;

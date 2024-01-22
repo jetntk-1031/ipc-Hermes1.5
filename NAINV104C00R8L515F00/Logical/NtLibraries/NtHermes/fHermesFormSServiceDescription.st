@@ -80,7 +80,7 @@ FUNCTION fHermesFormSServiceDescription
 	
 	iTotalIdxWrite	:= iTotalIdxWrite + 1;
 	
-	IF tyParameter.tyAvl.tySupportedFeatures.bFeatureConfiguration = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureCheckAliveResponse = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureBoardTracking = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureQueryWorkOrderInfo = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureSendWorkOrderInfo = TRUE THEN
+	IF tyParameter.tyAvl.tySupportedFeatures.bFeatureConfiguration = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureCheckAliveResponse = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureBoardTracking = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureQueryWorkOrderInfo = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureSendWorkOrderInfo = TRUE OR tyParameter.tyAvl.tySupportedFeatures.bFeatureReplyWorkOrderInfo = TRUE THEN
 	
 		pa_tyXMLTable[iTotalIdxWrite].sTitle	:= 'EN';
 		pa_tyXMLTable[iTotalIdxWrite].sValue	:= '';
@@ -158,6 +158,21 @@ FUNCTION fHermesFormSServiceDescription
 	
 			iTotalIdxWrite	:= iTotalIdxWrite + 1;
 		END_IF
+		
+		IF tyParameter.tyAvl.tySupportedFeatures.bFeatureReplyWorkOrderInfo = TRUE THEN
+			pa_tyXMLTable[iTotalIdxWrite].sTitle	:= 'ST';
+			pa_tyXMLTable[iTotalIdxWrite].sValue	:= 'FeatureReplyWorkOrderInfo';
+			pa_tyXMLTable[iTotalIdxWrite].uiSize	:= LEN(pa_tyXMLTable[iTotalIdxWrite].sValue);
+		
+			iTotalIdxWrite	:= iTotalIdxWrite + 1;
+	
+			pa_tyXMLTable[iTotalIdxWrite].sTitle	:= 'ES';
+			pa_tyXMLTable[iTotalIdxWrite].sValue	:= '';
+			pa_tyXMLTable[iTotalIdxWrite].uiSize	:= LEN(pa_tyXMLTable[iTotalIdxWrite].sValue);
+	
+			iTotalIdxWrite	:= iTotalIdxWrite + 1;
+		END_IF
+		
 		
 		pa_tyXMLTable[iTotalIdxWrite].sTitle	:= 'ET';
 		pa_tyXMLTable[iTotalIdxWrite].sValue	:= 'SupportedFeatures';

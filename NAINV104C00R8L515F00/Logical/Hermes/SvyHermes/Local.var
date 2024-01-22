@@ -98,6 +98,7 @@ VAR
 	tyHermesCurrConfiguration : tyHermesConfiguration;
 	bQueryWorkOrderInfo : BOOL;
 	bReinsertBrd : BOOL;
+	bInsertBoard : BOOL;
 	bManualInsertData : BOOL;
 	bQueryInsertBoard : BOOL;
 	bAcceptCondition : BOOL;
@@ -244,5 +245,10 @@ VAR
 	udiRetainDataLen : UDINT;
 	diReqWidthInUM : DINT;
 	iWriteLogStep : INT := 0;
+	i : INT;
 	udiModuleNum : UDINT := 6651;
+END_VAR
+(*QueryWorkQueue*)
+VAR
+	tyQueryQueue : ARRAY[0..4] OF tyHermesQueryQueue;
 END_VAR

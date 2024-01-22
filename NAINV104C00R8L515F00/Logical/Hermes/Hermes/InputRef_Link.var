@@ -5,7 +5,7 @@ VAR
 END_VAR
 (**)
 VAR
-	p_eLinkMcParamUSCommMod : REFERENCE TO eMcSetCommMod;
+	p_bLinkUSHermesTransporting : REFERENCE TO BOOL;
 	p_eLinkMcParamUSComm2Mod : REFERENCE TO eMcSetCommMod;
 	pa_tyLinkXMLTableDataBrdAvl : REFERENCE TO ARRAY[0..200] OF tyXMLTableDat;
 	p_iLinkXMLTableDataBrdAvlTtlIdx : REFERENCE TO INT;

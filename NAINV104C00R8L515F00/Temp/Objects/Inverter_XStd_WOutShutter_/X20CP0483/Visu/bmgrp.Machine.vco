@@ -1,0 +1,2663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="30" Type="REF" RefString="Source[local].BitmapGroup[Machine]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Machine" ClsId="0x308" Version="1" TargetIndex="30" Type="BMPG" RefString="Source[local].BitmapGroup[Machine_en]">
+            <UInt32 Name="Count">131</UInt32>
+            <Group Name="Mc_Inverter_AW_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Mc_Conveyor">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conveyor]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Mc_OvenLR_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenLR_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Mc_OvenRL_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenRL_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">29</UInt16>
+            </Group>
+            <Group Name="Mc_InspConv_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InspConv_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Mc_LifterDown_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterDown_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Engage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Engage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Mc_Flipper_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Flipper_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ConvInv1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ConvInv1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Mc_Outlet_Close_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Outlet_Close_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Mc_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Mc_Front_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Down_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Down_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Mc_AW_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Top_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Top_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr2_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr2_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Mc_LifterMid_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterMid_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Mc_LifterTop_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterTop_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_400x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_400x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">50</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">51</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">52</UInt16>
+            </Group>
+            <Group Name="Mc_AW_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">53</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">54</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">55</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper1_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper1_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">56</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">57</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">58</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">59</UInt16>
+            </Group>
+            <Group Name="Mc_InverterHm_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterHm_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">60</UInt16>
+            </Group>
+            <Group Name="Mc_InverteMid_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverteMid_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">61</UInt16>
+            </Group>
+            <Group Name="Mc_InverterRmt_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterRmt_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">62</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper2_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper2_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">63</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">78</UInt16>
+            </Group>
+            <Group Name="MC_Inverter_Clamp_Extend_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[MC_Inverter_Clamp_Extend_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">64</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">65</UInt16>
+            </Group>
+            <Group Name="Mc_Clamp_With_RS_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamp_With_RS_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">67</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">66</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">72</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">73</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Unclamp1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Unclamp1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">68</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">69</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">70</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">71</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">77</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">75</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">76</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">74</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">150</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">151</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">131</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">132</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">154</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">174</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">175</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">176</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">177</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">178</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">103</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">104</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">158</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">159</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">275</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">39</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">79</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">80</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">81</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">82</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">83</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">84</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">85</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">86</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">87</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">88</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">89</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">90</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">91</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">92</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">93</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">94</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">95</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">96</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">97</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">98</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">99</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">100</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">101</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">102</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">232</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">254</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">258</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">259</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">250</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">203</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">274</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">231</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShuttrOut_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShuttrOut_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">278</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">276</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">251</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">204</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">277</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Machine" ClsId="0x308" Version="1" TargetIndex="30" Type="BMPG" RefString="Source[local].BitmapGroup[Machine_de]">
+            <UInt32 Name="Count">131</UInt32>
+            <Group Name="Mc_Inverter_AW_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Mc_Conveyor">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conveyor]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Mc_OvenLR_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenLR_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Mc_OvenRL_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenRL_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">29</UInt16>
+            </Group>
+            <Group Name="Mc_InspConv_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InspConv_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Mc_LifterDown_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterDown_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Engage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Engage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Mc_Flipper_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Flipper_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ConvInv1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ConvInv1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Mc_Outlet_Close_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Outlet_Close_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Mc_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Mc_Front_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Down_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Down_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Mc_AW_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Top_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Top_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr2_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr2_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Mc_LifterMid_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterMid_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Mc_LifterTop_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterTop_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_400x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_400x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">50</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">51</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">52</UInt16>
+            </Group>
+            <Group Name="Mc_AW_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">53</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">54</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">55</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper1_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper1_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">56</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">57</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">58</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">59</UInt16>
+            </Group>
+            <Group Name="Mc_InverterHm_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterHm_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">60</UInt16>
+            </Group>
+            <Group Name="Mc_InverteMid_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverteMid_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">61</UInt16>
+            </Group>
+            <Group Name="Mc_InverterRmt_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterRmt_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">62</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper2_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper2_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">63</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">78</UInt16>
+            </Group>
+            <Group Name="MC_Inverter_Clamp_Extend_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[MC_Inverter_Clamp_Extend_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">64</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">65</UInt16>
+            </Group>
+            <Group Name="Mc_Clamp_With_RS_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamp_With_RS_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">67</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">66</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">72</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">73</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Unclamp1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Unclamp1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">68</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">69</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">70</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">71</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">77</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">75</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">76</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">74</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">150</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">151</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">131</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">132</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">154</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">174</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">175</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">176</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">177</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">178</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">103</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">104</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">158</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">159</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">275</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">39</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">79</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">80</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">81</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">82</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">83</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">84</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">85</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">86</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">87</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">88</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">89</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">90</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">91</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">92</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">93</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">94</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">95</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">96</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">97</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">98</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">99</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">100</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">101</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">102</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">232</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">254</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">258</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">259</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">250</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">203</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">274</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">231</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShuttrOut_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShuttrOut_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">278</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">276</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">251</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">204</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">277</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Machine" ClsId="0x308" Version="1" TargetIndex="30" Type="BMPG" RefString="Source[local].BitmapGroup[Machine_zh]">
+            <UInt32 Name="Count">131</UInt32>
+            <Group Name="Mc_Inverter_AW_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Mc_Conveyor">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conveyor]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Mc_OvenLR_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenLR_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Mc_OvenRL_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenRL_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">29</UInt16>
+            </Group>
+            <Group Name="Mc_InspConv_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InspConv_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Mc_LifterDown_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterDown_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Engage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Engage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Mc_Flipper_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Flipper_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ConvInv1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ConvInv1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Mc_Outlet_Close_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Outlet_Close_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Mc_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Mc_Front_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Down_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Down_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Mc_AW_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Top_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Top_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr2_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr2_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Mc_LifterMid_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterMid_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Mc_LifterTop_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterTop_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_400x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_400x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">50</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">51</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">52</UInt16>
+            </Group>
+            <Group Name="Mc_AW_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">53</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">54</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">55</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper1_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper1_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">56</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">57</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">58</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">59</UInt16>
+            </Group>
+            <Group Name="Mc_InverterHm_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterHm_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">60</UInt16>
+            </Group>
+            <Group Name="Mc_InverteMid_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverteMid_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">61</UInt16>
+            </Group>
+            <Group Name="Mc_InverterRmt_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterRmt_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">62</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper2_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper2_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">63</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">78</UInt16>
+            </Group>
+            <Group Name="MC_Inverter_Clamp_Extend_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[MC_Inverter_Clamp_Extend_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">64</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">65</UInt16>
+            </Group>
+            <Group Name="Mc_Clamp_With_RS_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamp_With_RS_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">67</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">66</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">72</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">73</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Unclamp1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Unclamp1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">68</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">69</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">70</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">71</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">77</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">75</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">76</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">74</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">150</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">151</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">131</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">132</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">154</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">174</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">175</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">176</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">177</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">178</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">103</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">104</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">158</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">159</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">275</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">39</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">79</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">80</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">81</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">82</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">83</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">84</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">85</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">86</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">87</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">88</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">89</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">90</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">91</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">92</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">93</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">94</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">95</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">96</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">97</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">98</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">99</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">100</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">101</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">102</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">232</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">254</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">258</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">259</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">250</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">203</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">274</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">231</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShuttrOut_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShuttrOut_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">278</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">276</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">251</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">204</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">277</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="pt" TargetIndex="3">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Machine" ClsId="0x308" Version="1" TargetIndex="30" Type="BMPG" RefString="Source[local].BitmapGroup[Machine_pt]">
+            <UInt32 Name="Count">131</UInt32>
+            <Group Name="Mc_Inverter_AW_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Mc_Conveyor">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conveyor]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Mc_OvenLR_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenLR_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Mc_OvenRL_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_OvenRL_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">29</UInt16>
+            </Group>
+            <Group Name="Mc_InspConv_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InspConv_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Mc_LifterDown_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterDown_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Engage_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Engage_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Mc_Flipper_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Flipper_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ConvInv1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ConvInv1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Mc_Clamper_Disengage">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamper_Disengage]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Mc_Outlet_Close_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Outlet_Close_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Mc_Front">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Mc_Front_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Front_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Down_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Down_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Mc_AW_Small_23x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_Small_23x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Mc_Guide_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Guide_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Mc_Lifter_Top_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Lifter_Top_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr2_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr2_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Mc_LifterMid_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterMid_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Mc_LifterTop_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_LifterTop_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Mc_FIFO_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FIFO_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_400x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_400x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">50</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">51</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">52</UInt16>
+            </Group>
+            <Group Name="Mc_AW_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AW_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">53</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">54</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">55</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper1_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper1_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">56</UInt16>
+            </Group>
+            <Group Name="Mc_Conv_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Conv_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">57</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">58</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">59</UInt16>
+            </Group>
+            <Group Name="Mc_InverterHm_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterHm_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">60</UInt16>
+            </Group>
+            <Group Name="Mc_InverteMid_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverteMid_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">61</UInt16>
+            </Group>
+            <Group Name="Mc_InverterRmt_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_InverterRmt_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">62</UInt16>
+            </Group>
+            <Group Name="Mc_Stopper2_245x245">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Stopper2_245x245]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">63</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Stpr_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Stpr_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">78</UInt16>
+            </Group>
+            <Group Name="MC_Inverter_Clamp_Extend_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[MC_Inverter_Clamp_Extend_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">64</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Retract">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Retract]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">65</UInt16>
+            </Group>
+            <Group Name="Mc_Clamp_With_RS_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Clamp_With_RS_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">67</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamp_Extend">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamp_Extend]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">66</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">72</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">73</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Unclamp1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Unclamp1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">68</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">69</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_UnClamp2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_UnClamp2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">70</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Clamped2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Clamped2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">71</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">77</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">75</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">76</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">74</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_138x276">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_138x276]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">150</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_With_TL_150x150">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_With_TL_150x150]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">151</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">131</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_WithTL_165x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_WithTL_165x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">132</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">154</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">174</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">175</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">176</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">177</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Close_TL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Close_TL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">178</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">103</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_WithTL">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_WithTL]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">104</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">158</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_WithTL_210x250">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_WithTL_210x250]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">159</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">275</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">39</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">79</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">80</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">81</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">82</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">83</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">84</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">85</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">86</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">87</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">88</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">89</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">90</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">91</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">92</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">93</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">94</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">95</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">96</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">97</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">98</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">99</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">100</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">101</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">102</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Remote_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Remote_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">232</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_With_TL_40x40_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_With_TL_40x40_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">254</UInt16>
+            </Group>
+            <Group Name="Mc_AWOpen_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWOpen_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">258</UInt16>
+            </Group>
+            <Group Name="Mc_AWClose_210x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_AWClose_210x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">259</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_138x276_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_138x276_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">250</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_AW_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_AW_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">203</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Shutter_Small_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Shutter_Small_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">274</UInt16>
+            </Group>
+            <Group Name="Mc_Invert_Home_165x250_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Invert_Home_165x250_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">231</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShuttrOut_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShuttrOut_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">278</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterIn_Close_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterIn_Close_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">276</UInt16>
+            </Group>
+            <Group Name="Mc_FrontView_150x150_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_FrontView_150x150_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">251</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_Conv_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_Conv_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">204</UInt16>
+            </Group>
+            <Group Name="Mc_Inverter_ShutterOut_Open_BHTC">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Mc_Inverter_ShutterOut_Open_BHTC]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">277</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

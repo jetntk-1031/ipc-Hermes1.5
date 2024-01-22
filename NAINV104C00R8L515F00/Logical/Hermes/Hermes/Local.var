@@ -182,6 +182,9 @@ VAR
 	usiZoneSupported : USINT;
 	usiZone : USINT;
 	tbActionSupportedByZone : ARRAY[1..usiMaxZoneSupported,1..usiMaxActionSupported] OF BOOL;
+END_VAR
+(*Update action for next zone*)
+VAR
 	a_bUIPromptActionSelect : ARRAY[1..usiMaxZoneSupported] OF BOOL;
 	a_bUIZonePause : ARRAY[1..usiMaxZoneSupported] OF BOOL;
 	a_bBlkDSForAction : ARRAY[1..usiMaxZoneSupported] OF BOOL;
@@ -189,6 +192,37 @@ VAR
 	a_eModSelectedforCurrZone : ARRAY[1..usiMaxZoneSupported] OF eHermesBAMsgAction;
 	tyBoardAvailableGenerated : tyHermesBoardAvailable;
 	udiSelectedModtoUpt : UDINT;
-	udiHermesAttributeEndIdx : UDINT;
-	udiHermesBAEndIdx : UDINT;
+	sSelectedActtoUpdate : STRING[80];
+END_VAR
+(*react to Action*)
+VAR
+	iActionIndex : INT;
+	sTempBoardId : STRING[80];
+	usiBrdChkZone : USINT;
+	usiBrdZone : USINT;
+	usiLeftmostBlockedZone : USINT;
+	a_bLinkOpsGConvHvBrd : ARRAY[1..usiMaxZoneSupported] OF BOOL;
+	a_bLinkOpsGConvStepInitDone : ARRAY[1..usiMaxZoneSupported] OF BOOL;
+	a_tyActionReservedForZone : ARRAY[1..usiMaxZoneSupported] OF tyActionByZone;
+	bCurrZoneConvInitDone : BOOL;
+	bCurrZoneOpsGConvHvBrd : BOOL;
+	bSimBrdInZone1 : BOOL;
+	bSimBrdInZone2 : BOOL;
+	bSimBrdInZone3 : BOOL;
+	bSimShiftBoardFoward : BOOL;
+	bSimClear : BOOL;
+	iActionOnBrd : INT;
+	iActionAttributeIdx : INT;
+	bSimSearch : BOOL;
+	bSimDelete : BOOL;
+	startpos : USINT;
+	endpos : USINT;
+	dltpos : USINT;
+	sAttribReadValue : STRING[254];
+	testresult1 : BOOL;
+	testresult2 : BOOL;
+END_VAR
+(*BoardDataGeneXMLTbl*)
+VAR
+	tyHermesBoardAvailableAttribAddr : tyHermesBAMsgAttribAddr;
 END_VAR

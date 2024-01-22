@@ -1026,6 +1026,7 @@ TYPE
 		tyBtnBoardTracking : tyUIBtn;
 		tyBtnQueryWorkOrderInfo : tyUIBtn;
 		tyBtnSendWorkOrderInfo : tyUIBtn;
+		tyBtnReplyWorkOrderInfo : tyUIBtn;
 		tyBtnInsertBrd : tyUIBtn;
 		tyBitmapMask : tyUIBitmap;
 		tyLyr : tyUILyr;

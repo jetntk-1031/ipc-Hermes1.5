@@ -1,0 +1,306 @@
+/* Automation Studio generated header file */
+/* Do not edit ! */
+
+#ifndef _BUR_1700533760_1_
+#define _BUR_1700533760_1_
+
+#include <bur/plctypes.h>
+
+/* Constants */
+#ifdef _REPLACE_CONST
+#else
+#endif
+
+
+/* Variables */
+_GLOBAL unsigned long p_NtParamSvyHermesRetainFileNm;
+_GLOBAL unsigned long p_NtParamSvyHermesConnTO;
+_GLOBAL unsigned long p_NtParamSvyHermesAliveTmInSec;
+_GLOBAL unsigned long p_NtParamSvyHermesFileKeepDay;
+_GLOBAL unsigned long p_NtParamSvyHermesConfigFileNm;
+_GLOBAL unsigned long p_NtParamSvyHermesProgNm;
+_GLOBAL unsigned long p_NtParamDSHermesRetainFileNm;
+_GLOBAL unsigned long p_NtParamHermesSvyFirstMc;
+_GLOBAL unsigned long p_NtParamHermesSvyPrep;
+_GLOBAL unsigned long p_NtParamHermesOutput;
+_GLOBAL unsigned long p_NtParamHermesInput;
+_GLOBAL unsigned long p_NtParamProjGermanPrep;
+_GLOBAL unsigned long p_NtParamProjChinesePrep;
+_GLOBAL unsigned long p_NtParamProjRtrnBrdConvDir;
+_GLOBAL unsigned long p_NtParamUSSMEMA2SigInChkTm;
+_GLOBAL unsigned long p_NtParamUSSMEMA2RstDlyTm;
+_GLOBAL unsigned long p_NtParamUSSMEMA2ProgNm;
+_GLOBAL unsigned long p_NtParamUSExtSMEMA2Prep;
+_GLOBAL unsigned long p_NtParamProjInvertTwicePrep;
+_GLOBAL unsigned long p_NtParamProjInvertOncePrep;
+_GLOBAL unsigned long p_NTParamMachineSafetySig;
+_GLOBAL unsigned long p_NTParamUnlockCovPrep;
+_GLOBAL unsigned long p_NtParamLFFllowerOnlineChkDlyTm;
+_GLOBAL unsigned long p_NtParamLFWidth2Prep;
+_GLOBAL unsigned long p_NtParamProjDBAOnRgtSen;
+_GLOBAL unsigned long p_NtParamUIConvDirRL;
+_GLOBAL unsigned long p_NtParamProdRcpMaxFlippedBrd;
+_GLOBAL unsigned long p_NtParamProdRcpMinFlippedBrd;
+_GLOBAL unsigned long p_NtParamProdRcpMaxMcMod;
+_GLOBAL unsigned long p_NtParamProdRcpMinMcMod;
+_GLOBAL unsigned long p_NtParamProdRcpMaxWidth;
+_GLOBAL unsigned long p_NtParamProdRcpMinWidth;
+_GLOBAL unsigned long p_NtParamLCSLFProgNm;
+_GLOBAL unsigned long p_NtParamLCSMngRcpProgNm;
+_GLOBAL unsigned long p_NtParamLCSProgNm;
+_GLOBAL unsigned long p_NtParamFollower1ProgNm;
+_GLOBAL unsigned long p_NtParamLFFollowerProgNm;
+_GLOBAL unsigned long p_NtParamLFLeaderSetTmOffDlyTm;
+_GLOBAL unsigned long p_NtParamLFLeaderOnlineChkDlyTm;
+_GLOBAL unsigned long p_NtParamLFLeaderProgNm;
+_GLOBAL unsigned long p_NtParamConvBffrIdx;
+_GLOBAL unsigned long p_NtParamConvBffrFileNm;
+_GLOBAL unsigned long p_NtParamConvBffrProgNm;
+_GLOBAL unsigned long p_NtParamOpsPneuProgNm;
+_GLOBAL unsigned long p_NtParamOpsConvProgNm;
+_GLOBAL unsigned long p_NtParamOpsInitPneuProgNm;
+_GLOBAL unsigned long p_NtParamOpsInitConvProgNm;
+_GLOBAL unsigned long p_NtParamOpsAWProgNm;
+_GLOBAL unsigned long p_NtParamRmtHermesRcvBffrSize;
+_GLOBAL unsigned long p_NtParamRmtHermesSndBffrSize;
+_GLOBAL unsigned long p_NtParamRmtHermesAliveTmInSec;
+_GLOBAL unsigned long p_NtParamRmtHermesFileKeepDay;
+_GLOBAL unsigned long p_NtParamRmtHermesConfigFileNm;
+_GLOBAL unsigned long p_NtParamRmtHermesProgNm;
+_GLOBAL unsigned long p_NtParamDSHermes2ConnTO;
+_GLOBAL unsigned long p_NtParamDSHermes2AliveTmInSec;
+_GLOBAL unsigned long p_NtParamDSHermes2FileKeepDay;
+_GLOBAL unsigned long p_NtParamDSHermes2ProgNm;
+_GLOBAL unsigned long p_NtParamUSHermes2ConnTO;
+_GLOBAL unsigned long p_NtParamUSHermes2AliveTmInSec;
+_GLOBAL unsigned long p_NtParamUSHermes2FileKeepDay;
+_GLOBAL unsigned long p_NtParamUSHermes2ProgNm;
+_GLOBAL unsigned long p_NtParamDSHermesConnTO;
+_GLOBAL unsigned long p_NtParamDSHermesAliveTmInSec;
+_GLOBAL unsigned long p_NtParamDSHermesFileKeepDay;
+_GLOBAL unsigned long p_NtParamDSHermesProgNm;
+_GLOBAL unsigned long p_NtParamUSHermesConnTO;
+_GLOBAL unsigned long p_NtParamUSHermesAliveTmInSec;
+_GLOBAL unsigned long p_NtParamUSHermesFileKeepDay;
+_GLOBAL unsigned long p_NtParamUSHermesProgNm;
+_GLOBAL unsigned long p_NtParamHermesConfigFileNm;
+_GLOBAL unsigned long p_NtParamHermesRetainFileNm;
+_GLOBAL unsigned long p_NtParamHermesProgNm;
+_GLOBAL unsigned long p_NtParamMcProgNm;
+_GLOBAL unsigned long p_NtParamDInputProgNm;
+_GLOBAL unsigned long p_NtParamInvertMotorType;
+_GLOBAL unsigned long p_NtParamInvertTuning;
+_GLOBAL unsigned long p_NtParamInvertAutoSpd;
+_GLOBAL unsigned long p_NtParamInvertDec;
+_GLOBAL unsigned long p_NtParamInvertAcc;
+_GLOBAL unsigned long p_NtParamInvertParam;
+_GLOBAL unsigned long p_NtParamInvertParamInConvert;
+_GLOBAL unsigned long p_NtParamInvertParamInHm;
+_GLOBAL unsigned long p_NtParamInvertDir;
+_GLOBAL unsigned long p_NtParamInvertNode;
+_GLOBAL unsigned long p_NtParamInvertDevice;
+_GLOBAL unsigned long p_NtParamInvertProgNm;
+_GLOBAL unsigned long p_NtParamAWMotorType;
+_GLOBAL unsigned long p_NtParamAWTuning;
+_GLOBAL unsigned long p_NtParamAWAutoSpd;
+_GLOBAL unsigned long p_NtParamAWDec;
+_GLOBAL unsigned long p_NtParamAWAcc;
+_GLOBAL unsigned long p_NtParamAWParam;
+_GLOBAL unsigned long p_NtParamAWParamInConvert;
+_GLOBAL unsigned long p_NtParamAWParamInHm;
+_GLOBAL unsigned long p_NtParamAWMovBlDistInUM;
+_GLOBAL unsigned long p_NtParamAWPitchInUM;
+_GLOBAL unsigned long p_NtParamAWDirBl;
+_GLOBAL unsigned long p_NtParamAWDir;
+_GLOBAL unsigned long p_NtParamAWNode;
+_GLOBAL unsigned long p_NtParamAWDevice;
+_GLOBAL unsigned long p_NtParamAWProgNm;
+_GLOBAL unsigned long p_NtParamTimeOut;
+_GLOBAL unsigned long p_NtParamBrakeOffDlyTm;
+_GLOBAL unsigned long p_NtParamBrakeOnDlyTm;
+_GLOBAL unsigned long p_NtParamMotorOffDlyTm;
+_GLOBAL unsigned long p_NtParamMotorOnDlyTm;
+_GLOBAL unsigned long p_NtParamClamp3RetTO;
+_GLOBAL unsigned long p_NtParamClamp3ExtTO;
+_GLOBAL unsigned long p_NtParamClamp3TwoCtrlIn;
+_GLOBAL unsigned long p_NtParamClamp3ProgNm;
+_GLOBAL unsigned long p_NtParamClamp2RetTO;
+_GLOBAL unsigned long p_NtParamClamp2ExtTO;
+_GLOBAL unsigned long p_NtParamClamp2TwoCtrlIn;
+_GLOBAL unsigned long p_NtParamClamp2ProgNm;
+_GLOBAL unsigned long p_NtParamClamp1RetTO;
+_GLOBAL unsigned long p_NtParamClamp1ExtTO;
+_GLOBAL unsigned long p_NtParamClamp1TwoCtrlIn;
+_GLOBAL unsigned long p_NtParamClamp1ProgNm;
+_GLOBAL unsigned long p_NtParamOutShutterRetTO;
+_GLOBAL unsigned long p_NtParamOutShutterExtTO;
+_GLOBAL unsigned long p_NtParamOutShutterTwoCtrlIn;
+_GLOBAL unsigned long p_NtParamOutShutterProgNm;
+_GLOBAL unsigned long p_NtParamInShutterRetTO;
+_GLOBAL unsigned long p_NtParamInShutterExtTO;
+_GLOBAL unsigned long p_NtParamInShutterTwoCtrlIn;
+_GLOBAL unsigned long p_NtParamInShutterProgNm;
+_GLOBAL unsigned long p_NtParamClampRetDlyTm;
+_GLOBAL unsigned long p_NtParamClampExtDlyTm;
+_GLOBAL unsigned long p_NtParamClampTwoCtrlIn;
+_GLOBAL unsigned long p_NtParamClampProgNm;
+_GLOBAL unsigned long p_NtParamStopperRetDlyTm;
+_GLOBAL unsigned long p_NtParamStopperExtDlyTm;
+_GLOBAL unsigned long p_NtParamStopperTwoCtrlIn;
+_GLOBAL unsigned long p_NtParamStopperProgNm;
+_GLOBAL unsigned long p_NtParamConvRevDlyTm;
+_GLOBAL unsigned long p_NtParamConvFwdDlyTm;
+_GLOBAL unsigned long p_NtParamConvMtrOffDlyTm;
+_GLOBAL unsigned long p_NtParamConvOnDirMod;
+_GLOBAL unsigned long p_NtParamConvProgNm;
+_GLOBAL unsigned long p_NtParamDSSMEMASigInChkTm;
+_GLOBAL unsigned long p_NtParamDSSMEMARstDlyTm;
+_GLOBAL unsigned long p_NtParamDSSMEMAProgNm;
+_GLOBAL unsigned long p_NtParamUSSMEMASigInChkTm;
+_GLOBAL unsigned long p_NtParamUSSMEMARstDlyTm;
+_GLOBAL unsigned long p_NtParamUSSMEMAProgNm;
+_GLOBAL unsigned long p_NtParamUsrMgmtProgNm;
+_GLOBAL unsigned long p_NtParamMcParamFileNm;
+_GLOBAL unsigned long p_NtParamMcParamProgNm;
+_GLOBAL unsigned long p_NtParamMpProdRcpPVNm;
+_GLOBAL unsigned long p_NtParamMpProdRcpFileNm;
+_GLOBAL unsigned long p_NtParamMpProdRcpProgNm;
+_GLOBAL unsigned long p_NtParamProdRcpSingleFileNm;
+_GLOBAL unsigned long p_NtParamProdRcpListFileNm;
+_GLOBAL unsigned long p_NtParamProdRcpProgNm;
+_GLOBAL unsigned long p_NtParamAlmFileKeepDay;
+_GLOBAL unsigned long p_NtParamAlmProgNm;
+_GLOBAL unsigned long p_NtParamTLBuzMode;
+_GLOBAL unsigned long p_NtParamTLBuzWarn5OnTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn5RestTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn5BlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn4OnTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn4RestTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn4BlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn3OnTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn3RestTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn3BlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn2OnTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn2RestTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn2BlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn1OnTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn1RestTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarn1BlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarnOnTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarnRestTm;
+_GLOBAL unsigned long p_NtParamTLBuzWarnBlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzChgRcpBlinkTm;
+_GLOBAL unsigned long p_NtParamTLBuzErrBlinkTm;
+_GLOBAL unsigned long p_NtParamTLGreenBlinkTm;
+_GLOBAL unsigned long p_NtParamTLRedBlinkTm;
+_GLOBAL unsigned long p_NtParamTLWhiteBlinkTm;
+_GLOBAL unsigned long p_NtParamTLAmberBlinkTm;
+_GLOBAL unsigned long p_NtParamTLBlueBlinkTm;
+_GLOBAL unsigned long p_NtParamBuzAlertStopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzAlertStopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzAlertOnCntr;
+_GLOBAL unsigned long p_NtParamBuzAlertRestTm;
+_GLOBAL unsigned long p_NtParamBuzAlertOnTm;
+_GLOBAL unsigned long p_NtParamBuzWarn5StopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn5StopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzWarn5OnCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn5RestTm;
+_GLOBAL unsigned long p_NtParamBuzWarn5OnTm;
+_GLOBAL unsigned long p_NtParamTLWarn5BlinkTm;
+_GLOBAL unsigned long p_NtParamBuzWarn4StopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn4StopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzWarn4OnCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn4RestTm;
+_GLOBAL unsigned long p_NtParamBuzWarn4OnTm;
+_GLOBAL unsigned long p_NtParamTLWarn4BlinkTm;
+_GLOBAL unsigned long p_NtParamBuzWarn3StopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn3StopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzWarn3OnCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn3RestTm;
+_GLOBAL unsigned long p_NtParamBuzWarn3OnTm;
+_GLOBAL unsigned long p_NtParamTLWarn3BlinkTm;
+_GLOBAL unsigned long p_NtParamBuzWarn2StopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn2StopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzWarn2OnCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn2RestTm;
+_GLOBAL unsigned long p_NtParamBuzWarn2OnTm;
+_GLOBAL unsigned long p_NtParamTLWarn2BlinkTm;
+_GLOBAL unsigned long p_NtParamBuzWarn1StopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn1StopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzWarn1OnCntr;
+_GLOBAL unsigned long p_NtParamBuzWarn1RestTm;
+_GLOBAL unsigned long p_NtParamBuzWarn1OnTm;
+_GLOBAL unsigned long p_NtParamTLWarn1BlinkTm;
+_GLOBAL unsigned long p_NtParamBuzWarnStopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzWarnStopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzWarnOnCntr;
+_GLOBAL unsigned long p_NtParamBuzWarnRestTm;
+_GLOBAL unsigned long p_NtParamBuzWarnOnTm;
+_GLOBAL unsigned long p_NtParamTLWarnBlinkTm;
+_GLOBAL unsigned long p_NtParamBuzErrStopSeqCntr;
+_GLOBAL unsigned long p_NtParamBuzErrStopSeqEn;
+_GLOBAL unsigned long p_NtParamBuzErrOnCntr;
+_GLOBAL unsigned long p_NtParamBuzErrRestTm;
+_GLOBAL unsigned long p_NtParamBuzErrOnTm;
+_GLOBAL unsigned long p_NtParamTLErrBlinkTm;
+_GLOBAL unsigned long p_NtParamTLChgRcpBlinkTm;
+_GLOBAL unsigned long p_NtParamHWInfoDevice;
+_GLOBAL unsigned long p_NtParamHWInfoProgNm;
+_GLOBAL unsigned long p_NtParamTimeProgNm;
+_GLOBAL unsigned long p_NtParamLibVersionProgNm;
+_GLOBAL unsigned long p_NtParamUsrFolderProgNm;
+_GLOBAL unsigned long p_NtParamProjRlsNewProdPrep;
+_GLOBAL unsigned long p_NtParamProjOutletShutPrep;
+_GLOBAL unsigned long p_NtParamProjInletShutPrep;
+_GLOBAL unsigned long p_NtParamProjStopperPrep;
+_GLOBAL unsigned long p_NtParamProjClampOption;
+_GLOBAL unsigned long p_NtParamProjClampPrep;
+_GLOBAL unsigned long p_NtParamProjCoatingPrep;
+_GLOBAL unsigned long p_NtParamProjBypsInitConvPrep;
+_GLOBAL unsigned long p_NtParamProjConvDir;
+_GLOBAL unsigned long p_NtParamNtAddr;
+_GLOBAL unsigned long p_NtParamJobNo;
+_GLOBAL unsigned long p_NtParamWidthOffset;
+_GLOBAL unsigned long p_NtParamSSaverPrep;
+_GLOBAL unsigned long p_NtParamHermesRmtPrep;
+_GLOBAL unsigned long p_NtParamHermesPrep;
+_GLOBAL unsigned long p_NtParamVSMEMAPrep;
+_GLOBAL unsigned long p_NtParamDSExtSMEMAPrep;
+_GLOBAL unsigned long p_NtParamUSExtSMEMAPrep;
+_GLOBAL unsigned long p_NtParamLCSLiveDatPrep;
+_GLOBAL unsigned long p_NtParamLCSManageRcpPrep;
+_GLOBAL unsigned long p_NtParamLCSReqRcpPrep;
+_GLOBAL unsigned long p_NtParamLCSLFPrep;
+_GLOBAL unsigned long p_NtParamDSWidthChkPrep;
+_GLOBAL unsigned long p_NtParamUSWidthChkPrep;
+_GLOBAL unsigned long p_NtParamLFProdWidthChk;
+_GLOBAL unsigned long p_NtParamLFWidthLimit;
+_GLOBAL unsigned long p_NtParamLFUsrSetPrep;
+_GLOBAL unsigned long p_NtParamLeaderMc;
+_GLOBAL unsigned long p_NtParamLFPrep;
+_GLOBAL unsigned long p_NtParamAWPrep;
+_GLOBAL unsigned long p_NtParamDOSettings;
+_GLOBAL unsigned long p_NtParamDISettings;
+_GLOBAL unsigned long p_NtParamCurr;
+_GLOBAL unsigned long p_NtParamFileNotFound;
+_GLOBAL unsigned long p_NtParamAlmData;
+_GLOBAL unsigned long p_NtParamStatTxt;
+_GLOBAL unsigned long p_NtParamStatus;
+_GLOBAL unsigned long p_NtParamStat;
+
+
+
+
+
+__asm__(".section \".plc\"");
+
+/* Used IEC files */
+__asm__(".ascii \"iecfile \\\"Logical/NtParam/NtParam.var\\\" scope \\\"global\\\"\\n\"");
+
+/* Exported library functions and function blocks */
+
+__asm__(".previous");
+
+
+#endif /* _BUR_1700533760_1_ */
+

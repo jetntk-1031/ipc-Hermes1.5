@@ -74,6 +74,7 @@ ACTION Act_OptP1022Save:
 		tyHermesSvyParamWr.bFeatureBoardTracking	    	:=	tyP1022McSetVComm.tyVComSvy.tyBtnBoardTracking.bValue;
 		tyHermesSvyParamWr.bFeatureQueryWorkOrderInfo		:=	tyP1022McSetVComm.tyVComSvy.tyBtnQueryWorkOrderInfo.bValue;
 		tyHermesSvyParamWr.bFeatureSendWorkOrderInfo		:=	tyP1022McSetVComm.tyVComSvy.tyBtnSendWorkOrderInfo.bValue;
+		tyHermesSvyParamWr.bFeatureReplyWorkOrderInfo		:=	tyP1022McSetVComm.tyVComSvy.tyBtnSendWorkOrderInfo.bValue;
 		tyHermesSvyParamWr.tSndAlive		                :=	DINT_TO_TIME(tyP1022McSetVComm.tyVComSvy.tyNumSndAliveTm.diValue);
 		tyHermesSvyParamWr.uiSvySvstemPort		            :=	DINT_TO_UINT(tyP1022McSetVComm.tyVComSvy.tyNumSvySystemPort.diValue);
 		bSaveHMISvyConfig := TRUE;

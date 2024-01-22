@@ -12,15 +12,15 @@ ACTION Act_Background_ProcessData:
 		
 		IF p_eHermesStatus = Done AND p_eHermesStat = HermesActWriteConfig AND p_eMcParamStat = McParamActWrite AND p_eMcParamStatus = Done THEN
 			
-		eMcParamAct     := McParamActIdle;		
-	   	eHermesAct		:= HermesActIdle;
-		bWriteConfig    := FALSE;
-		bUpdateUIData   := TRUE;
-		fbDelayTm(IN := FALSE);	
-		tyInfoData.sProgNm		:= p_sProgNm;
-		tyInfoData.udiCode		:= 10000;
-		tyInfoData.eSeverity	:= AlmSeverityInfo;
-		tyInfoData.sAlmMsg		:= p_sInfoMsg;
+			eMcParamAct     := McParamActIdle;		
+		   	eHermesAct		:= HermesActIdle;
+			bWriteConfig    := FALSE;
+			bUpdateUIData   := TRUE;
+			fbDelayTm(IN := FALSE);	
+			tyInfoData.sProgNm		:= p_sProgNm;
+			tyInfoData.udiCode		:= 10000;
+			tyInfoData.eSeverity	:= AlmSeverityInfo;
+			tyInfoData.sAlmMsg		:= p_sInfoMsg;
 		
 			
 	    ELSIF  (p_eHermesStatus = Error AND p_eHermesStat = HermesActWriteConfig) OR (p_eMcParamStat = McParamActWrite AND p_eMcParamStatus = Error)  THEN

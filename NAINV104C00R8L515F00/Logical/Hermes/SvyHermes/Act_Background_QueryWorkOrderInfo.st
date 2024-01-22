@@ -57,7 +57,7 @@ ACTION Act_Background_QueryWorkOrderInfo:
 			
 		END_IF
 		
-		IF 	bRcvWorkOrderInfo1 = TRUE AND NOT(p_bHermesSvyQueryBoardInfo OR p_bReinsertBrd) THEN
+		IF 	bRcvWorkOrderInfo1 = TRUE THEN //AND NOT(p_bHermesSvyQueryBoardInfo OR p_bReinsertBrd) THEN
 			
 			tyInfoData1.sProgNm		:= p_sProgNm;
 			tyInfoData1.udiCode		:= 10000;
@@ -101,11 +101,11 @@ ACTION Act_Background_QueryWorkOrderInfo:
 			tyInfoData5.eSeverity	:= AlmSeverityInfo;
 			tyInfoData5.sAlmMsg		:= p_sInfoMsg5;
 			                                                                                                                                                                                                                                                                                       //Debug
-		ELSIF (EDGEPOS (bQueryInsertBoard AND (p_bConvRgtSen OR p_bConvLftSen)) OR EDGEPOS(bRcvInsertBoardInfo= FALSE AND p_eLinkMcParamDSCommMod = McSetCommModHermes AND p_tyMcParamCurr.bHermesSvyEn AND p_tyNtParamCurr.bHermesBrdReInsertPrep AND (p_bConvRgtSen OR p_bConvLftSen)) OR EDGEPOS(bManualInsertData AND p_bConvLftSen))  AND NOT p_bOpsGConvStepDSTmr AND NOT p_bOpsGConvStepDSCommTmr AND NOT p_bOpsGConvStepEntBrd AND p_bOpsRun THEN
-			tyInfoData6.sProgNm		:= p_sProgNm;
-			tyInfoData6.udiCode		:= 10000;
-			tyInfoData6.eSeverity	:= AlmSeverityInfo;
-			tyInfoData6.sAlmMsg		:= p_sInfoMsg6;			
+//		ELSIF (EDGEPOS (bQueryInsertBoard AND (p_bConvRgtSen OR p_bConvLftSen)) OR EDGEPOS(bRcvInsertBoardInfo= FALSE AND p_eLinkMcParamDSCommMod = McSetCommModHermes AND p_tyMcParamCurr.bHermesSvyEn AND p_tyNtParamCurr.bHermesBrdReInsertPrep AND (p_bConvRgtSen OR p_bConvLftSen)) OR EDGEPOS(bManualInsertData AND p_bConvLftSen))  AND NOT p_bOpsGConvStepDSTmr AND NOT p_bOpsGConvStepDSCommTmr AND NOT p_bOpsGConvStepEntBrd AND p_bOpsRun THEN
+//			tyInfoData6.sProgNm		:= p_sProgNm;
+//			tyInfoData6.udiCode		:= 10000;
+//			tyInfoData6.eSeverity	:= AlmSeverityInfo;
+//			tyInfoData6.sAlmMsg		:= p_sInfoMsg6;			
 			
 		END_IF
 		
@@ -185,7 +185,7 @@ ACTION Act_Background_QueryWorkOrderInfo:
 			tyInfoData5.sAlmMsg		:= '';
 			bQueryInsertBoard   	:= FALSE;
 			//bRcvInsertBoardInfo		:= FALSE;
-		ELSIF EDGENEG(p_bConvRgtSen) AND (p_bHermesSvyQueryBoardInfo OR p_bHermesReinsertBoard) THEN
+		ELSIF EDGENEG(p_bConvRgtSen) AND p_bHermesSvyQueryBoardInfo  THEN
 			bRcvWorkOrderInfo1 := FALSE;
 		END_IF
 		

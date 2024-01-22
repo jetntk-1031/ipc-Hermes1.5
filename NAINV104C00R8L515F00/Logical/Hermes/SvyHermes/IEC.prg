@@ -55,5 +55,6 @@
     <File Description="Do Not Change!!!">Act_Alarm4.st</File>
     <File Description="Do Not Change!!!" Private="true">InputRef.var</File>
     <File Description="Do Not Change!!!" Private="true">Local.var</File>
+    <File Description="Do Not Change!!!">Act_Background_QueryWorkOrderInfo1.st</File>
   </Files>
 </Program>

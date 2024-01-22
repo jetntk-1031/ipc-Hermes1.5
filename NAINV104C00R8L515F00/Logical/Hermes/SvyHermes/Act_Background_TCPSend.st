@@ -18,7 +18,7 @@ ACTION Act_Background_TCPSend:
 			
 		ELSIF a_eMsgSend[0] = HermesMsgTypeSServiceDescription THEN
 			fHermesFormSServiceDescription(ADR(a_tyXMLTableDataSnd) , p_tyDTStructure , tySServiceDescriptionSnd);
-			fTableConvertToXML(ADR(sSnd) , ADR(udiSndMsgLen) , SIZEOF(sSnd) , ADR(a_tyXMLTableDataSnd) , ADR(a_tyXMLTableDataSnd[0].sTitle) , ADR(a_tyXMLTableDataSnd[0].sValue) , ADR(a_tyXMLTableDataSnd[0].uiSize) , SIZEOF(a_tyXMLTableDataSnd[0]) ,30);
+			fTableConvertToXML(ADR(sSnd) , ADR(udiSndMsgLen) , SIZEOF(sSnd) , ADR(a_tyXMLTableDataSnd) , ADR(a_tyXMLTableDataSnd[0].sTitle) , ADR(a_tyXMLTableDataSnd[0].sValue) , ADR(a_tyXMLTableDataSnd[0].uiSize) , SIZEOF(a_tyXMLTableDataSnd[0]) ,32);
 			
 		ELSIF a_eMsgSend[0] = HermesMsgTypeNotification THEN
 			fHermesFormNotification(ADR(a_tyXMLTableDataSnd) , p_tyDTStructure , tyNotificationSnd);
@@ -79,13 +79,17 @@ ACTION Act_Background_TCPSend:
 		
 	    ELSIF a_eMsgSend[0] = HermesMsgTypeQueryWorkOrderInfo THEN
 	    	fHermesFormQueryWorkOrderInfo(ADR(a_tyXMLTableDataSnd) , p_tyDTStructure , tyQueryWorkOrderInfo);
-		    fTableConvertToXML(ADR(sSnd) , ADR(udiSndMsgLen) , SIZEOF(sSnd) , ADR(a_tyXMLTableDataSnd) , ADR(a_tyXMLTableDataSnd[0].sTitle) , ADR(a_tyXMLTableDataSnd[0].sValue) , ADR(a_tyXMLTableDataSnd[0].uiSize) , SIZEOF(a_tyXMLTableDataSnd[0]) , 20);
+		    fTableConvertToXML(ADR(sSnd) , ADR(udiSndMsgLen) , SIZEOF(sSnd) , ADR(a_tyXMLTableDataSnd) , ADR(a_tyXMLTableDataSnd[0].sTitle) , ADR(a_tyXMLTableDataSnd[0].sValue) , ADR(a_tyXMLTableDataSnd[0].uiSize) , SIZEOF(a_tyXMLTableDataSnd[0]) , 24);
 			//10160
 			
     	ELSIF a_eMsgSend[0] = HermesMsgTypeSendWorkOrderInfo THEN
 	     	eStatus1	:= Error;
 		    udiStatus1	:= 10161;	//Send Work Order Info Request To Send From Supervisory Hermes
 		
+		ELSIF a_eMsgSend[0] = HermesMsgTypeReplyWorkOrderInfo THEN
+			fHermesFormReplyWorkOrderInfo(ADR(a_tyXMLTableDataSnd) , p_tyDTStructure , tyReplyWorkOrderInfo);
+			fTableConvertToXML(ADR(sSnd) , ADR(udiSndMsgLen) , SIZEOF(sSnd) , ADR(a_tyXMLTableDataSnd) , ADR(a_tyXMLTableDataSnd[0].sTitle) , ADR(a_tyXMLTableDataSnd[0].sValue) , ADR(a_tyXMLTableDataSnd[0].uiSize) , SIZEOF(a_tyXMLTableDataSnd[0]) , 16);
+			//10160
 	    ELSIF a_eMsgSend[0] = HermesMsgTypeBoardArrived1 THEN //Lane 1
 		    fHermesFormBoardArrived(ADR(a_tyXMLTableDataSnd) , p_tyDTStructure , tyBoardArrived1);
 		    fTableConvertToXML(ADR(sSnd) , ADR(udiSndMsgLen) , SIZEOF(sSnd) , ADR(a_tyXMLTableDataSnd) , ADR(a_tyXMLTableDataSnd[0].sTitle) , ADR(a_tyXMLTableDataSnd[0].sValue) , ADR(a_tyXMLTableDataSnd[0].uiSize) , SIZEOF(a_tyXMLTableDataSnd[0]) , 50);

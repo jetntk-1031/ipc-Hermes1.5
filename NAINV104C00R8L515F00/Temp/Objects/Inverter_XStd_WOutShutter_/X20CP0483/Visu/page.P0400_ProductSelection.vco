@@ -1,0 +1,2901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="P0400_ProductSelectionA0_Default" TargetIndex="Source[local].Page[P0400_ProductSelection].Layer[A0_Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Input_Search" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]">
+            <UInt32 Name="Left">523</UInt32>
+            <UInt32 Name="Top">55</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">89</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyStringSearch.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Search]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyStringSearch.uiRtStat]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyStringSearch.bRtCompl]</Reference>
+            </Group>
+            <Group Name="InputTouchpad">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="OVL">Source[local].TouchPad[AlphaPad]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">254</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_Search" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Bitmap_Search]">
+            <UInt32 Name="Left">746</UInt32>
+            <UInt32 Name="Top">58</UInt32>
+            <UInt32 Name="Right">775</UInt32>
+            <UInt32 Name="Bottom">87</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Transparent]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">6</Int32>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Load" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Btn_Load]">
+            <UInt32 Name="Left">678</UInt32>
+            <UInt32 Name="Top">438</UInt32>
+            <UInt32 Name="Right">777</UInt32>
+            <UInt32 Name="Bottom">472</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_42]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Btn_General_Grey_IconLft]</Reference>
+            <UInt16 Name="StyleTableSize">96</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">31</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">31</UInt16>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">3</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="PressedBitmapGroup">
+              <UInt16 Name="Offset">72</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="PressedBitmapIndex">
+              <UInt16 Name="Offset">76</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">3</UInt16>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row1" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">152</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[1].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[1].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row1" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">152</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[1].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[1].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row1" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row1]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">152</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[1].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row2" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">152</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">181</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[2].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[2].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row2" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">152</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">181</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[2].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[2].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row2" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row2]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">152</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">181</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[2].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row3" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">181</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">210</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[3].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[3].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row3" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">181</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">210</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[3].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[3].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row3" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row3]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">181</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">210</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[3].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row4" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[4].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[4].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row4" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[4].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[4].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row4" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row4]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[4].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row5" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">239</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">268</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[5].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[5].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row5" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">239</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">268</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[5].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[5].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row5" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row5]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">239</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">268</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[5].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row6" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">268</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">297</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[6].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[6].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row6" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">268</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">297</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[6].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[6].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row6" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row6]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">268</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">297</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[6].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row7" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">297</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">326</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[7].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[7].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row7" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">297</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">326</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[7].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[7].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row7" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row7]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">297</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">326</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[7].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row8" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">326</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">355</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[8].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[8].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row8" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">326</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">355</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[8].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[8].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row8" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row8]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">326</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">355</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[8].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row9" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">355</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">384</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[9].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[9].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row9" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">355</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">384</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[9].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[9].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row9" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row9]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">355</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">384</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[9].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2_Row10" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">384</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">413</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[10].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol2[10].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">16</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1_Row10" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">384</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">413</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[10].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableData]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ColorDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol1[10].usiColor]</Reference>
+            </Group>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0_Row10" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row10]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">384</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">413</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyStringDataCol0[10].sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col2Title" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2Title]">
+            <UInt32 Name="Left">619</UInt32>
+            <UInt32 Name="Top">94</UInt32>
+            <UInt32 Name="Right">778</UInt32>
+            <UInt32 Name="Bottom">123</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyStringTitle2Col2Row0.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col1Title" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1Title]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">94</UInt32>
+            <UInt32 Name="Right">619</UInt32>
+            <UInt32 Name="Bottom">123</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyStringTitle1Col1Row0.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_Col0Title" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0Title]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">94</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">123</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyStringTitle0Col0Row0.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[TableTitle]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row1" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row1]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">152</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_316]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row2" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row2]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">152</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">181</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_317]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row3" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row3]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">181</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">210</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_318]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row4" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row4]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">239</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_319]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row5" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row5]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">239</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">268</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_320]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row6" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row6]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">268</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">297</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_321]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row7" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row7]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">297</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">326</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_322]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row8" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row8]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">326</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">355</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_323]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row9" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row9]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">355</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">384</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_324]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Row10" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row10]">
+            <UInt32 Name="Left">351</UInt32>
+            <UInt32 Name="Top">384</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">413</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_325]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Preview" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Btn_Preview]">
+            <UInt32 Name="Left">569</UInt32>
+            <UInt32 Name="Top">438</UInt32>
+            <UInt32 Name="Right">668</UInt32>
+            <UInt32 Name="Bottom">472</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_77]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Btn_General_Grey_IconLft]</Reference>
+            <UInt16 Name="StyleTableSize">96</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">30</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">30</UInt16>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">4</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="PressedBitmapGroup">
+              <UInt16 Name="Offset">72</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="PressedBitmapIndex">
+              <UInt16 Name="Offset">76</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">4</UInt16>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Slider_ProdSel" ClsId="0x101F" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]">
+            <UInt32 Name="Left">753</UInt32>
+            <UInt32 Name="Top">137</UInt32>
+            <UInt32 Name="Right">772</UInt32>
+            <UInt32 Name="Bottom">402</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyUISlider.iValue]</Reference>
+            <UInt32 Name="CurrentDatapoint">4294967295</UInt32>
+            <Double Name="MinValue">1</Double>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyUISlider.iMinValue]</Reference>
+            <Double Name="MaxValue">2000</Double>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyUISlider.iMaxValue]</Reference>
+            <UInt32 Name="SimulationValue">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000101F].StyleClass[Slider]</Reference>
+            <UInt16 Name="StyleTableSize">26</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PitchLinesSpacing">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">1</UInt16>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyUISlider.bRtCompl]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.tyUISlider.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_CurrRcp" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_CurrRcp]">
+            <UInt32 Name="Left">20</UInt32>
+            <UInt32 Name="Top">130</UInt32>
+            <UInt32 Name="Right">129</UInt32>
+            <UInt32 Name="Bottom">159</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Group_Product" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Group_Product]">
+            <UInt32 Name="Left">8</UInt32>
+            <UInt32 Name="Top">110</UInt32>
+            <UInt32 Name="Right">337</UInt32>
+            <UInt32 Name="Bottom">389</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Group_Silver]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Header_Prod" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Header_Prod]">
+            <UInt32 Name="Left">30</UInt32>
+            <UInt32 Name="Top">95</UInt32>
+            <UInt32 Name="Right">149</UInt32>
+            <UInt32 Name="Bottom">124</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">13</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_ProdWidth" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_ProdWidth]">
+            <UInt32 Name="Left">21</UInt32>
+            <UInt32 Name="Top">181</UInt32>
+            <UInt32 Name="Right">145</UInt32>
+            <UInt32 Name="Bottom">210</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Disp_ProdWidth" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_ProdWidth]">
+            <UInt32 Name="Left">172</UInt32>
+            <UInt32 Name="Top">180</UInt32>
+            <UInt32 Name="Right">331</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyNumProdWidth.diValue]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyNumProdWidth.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Disp_CurrProg" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_CurrProg]">
+            <UInt32 Name="Left">107</UInt32>
+            <UInt32 Name="Top">130</UInt32>
+            <UInt32 Name="Right">332</UInt32>
+            <UInt32 Name="Bottom">159</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyStringRecipeNm.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Mask_Table" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_Table]">
+            <UInt32 Name="Left">350</UInt32>
+            <UInt32 Name="Top">93</UInt32>
+            <UInt32 Name="Right">780</UInt32>
+            <UInt32 Name="Bottom">414</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.uiMaskRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Mask_Load" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_Load]">
+            <UInt32 Name="Left">678</UInt32>
+            <UInt32 Name="Top">438</UInt32>
+            <UInt32 Name="Right">777</UInt32>
+            <UInt32 Name="Bottom">472</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnLoad.uiMaskRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Mask_Preview" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_Preview]">
+            <UInt32 Name="Left">569</UInt32>
+            <UInt32 Name="Top">438</UInt32>
+            <UInt32 Name="Right">668</UInt32>
+            <UInt32 Name="Bottom">472</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnPreview.uiMaskRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_McMode" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_McMode]">
+            <UInt32 Name="Left">23</UInt32>
+            <UInt32 Name="Top">230</UInt32>
+            <UInt32 Name="Right">147</UInt32>
+            <UInt32 Name="Bottom">259</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">5</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Disp_McMode" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_McMode]">
+            <UInt32 Name="Left">172</UInt32>
+            <UInt32 Name="Top">230</UInt32>
+            <UInt32 Name="Right">331</UInt32>
+            <UInt32 Name="Bottom">259</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTxtMcMod.usiValueIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Display]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1070_MachineModeSelections]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_FlippedBrd" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_FlippedBrd]">
+            <UInt32 Name="Left">20</UInt32>
+            <UInt32 Name="Top">280</UInt32>
+            <UInt32 Name="Right">144</UInt32>
+            <UInt32 Name="Bottom">309</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTxtFlippedBrd.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">50</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="FlippedBrd" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[FlippedBrd]">
+            <UInt32 Name="Left">172</UInt32>
+            <UInt32 Name="Top">280</UInt32>
+            <UInt32 Name="Right">331</UInt32>
+            <UInt32 Name="Bottom">309</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTxtFlippedBrd.usiValueIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Display]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTxtFlippedBrd.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">80</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1070_MachineModeSelections]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_SortByName" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Btn_SortByName]">
+            <UInt32 Name="Left">352</UInt32>
+            <UInt32 Name="Top">55</UInt32>
+            <UInt32 Name="Right">451</UInt32>
+            <UInt32 Name="Bottom">89</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_78]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Btn_General_Grey_IconLft]</Reference>
+            <UInt16 Name="StyleTableSize">104</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBorder">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[ColorBtn_Silver_100x35_R6]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">37</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">37</UInt16>
+            </Group>
+            <Group Name="BitmapGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="BitmapIndex">
+              <UInt16 Name="Offset">64</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">10</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="PressedBitmapGroup">
+              <UInt16 Name="Offset">72</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[Recipe]</Reference>
+            </Group>
+            <Group Name="PressedBitmapIndex">
+              <UInt16 Name="Offset">76</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">10</UInt16>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnSort.usiTxtIdx]</Reference>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Mask_SortByName" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_SortByName]">
+            <UInt32 Name="Left">352</UInt32>
+            <UInt32 Name="Top">55</UInt32>
+            <UInt32 Name="Right">451</UInt32>
+            <UInt32 Name="Bottom">89</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnSort.uiMaskRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Disp_ProdWidth2" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_ProdWidth2]">
+            <UInt32 Name="Left">252</UInt32>
+            <UInt32 Name="Top">180</UInt32>
+            <UInt32 Name="Right">331</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyNumProdWidth2.diValue]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyNumProdWidth2.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Disp_ProdWidth1" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_ProdWidth1]">
+            <UInt32 Name="Left">172</UInt32>
+            <UInt32 Name="Top">180</UInt32>
+            <UInt32 Name="Right">251</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyNumProdWidth.diValue]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyNumProdWidth2.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_ShowLRcp" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_ShowLRcp]">
+            <UInt32 Name="Left">10</UInt32>
+            <UInt32 Name="Top">126</UInt32>
+            <UInt32 Name="Right">104</UInt32>
+            <UInt32 Name="Bottom">165</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_697]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyHotspotShowLRcp.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_42" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_42]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnLoad.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnLoad.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_77" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_77]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnPreview.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnPreview.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_316" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_316]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[1].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[1].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_317" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_317]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[2].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[2].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_318" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_318]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[3].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[3].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_319" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_319]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[4].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[4].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_320" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_320]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[5].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[5].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_321" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_321]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[6].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[6].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_322" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_322]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[7].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[7].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_323" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_323]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[8].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[8].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_324" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_324]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[9].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[9].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_325" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_325]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[10].bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyTableRecipe.a_tyHotspot[10].bRtCompl]</Reference>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_78" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_78]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnSort.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyBtnSort.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_697" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_697]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyHotspotShowLRcp.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400ProdSel.tyHotspotShowLRcp.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A0_Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P0400_ProductSelection].Layer[A0_Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">66</UInt32>
+          <Reference Name="Input_Search" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+          <Reference Name="Bitmap_Search" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Bitmap_Search]</Reference>
+          <Reference Name="Btn_Load" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Btn_Load]</Reference>
+          <Reference Name="String_Col2_Row1" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+          <Reference Name="String_Col1_Row1" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+          <Reference Name="String_Col0_Row1" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row1]</Reference>
+          <Reference Name="String_Col2_Row2" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+          <Reference Name="String_Col1_Row2" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+          <Reference Name="String_Col0_Row2" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row2]</Reference>
+          <Reference Name="String_Col2_Row3" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+          <Reference Name="String_Col1_Row3" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+          <Reference Name="String_Col0_Row3" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row3]</Reference>
+          <Reference Name="String_Col2_Row4" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+          <Reference Name="String_Col1_Row4" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+          <Reference Name="String_Col0_Row4" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row4]</Reference>
+          <Reference Name="String_Col2_Row5" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+          <Reference Name="String_Col1_Row5" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+          <Reference Name="String_Col0_Row5" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row5]</Reference>
+          <Reference Name="String_Col2_Row6" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+          <Reference Name="String_Col1_Row6" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+          <Reference Name="String_Col0_Row6" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row6]</Reference>
+          <Reference Name="String_Col2_Row7" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+          <Reference Name="String_Col1_Row7" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+          <Reference Name="String_Col0_Row7" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row7]</Reference>
+          <Reference Name="String_Col2_Row8" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+          <Reference Name="String_Col1_Row8" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+          <Reference Name="String_Col0_Row8" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row8]</Reference>
+          <Reference Name="String_Col2_Row9" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+          <Reference Name="String_Col1_Row9" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+          <Reference Name="String_Col0_Row9" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row9]</Reference>
+          <Reference Name="String_Col2_Row10" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+          <Reference Name="String_Col1_Row10" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+          <Reference Name="String_Col0_Row10" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0_Row10]</Reference>
+          <Reference Name="String_Col2Title" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2Title]</Reference>
+          <Reference Name="String_Col1Title" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1Title]</Reference>
+          <Reference Name="String_Col0Title" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col0Title]</Reference>
+          <Reference Name="HotSpot_Row1" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row1]</Reference>
+          <Reference Name="HotSpot_Row2" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row2]</Reference>
+          <Reference Name="HotSpot_Row3" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row3]</Reference>
+          <Reference Name="HotSpot_Row4" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row4]</Reference>
+          <Reference Name="HotSpot_Row5" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row5]</Reference>
+          <Reference Name="HotSpot_Row6" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row6]</Reference>
+          <Reference Name="HotSpot_Row7" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row7]</Reference>
+          <Reference Name="HotSpot_Row8" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row8]</Reference>
+          <Reference Name="HotSpot_Row9" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row9]</Reference>
+          <Reference Name="HotSpot_Row10" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_Row10]</Reference>
+          <Reference Name="Btn_Preview" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Btn_Preview]</Reference>
+          <Reference Name="Slider_ProdSel" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+          <Reference Name="lbl_CurrRcp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_CurrRcp]</Reference>
+          <Reference Name="Group_Product" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Group_Product]</Reference>
+          <Reference Name="Header_Prod" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Header_Prod]</Reference>
+          <Reference Name="lbl_ProdWidth" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_ProdWidth]</Reference>
+          <Reference Name="Disp_ProdWidth" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_ProdWidth]</Reference>
+          <Reference Name="Disp_CurrProg" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_CurrProg]</Reference>
+          <Reference Name="Mask_Table" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_Table]</Reference>
+          <Reference Name="Mask_Load" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_Load]</Reference>
+          <Reference Name="Mask_Preview" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_Preview]</Reference>
+          <Reference Name="lbl_McMode" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_McMode]</Reference>
+          <Reference Name="Disp_McMode" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_McMode]</Reference>
+          <Reference Name="lbl_FlippedBrd" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[lbl_FlippedBrd]</Reference>
+          <Reference Name="FlippedBrd" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[FlippedBrd]</Reference>
+          <Reference Name="Btn_SortByName" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Btn_SortByName]</Reference>
+          <Reference Name="Mask_SortByName" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Mask_SortByName]</Reference>
+          <Reference Name="Disp_ProdWidth2" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_ProdWidth2]</Reference>
+          <Reference Name="Disp_ProdWidth1" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Disp_ProdWidth1]</Reference>
+          <Reference Name="HotSpot_ShowLRcp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[HotSpot_ShowLRcp]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="P0400_ProductSelectionE0_RecipeDetails" TargetIndex="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Bitmap_Mask" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Bitmap_Mask]">
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Right">799</UInt32>
+            <UInt32 Name="Bottom">479</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Bitmap_Preview" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Bitmap_Preview]">
+            <UInt32 Name="Left">170</UInt32>
+            <UInt32 Name="Top">145</UInt32>
+            <UInt32 Name="Right">589</UInt32>
+            <UInt32 Name="Bottom">330</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Border_Detail]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Label_ProgNm" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_ProgNm]">
+            <UInt32 Name="Left">220</UInt32>
+            <UInt32 Name="Top">160</UInt32>
+            <UInt32 Name="Right">369</UInt32>
+            <UInt32 Name="Bottom">189</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Label_Width" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_Width]">
+            <UInt32 Name="Left">220</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">369</UInt32>
+            <UInt32 Name="Bottom">229</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Display_ProductWidth" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProductWidth]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">579</UInt32>
+            <UInt32 Name="Bottom">229</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyNumProdWidth.diValue]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyNumProdWidth.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Display_ProgNm" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProgNm]">
+            <UInt32 Name="Left">353</UInt32>
+            <UInt32 Name="Top">160</UInt32>
+            <UInt32 Name="Right">579</UInt32>
+            <UInt32 Name="Bottom">189</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyStringRecipeNm.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="MaxChars">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_McMod" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Text_McMod]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">240</UInt32>
+            <UInt32 Name="Right">579</UInt32>
+            <UInt32 Name="Bottom">269</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyTxtMcMod.usiValueIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Display]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1070_MachineModeSelections]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Label_McMod" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_McMod]">
+            <UInt32 Name="Left">220</UInt32>
+            <UInt32 Name="Top">240</UInt32>
+            <UInt32 Name="Right">369</UInt32>
+            <UInt32 Name="Bottom">264</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">5</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Label_FlippedBrd" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_FlippedBrd]">
+            <UInt32 Name="Left">220</UInt32>
+            <UInt32 Name="Top">280</UInt32>
+            <UInt32 Name="Right">369</UInt32>
+            <UInt32 Name="Bottom">304</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyTxtFlippedBrd.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">50</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1140_RecipeLabels]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Display_FlippedBrd" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_FlippedBrd]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">280</UInt32>
+            <UInt32 Name="Right">579</UInt32>
+            <UInt32 Name="Bottom">309</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyTxtFlippedBrd.usiValueIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Display]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyTxtFlippedBrd.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">80</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1070_MachineModeSelections]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Display_ProductWidth2" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProductWidth2]">
+            <UInt32 Name="Left">490</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">579</UInt32>
+            <UInt32 Name="Bottom">229</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyNumProdWidth2.diValue]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyNumProdWidth2.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Display_ProductWidth1" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProductWidth1]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">200</UInt32>
+            <UInt32 Name="Right">489</UInt32>
+            <UInt32 Name="Bottom">229</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyNumProdWidth.diValue]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Display]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyNumProdWidth2.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_Preview" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[HotSpot_Preview]">
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Right">799</UInt32>
+            <UInt32 Name="Bottom">479</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_81]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyHotspotShowLRcp.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_RcpPopUp" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[HotSpot_RcpPopUp]">
+            <UInt32 Name="Left">195</UInt32>
+            <UInt32 Name="Top">154</UInt32>
+            <UInt32 Name="Right">349</UInt32>
+            <UInt32 Name="Bottom">193</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_698]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyHotspotShowLRcp.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_81" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_81]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyHotspotClose.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyHotspotClose.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_84" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_84]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <UInt32 Name="ValueDatapoint">4294967295</UInt32>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">2</Byte>
+              <Byte Name="Status">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_698" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_698]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyHotspotShowLRcp.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyHotspotShowLRcp.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="E0_RecipeDetails" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP0400RcpDet.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">14</UInt32>
+          <Reference Name="Bitmap_Mask" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Bitmap_Mask]</Reference>
+          <Reference Name="Bitmap_Preview" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Bitmap_Preview]</Reference>
+          <Reference Name="Label_ProgNm" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_ProgNm]</Reference>
+          <Reference Name="Label_Width" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_Width]</Reference>
+          <Reference Name="Display_ProductWidth" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProductWidth]</Reference>
+          <Reference Name="Display_ProgNm" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProgNm]</Reference>
+          <Reference Name="Text_McMod" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Text_McMod]</Reference>
+          <Reference Name="Label_McMod" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_McMod]</Reference>
+          <Reference Name="Label_FlippedBrd" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Label_FlippedBrd]</Reference>
+          <Reference Name="Display_FlippedBrd" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_FlippedBrd]</Reference>
+          <Reference Name="Display_ProductWidth2" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProductWidth2]</Reference>
+          <Reference Name="Display_ProductWidth1" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[Display_ProductWidth1]</Reference>
+          <Reference Name="HotSpot_Preview" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[HotSpot_Preview]</Reference>
+          <Reference Name="HotSpot_RcpPopUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails].Control[HotSpot_RcpPopUp]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="P0400_ProductSelection" ClsId="0x400" Version="1" TargetIndex="400" Type="PAGE" RefString="Source[local].Page[P0400_ProductSelection]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+        <UInt32 Name="LayerCount">8</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[BackgroundColorBlack]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Page[P0400_ProductSelection].Layer[A0_Default]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[C0005_MainLayer]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Layer[C0007_NotifLayer]</Reference>
+        <Reference Name="FormLayer3" Type="LAY">Source[local].Layer[C0008_MsgBoxLayer]</Reference>
+        <Reference Name="FormLayer4" Type="LAY">Source[local].Layer[C0009_InfoLayer]</Reference>
+        <Reference Name="FormLayer5" Type="LAY">Source[local].Page[P0400_ProductSelection].Layer[E0_RecipeDetails]</Reference>
+        <Reference Name="FormLayer6" Type="LAY">Source[local].Layer[C0011_LoadingLayer]</Reference>
+        <Reference Name="FormLayer7" Type="LAY">Source[local].Layer[C0012_RcpPopUpLayer]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">22</UInt32>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row2]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row2]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row3]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row3]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row4]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row4]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row5]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row6]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row7]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row7]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row8]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row8]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row9]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row9]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row10]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Slider_ProdSel]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[Input_Search]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row10]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col1_Row1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row5]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P0400_ProductSelection].Layer[A0_Default].Control[String_Col2_Row6]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

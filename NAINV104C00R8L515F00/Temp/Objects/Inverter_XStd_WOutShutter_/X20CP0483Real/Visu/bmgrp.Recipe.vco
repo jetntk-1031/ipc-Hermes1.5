@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="21" Type="REF" RefString="Source[local].BitmapGroup[Recipe]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Recipe" ClsId="0x308" Version="1" TargetIndex="21" Type="BMPG" RefString="Source[local].BitmapGroup[Recipe_en]">
+            <UInt32 Name="Count">12</UInt32>
+            <Group Name="Icon_Recipe_Add_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Add_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Delete_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Delete_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Edit_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Edit_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Load_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Load_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Preview_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Preview_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Search_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Search_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Download_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Download_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Copy_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Copy_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Paste_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Paste_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Sync_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Sync_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Recipe" ClsId="0x308" Version="1" TargetIndex="21" Type="BMPG" RefString="Source[local].BitmapGroup[Recipe_de]">
+            <UInt32 Name="Count">12</UInt32>
+            <Group Name="Icon_Recipe_Add_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Add_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Delete_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Delete_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Edit_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Edit_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Load_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Load_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Preview_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Preview_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Search_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Search_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Download_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Download_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Copy_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Copy_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Paste_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Paste_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Sync_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Sync_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Recipe" ClsId="0x308" Version="1" TargetIndex="21" Type="BMPG" RefString="Source[local].BitmapGroup[Recipe_zh]">
+            <UInt32 Name="Count">12</UInt32>
+            <Group Name="Icon_Recipe_Add_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Add_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Delete_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Delete_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Edit_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Edit_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Load_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Load_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Preview_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Preview_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Search_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Search_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Download_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Download_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Copy_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Copy_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Paste_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Paste_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Sync_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Sync_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="pt" TargetIndex="3">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Recipe" ClsId="0x308" Version="1" TargetIndex="21" Type="BMPG" RefString="Source[local].BitmapGroup[Recipe_pt]">
+            <UInt32 Name="Count">12</UInt32>
+            <Group Name="Icon_Recipe_Add_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Add_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Delete_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Delete_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Edit_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Edit_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Load_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Load_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Preview_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Preview_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Search_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Search_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Download_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Download_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Copy_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Copy_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Paste_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Paste_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Recipe_Sync_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Recipe_Sync_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

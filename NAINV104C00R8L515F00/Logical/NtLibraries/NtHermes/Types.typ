@@ -70,11 +70,20 @@ TYPE
 		HermesMsgTypeBoardForecastId, (*Board Forecast with Id*)
 		HermesMsgTypeBoardForecastNoId, (*Board Forecast with no Id*)
 		HermesMsgTypeBoardArrived, (*Board Arrived*)
+		HermesMsgTypeBoardArrived1, (*Board Arrived Lane 1*)
+		HermesMsgTypeBoardArrived2, (*Board Arrived Lane 2*)
+		HermesMsgTypeBoardArrived3, (*Board Arrived Lane 3*)
+		HermesMsgTypeBoardArrived4, (*Board Arrived Lane 4*)
 		HermesMsgTypeBoardDeparted, (*Board Departed*)
+		HermesMsgTypeBoardDeparted1, (*Board Departed Lane 1*)
+		HermesMsgTypeBoardDeparted2, (*Board Departed Lane 2*)
+		HermesMsgTypeBoardDeparted3, (*Board Departed Lane 3*)
+		HermesMsgTypeBoardDeparted4, (*Board Departed Lane 4*)
 		HermesMsgTypeQueryBoardInfo, (*Query Board Info*)
 		HermesMsgTypeSendBoardInfo, (*Send Board Info*)
 		HermesMsgTypeQueryWorkOrderInfo, (*Query Work Order Info*)
 		HermesMsgTypeSendWorkOrderInfo, (*Send Work Order Info*)
+		HermesMsgTypeReplyWorkOrderInfo,
 		HermesMsgTypeCommand
 		);
 END_TYPE
@@ -122,6 +131,36 @@ TYPE
 END_TYPE
 
 (**)
+(*Hermes1.5*)
+(*For Intermediate Board Data Generation*)
+
+TYPE
+	tyHermesBrdAvlDat : 	STRUCT 
+		a_tyXMLTableDataBrdAvl : ARRAY[0..200]OF tyXMLTableDat;
+		iXMLTableDataBrdAvlTtlIdx : INT;
+		bNewBrdAvl : BOOL := TRUE;
+	END_STRUCT;
+	tyHermesBAMsgAttribAddr : 	STRUCT 
+		udiMacAddrForGUID : UDINT;
+		udiDateTimeForGUID : UDINT;
+		udiBoardIdCreatedBy : UDINT;
+		udiFailedBoard : UDINT;
+		udiProductTypeId : UDINT;
+		udiFlippedBoard : UDINT;
+		udiTopBarcode : UDINT;
+		udiBtmBarcode : UDINT;
+		udiLength : UDINT;
+		udiWidth : UDINT;
+		udiThickness : UDINT;
+		udiConveyorSpeed : UDINT;
+		udiTopClearanceHeight : UDINT;
+		udiBottomClearanceHeight : UDINT;
+		udiWeight : UDINT;
+		udiWorkOrderId : UDINT;
+		udiBathId : UDINT;
+	END_STRUCT;
+END_TYPE
+
 (*Action*)
 
 TYPE
@@ -136,6 +175,7 @@ TYPE
 		);
 END_TYPE
 
+(* *)
 (*Command*)
 
 TYPE
@@ -264,6 +304,10 @@ TYPE
 		tyData : tyHermesSendWorkOrderInfoData; (*Data*)
 		tyAvl : tyHermesSendWorkOrderInfoAvl; (*Availability*)
 	END_STRUCT;
+	tyHermesReplyWorkOrderInfo : 	STRUCT 
+		tyData : tyHermesReplyWorkOrderInfoData; (*Data*)
+		tyAvl : tyHermesReplyWorkOrderInfoAvl; (*Availability*)
+	END_STRUCT;
 	tyHermesCommand : 	STRUCT 
 		tyData : tyHermesCommandData; (*Data*)
 		tyAvl : tyHermesCommandAvl; (*Availability*)
@@ -310,6 +354,7 @@ TYPE
 		bFeatureBoardTracking : BOOL; (*Indication of BoardTracking function implementation.*)
 		bFeatureQueryWorkOrderInfo : BOOL; (*Indication of QueryWorkOrderInfo function implementation.*)
 		bFeatureSendWorkOrderInfo : BOOL; (*Indication of SendWorkOrderInfo function implementation.*)
+		bFeatureReplyWorkOrderInfo : BOOL;
 	END_STRUCT;
 	tyHermesCheckAliveData : 	STRUCT 
 		eType : eHermesCheckAliveType; (*Ping / Pong message type*)
@@ -468,6 +513,8 @@ TYPE
 		sMagazineId : STRING[80]; (*Barcode of a magazine, required to identify the magazine.*)
 		iSlotId : INT; (*Indicates the slot in the magazine, enumerated from bottom to top, beginning with 1.*)
 		sBarcode : STRING[254]; (*The barcode of the PCB.*)
+		sWorkOrderId : STRING[80];
+		sBatchId : STRING[80];
 	END_STRUCT;
 	tyHermesSendWorkOrderInfoData : 	STRUCT 
 		sQueryId : STRING[80]; (*ID of QueryWorkOrderInfo this message refers to. This attribute is mandatory if it has been in the QueryWorkOrderInfo message.*)
@@ -488,6 +535,11 @@ TYPE
 		rBottomClearanceHeight : REAL; (*The clearance height for the bottom side of the PCB in millimeter.*)
 		rWeight : REAL; (*The weight of the PCB in grams.*)
 		iRoute : INT;
+	END_STRUCT;
+	tyHermesReplyWorkOrderInfoData : 	STRUCT 
+		sWorkOrderId : STRING[80]; (*Identifies the work order for production of the PCB.*)
+		sBatchId : STRING[80]; (*The batch id of a splitted work order.*)
+		iStatus : INT; (*Indicating the ID of the available board.*)
 	END_STRUCT;
 	tyHermesCommandData : 	STRUCT 
 		eCommand : eHermesCommand;
@@ -556,6 +608,7 @@ TYPE
 		bFeatureBoardTracking : BOOL; (*Indication of board tracking functions implementation.*)
 		bFeatureQueryWorkOrderInfo : BOOL; (*Indication of QueryWorkOrderInfo function implementation.*)
 		bFeatureSendWorkOrderInfo : BOOL; (*Indication of SendWorkOrderInfo function implementation.*)
+		bFeatureReplyWorkOrderInfo : BOOL; (*Indication of SendWorkOrderInfo function implementation.*)
 	END_STRUCT;
 	tyHermesCheckAliveAvl : 	STRUCT 
 		bType : BOOL; (*Ping / Pong message type*)
@@ -714,6 +767,8 @@ TYPE
 		bMagazineId : BOOL; (*Barcode of a magazine, required to identify the magazine.*)
 		bSlotId : BOOL; (*Indicates the slot in the magazine, enumerated from bottom to top, beginning with 1.*)
 		bBarcode : BOOL; (*The barcode of the PCB.*)
+		bWorkOrderId : BOOL;
+		bBatchId : BOOL;
 	END_STRUCT;
 	tyHermesSendWorkOrderInfoAvl : 	STRUCT 
 		bQueryId : BOOL; (*ID of QueryWorkOrderInfo this message refers to. This attribute is mandatory if it has been in the QueryWorkOrderInfo message.*)
@@ -734,6 +789,11 @@ TYPE
 		bBottomClearanceHeight : BOOL; (*The clearance height for the bottom side of the PCB in millimeter.*)
 		bWeight : BOOL; (*The weight of the PCB in grams.*)
 		bRoute : BOOL;
+	END_STRUCT;
+	tyHermesReplyWorkOrderInfoAvl : 	STRUCT 
+		bWorkOrderId : BOOL; (*Identifies the work order for production of the PCB.*)
+		bBatchId : BOOL; (*The batch id of a splitted work order.*)
+		bStatus : BOOL; (*Indicating the ID of the available board.*)
 	END_STRUCT;
 	tyHermesCommandAvl : 	STRUCT 
 		bCommand : BOOL;

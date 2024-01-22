@@ -5,7 +5,8 @@ ACTION Act_Background_ChgConfig:
 		
 		IF (tyParamOld.uiSvySvstemPort <> p_tyParam.uiSvySvstemPort) 
 			OR (tyParamOld.bFeatureBoardTracking <> p_tyParam.bFeatureBoardTracking) OR (tyParamOld.bFeatureCheckAliveResponse <> p_tyParam.bFeatureCheckAliveResponse) OR (tyParamOld.bFeatureConfiguration <> p_tyParam.bFeatureConfiguration) 
-			OR (tyParamOld.bFeatureQueryWorkOrderInfo <> p_tyParam.bFeatureQueryWorkOrderInfo) (*OR (tyParamOld.bFeatureSendWorkOrderInfo <> p_tyParam.bFeatureSendWorkOrderInfo)*) THEN
+			OR (tyParamOld.bFeatureQueryWorkOrderInfo <> p_tyParam.bFeatureQueryWorkOrderInfo) OR (tyParamOld.bFeatureQueryWorkOrderInfo <> p_tyParam.bFeatureReplyWorkOrderInfo)
+			(*OR (tyParamOld.bFeatureSendWorkOrderInfo <> p_tyParam.bFeatureSendWorkOrderInfo)*) THEN
 			
 			IF udiClntIdent <> 0 THEN
 				fHermesAddOneMsgSend(ADR(a_eMsgSend) , ADR(udiMsgSendBffr) , HermesMsgTypeNotification);

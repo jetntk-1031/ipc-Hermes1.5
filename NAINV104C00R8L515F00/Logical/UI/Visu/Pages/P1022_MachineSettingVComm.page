@@ -184,7 +184,7 @@
           <Property Name="Font" Value="Source[local].Font[NumericDisplayFont]"/>
           <Property Name="Height" Value="26"/>
           <Property Name="Left" Value="581"/>
-          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1022McSetVCommSvy.tyNumSndAliveTm.diValueMax]"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1022McSetVCommSvy.tyNumSndAliveTm.diValueMin]"/>
           <Property Name="MinValue" Value="None"/>
@@ -193,7 +193,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="194"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UI.UI.p_tyP1022McSetVCommSvy.tyNumSndAliveTm.diValue]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="105"/>
         </Control>

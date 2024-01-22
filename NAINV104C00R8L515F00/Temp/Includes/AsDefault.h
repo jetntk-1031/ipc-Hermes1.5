@@ -1,0 +1,143 @@
+#ifndef _DEFAULT_757602046
+#define _DEFAULT_757602046
+#include <bur/plctypes.h>
+#include <bur/plc.h>
+
+#ifdef __cplusplus 
+extern "C" 
+{
+#endif
+	#include <standard.h>
+	#include <runtime.h>
+	#include <asstring.h>
+	#include <operator.h>
+	#include <visapi.h>
+	#include <AsIORTI.h>
+	#include <MpBase.h>
+	#include <Acp10par.h>
+	#include <NcGlobal.h>
+	#include <astime.h>
+	#include <AsCANopen.h>
+	#include <FileIO.h>
+	#include <AsIODiag.h>
+	#include <AsMem.h>
+	#include <dvframe.h>
+	#include <AsOpcUac.h>
+	#include <AsARCfg.h>
+	#include <sys_lib.h>
+	#include <AsTCP.h>
+	#include <brsystem.h>
+	#include <AsFltGen.h>
+	#include <AsUSB.h>
+	#include <AsRfbExt.h>
+	#include <MpCom.h>
+	#include <Acp10man.h>
+	#include <AsIecCon.h>
+	#include <MpRecipe.h>
+	#include <Acp10_MC.h>
+	#include <NtBuffer.h>
+	#include <NtMem.h>
+	#include <NtOvenInfo.h>
+	#include <NtRS232.h>
+	#include <NtStepper.h>
+	#include <NtLogFile.h>
+	#include <NtTLBuz.h>
+	#include <NtMotion.h>
+	#include <NtPneu.h>
+	#include <NtConv.h>
+	#include <NtTCP.h>
+	#include <NtMessage.h>
+	#include <NtSMEMA.h>
+	#include <NtOPCUA.h>
+	#include <NtVersion.h>
+	#include <NtLF.h>
+	#include <NtRecipe.h>
+	#include <NtFileIO.h>
+	#include <NtUI.h>
+	#include <NtGeneral.h>
+	#include <NtHermes.h>
+#ifdef __cplusplus
+};
+#endif
+
+#include <mpcomponentsVAR.h>
+#include <softwareversionVAR.h>
+#include <ui/uiTYP.h>
+#include <ui/uiVAR.h>
+#include <startup/startupTYP.h>
+#include <startup/startupVAR.h>
+#include <general/generalTYP.h>
+#include <general/generalVAR.h>
+#include <usrfolder/usrfolderTYP.h>
+#include <usrfolder/usrfolderVAR.h>
+#include <libver/libverVAR.h>
+#include <libver/libverTYP.h>
+#include <time/timeVAR.h>
+#include <time/timeTYP.h>
+#include <hwinfo/hwinfoTYP.h>
+#include <hwinfo/hwinfoVAR.h>
+#include <tlbuz/tlbuzTYP.h>
+#include <tlbuz/tlbuzVAR.h>
+#include <alarm/alarmTYP.h>
+#include <alarm/alarmVAR.h>
+#include <rsterr/rsterrTYP.h>
+#include <rsterr/rsterrVAR.h>
+#include <prodrcp/prodrcpTYP.h>
+#include <prodrcp/prodrcpVAR.h>
+#include <mpprodrcp/mpprodrcpTYP.h>
+#include <mpprodrcp/mpprodrcpVAR.h>
+#include <mcparam/mcparamVAR.h>
+#include <mcparam/mcparamTYP.h>
+#include <ntparam/ntparamTYP.h>
+#include <ntparam/ntparamVAR.h>
+#include <usrmgmt/usrmgmtTYP.h>
+#include <usrmgmt/usrmgmtVAR.h>
+#include <smema/smemaTYP.h>
+#include <smema/ussmemaVAR.h>
+#include <smema/dssmemaVAR.h>
+#include <smema/ussmema2VAR.h>
+#include <pneu/pneuTYP.h>
+#include <pneu/pneunosenstopperVAR.h>
+#include <pneu/pneunosenclampVAR.h>
+#include <pneu/pneu2seninshutterVAR.h>
+#include <pneu/pneu2senoutshutterVAR.h>
+#include <pneu/pneu2senclamp1VAR.h>
+#include <pneu/pneu2senclamp2VAR.h>
+#include <pneu/pneu2senclamp3VAR.h>
+#include <conv/convTYP.h>
+#include <conv/convVAR.h>
+#include <canopenservo/canopenservoTYP.h>
+#include <canopenservo/aw/awTYP.h>
+#include <canopenservo/aw/awopenVAR.h>
+#include <dinput/dinputVAR.h>
+#include <dinput/dinputTYP.h>
+#include <doutput/doutputVAR.h>
+#include <doutput/doutputTYP.h>
+#include <hermes/hermesTYP.h>
+#include <hermes/hermesVAR.h>
+#include <hermes/ushermesVAR.h>
+#include <hermes/ushermes2VAR.h>
+#include <hermes/dshermesVAR.h>
+#include <hermes/dshermes2VAR.h>
+#include <hermes/rmthermesVAR.h>
+#include <hermes/svyhermesVAR.h>
+#include <lf/lfTYP.h>
+#include <lf/lfleaderVAR.h>
+#include <lf/lffollowerVAR.h>
+#include <lf/follower1VAR.h>
+#include <lcs/lcsTYP.h>
+#include <lcs/lcsVAR.h>
+#include <lcs/lcsmngrcpVAR.h>
+#include <lcs/lcslfVAR.h>
+#include <operations/opsTYP.h>
+#include <operations/opsVAR.h>
+#include <operations/opsinvertVAR.h>
+#include <operations/opsinvertTYP.h>
+#include <machine/machineVAR.h>
+#include <motorbrk/motorbrkTYP.h>
+#include <motorbrk/motorbrkVAR.h>
+#include <simulation/simuTYP.h>
+#include <simulation/simuVAR.h>
+#include <simulation/simuinvVAR.h>
+#include <simulation/simuinvTYP.h>
+#endif

@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="22" Type="REF" RefString="Source[local].BitmapGroup[SMEMA]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="SMEMA" ClsId="0x308" Version="1" TargetIndex="22" Type="BMPG" RefString="Source[local].BitmapGroup[SMEMA_en]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="Icon_Triangle_Left_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_LightBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_LightBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DardGreen_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DardGreen_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Green_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Green_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkRed_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkRed_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Red_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Red_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Grey_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Grey_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Silver_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Silver_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="SMEMA" ClsId="0x308" Version="1" TargetIndex="22" Type="BMPG" RefString="Source[local].BitmapGroup[SMEMA_de]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="Icon_Triangle_Left_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_LightBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_LightBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DardGreen_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DardGreen_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Green_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Green_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkRed_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkRed_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Red_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Red_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Grey_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Grey_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Silver_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Silver_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="SMEMA" ClsId="0x308" Version="1" TargetIndex="22" Type="BMPG" RefString="Source[local].BitmapGroup[SMEMA_zh]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="Icon_Triangle_Left_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_LightBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_LightBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DardGreen_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DardGreen_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Green_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Green_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkRed_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkRed_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Red_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Red_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Grey_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Grey_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Silver_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Silver_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="pt" TargetIndex="3">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="SMEMA" ClsId="0x308" Version="1" TargetIndex="22" Type="BMPG" RefString="Source[local].BitmapGroup[SMEMA_pt]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="Icon_Triangle_Left_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Left_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Left_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Green">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Green]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_Red">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_Red]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Triangle_Right_White">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Triangle_Right_White]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_LightBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_LightBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DardGreen_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DardGreen_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Green_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Green_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkRed_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkRed_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Red_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Red_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_DarkBlue_65">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_DarkBlue_65]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Grey_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Grey_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="ColorBtnRound_Silver_50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBtnRound_Silver_50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

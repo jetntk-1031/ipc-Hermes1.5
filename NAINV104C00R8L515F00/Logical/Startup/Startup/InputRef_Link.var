@@ -67,6 +67,11 @@ VAR
 	p_eRmtHermesStat : REFERENCE TO eHermesAction;
 	p_eRmtHermesStatus : REFERENCE TO eFBStatus;
 END_VAR
+(* *)
+VAR
+	p_eSvyHermesStat : REFERENCE TO eHermesAction;
+	p_eSvyHermesStatus : REFERENCE TO eFBStatus;
+END_VAR
 (**)
 VAR
 	p_eUSHermesStat : REFERENCE TO eHermesAction;

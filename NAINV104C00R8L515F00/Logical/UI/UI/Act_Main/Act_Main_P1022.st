@@ -38,6 +38,8 @@ ACTION Act_Main_P1022:
 	tyP1022McSetVComm.tyVComSvy.tyBtnBoardTracking.bValue		    := p_tyHermesConfiguration.tySvyParam.bFeatureBoardTracking;
 	tyP1022McSetVComm.tyVComSvy.tyBtnQueryWorkOrderInfo.bValue		:= p_tyHermesConfiguration.tySvyParam.bFeatureQueryWorkOrderInfo;
 	tyP1022McSetVComm.tyVComSvy.tyBtnSendWorkOrderInfo.bValue		:= p_tyHermesConfiguration.tySvyParam.bFeatureSendWorkOrderInfo;
+	tyP1022McSetVComm.tyVComSvy.tyBtnReplyWorkOrderInfo.bValue		:= p_tyHermesConfiguration.tySvyParam.bFeatureReplyWorkOrderInfo;
+	
 	
 	//Hermes 1.3 Board Reinsert Function
 	tyP1022McSetVComm.tyVComSvy.tyBtnInsertBrd.bValue		:= p_tyHermesConfiguration.tySvyParam.bFeatureInsertBrd;

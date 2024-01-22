@@ -326,7 +326,16 @@ PROGRAM _INIT
 	
 	//Svy Hermes
 	p_NtParamHermesSvyPrep			:= ADR(tyNtParamCurr.bHermesSvyPrep);
+	p_NtParamHermesSvyFirstMc		:= ADR(tyNtParamCurr.bHermesSvyFirstMcInTheLine);
 	p_NtParamDSHermesRetainFileNm	:= ADR(tyNtParamCurr.sDSHermesRetainFileNm);
+	
+	p_NtParamSvyHermesProgNm		:= ADR(tyNtParamCurr.sSvyHermesProgNm);
+	p_NtParamSvyHermesConfigFileNm	:= ADR(tyNtParamCurr.sSvyHermesConfigFileNm);
+	p_NtParamSvyHermesFileKeepDay	:= ADR(tyNtParamCurr.udiSvyHermesFileKeepDay);
+	p_NtParamSvyHermesAliveTmInSec	:= ADR(tyNtParamCurr.udiSvyHermesAliveTmInSec);
+	p_NtParamSvyHermesConnTO		:= ADR(tyNtParamCurr.tSvyHermesConnTO);
+	p_NtParamSvyHermesRetainFileNm	:= ADR(tyNtParamCurr.sSvyHermesRetainFileNm);
+	
 	(* Always Change If Project Change *)
 	
 END_PROGRAM

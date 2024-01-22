@@ -30,6 +30,10 @@ ACTION Act_InitGlobal:
 	p_udiAliveIdleTimeInSec ACCESS p_NtParamDSHermesAliveTmInSec;
 	p_tConnTimeOut ACCESS p_NtParamDSHermesConnTO;
 	p_diTransferInTO ACCESS p_McParamTranOutErrDlyTm;
+	
+	
+	pa_tyXMLTableDataBrdAvl1stZ ACCESS p_HermesBrdAvlDataTable1stZ;
+	p_iXMLTableDataBrdAvlTtlIdx1stZ ACCESS p_HermesBrdAvlDataTtlIdx1stZ;
 	pa_tyXMLTableDataBrdAvl ACCESS p_HermesBrdAvlDataTableLastZ;
 	p_iXMLTableDataBrdAvlTtlIdx ACCESS p_HermesBrdAvlDataTtlIdxLastZ;
 	p_bNewBrdAvlFirstZone ACCESS p_HermesBrdAvlDataNewBrdAvl1stZ;

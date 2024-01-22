@@ -699,6 +699,18 @@ FUNCTION fHermesFormSendWorkOrderInfo : INT (*Hermes Form Send Work Order Info T
 	END_VAR
 END_FUNCTION
 
+FUNCTION fHermesFormReplyWorkOrderInfo : INT (*Hermes Form Send Work Order Info Table Data (Total Index Written In Table)*)
+	VAR_INPUT
+		pa_tyXMLTable : REFERENCE TO ARRAY[0..49] OF tyXMLTableDat; (*Output - XML Table Data*)
+		tyDTStructure : DTStructure; (*Date And Time Structure*)
+		tyParameter : tyHermesReplyWorkOrderInfo; (*Table Data Parameter*)
+	END_VAR
+	VAR
+		sTimestamp : STRING[23]; (*Time Stamp*)
+		iTotalIdxWrite : INT; (*Total Index Written*)
+	END_VAR
+END_FUNCTION
+
 FUNCTION fHermesFormCommand : INT (*Hermes Form Query Board Info Table Data (Total Index Written In Table)*)
 	VAR_INPUT
 		pa_tyXMLTable : REFERENCE TO ARRAY[0..11] OF tyXMLTableDat; (*Output - XML Table Data*)
@@ -1126,11 +1138,68 @@ FUNCTION fHermesAddOneMsgSend : BOOL (*Hermes Add One Message Send Buffer*)
 		eMsgType : eHermesMsgType; (*New Message Type*)
 	END_VAR
 END_FUNCTION
+(*Utilities*)
 
 FUNCTION fHermesBrdAvltoBF : BOOL
 	VAR_INPUT
 		tyHermesBoardForecast : REFERENCE TO tyHermesBoardForecast;
 		tyHermesBoardAvailable : REFERENCE TO tyHermesBoardAvailable;
+	END_VAR
+END_FUNCTION
+
+FUNCTION fHermesGenerateBrdAvlDat : BOOL
+	VAR_INPUT
+		p_tyHermesBrdAvlDat : REFERENCE TO tyHermesBrdAvlDat;
+		tyHermesBAMsgAttribAddr : tyHermesBAMsgAttribAddr;
+	END_VAR
+	VAR
+		pa_usiMacAddr : REFERENCE TO ARRAY[0..5] OF USINT;
+		p_tyDTStructure : REFERENCE TO DTStructure; (*Date And Time Structure*)
+		p_diWidth : REFERENCE TO DINT;
+		diWidthInMM : DINT;
+		tyGenBoardAvailable : tyHermesBoardAvailable;
+	END_VAR
+END_FUNCTION
+
+FUNCTION fHermesAddEditAttribBrdAvlDat : BOOL
+	VAR_INPUT
+		p_tyHermesBrdAvlDat : REFERENCE TO tyHermesBrdAvlDat;
+		sAttributeTiltle : STRING[80];
+		sAttributeValue : STRING[80];
+	END_VAR
+	VAR
+		udiHermesBAEndIdx : UDINT;
+		udiHermesAttributeEndIdx : UDINT;
+		i : INT;
+		sLowerCase : STRING[80];
+		sTitleLowerCase : STRING[80];
+	END_VAR
+END_FUNCTION
+
+FUNCTION fHermesSrchAttribValueBrdAvlDat : INT
+	VAR_INPUT
+		p_tyHermesBrdAvlDat : REFERENCE TO tyHermesBrdAvlDat;
+		sAttributeTiltle : STRING[80];
+		sAttributeValue : REFERENCE TO STRING[254];
+	END_VAR
+	VAR
+		i : INT;
+		sLowerCase : STRING[80];
+		sTitleLowerCase : STRING[80];
+	END_VAR
+END_FUNCTION
+
+FUNCTION fHermesDeleteAttribBrdAvlDat : BOOL
+	VAR_INPUT
+		p_tyHermesBrdAvlDat : REFERENCE TO tyHermesBrdAvlDat;
+		sAttributeTiltle : STRING[80];
+	END_VAR
+	VAR
+		udiHermesAttributeEndIdx : UDINT;
+		i : INT;
+		usiBrdDatSize : USINT;
+		sLowerCase : STRING[80];
+		sTitleLowerCase : STRING[80];
 	END_VAR
 END_FUNCTION
 (*Command*)

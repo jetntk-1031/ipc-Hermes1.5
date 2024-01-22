@@ -20,7 +20,7 @@ ACTION Act_Link:
 		//Enter Board - US1
 		IF EDGEPOS(p_bLinkConvHvBrd) AND (p_bLinkOpsInvertStepEntToEnd = TRUE OR p_bLinkOpsInvertStepEntToInOff) THEN
 			
-			IF p_eLinkMcParamUSCommMod = McSetCommModHermes THEN
+			IF p_bLinkUSHermesTransporting THEN
 				
 				a_tyHermesBrdAvlData[1].a_tyXMLTableDataBrdAvl		:= pa_tyLinkXMLTableDataBrdAvl;
 				a_tyHermesBrdAvlData[1].iXMLTableDataBrdAvlTtlIdx	:= p_iLinkXMLTableDataBrdAvlTtlIdx;
@@ -34,12 +34,17 @@ ACTION Act_Link:
 				
 				bHermesWriteRetainLane1	:= TRUE;
 				
+				//added Hermes 1.5
+				tyHermesBoardAvailableAttribAddr.udiProductTypeId := p_ProdRcpCurrRcp0Nm;
+				tyHermesBoardAvailableAttribAddr.udiWidth  := p_ProdRcpCurrRcp0Width;
+				fHermesGenerateBrdAvlDat(ADR(a_tyHermesBrdAvlData[1]),tyHermesBoardAvailableAttribAddr);
 			END_IF
 			
 		END_IF
 		
 		//Exit Board
-		IF p_bLinkOpsInvertStepExitBrd = TRUE AND EDGENEG(p_bLinkConvHvBrd) THEN
+		IF EDGENEG(p_bLinkConvHvBrd) AND p_bLinkOpsInvertStepInitDone = TRUE THEN
+			//p_bLinkOpsInvertStepExitBrd = TRUE AND EDGENEG(p_bLinkConvHvBrd) THEN
 			a_tyHermesBrdAvlData[1].bNewBrdAvl	:= TRUE;
 			
 			bHermesWriteRetainLane1	:= TRUE;

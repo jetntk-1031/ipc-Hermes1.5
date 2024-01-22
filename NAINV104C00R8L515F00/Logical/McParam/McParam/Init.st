@@ -95,6 +95,8 @@ PROGRAM _INIT
 	p_McParamDSSMEMA2Selection		:= ADR(tyMcParamCurr.tyDSCommSMEMA2.eSelection);
 	p_McParamDBAStat2SetGd			:= ADR(tyMcParamCurr.tyDSCommSMEMA2.bStatSigSetGd);
 	
+	p_McParamHermesSvyEn			:= ADR(tyMcParamCurr.bHermesSvyEn);
+	
 	(* Always Change If Project Change *)
 	
 END_PROGRAM

@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="P1000_LanguageAndTimeSetupA0_Default" TargetIndex="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Group_Lang" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Group_Lang]">
+            <UInt32 Name="Left">30</UInt32>
+            <UInt32 Name="Top">270</UInt32>
+            <UInt32 Name="Right">774</UInt32>
+            <UInt32 Name="Bottom">419</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Group_Silver]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnEnglish.uiRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Header_LangSel" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Header_LangSel]">
+            <UInt32 Name="Left">50</UInt32>
+            <UInt32 Name="Top">255</UInt32>
+            <UInt32 Name="Right">219</UInt32>
+            <UInt32 Name="Bottom">284</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">33</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnEnglish.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">30</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_English" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Btn_English]">
+            <UInt32 Name="Left">70</UInt32>
+            <UInt32 Name="Top">300</UInt32>
+            <UInt32 Name="Right">209</UInt32>
+            <UInt32 Name="Bottom">329</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_1]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">84</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Languages_English]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1050_Languages]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1050_Languages]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">0</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">0</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnEnglish.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_German" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Btn_German]">
+            <UInt32 Name="Left">70</UInt32>
+            <UInt32 Name="Top">360</UInt32>
+            <UInt32 Name="Right">209</UInt32>
+            <UInt32 Name="Bottom">389</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_38]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">84</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Languages_English]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1050_Languages]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1050_Languages]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">1</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">1</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnGerman.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Chinese" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Btn_Chinese]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">300</UInt32>
+            <UInt32 Name="Right">539</UInt32>
+            <UInt32 Name="Bottom">329</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_39]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">84</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Languages_Chinese]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1050_Languages]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1050_Languages]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">2</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">2</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnChinese.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Group_DT" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Group_DT]">
+            <UInt32 Name="Left">30</UInt32>
+            <UInt32 Name="Top">60</UInt32>
+            <UInt32 Name="Right">774</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Group_Silver]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Header_DateAndTime" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Header_DateAndTime]">
+            <UInt32 Name="Left">50</UInt32>
+            <UInt32 Name="Top">45</UInt32>
+            <UInt32 Name="Right">209</UInt32>
+            <UInt32 Name="Bottom">74</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">31</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_Time" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[lbl_Time]">
+            <UInt32 Name="Left">70</UInt32>
+            <UInt32 Name="Top">90</UInt32>
+            <UInt32 Name="Right">149</UInt32>
+            <UInt32 Name="Bottom">119</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1020_DateTime]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_Date" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[lbl_Date]">
+            <UInt32 Name="Left">70</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">149</UInt32>
+            <UInt32 Name="Bottom">179</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">2</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1020_DateTime]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_Hour" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]">
+            <UInt32 Name="Left">200</UInt32>
+            <UInt32 Name="Top">90</UInt32>
+            <UInt32 Name="Right">269</UInt32>
+            <UInt32 Name="Bottom">119</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Hour]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">0</Double>
+            <Double Name="MaxValue">23</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Border_Display]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyNumHour.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_Min" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]">
+            <UInt32 Name="Left">300</UInt32>
+            <UInt32 Name="Top">90</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">119</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Minute]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">0</Double>
+            <Double Name="MaxValue">59</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Border_Display]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyNumMinute.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_Sec" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">90</UInt32>
+            <UInt32 Name="Right">459</UInt32>
+            <UInt32 Name="Bottom">119</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Second]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">0</Double>
+            <Double Name="MaxValue">59</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyNumSecond.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_Year" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]">
+            <UInt32 Name="Left">200</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">269</UInt32>
+            <UInt32 Name="Bottom">179</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Year]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">2000</Double>
+            <Double Name="MaxValue">2100</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Border_Display]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyNumYear.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_Month" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]">
+            <UInt32 Name="Left">300</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">359</UInt32>
+            <UInt32 Name="Bottom">179</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Month]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">1</Double>
+            <Double Name="MaxValue">12</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">20</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Border_Display]</Reference>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyNumMonth.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_Day" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">150</UInt32>
+            <UInt32 Name="Right">459</UInt32>
+            <UInt32 Name="Bottom">179</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Day]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">1</Double>
+            <Double Name="MaxValue">31</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyNumDay.uiRtStat]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_1" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnEnglish.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnEnglish.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnEnglish.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_38" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_38]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnGerman.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnGerman.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnGerman.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_39" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_39]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnChinese.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnChinese.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1000Lang.tyBtnChinese.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A0_Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">15</UInt32>
+          <Reference Name="Group_Lang" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Group_Lang]</Reference>
+          <Reference Name="Header_LangSel" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Header_LangSel]</Reference>
+          <Reference Name="Btn_English" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Btn_English]</Reference>
+          <Reference Name="Btn_German" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Btn_German]</Reference>
+          <Reference Name="Btn_Chinese" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Btn_Chinese]</Reference>
+          <Reference Name="Group_DT" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Group_DT]</Reference>
+          <Reference Name="Header_DateAndTime" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Header_DateAndTime]</Reference>
+          <Reference Name="lbl_Time" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[lbl_Time]</Reference>
+          <Reference Name="lbl_Date" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[lbl_Date]</Reference>
+          <Reference Name="Num_Hour" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+          <Reference Name="Num_Min" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+          <Reference Name="Num_Sec" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+          <Reference Name="Num_Year" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+          <Reference Name="Num_Month" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+          <Reference Name="Num_Day" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="P1000_LanguageAndTimeSetup" ClsId="0x400" Version="1" TargetIndex="1000" Type="PAGE" RefString="Source[local].Page[P1000_LanguageAndTimeSetup]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+        <UInt32 Name="LayerCount">6</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[BackgroundColorBlack]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[C0005_MainLayer]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Layer[C0007_NotifLayer]</Reference>
+        <Reference Name="FormLayer3" Type="LAY">Source[local].Layer[C0008_MsgBoxLayer]</Reference>
+        <Reference Name="FormLayer4" Type="LAY">Source[local].Layer[C0009_InfoLayer]</Reference>
+        <Reference Name="FormLayer5" Type="LAY">Source[local].Layer[C0011_LoadingLayer]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">6</UInt32>
+          <Group Name="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Min]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Day]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Hour]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Month]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Year]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1000_LanguageAndTimeSetup].Layer[A0_Default].Control[Num_Sec]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

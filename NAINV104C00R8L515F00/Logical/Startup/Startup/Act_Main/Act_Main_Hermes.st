@@ -109,21 +109,21 @@ ACTION Act_Main_Hermes:
 				eStartupStep1	:= StartupStepSetupUI;
 			END_IF
 			
-//		40:
-//			eSvyHermesAct	:= HermesActDeleteOldLog;
-//	
-//			IF (p_eSvyHermesStatus = Done) AND (p_eSvyHermesStat = HermesActDeleteOldLog) THEN
-//				
-//				eSvyHermesAct	:= HermesActIdle;
-//				usiStep			:= 41;
-//				
-//			ELSIF p_eSvyHermesStatus = Error THEN
-//				
-//				eSvyHermesAct	:= HermesActIdle;
-//				usiStep			:= 41;
-//				
-//			END_IF
-		
+		40:
+			eSvyHermesAct	:= HermesActDeleteOldLog;
+	
+			IF (p_eSvyHermesStatus = Done) AND (p_eSvyHermesStat = HermesActDeleteOldLog) THEN
+				
+				eSvyHermesAct	:= HermesActIdle;
+				usiStep			:= 0; //41;
+				
+			ELSIF p_eSvyHermesStatus = Error THEN
+				
+				eSvyHermesAct	:= HermesActIdle;
+				usiStep			:= 0; //41;
+				
+			END_IF
+//destacker reading retain		
 //		41:	
 //			bWaitDecision := TRUE; 
 //			

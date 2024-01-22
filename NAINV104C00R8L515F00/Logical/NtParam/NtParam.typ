@@ -282,6 +282,12 @@ TYPE
 		sDSHermesRetainFileNm : STRING[80] := 'BoardData.dat';
 		iInput : INT;
 		iOutput : INT;
+		sSvyHermesProgNm : STRING[15] := 'SvyHermes';
+		sSvyHermesConfigFileNm : STRING[80] := 'SvyHermes.dat';
+		udiSvyHermesFileKeepDay : UDINT := 30;
+		udiSvyHermesAliveTmInSec : UDINT := 5;
+		tSvyHermesConnTO : TIME := T#30s;
+		sSvyHermesRetainFileNm : STRING[80] := 'WorkOrder.dat';
 	END_STRUCT;
 END_TYPE
 

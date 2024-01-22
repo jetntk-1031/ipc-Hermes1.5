@@ -1,0 +1,3144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="P1023_McSetCommA0_USCommSel" TargetIndex="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="lbl_Comm" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[lbl_Comm]">
+            <UInt32 Name="Left">275</UInt32>
+            <UInt32 Name="Top">44</UInt32>
+            <UInt32 Name="Right">524</UInt32>
+            <UInt32 Name="Bottom">73</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">46</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Line]">
+            <UInt32 Name="StartX">275</UInt32>
+            <UInt32 Name="StartY">69</UInt32>
+            <UInt32 Name="EndX">525</UInt32>
+            <UInt32 Name="EndY">69</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Black]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Hermes" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Btn_Hermes]">
+            <UInt32 Name="Left">75</UInt32>
+            <UInt32 Name="Top">315</UInt32>
+            <UInt32 Name="Right">224</UInt32>
+            <UInt32 Name="Bottom">344</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_432]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">92</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">83</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">83</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnHermes.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">112</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[BtnGeneral]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">116</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_SMEMA" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Btn_SMEMA]">
+            <UInt32 Name="Left">75</UInt32>
+            <UInt32 Name="Top">170</UInt32>
+            <UInt32 Name="Right">224</UInt32>
+            <UInt32 Name="Bottom">199</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_433]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">92</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">82</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">82</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnSMEMA.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">112</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[BtnGeneral]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">116</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_Separator" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Line_Separator]">
+            <UInt32 Name="StartX">280</UInt32>
+            <UInt32 Name="StartY">150</UInt32>
+            <UInt32 Name="EndX">280</UInt32>
+            <UInt32 Name="EndY">420</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Grey]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_CommSelection" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[lbl_CommSelection]">
+            <UInt32 Name="Left">25</UInt32>
+            <UInt32 Name="Top">100</UInt32>
+            <UInt32 Name="Right">119</UInt32>
+            <UInt32 Name="Bottom">129</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Font_SMEMA]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">130</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="DrpDw_McMod" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]">
+            <UInt32 Name="Left">126</UInt32>
+            <UInt32 Name="Top">100</UInt32>
+            <UInt32 Name="Right">275</UInt32>
+            <UInt32 Name="Bottom">129</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">2</UInt32>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.usiValueMinIdx]</Reference>
+            <Int32 Name="TextIndexOffset">393</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.usiValueIdx]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.usiValueMaxIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[DropDown]</Reference>
+            <UInt16 Name="StyleTableSize">85</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.uiRtStat]</Reference>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.bRtCompl]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsBitmapOffset">
+              <UInt16 Name="Offset">132</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">0</Int16>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsPressedBitmapOffset">
+              <UInt16 Name="Offset">156</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">2</Int16>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_432" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_432]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnHermes.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnHermes.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnHermes.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_433" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_433]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnSMEMA.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnSMEMA.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyBtnSMEMA.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A0_USCommSel" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSel.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">7</UInt32>
+          <Reference Name="lbl_Comm" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[lbl_Comm]</Reference>
+          <Reference Name="Line" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Line]</Reference>
+          <Reference Name="Btn_Hermes" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Btn_Hermes]</Reference>
+          <Reference Name="Btn_SMEMA" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Btn_SMEMA]</Reference>
+          <Reference Name="Line_Separator" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[Line_Separator]</Reference>
+          <Reference Name="lbl_CommSelection" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[lbl_CommSelection]</Reference>
+          <Reference Name="DrpDw_McMod" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="P1023_McSetCommA0_USSMEMA" TargetIndex="Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Btn_GdSignal" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[Btn_GdSignal]">
+            <UInt32 Name="Left">350</UInt32>
+            <UInt32 Name="Top">220</UInt32>
+            <UInt32 Name="Right">499</UInt32>
+            <UInt32 Name="Bottom">254</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_435]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">185</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">185</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyBtnGdSig.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="DrpDw_SMEMAMod" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]">
+            <UInt32 Name="Left">475</UInt32>
+            <UInt32 Name="Top">170</UInt32>
+            <UInt32 Name="Right">659</UInt32>
+            <UInt32 Name="Bottom">199</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">4294967295</UInt32>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyDrpDnSMEMAMod.usiValueMinIdx]</Reference>
+            <Int32 Name="TextIndexOffset">70</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[global].TextGroup[T1070_MachineModeSelections]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyDrpDnSMEMAMod.usiValueIdx]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyDrpDnSMEMAMod.usiValueMaxIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[DropDown]</Reference>
+            <UInt16 Name="StyleTableSize">85</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyDrpDnSMEMAMod.uiRtStat]</Reference>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyDrpDnSMEMAMod.bRtCompl]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsBitmapOffset">
+              <UInt16 Name="Offset">132</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">0</Int16>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsPressedBitmapOffset">
+              <UInt16 Name="Offset">156</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">2</Int16>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_SMEMAMod" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[lbl_SMEMAMod]">
+            <UInt32 Name="Left">350</UInt32>
+            <UInt32 Name="Top">170</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">199</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">300</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_435" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_435]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyBtnGdSig.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyBtnGdSig.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A0_USSMEMA" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSSMEMA.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">3</UInt32>
+          <Reference Name="Btn_GdSignal" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[Btn_GdSignal]</Reference>
+          <Reference Name="DrpDw_SMEMAMod" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+          <Reference Name="lbl_SMEMAMod" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[lbl_SMEMAMod]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="P1023_McSetCommA0_USHermes" TargetIndex="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="lbl_TCPClntSvrIP" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_TCPClntSvrIP]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">203</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">237</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">89</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_HostPort" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_HostPort]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">163</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">197</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">312</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_LaneID" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_LaneID]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">157</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">311</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_SndAlive" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_SndAlive]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">83</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">117</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">310</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_HostPort" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">163</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">197</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumHostPort.diValue]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumHostPort.diValueMin]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumHostPort.diValueMax]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumHostPort.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[NumericDisplayFont]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumHostPort.bRtCompl]</Reference>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_LaneID" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">123</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">157</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumLaneID.diValue]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumLaneID.diValueMin]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumLaneID.diValueMax]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumLaneID.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[NumericDisplayFont]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumLaneID.bRtCompl]</Reference>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_SndAliveTm" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">83</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">117</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumSndAliveTm.diValue]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumSndAliveTm.diValueMin]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumSndAliveTm.diValueMax]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">28</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumSndAliveTm.uiRtStat]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyNumSndAliveTm.bRtCompl]</Reference>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_HostAddress" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">203</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">237</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyStringHostAddr.sValue]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[InputNumeric]</Reference>
+            <UInt16 Name="StyleTableSize">28</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyStringHostAddr.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[NumericDisplayFont]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyStringHostAddr.bRtCompl]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_CompareTypeID" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_CompareTypeID]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">240</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">269</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_224]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">68</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">314</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">314</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_CompareParam" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_CompareParam]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">272</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">301</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_223]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">68</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">315</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">315</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_OverWrite" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_OverWrite]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">307</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">336</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_226]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">68</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">316</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">316</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_ChkAliveResponse" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_ChkAliveResponse]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">342</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">371</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_222]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">68</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">317</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">317</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Command" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_Command]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">447</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">476</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_237]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">378</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">378</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCommand.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_BoardForecast" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_BoardForecast]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">377</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">406</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_241]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">376</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">376</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnBoardForecast.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_QueryBrdInfo" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_QueryBrdInfo]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">411</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">440</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_242]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">377</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">377</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnQueryBoardInfo.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Mask" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Mask]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">80</UInt32>
+            <UInt32 Name="Right">715</UInt32>
+            <UInt32 Name="Bottom">474</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBitmapMask.uiMaskRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_224" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_224]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCmpTypeId.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCmpTypeId.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_223" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_223]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCmpParam.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCmpParam.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_226" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_226]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnOverWrite.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnOverWrite.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_222" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_222]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCheckAliveResponse.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCheckAliveResponse.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_237" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_237]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCommand.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnCommand.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_241" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_241]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnBoardForecast.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnBoardForecast.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_242" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_242]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnQueryBoardInfo.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyBtnQueryBoardInfo.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A0_USHermes" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommUSHermes.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">16</UInt32>
+          <Reference Name="lbl_TCPClntSvrIP" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_TCPClntSvrIP]</Reference>
+          <Reference Name="lbl_HostPort" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_HostPort]</Reference>
+          <Reference Name="lbl_LaneID" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_LaneID]</Reference>
+          <Reference Name="lbl_SndAlive" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[lbl_SndAlive]</Reference>
+          <Reference Name="Num_HostPort" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+          <Reference Name="Num_LaneID" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+          <Reference Name="Num_SndAliveTm" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+          <Reference Name="String_HostAddress" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+          <Reference Name="Btn_CompareTypeID" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_CompareTypeID]</Reference>
+          <Reference Name="Btn_CompareParam" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_CompareParam]</Reference>
+          <Reference Name="Btn_OverWrite" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_OverWrite]</Reference>
+          <Reference Name="Btn_ChkAliveResponse" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_ChkAliveResponse]</Reference>
+          <Reference Name="Btn_Command" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_Command]</Reference>
+          <Reference Name="Btn_BoardForecast" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_BoardForecast]</Reference>
+          <Reference Name="Btn_QueryBrdInfo" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Btn_QueryBrdInfo]</Reference>
+          <Reference Name="Mask" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Mask]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="P1023_McSetCommA1_DSCommSel" TargetIndex="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="lbl_Comm" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[lbl_Comm]">
+            <UInt32 Name="Left">275</UInt32>
+            <UInt32 Name="Top">45</UInt32>
+            <UInt32 Name="Right">524</UInt32>
+            <UInt32 Name="Bottom">74</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">47</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Line]">
+            <UInt32 Name="StartX">275</UInt32>
+            <UInt32 Name="StartY">70</UInt32>
+            <UInt32 Name="EndX">525</UInt32>
+            <UInt32 Name="EndY">70</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Black]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">15</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Hermes" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Btn_Hermes]">
+            <UInt32 Name="Left">75</UInt32>
+            <UInt32 Name="Top">315</UInt32>
+            <UInt32 Name="Right">224</UInt32>
+            <UInt32 Name="Bottom">344</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_436]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">92</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">83</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">83</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnHermes.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">112</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[BtnGeneral]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">116</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_SMEMA" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Btn_SMEMA]">
+            <UInt32 Name="Left">75</UInt32>
+            <UInt32 Name="Top">170</UInt32>
+            <UInt32 Name="Right">224</UInt32>
+            <UInt32 Name="Bottom">199</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_437]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[RadioButton]</Reference>
+            <UInt16 Name="StyleTableSize">92</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">82</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">82</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnSMEMA.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ColorMap">
+              <UInt16 Name="Offset">112</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[BtnGeneral]</Reference>
+            </Group>
+            <Group Name="ColorMapIndexOffset">
+              <UInt16 Name="Offset">116</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_Separator" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Line_Separator]">
+            <UInt32 Name="StartX">280</UInt32>
+            <UInt32 Name="StartY">150</UInt32>
+            <UInt32 Name="EndX">280</UInt32>
+            <UInt32 Name="EndY">420</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Grey]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_CommSelection" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[lbl_CommSelection]">
+            <UInt32 Name="Left">25</UInt32>
+            <UInt32 Name="Top">100</UInt32>
+            <UInt32 Name="Right">119</UInt32>
+            <UInt32 Name="Bottom">129</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Header]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnUSSel.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Font_SMEMA]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">131</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1160_SubHeaders]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="DrpDw_McMod" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]">
+            <UInt32 Name="Left">126</UInt32>
+            <UInt32 Name="Top">100</UInt32>
+            <UInt32 Name="Right">275</UInt32>
+            <UInt32 Name="Bottom">129</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">2</UInt32>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnDSSel.usiValueMinIdx]</Reference>
+            <Int32 Name="TextIndexOffset">395</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnDSSel.usiValueIdx]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnDSSel.usiValueMaxIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[DropDown]</Reference>
+            <UInt16 Name="StyleTableSize">85</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnDSSel.uiRtStat]</Reference>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommGen.tyDrpDnDSSel.bRtCompl]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsBitmapOffset">
+              <UInt16 Name="Offset">132</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">0</Int16>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsPressedBitmapOffset">
+              <UInt16 Name="Offset">156</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">2</Int16>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_436" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_436]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnHermes.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnHermes.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnHermes.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_437" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_437]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">3</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <Reference Name="LockingDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnSMEMA.bRtLk]</Reference>
+              <UInt32 Name="LockingLevel">1</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnSMEMA.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyBtnSMEMA.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A1_DSCommSel" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSel.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">7</UInt32>
+          <Reference Name="lbl_Comm" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[lbl_Comm]</Reference>
+          <Reference Name="Line" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Line]</Reference>
+          <Reference Name="Btn_Hermes" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Btn_Hermes]</Reference>
+          <Reference Name="Btn_SMEMA" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Btn_SMEMA]</Reference>
+          <Reference Name="Line_Separator" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[Line_Separator]</Reference>
+          <Reference Name="lbl_CommSelection" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[lbl_CommSelection]</Reference>
+          <Reference Name="DrpDw_McMod" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="P1023_McSetCommA1_DSSMEMA" TargetIndex="Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Btn_GdSignal" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[Btn_GdSignal]">
+            <UInt32 Name="Left">350</UInt32>
+            <UInt32 Name="Top">220</UInt32>
+            <UInt32 Name="Right">499</UInt32>
+            <UInt32 Name="Bottom">254</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_439]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">185</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">185</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyBtnGdSig.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="DrpDw_SMEMAMod" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]">
+            <UInt32 Name="Left">475</UInt32>
+            <UInt32 Name="Top">170</UInt32>
+            <UInt32 Name="Right">659</UInt32>
+            <UInt32 Name="Bottom">199</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">4294967295</UInt32>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyDrpDnSMEMAMod.usiValueMinIdx]</Reference>
+            <Int32 Name="TextIndexOffset">70</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[global].TextGroup[T1070_MachineModeSelections]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyDrpDnSMEMAMod.usiValueIdx]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyDrpDnSMEMAMod.usiValueMaxIdx]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[DropDown]</Reference>
+            <UInt16 Name="StyleTableSize">85</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyDrpDnSMEMAMod.uiRtStat]</Reference>
+            </Group>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">68</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyDrpDnSMEMAMod.bRtCompl]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsBitmapOffset">
+              <UInt16 Name="Offset">132</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">0</Int16>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BMPG">Source[local].BitmapGroup[DropDown]</Reference>
+            </Group>
+            <Group Name="ButtonsPressedBitmapOffset">
+              <UInt16 Name="Offset">156</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <Int16 Name="Data">2</Int16>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_SMEMAMod" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[lbl_SMEMAMod]">
+            <UInt32 Name="Left">350</UInt32>
+            <UInt32 Name="Top">170</UInt32>
+            <UInt32 Name="Right">449</UInt32>
+            <UInt32 Name="Bottom">199</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">300</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_439" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_439]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyBtnGdSig.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyBtnGdSig.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A1_DSSMEMA" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSSMEMA.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">3</UInt32>
+          <Reference Name="Btn_GdSignal" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[Btn_GdSignal]</Reference>
+          <Reference Name="DrpDw_SMEMAMod" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+          <Reference Name="lbl_SMEMAMod" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[lbl_SMEMAMod]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Layers">
+    <Folder Name="P1023_McSetCommA1_DSHermes" TargetIndex="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="lbl_TCPSvrPort" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[lbl_TCPSvrPort]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">195</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">229</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">266</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_LaneID" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[lbl_LaneID]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">155</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">189</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">87</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="lbl_SndAlive" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[lbl_SndAlive]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">115</UInt32>
+            <UInt32 Name="Right">549</UInt32>
+            <UInt32 Name="Bottom">149</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text_Label]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">310</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_TCPSvrPort" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">195</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">229</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSvrPort.diValue]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSvrPort.diValueMin]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSvrPort.diValueMax]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSvrPort.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[NumericDisplayFont]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSvrPort.bRtCompl]</Reference>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_LaneID" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">155</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">189</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumLaneID.diValue]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumLaneID.diValueMin]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumLaneID.diValueMax]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumLaneID.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[NumericDisplayFont]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumLaneID.bRtCompl]</Reference>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Num_SndAliveTm" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]">
+            <UInt32 Name="Left">550</UInt32>
+            <UInt32 Name="Top">115</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">149</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSndAliveTm.diValue]</Reference>
+            <Reference Name="MinDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSndAliveTm.diValueMin]</Reference>
+            <Reference Name="MaxDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSndAliveTm.diValueMax]</Reference>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">36</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSndAliveTm.uiRtStat]</Reference>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[NumericDisplayFont]</Reference>
+            </Group>
+            <Group Name="CompletionDatapoint">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyNumSndAliveTm.bRtCompl]</Reference>
+            </Group>
+            <Group Name="UnitTextWidth">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">30</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_ChkAliveResponse" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_ChkAliveResponse]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">241</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">270</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_227]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">68</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">317</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">317</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_Command" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_Command]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">345</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">374</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_240]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">378</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">378</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnCommand.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_BoardForecast" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_BoardForecast]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">275</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">304</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_244]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">376</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">376</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnBoardForecast.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Btn_QueryBrdInfo" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_QueryBrdInfo]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">310</UInt32>
+            <UInt32 Name="Right">699</UInt32>
+            <UInt32 Name="Bottom">339</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_245]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[CheckBox]</Reference>
+            <UInt16 Name="StyleTableSize">76</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[T1080_MachineSetting]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">386</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">386</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnSendBoardInfo.uiRtStat]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Mask" ClsId="0x1005" Version="1" Type="CTRL" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Mask]">
+            <UInt32 Name="Left">400</UInt32>
+            <UInt32 Name="Top">105</UInt32>
+            <UInt32 Name="Right">719</UInt32>
+            <UInt32 Name="Bottom">392</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Mask]</Reference>
+            <UInt16 Name="StyleTableSize">25</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="StatusDatapoint">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBitmapMask.uiMaskRtStat]</Reference>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Bitmap">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_227" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_227]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnCheckAliveResponse.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnCheckAliveResponse.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_240" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_240]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnCommand.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnCommand.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_244" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_244]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnBoardForecast.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnBoardForecast.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_245" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_245]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">1</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnSendBoardInfo.bValue]</Reference>
+              <Reference Name="CompletionDatapoint" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyBtnSendBoardInfo.bRtCompl]</Reference>
+              <Byte Name="Mode">1</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <Byte Name="Reserved1">0</Byte>
+              <Byte Name="Reserved2">0</Byte>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="A1_DSHermes" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes]">
+          <Reference Name="StatusDP" Type="DP">Source[global].Variable[DataSource.UI.UI.p_tyP1023McSetHCommDSHermes.tyLyr.uiRtStat]</Reference>
+          <UInt32 Name="CtrlCount">11</UInt32>
+          <Reference Name="lbl_TCPSvrPort" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[lbl_TCPSvrPort]</Reference>
+          <Reference Name="lbl_LaneID" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[lbl_LaneID]</Reference>
+          <Reference Name="lbl_SndAlive" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[lbl_SndAlive]</Reference>
+          <Reference Name="Num_TCPSvrPort" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+          <Reference Name="Num_LaneID" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+          <Reference Name="Num_SndAliveTm" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+          <Reference Name="Btn_ChkAliveResponse" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_ChkAliveResponse]</Reference>
+          <Reference Name="Btn_Command" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_Command]</Reference>
+          <Reference Name="Btn_BoardForecast" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_BoardForecast]</Reference>
+          <Reference Name="Btn_QueryBrdInfo" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Btn_QueryBrdInfo]</Reference>
+          <Reference Name="Mask" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Mask]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="P1023_McSetComm" ClsId="0x400" Version="1" TargetIndex="1023" Type="PAGE" RefString="Source[local].Page[P1023_McSetComm]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+        <UInt32 Name="LayerCount">13</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[BackgroundColorBlack]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes]</Reference>
+        <Reference Name="FormLayer3" Type="LAY">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel]</Reference>
+        <Reference Name="FormLayer4" Type="LAY">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA]</Reference>
+        <Reference Name="FormLayer5" Type="LAY">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes]</Reference>
+        <Reference Name="FormLayer6" Type="LAY">Source[local].Layer[C0004_NaviLayer]</Reference>
+        <Reference Name="FormLayer7" Type="LAY">Source[local].Layer[C0005_MainLayer]</Reference>
+        <Reference Name="FormLayer8" Type="LAY">Source[local].Layer[C0006_SetLayer]</Reference>
+        <Reference Name="FormLayer9" Type="LAY">Source[local].Layer[C0007_NotifLayer]</Reference>
+        <Reference Name="FormLayer10" Type="LAY">Source[local].Layer[C0008_MsgBoxLayer]</Reference>
+        <Reference Name="FormLayer11" Type="LAY">Source[local].Layer[C0009_InfoLayer]</Reference>
+        <Reference Name="FormLayer12" Type="LAY">Source[local].Layer[C0011_LoadingLayer]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">11</UInt32>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USCommSel].Control[DrpDw_McMod]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[String_HostAddress]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_TCPSvrPort]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_HostPort]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USSMEMA].Control[DrpDw_SMEMAMod]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A1_DSHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_SndAliveTm]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[P1023_McSetComm].Layer[A0_USHermes].Control[Num_LaneID]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\visu\visu.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\init.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\hermes\svyhermes\act_background_processdata.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\init.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\init.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\cyclic.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\hermes\svyhermes\act_background_processdata.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\cyclic.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\cyclic.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\visu.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\_bur_pvdef.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\init.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\_bur_pvdef.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\init.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\svyhermes.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes\svyhermes.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\inverter_xclamp_wshutter_\x20cp0483\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\inverter_xclamp_wshutter_\x20cp0483\svyhermes.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

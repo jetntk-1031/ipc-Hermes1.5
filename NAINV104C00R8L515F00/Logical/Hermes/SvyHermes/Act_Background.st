@@ -53,8 +53,9 @@ ACTION Act_Background:
 					Act_Background_SequenceTO;
 					Act_Background_Err;
 					
-					IF tySServiceDescriptionRcv.tyAvl.tySupportedFeatures.bFeatureSendWorkOrderInfo = TRUE AND (p_tyParam.bFeatureQueryWorkOrderInfo OR p_bHermesReinsertBoard) AND bHandshakeDone THEN
-						Act_Background_QueryWorkOrderInfo;
+					IF tySServiceDescriptionRcv.tyAvl.tySupportedFeatures.bFeatureSendWorkOrderInfo = TRUE AND p_tyParam.bFeatureQueryWorkOrderInfo  AND bHandshakeDone THEN
+						Act_Background_QueryWorkOrderInfo1;
+						//Act_Background_QueryWorkOrderInfo;
 					END_IF
 					
 					Act_Background_SendBoardArrivedLane1;

@@ -80,11 +80,28 @@ TYPE
 		bFeatureBoardTracking : BOOL;
 		bFeatureQueryWorkOrderInfo : BOOL;
 		bFeatureSendWorkOrderInfo : BOOL;
+		bFeatureReplyWorkOrderInfo : BOOL;
 		bFeatureInsertBrd : BOOL;
 	END_STRUCT;
-	tyHermesBrdAvlDat : 	STRUCT 
-		a_tyXMLTableDataBrdAvl : ARRAY[0..200]OF tyXMLTableDat;
-		iXMLTableDataBrdAvlTtlIdx : INT;
-		bNewBrdAvl : BOOL := TRUE;
+END_TYPE
+
+(*Action Reserved By Zone*)
+
+TYPE
+	tyActionByZone : 	STRUCT 
+		sBoardId : STRING[254];
+		iAttributeIdx : INT;
+		iAction : INT;
+		bActionCompl : BOOL;
+	END_STRUCT;
+END_TYPE
+
+(*Query Queue*)
+
+TYPE
+	tyHermesQueryQueue : 	STRUCT 
+		udiTracedSubjectAddr : UDINT;
+		usiPriority : USINT; (*Higher number = higher priority*)
+		tyQueryWorkOrder : tyHermesQueryWorkOrderInfo;
 	END_STRUCT;
 END_TYPE

@@ -1,5 +1,4 @@
-(** 2020-09-16 **)
-PROGRAM _INIT
+PROGRAM _INIT 
 	
 	(* Always Change If Project Change *)
 	
@@ -25,13 +24,14 @@ PROGRAM _INIT
 	p_StartupAWAct				:= ADR(eAWAct);
 	p_StartupHermesAct			:= ADR(eHermesAct);
 	p_StartupRmtHermesAct		:= ADR(eRmtHermesAct);
+	p_StartupSvyHermesAct		:= ADR(eSvyHermesAct); //new for Hermes 1.3
 	p_StartupUSHermesAct		:= ADR(eUSHermesAct);
 	p_StartupDSHermesAct		:= ADR(eDSHermesAct);
 	p_StartupStep				:= ADR(eStartupStep1);
 	p_StartupNtSettingsLoadDone	:= ADR(bNtSettingsLoadDone);
 	p_StartupUISettingsLoadDone := ADR(bUISettingsLoadDone);
 	p_StartupStepTxt			:= ADR(sStepTxt);
-	
+
 	p_StartupGetConfigDone			:= ADR(bGetConfigDone);
 	p_StartupMismatchSetConfigDone	:= ADR(bMismatchSetConfigDone);
 	

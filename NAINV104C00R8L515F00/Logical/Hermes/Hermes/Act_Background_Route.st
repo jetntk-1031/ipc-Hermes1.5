@@ -13,7 +13,7 @@ ACTION Act_Background_Route:
 		p_bReceiveReverseUSMcRdy ACCESS p_DSHermesUSRdy;
 		pa_tyLinkXMLTableDataBrdAvl ACCESS p_USHermesTableDataBrdAvl;
 		p_iLinkXMLTableDataBrdAvlTtlIdx ACCESS p_USHermesTableDataBrdAvlTtlIdx;
-		
+		p_bLinkUSHermesTransporting ACCESS p_USHermesTransporting;
 		p_bUSCurrHermesBrdForecastRcv ACCESS p_USHermesBrdForecastRcv;
 		p_tyUSCurrHermesBFRcv ACCESS p_USHermesBrdForecast;
 		
@@ -36,7 +36,7 @@ ACTION Act_Background_Route:
 		
 		p_bDSHermesTransportFinished ACCESS p_DSHermes2TransportFinish;
 		p_tyDSHermesTransportFinished ACCESS p_DSHermes2TransportFinishMsg;
-		
+		p_bLinkUSHermesTransporting ACCESS p_USHermes2Transporting;
 		p_bUSCurrHermesBrdForecastRcv ACCESS p_USHermes2BrdForecastRcv;
 		p_tyUSCurrHermesBFRcv ACCESS p_USHermes2BrdForecast;
 		

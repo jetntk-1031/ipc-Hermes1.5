@@ -37,6 +37,7 @@ ACTION Act_InitLocal:
 	p_bSvyEn ACCESS ADR(bSvyEn);
 	p_bQueryWorkOrderInfo ACCESS ADR(bQueryWorkOrderInfo);
 	p_bReinsertBrd ACCESS ADR(bReinsertBrd);
+	p_bInsertBoard ACCESS ADR(bInsertBoard);
 	p_tyHermesConfiguration ACCESS ADR(tyHermesCurrConfiguration);
 	p_bUSHermesStopTransport1 ACCESS ADR(bUSHermesStopTransportSnd1); //Lane 1
 	p_bUSHermesStopTransport2 ACCESS ADR(bUSHermesStopTransportSnd2); //Lane 2

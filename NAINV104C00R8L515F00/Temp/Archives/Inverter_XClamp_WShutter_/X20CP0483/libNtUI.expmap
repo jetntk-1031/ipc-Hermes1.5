@@ -1,0 +1,22 @@
+{
+  global:
+    fUIInRtStatOff;
+    fUIInRtStatHide;
+    fUIInRtStatLock;
+    fUIInRtStatFocus;
+    fUIInRtStatOpenTP;
+    fUIOutRtStatCursor1Valid;
+    fUIOutRtStatCursor2Valid;
+    fUIOutRtStatTPIsOpen;
+    fUIOutRtStatOnLock;
+    fUIOutRtStatHasFocus;
+    fUIOutRtStatInEdit;
+    fbTouchGetAction;
+    fbTouchFilter;
+    fbTouchGetSlideDist;
+    fbTouchGetTap;
+    fbTableCtrl;
+    fbTableCtrl_v2;
+  local:
+    *;
+ };

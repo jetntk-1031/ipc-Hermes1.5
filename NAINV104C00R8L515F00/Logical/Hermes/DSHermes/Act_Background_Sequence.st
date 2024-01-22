@@ -160,6 +160,7 @@ ACTION Act_Background_Sequence:
 			
 		ELSIF fbSequenceDS.eMsgTypeSnd = HermesMsgTypeBoardForecastNoId THEN 
 			//do not need to count 
+			memset(ADR(tyBoardForecastSnd),0,SIZEOF(tyBoardForecastSnd));
 			fHermesAddOneMsgSend(ADR(a_eMsgSend) , ADR(udiMsgSendBffr) , HermesMsgTypeBoardForecast);
 			tyBoardForecastSnd.tyData.sForecastId		        := ''; //Do not need to generate ForecastID to downstream
 
@@ -171,7 +172,7 @@ ACTION Act_Background_Sequence:
 					fbParseBrdAvlExternal;
 					fHermesBrdAvltoBF(ADR(tyBoardForecastSnd),ADR(fbParseBrdAvlExternal.tyBoardAvailable));
 				ELSIF p_usiUSHermesReverseDSSendBFId = 2 THEN  //downpulse , reset 
-					memset(ADR(tyBoardForecastSnd),0,SIZEOF(tyBoardForecastSnd));
+				//	memset(ADR(tyBoardForecastSnd),0,SIZEOF(tyBoardForecastSnd));
 				
 					tyBoardForecastSnd.tyAvl.bFailedBoard 			    := TRUE;
 					tyBoardForecastSnd.tyAvl.bFlippedBoard 			    := TRUE;
@@ -252,22 +253,27 @@ ACTION Act_Background_Sequence:
 			ELSE   //have brd detail 
 				
 				//fBrdAvltoBFcast(ADR(),ADR());
-				tyBoardForecastSnd.tyData.sBoardId                  := p_tyUSBoardArrivedData.tyData.sBoardId;			
-				tyBoardForecastSnd.tyData.sBoardIdCreatedBy         := p_tyUSBoardArrivedData.tyData.sBoardIdCreatedBy;			
-				tyBoardForecastSnd.tyData.eFailedBoard 		    	:= p_tyUSBoardArrivedData.tyData.eFailedBoard;			
-				tyBoardForecastSnd.tyData.sProductTypeId 			:= p_tyUSBoardArrivedData.tyData.sProductTypeId;			
-				tyBoardForecastSnd.tyData.eFlippedBoard 			:= p_tyUSBoardArrivedData.tyData.eFlippedBoard;			
-				tyBoardForecastSnd.tyData.sTopBarcode 		    	:= p_tyUSBoardArrivedData.tyData.sTopBarcode;			
-				tyBoardForecastSnd.tyData.sBottomBarcode 			:= p_tyUSBoardArrivedData.tyData.sBottomBarcode;			
-				tyBoardForecastSnd.tyData.rLength 				    := p_tyUSBoardArrivedData.tyData.rLength;			
-				tyBoardForecastSnd.tyData.rWidth 			    	:= p_tyUSBoardArrivedData.tyData.rWidth;			
-				tyBoardForecastSnd.tyData.rThickness 		    	:= p_tyUSBoardArrivedData.tyData.rThickness;			
-				tyBoardForecastSnd.tyData.rConveyorSpeed 			:= p_tyUSBoardArrivedData.tyData.rConveyorSpeed;			
-				tyBoardForecastSnd.tyData.rTopClearanceHeight 		:= p_tyUSBoardArrivedData.tyData.rTopClearanceHeight;			
-				tyBoardForecastSnd.tyData.rBottomClearanceHeight 	:= p_tyUSBoardArrivedData.tyData.rBottomClearanceHeight;	
-				tyBoardForecastSnd.tyData.rWeight 			    	:= p_tyUSBoardArrivedData.tyData.rWeight;			
-				tyBoardForecastSnd.tyData.sWorkOrderId 		    	:= p_tyUSBoardArrivedData.tyData.sWorkOrderId;	
-				tyBoardForecastSnd.tyData.sBatchId 		        	:= p_tyUSBoardArrivedData.tyData.sBatchId;	
+				fbParseBrdAvlExternal.p_XMLTable		:= ADR(pa_tyXMLTableDataBrdAvl1stZ);//last zone B.A
+				fbParseBrdAvlExternal.iTotalIdxWrite	:= p_iXMLTableDataBrdAvlTtlIdx1stZ; //last zone
+				fbParseBrdAvlExternal;
+				fHermesBrdAvltoBF(ADR(tyBoardForecastSnd),ADR(fbParseBrdAvlExternal.tyBoardAvailable));
+				
+//				tyBoardForecastSnd.tyData.sBoardId                  := p_tyUSBoardArrivedData.tyData.sBoardId;			
+//				tyBoardForecastSnd.tyData.sBoardIdCreatedBy         := p_tyUSBoardArrivedData.tyData.sBoardIdCreatedBy;			
+//				tyBoardForecastSnd.tyData.eFailedBoard 		    	:= p_tyUSBoardArrivedData.tyData.eFailedBoard;			
+//				tyBoardForecastSnd.tyData.sProductTypeId 			:= p_tyUSBoardArrivedData.tyData.sProductTypeId;			
+//				tyBoardForecastSnd.tyData.eFlippedBoard 			:= p_tyUSBoardArrivedData.tyData.eFlippedBoard;			
+//				tyBoardForecastSnd.tyData.sTopBarcode 		    	:= p_tyUSBoardArrivedData.tyData.sTopBarcode;			
+//				tyBoardForecastSnd.tyData.sBottomBarcode 			:= p_tyUSBoardArrivedData.tyData.sBottomBarcode;			
+//				tyBoardForecastSnd.tyData.rLength 				    := p_tyUSBoardArrivedData.tyData.rLength;			
+//				tyBoardForecastSnd.tyData.rWidth 			    	:= p_tyUSBoardArrivedData.tyData.rWidth;			
+//				tyBoardForecastSnd.tyData.rThickness 		    	:= p_tyUSBoardArrivedData.tyData.rThickness;			
+//				tyBoardForecastSnd.tyData.rConveyorSpeed 			:= p_tyUSBoardArrivedData.tyData.rConveyorSpeed;			
+//				tyBoardForecastSnd.tyData.rTopClearanceHeight 		:= p_tyUSBoardArrivedData.tyData.rTopClearanceHeight;			
+//				tyBoardForecastSnd.tyData.rBottomClearanceHeight 	:= p_tyUSBoardArrivedData.tyData.rBottomClearanceHeight;	
+//				tyBoardForecastSnd.tyData.rWeight 			    	:= p_tyUSBoardArrivedData.tyData.rWeight;			
+//				tyBoardForecastSnd.tyData.sWorkOrderId 		    	:= p_tyUSBoardArrivedData.tyData.sWorkOrderId;	
+//				tyBoardForecastSnd.tyData.sBatchId 		        	:= p_tyUSBoardArrivedData.tyData.sBatchId;	
 
 				tyBoardForecastSnd.tyAvl.bForecastId 			    := tyBoardForecastSnd.tyData.sForecastId <> '';
 				tyBoardForecastSnd.tyAvl.bTimeUntilAvailable		:= tyBoardForecastSnd.tyData.rTimeUntilAvailable <> 0;

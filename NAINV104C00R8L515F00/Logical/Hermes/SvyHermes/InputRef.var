@@ -83,7 +83,6 @@ VAR
 	p_sInternalRcv : REFERENCE TO STRING[65535];
 	p_bInternalUse : REFERENCE TO BOOL;
 	p_bHermesSvyQueryBoardInfo : REFERENCE TO BOOL;
-	p_bHermesReinsertBoard : REFERENCE TO BOOL;
 	p_bAcceptCondition : REFERENCE TO BOOL;
 	p_bConvRgtSen : REFERENCE TO BOOL;
 	p_bConvLftSen : REFERENCE TO BOOL;

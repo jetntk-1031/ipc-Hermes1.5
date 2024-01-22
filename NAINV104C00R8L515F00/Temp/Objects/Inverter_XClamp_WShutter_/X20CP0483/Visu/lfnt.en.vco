@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Localizer">
+    <Folder Name="POBJ">
+      <Object Name="en" ClsId="0x10F" Version="1" TargetIndex="0" Type="LOC" RefString="Source[local].Localizer[en]">
+        <UInt32 Name="LanguageIndex">0</UInt32>
+        <Byte Name="BidiMode">0</Byte>
+        <Byte Name="InputMethod">0</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <UInt32 Name="LogFontTableEntries">30</UInt32>
+        <Group Name="LogFontTable">
+          <Symbol Name="Font_Button_Menu" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">76</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_DisplayIOSmall" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">71</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="ScreenSaver" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbi</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">25</UInt32>
+            <UInt32 Name="FontSize">38</UInt32>
+            <UInt32 Name="Index">70</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_SMEMA" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">69</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_Button_Above150" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">68</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_DisplayIO" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">67</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_Notification_Title" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">66</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_SubHeader" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
+            <UInt32 Name="Index">65</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_Notification_Date" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">30</UInt32>
+            <UInt32 Name="FontSize">46</UInt32>
+            <UInt32 Name="Index">64</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_Notification_Time" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">60</UInt32>
+            <UInt32 Name="FontSize">93</UInt32>
+            <UInt32 Name="Index">63</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_Notification_User" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">20</UInt32>
+            <UInt32 Name="FontSize">32</UInt32>
+            <UInt32 Name="Index">62</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Font_Button_Below150" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">8</UInt32>
+            <UInt32 Name="FontSize">14</UInt32>
+            <UInt32 Name="Index">61</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="SubHeaderFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
+            <UInt32 Name="Index">50</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="StringInputFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">49</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="OptSubHeaderFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">11</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
+            <UInt32 Name="Index">47</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="NumericDisplayFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">46</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="MenuButtonCmd" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">41</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Keypad" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">11</UInt32>
+            <UInt32 Name="FontSize">17</UInt32>
+            <UInt32 Name="Index">33</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="DateTimeFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">11</UInt32>
+            <UInt32 Name="FontSize">17</UInt32>
+            <UInt32 Name="Index">29</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="GeneralLabelFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">28</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Languages_English" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
+            <UInt32 Name="Index">14</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Languages_Chinese" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialxsr</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">21</UInt32>
+            <UInt32 Name="Index">13</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="HeaderFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">13</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
+            <UInt32 Name="Index">8</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="BigHeaderFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">18</UInt32>
+            <UInt32 Name="FontSize">29</UInt32>
+            <UInt32 Name="Index">7</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Arial9px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">5</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="GeneralWarningFont" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">4</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Arial12px" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
+            <UInt32 Name="Index">3</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Arial10pxBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">10</UInt32>
+            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="Index">2</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="Arial9pxBold" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">9</UInt32>
+            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="Index">1</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+          <Symbol Name="HeaderFont_Big" ID="0">
+            <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
+            <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
+            <UInt32 Name="DefaultWidth">0</UInt32>
+            <UInt32 Name="DefaultHeight">20</UInt32>
+            <UInt32 Name="FontSize">32</UInt32>
+            <UInt32 Name="Index">0</UInt32>
+            <UInt32 Name="AntiAliasing">0</UInt32>
+          </Symbol>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="LogFonts">
+    <Object Name="Font_Button_Menu" ClsId="0x0" Version="0" TargetIndex="76" Type="FNT" RefString="Source[local].Font[Font_Button_Menu]" />
+    <Object Name="Font_DisplayIOSmall" ClsId="0x0" Version="0" TargetIndex="71" Type="FNT" RefString="Source[local].Font[Font_DisplayIOSmall]" />
+    <Object Name="ScreenSaver" ClsId="0x0" Version="0" TargetIndex="70" Type="FNT" RefString="Source[local].Font[ScreenSaver]" />
+    <Object Name="Font_SMEMA" ClsId="0x0" Version="0" TargetIndex="69" Type="FNT" RefString="Source[local].Font[Font_SMEMA]" />
+    <Object Name="Font_Button_Above150" ClsId="0x0" Version="0" TargetIndex="68" Type="FNT" RefString="Source[local].Font[Font_Button_Above150]" />
+    <Object Name="Font_DisplayIO" ClsId="0x0" Version="0" TargetIndex="67" Type="FNT" RefString="Source[local].Font[Font_DisplayIO]" />
+    <Object Name="Font_Notification_Title" ClsId="0x0" Version="0" TargetIndex="66" Type="FNT" RefString="Source[local].Font[Font_Notification_Title]" />
+    <Object Name="Font_SubHeader" ClsId="0x0" Version="0" TargetIndex="65" Type="FNT" RefString="Source[local].Font[Font_SubHeader]" />
+    <Object Name="Font_Notification_Date" ClsId="0x0" Version="0" TargetIndex="64" Type="FNT" RefString="Source[local].Font[Font_Notification_Date]" />
+    <Object Name="Font_Notification_Time" ClsId="0x0" Version="0" TargetIndex="63" Type="FNT" RefString="Source[local].Font[Font_Notification_Time]" />
+    <Object Name="Font_Notification_User" ClsId="0x0" Version="0" TargetIndex="62" Type="FNT" RefString="Source[local].Font[Font_Notification_User]" />
+    <Object Name="Font_Button_Below150" ClsId="0x0" Version="0" TargetIndex="61" Type="FNT" RefString="Source[local].Font[Font_Button_Below150]" />
+    <Object Name="SubHeaderFont" ClsId="0x0" Version="0" TargetIndex="50" Type="FNT" RefString="Source[local].Font[SubHeaderFont]" />
+    <Object Name="StringInputFont" ClsId="0x0" Version="0" TargetIndex="49" Type="FNT" RefString="Source[local].Font[StringInputFont]" />
+    <Object Name="OptSubHeaderFont" ClsId="0x0" Version="0" TargetIndex="47" Type="FNT" RefString="Source[local].Font[OptSubHeaderFont]" />
+    <Object Name="NumericDisplayFont" ClsId="0x0" Version="0" TargetIndex="46" Type="FNT" RefString="Source[local].Font[NumericDisplayFont]" />
+    <Object Name="MenuButtonCmd" ClsId="0x0" Version="0" TargetIndex="41" Type="FNT" RefString="Source[local].Font[MenuButtonCmd]" />
+    <Object Name="Keypad" ClsId="0x0" Version="0" TargetIndex="33" Type="FNT" RefString="Source[local].Font[Keypad]" />
+    <Object Name="DateTimeFont" ClsId="0x0" Version="0" TargetIndex="29" Type="FNT" RefString="Source[local].Font[DateTimeFont]" />
+    <Object Name="GeneralLabelFont" ClsId="0x0" Version="0" TargetIndex="28" Type="FNT" RefString="Source[local].Font[GeneralLabelFont]" />
+    <Object Name="Languages_English" ClsId="0x0" Version="0" TargetIndex="14" Type="FNT" RefString="Source[local].Font[Languages_English]" />
+    <Object Name="Languages_Chinese" ClsId="0x0" Version="0" TargetIndex="13" Type="FNT" RefString="Source[local].Font[Languages_Chinese]" />
+    <Object Name="HeaderFont" ClsId="0x0" Version="0" TargetIndex="8" Type="FNT" RefString="Source[local].Font[HeaderFont]" />
+    <Object Name="BigHeaderFont" ClsId="0x0" Version="0" TargetIndex="7" Type="FNT" RefString="Source[local].Font[BigHeaderFont]" />
+    <Object Name="Arial9px" ClsId="0x0" Version="0" TargetIndex="5" Type="FNT" RefString="Source[local].Font[Arial9px]" />
+    <Object Name="GeneralWarningFont" ClsId="0x0" Version="0" TargetIndex="4" Type="FNT" RefString="Source[local].Font[GeneralWarningFont]" />
+    <Object Name="Arial12px" ClsId="0x0" Version="0" TargetIndex="3" Type="FNT" RefString="Source[local].Font[Arial12px]" />
+    <Object Name="Arial10pxBold" ClsId="0x0" Version="0" TargetIndex="2" Type="FNT" RefString="Source[local].Font[Arial10pxBold]" />
+    <Object Name="Arial9pxBold" ClsId="0x0" Version="0" TargetIndex="1" Type="FNT" RefString="Source[local].Font[Arial9pxBold]" />
+    <Object Name="HeaderFont_Big" ClsId="0x0" Version="0" TargetIndex="0" Type="FNT" RefString="Source[local].Font[HeaderFont_Big]" />
+  </Folder>
+</Intermediate>

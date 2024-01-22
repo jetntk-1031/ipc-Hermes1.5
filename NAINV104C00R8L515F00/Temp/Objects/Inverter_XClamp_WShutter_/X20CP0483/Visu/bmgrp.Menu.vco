@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="40" Type="REF" RefString="Source[local].BitmapGroup[Menu]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Menu" ClsId="0x308" Version="1" TargetIndex="40" Type="BMPG" RefString="Source[local].BitmapGroup[Menu_en]">
+            <UInt32 Name="Count">28</UInt32>
+            <Group Name="Icon_Menu_Operation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Operation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ModeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ModeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OvenInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OvenInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Alarm">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Alarm]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogin">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogin]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogout">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogout]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_InputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_InputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OutputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OutputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MotionManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MotionManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMAManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMAManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Simulation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Simulation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMASetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMASetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LangDateTime">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LangDateTime]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Nutek">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Nutek]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LF">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LF]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LFSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LFSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualReset">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualReset]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualResetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualResetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Backup">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Backup]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="Icon_Hermes_Logo_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Hermes_Logo_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Menu" ClsId="0x308" Version="1" TargetIndex="40" Type="BMPG" RefString="Source[local].BitmapGroup[Menu_de]">
+            <UInt32 Name="Count">28</UInt32>
+            <Group Name="Icon_Menu_Operation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Operation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ModeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ModeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OvenInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OvenInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Alarm">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Alarm]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogin">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogin]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogout">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogout]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_InputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_InputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OutputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OutputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MotionManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MotionManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMAManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMAManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Simulation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Simulation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMASetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMASetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LangDateTime">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LangDateTime]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Nutek">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Nutek]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LF">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LF]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LFSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LFSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualReset">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualReset]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualResetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualResetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Backup">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Backup]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="Icon_Hermes_Logo_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Hermes_Logo_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Menu" ClsId="0x308" Version="1" TargetIndex="40" Type="BMPG" RefString="Source[local].BitmapGroup[Menu_zh]">
+            <UInt32 Name="Count">28</UInt32>
+            <Group Name="Icon_Menu_Operation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Operation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ModeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ModeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OvenInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OvenInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Alarm">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Alarm]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogin">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogin]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogout">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogout]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_InputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_InputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OutputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OutputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MotionManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MotionManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMAManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMAManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Simulation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Simulation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMASetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMASetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LangDateTime">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LangDateTime]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Nutek">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Nutek]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LF">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LF]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LFSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LFSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualReset">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualReset]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualResetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualResetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Backup">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Backup]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="Icon_Hermes_Logo_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Hermes_Logo_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="pt" TargetIndex="3">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Menu" ClsId="0x308" Version="1" TargetIndex="40" Type="BMPG" RefString="Source[local].BitmapGroup[Menu_pt]">
+            <UInt32 Name="Count">28</UInt32>
+            <Group Name="Icon_Menu_Operation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Operation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ModeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ModeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSelection">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSelection]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OvenInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OvenInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Alarm">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Alarm]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineInfo">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineInfo]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogin">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogin]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserLogout">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserLogout]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_InputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_InputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_OutputManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_OutputManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MotionManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MotionManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMAManual">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMAManual]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Simulation">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Simulation]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_RecipeSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_RecipeSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_BufferSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_BufferSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">30</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_SMEMASetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_SMEMASetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_MachineSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_MachineSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_UserSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_UserSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LangDateTime">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LangDateTime]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Nutek">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Nutek]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LF">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LF]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_LFSetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_LFSetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualReset">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualReset]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_ManualResetting">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_ManualResetting]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_Menu_Backup">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Menu_Backup]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+            <Group Name="Icon_Hermes_Logo_40x40">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Hermes_Logo_40x40]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">49</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

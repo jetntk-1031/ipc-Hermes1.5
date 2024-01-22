@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="39" Type="REF" RefString="Source[local].BitmapGroup[CommonLayer]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="CommonLayer" ClsId="0x308" Version="1" TargetIndex="39" Type="BMPG" RefString="Source[local].BitmapGroup[CommonLayer_en]">
+            <UInt32 Name="Count">46</UInt32>
+            <Group Name="Icon_Common_Page_2_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Home_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Home_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Left_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Left_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Right_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Right_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_2_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Comm_Back_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Comm_Back_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="ColorBar_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="ColorBar_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="ColorBar_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="ColorBar_Amber_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Amber_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="ColorBar_DarkBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_DarkBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="ColorBar_LightBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_LightBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Undo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Undo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Redo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Redo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Pause_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Pause_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Play_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Play_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Stop_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Stop_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Reset_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Reset_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Common_User_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_User_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="CommonLayer" ClsId="0x308" Version="1" TargetIndex="39" Type="BMPG" RefString="Source[local].BitmapGroup[CommonLayer_de]">
+            <UInt32 Name="Count">46</UInt32>
+            <Group Name="Icon_Common_Page_2_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Home_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Home_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Left_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Left_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Right_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Right_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_2_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Comm_Back_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Comm_Back_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="ColorBar_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="ColorBar_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="ColorBar_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="ColorBar_Amber_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Amber_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="ColorBar_DarkBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_DarkBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="ColorBar_LightBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_LightBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Undo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Undo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Redo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Redo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Pause_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Pause_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Play_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Play_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Stop_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Stop_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Reset_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Reset_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Common_User_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_User_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="CommonLayer" ClsId="0x308" Version="1" TargetIndex="39" Type="BMPG" RefString="Source[local].BitmapGroup[CommonLayer_zh]">
+            <UInt32 Name="Count">46</UInt32>
+            <Group Name="Icon_Common_Page_2_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Home_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Home_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Left_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Left_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Right_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Right_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_2_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Comm_Back_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Comm_Back_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="ColorBar_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="ColorBar_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="ColorBar_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="ColorBar_Amber_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Amber_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="ColorBar_DarkBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_DarkBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="ColorBar_LightBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_LightBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Undo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Undo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Redo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Redo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Pause_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Pause_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Play_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Play_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Stop_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Stop_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Reset_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Reset_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Common_User_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_User_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="pt" TargetIndex="3">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="CommonLayer" ClsId="0x308" Version="1" TargetIndex="39" Type="BMPG" RefString="Source[local].BitmapGroup[CommonLayer_pt]">
+            <UInt32 Name="Count">46</UInt32>
+            <Group Name="Icon_Common_Page_2_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Home_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Home_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Left_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Left_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Arrow_Right_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Arrow_Right_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">22</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">26</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">27</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgt_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgt_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">23</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">25</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_2_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_2_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_4_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_4_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Arrw_DnRgtExp_White_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Arrw_DnRgtExp_White_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">24</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_3_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_3_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="Icon_Comm_Back_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Comm_Back_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">28</UInt16>
+            </Group>
+            <Group Name="ColorBar_Red_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Red_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">31</UInt16>
+            </Group>
+            <Group Name="ColorBar_Green_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Green_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">32</UInt16>
+            </Group>
+            <Group Name="ColorBar_Yellow_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Yellow_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">33</UInt16>
+            </Group>
+            <Group Name="ColorBar_Amber_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_Amber_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">34</UInt16>
+            </Group>
+            <Group Name="ColorBar_DarkBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_DarkBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">35</UInt16>
+            </Group>
+            <Group Name="ColorBar_LightBlue_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[ColorBar_LightBlue_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">36</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">38</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Save_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Save_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">40</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Undo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Undo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">41</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Redo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Redo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">42</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Pause_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Pause_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">43</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Play_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Play_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">44</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Stop_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Stop_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">45</UInt16>
+            </Group>
+            <Group Name="Icon_Cmn_Reset_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Cmn_Reset_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">46</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">37</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_3">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_3]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_4">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_4]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="Icon_Common_Page_5_5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_Page_5_5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="">
+              <Reference Name="Bitmap" Type="GFX">None</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="Icon_Common_User_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_Common_User_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">47</UInt16>
+            </Group>
+            <Group Name="Icon_QuickAccess_ShowInfo_7">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Icon_QuickAccess_ShowInfo_7]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">48</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

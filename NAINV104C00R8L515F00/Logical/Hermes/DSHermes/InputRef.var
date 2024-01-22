@@ -59,6 +59,8 @@ VAR
 	p_udiAliveIdleTimeInSec : REFERENCE TO UDINT;
 	p_tConnTimeOut : REFERENCE TO TIME;
 	p_diTransferInTO : REFERENCE TO DINT;
+	pa_tyXMLTableDataBrdAvl1stZ : REFERENCE TO ARRAY[0..200] OF tyXMLTableDat;
+	p_iXMLTableDataBrdAvlTtlIdx1stZ : REFERENCE TO INT;
 	pa_tyXMLTableDataBrdAvl : REFERENCE TO ARRAY[0..200] OF tyXMLTableDat;
 	p_iXMLTableDataBrdAvlTtlIdx : REFERENCE TO INT;
 	p_bNewBrdAvlFirstZone : REFERENCE TO BOOL;

@@ -143,5 +143,13 @@ ACTION Act_Initial:
 	tbActionSupportedByZone[3,HermesActionInvert] := TRUE;
 	tbActionSupportedByZone[3,HermesActionBypass] := TRUE;
 	
+	//Intermediate Board Data Generation
+	tyHermesBoardAvailableAttribAddr.udiMacAddrForGUID	 := p_HWInfoMacAddr ;
+	tyHermesBoardAvailableAttribAddr.udiDateTimeForGUID  := p_TimeCurrDTStruct;
+	tyHermesBoardAvailableAttribAddr.udiBoardIdCreatedBy := p_McParamMcNm;
+
+
+
+
 	
 END_ACTION

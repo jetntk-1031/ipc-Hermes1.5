@@ -1,17 +1,56 @@
 (** 2021-08-01 **)
 ACTION Act_Background_Action:
 	//Action function
+//testing funciton
+	IF EDGEPOS(bSimBrdInZone1) THEN
+		tyHermesBoardAvailableAttribAddr.udiProductTypeId := p_ProdRcpCurrRcp0Nm;
+		tyHermesBoardAvailableAttribAddr.udiWidth  := p_ProdRcpCurrRcp0Width;
+		fHermesGenerateBrdAvlDat(ADR(a_tyHermesBrdAvlData[1]),tyHermesBoardAvailableAttribAddr);
+		fHermesAddEditAttribBrdAvlDat(ADR(a_tyHermesBrdAvlData[1]),'Action',sSelectedActtoUpdate);
+		bSimBrdInZone1 := FALSE;
+	END_IF
+	IF EDGEPOS(bSimBrdInZone2) THEN
+		tyHermesBoardAvailableAttribAddr.udiProductTypeId := p_ProdRcpCurrRcp0Nm;
+		tyHermesBoardAvailableAttribAddr.udiWidth  := p_ProdRcpCurrRcp0Width;
+		fHermesGenerateBrdAvlDat(ADR(a_tyHermesBrdAvlData[2]),tyHermesBoardAvailableAttribAddr);
+		fHermesAddEditAttribBrdAvlDat(ADR(a_tyHermesBrdAvlData[2]),'Action',sSelectedActtoUpdate);
+		bSimBrdInZone2 := FALSE;
+	END_IF
+	IF EDGEPOS(bSimBrdInZone3) THEN
+		tyHermesBoardAvailableAttribAddr.udiProductTypeId := p_ProdRcpCurrRcp0Nm;
+		tyHermesBoardAvailableAttribAddr.udiWidth  := p_ProdRcpCurrRcp0Width;
+		fHermesGenerateBrdAvlDat(ADR(a_tyHermesBrdAvlData[3]),tyHermesBoardAvailableAttribAddr);
+		fHermesAddEditAttribBrdAvlDat(ADR(a_tyHermesBrdAvlData[3]),'Action',sSelectedActtoUpdate);
+		bSimBrdInZone3 := FALSE; 
+	END_IF
+//	IF EDGEPOS(bSimSearch) THEN
+//		testresult1 := fHermesSrchAttribValueBrdAvlDat(ADR(a_tyHermesBrdAvlData[1]),'Action',ADR(sAttribReadValue));
+//	END_IF
+//	IF EDGEPOS(bSimDelete) THEN
+//		testresult2 := fHermesDeleteAttribBrdAvlDat(ADR(a_tyHermesBrdAvlData[1]),'Action');
+//	END_IF
 
-
-
+	IF EDGEPOS(bSimShiftBoardFoward) THEN
+		memmove(ADR(a_tyHermesBrdAvlData[endpos]),ADR(a_tyHermesBrdAvlData[startpos]),SIZEOF(a_tyHermesBrdAvlData[startpos]));
+		memset(ADR(a_tyHermesBrdAvlData[startpos]),0,SIZEOF(a_tyHermesBrdAvlData[startpos]));
+		memmove(ADR(a_bLinkOpsGConvHvBrd[endpos]),ADR(a_bLinkOpsGConvHvBrd[startpos]),SIZEOF(a_bLinkOpsGConvHvBrd[startpos]));
+		memset(ADR(a_bLinkOpsGConvHvBrd[startpos]),0,SIZEOF(a_bLinkOpsGConvHvBrd[startpos]));
+	END_IF
+	IF EDGEPOS(bSimClear) THEN
+		memset(ADR(a_tyHermesBrdAvlData[dltpos]),0,SIZEOF(a_tyHermesBrdAvlData[dltpos]));
+	END_IF
+//end of testing
 	
 	
 //	In state Below
-//	Zone    0 | 1 | 2
-//	Brd    A | B | C
+//	Zone[supported action]    0 | 1 | 2
+//	Brd(supported action)    A | B | C
 	
-	//following action
+	
+	
 	FOR usiZone := usiZoneSupported TO 1 BY -1 DO
+		//assiging action
+		//update for next machine or zone action
 		IF  NOT(a_bUIZonePause[usiZone]) THEN
 			a_bBlkDSForAction[usiZone] := FALSE;
 			a_bUIPromptActionSelect[usiZone] := FALSE;
@@ -23,197 +62,98 @@ ACTION Act_Background_Action:
 			
 			IF EDGENEG(a_bUIPromptActionSelect[usiZone])  THEN
 				a_bUIZonePause[usiZone] := FALSE;
-//				IF a_tyHermesBrdAvlData[usiZone].bNewBrdAvl THEN						
-//					fHermesGenerateUUID(ADR(tyBoardAvailableGenerated.tyData.sBoardId) , p_tyDTStructure , pa_usiMacAddr);
-//					tyBoardAvailableGenerated.tyData.sBoardIdCreatedBy        := p_sMcId; //Generate by our Machine
-//					tyBoardAvailableGenerated.tyData.eFailedBoard				:= p_eFailedBoard;
-//					tyBoardAvailableGenerated.tyData.sProductTypeId			:= p_sRecipeNm;
-//					tyBoardAvailableGenerated.tyData.eFlippedBoard			:= p_eFlippedBoard;
-//					tyBoardAvailableGenerated.tyData.sTopBarcode				:= p_sTopBarcode;
-//					tyBoardAvailableGenerated.tyData.sBottomBarcode			:= p_sBottomBarcode;
-//					tyBoardAvailableGenerated.tyData.rLength					:= p_rLength;
-//					tyBoardAvailableGenerated.tyData.rWidth					:= DINT_TO_REAL(p_diWidthInUM) / 1000;
-//					tyBoardAvailableGenerated.tyData.rThickness				:= p_rThickness;
-//					tyBoardAvailableGenerated.tyData.rConveyorSpeed			:= p_rConveyorSpeed;
-//					tyBoardAvailableGenerated.tyData.rTopClearanceHeight		:= p_rTopClearanceHeight;
-//					tyBoardAvailableGenerated.tyData.rBottomClearanceHeight	:= p_rBottomClearanceHeight;
-//					tyBoardAvailableGenerated.tyData.rWeight					:= p_rWeight;
-//					tyBoardAvailableGenerated.tyData.sWorkOrderId			    := p_sWorkOrderId; 
-//					tyBoardAvailableGenerated.tyData.sBatchId			        := p_sBatchId;
-//				
-//					tyBoardAvailableGenerated.tyAvl.bBoardId					:= tyBoardAvailableGenerated.tyData.sBoardId<>'';
-//					tyBoardAvailableGenerated.tyAvl.bBoardIdCreatedBy			:= tyBoardAvailableGenerated.tyData.sBoardIdCreatedBy <> '';
-//					tyBoardAvailableGenerated.tyAvl.bFailedBoard				:= TRUE;
-//					tyBoardAvailableGenerated.tyAvl.bProductTypeId			:= tyBoardAvailableGenerated.tyData.sProductTypeId <> '';
-//					tyBoardAvailableGenerated.tyAvl.bFlippedBoard				:= TRUE;
-//					tyBoardAvailableGenerated.tyAvl.bTopBarcode				:= tyBoardAvailableGenerated.tyData.sTopBarcode <> '';
-//					tyBoardAvailableGenerated.tyAvl.bBottomBarcode			:= tyBoardAvailableGenerated.tyData.sBottomBarcode <> '';
-//					tyBoardAvailableGenerated.tyAvl.bLength					:= tyBoardAvailableGenerated.tyData.rLength <> 0;
-//					tyBoardAvailableGenerated.tyAvl.bWidth					:= (tyBoardAvailableGenerated.tyData.rWidth <> 0) AND (p_bBAWidthEn = TRUE);
-//					tyBoardAvailableGenerated.tyAvl.bThickness				:= (tyBoardAvailableGenerated.tyData.rThickness <> 0) AND (p_bBASltEn = TRUE);
-//					tyBoardAvailableGenerated.tyAvl.bConveyorSpeed			:= tyBoardAvailableGenerated.tyData.rConveyorSpeed <> 0;
-//					tyBoardAvailableGenerated.tyAvl.bTopClearanceHeight		:= (tyBoardAvailableGenerated.tyData.rTopClearanceHeight <> 0) AND (p_bBASltEn = TRUE);
-//					tyBoardAvailableGenerated.tyAvl.bBottomClearanceHeight	:= (tyBoardAvailableGenerated.tyData.rBottomClearanceHeight <> 0) AND (p_bBASltEn = TRUE);
-//					tyBoardAvailableGenerated.tyAvl.bWeight					:= tyBoardAvailableGenerated.tyData.rWeight <> 0;
-//					tyBoardAvailableGenerated.tyAvl.bWorkOrderId				:= tyBoardAvailableGenerated.tyData.sWorkOrderId <> '';
-//					tyBoardAvailableGenerated.tyAvl.bBatchId			    	:= tyBoardAvailableGenerated.tyData.sBatchId <> '';
-//					
-//					fHermesFormBoardAvailable(ADR(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl) , p_tyDTStructure , tyBoardAvailableGenerated);	
-//				END_IF
-				udiSelectedModtoUpt := a_eModSelectedforCurrZone[usiZone];
-				FOR i := 0 TO 200 DO //search for the board action and update
-					IF (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sTitle = 'AT') THEN
-						fConvertToLower_254(ADR(sLowerCase) , a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sValue);
-						IF (sLowerCase = 'action') THEN
-							IF a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sTitle = 'AV' THEN
-								a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sValue	:= UDINT_TO_STRING(udiSelectedModtoUpt) ; //if Action already in XMLTable
-								EXIT;
-							END_IF
-						END_IF
-					ELSIF (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sTitle = 'EN') AND (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sTitle = 'ST') THEN //with subboard tag
-						fConvertToLower_254(ADR(sLowerCase) , a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sValue);
-						IF (sLowerCase = 'subboards') THEN
-							udiHermesAttributeEndIdx := i;
-						END_IF
-					ELSIF (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sTitle = 'ES') AND (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sTitle = 'ET') THEN //no subboard tag
-						fConvertToLower_254(ADR(sLowerCase) , a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sValue);
-						IF (sLowerCase = 'hermes') THEN
-							udiHermesAttributeEndIdx := i;
-						END_IF
-					ELSIF (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sTitle = 'ET') AND (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sTitle = 'EN') THEN //very end
-						fConvertToLower_254(ADR(sLowerCase) , a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sValue);
-						IF (sLowerCase = 'hermes') THEN
-							udiHermesBAEndIdx := i+1;
-						END_IF
-					END_IF
-				END_FOR
-				IF i = 201 THEN //if not found attibute action
-					memcpy(ADR(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx])+SIZEOF(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[0])*2,
-					ADR(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx]),
-					(udiHermesBAEndIdx - udiHermesAttributeEndIdx)*SIZEOF(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[0]));
-					a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx].sTitle := 'AT';
-					a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx].sValue := 'Action';
-					a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx].uiSize := LEN(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx].sValue);
-					a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx+1].sTitle := 'AV';
-					a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx+1].sValue := UDINT_TO_STRING(udiSelectedModtoUpt) ; 
-					a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx+1].uiSize := LEN(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[udiHermesAttributeEndIdx+1].sValue);
-				END_IF
+				udiSelectedModtoUpt := a_eModSelectedforCurrZone[usiZone];		
+				sSelectedActtoUpdate := UDINT_TO_STRING(udiSelectedModtoUpt);
+				fHermesAddEditAttribBrdAvlDat(ADR(a_tyHermesBrdAvlData[usiZone]),'Action',sSelectedActtoUpdate);
+	
 			END_IF
 		END_IF 
 
+	   
+		
+
+		
+			
+		//switch the mod for that zone as soon as possible
+		//below for preparing action for unoccupied zone starting from right most
+
+		//1)block zone occurred to prevent the middle zone stop reacting to the pending board which does not meet its supported action
+		//2)not until the estimated board reach the supported zone, the other left zone will not assigned with action
+		//3)compare the leftblock , if reservation zone and occupied zone happened at same time, choose the leftmost zone
+		IF usiZone = usiZoneSupported THEN
+			usiLeftmostBlockedZone := usiZone;
+		ELSIF usiZone < usiLeftmostBlockedZone THEN	
+			usiLeftmostBlockedZone := usiZone; //check the left block zone
+		END_IF
+
+
+		IF a_bLinkOpsGConvStepInitDone[usiZone] THEN
+			IF NOT(a_bLinkOpsGConvHvBrd[usiZone]) THEN
+				memset(ADR(a_tyActionReservedForZone[usiZone]),0,SIZEOF(a_tyActionReservedForZone[usiZone])); 
+				IF usiLeftmostBlockedZone <> 0 THEN //occured there is zone reserved or occupied at zone 1
+					FOR usiBrdZone := usiLeftmostBlockedZone TO 1 BY -1 DO
+						IF a_bLinkOpsGConvHvBrd[usiBrdZone] THEN
+							IF (usiBrdZone-1) < usiZone THEN 
+								usiLeftmostBlockedZone :=  usiBrdZone; //current board position as limit 
+							END_IF
+							iActionAttributeIdx := fHermesSrchAttribValueBrdAvlDat(ADR(a_tyHermesBrdAvlData[usiBrdZone]),'Action',ADR(sAttribReadValue)); 
+							IF iActionAttributeIdx <> -1 THEN
+								iActionOnBrd := STRING_TO_INT(sAttribReadValue);
+								IF iActionOnBrd <> 0 AND (1 <= iActionOnBrd  AND iActionOnBrd <= usiMaxActionSupported )THEN
+									IF tbActionSupportedByZone[usiZone,iActionOnBrd] THEN
+										fHermesSrchAttribValueBrdAvlDat(ADR(a_tyHermesBrdAvlData[usiBrdZone]),'BoardId',ADR(sAttribReadValue));
+										//the zone pro-react to action on board
+										IF (usiBrdZone-1) < usiZone THEN
+											usiLeftmostBlockedZone := usiBrdZone -1; //choose board starting from left side
+										END_IF
+										a_tyActionReservedForZone[usiZone].iAction := iActionOnBrd; //found support on this zone
+										a_tyActionReservedForZone[usiZone].iAttributeIdx := iActionAttributeIdx +1;
+										a_tyActionReservedForZone[usiZone].sBoardId := sAttribReadValue;
+										EXIT;
+									END_IF
+								END_IF
+							END_IF
+							IF a_tyActionReservedForZone[usiZone].iAction <> iActionOnBrd OR iActionOnBrd = 0 THEN
+								EXIT; //when non-supported board stuck at middle then do no consider further
+							END_IF
+						END_IF
+					END_FOR
+				END_IF
+			ELSE // if have board 
+				IF (usiZone -1) < usiLeftmostBlockedZone THEN
+					usiLeftmostBlockedZone := usiZone -1;
+				END_IF
+				//update when action completed
+				fHermesSrchAttribValueBrdAvlDat(ADR(a_tyHermesBrdAvlData[usiZone]),'BoardId',ADR(sAttribReadValue));
+				IF a_tyActionReservedForZone[usiZone].iAction <> 0 AND sAttribReadValue =  a_tyActionReservedForZone[usiZone].sBoardId THEN
+					IF a_tyActionReservedForZone[usiZone].bActionCompl THEN
+						a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[a_tyActionReservedForZone[usiZone].iAttributeIdx].sValue	:= '0';
+					END_IF
+				ELSE //refind an action for the board in current zone
+					memset(ADR(a_tyActionReservedForZone[usiZone]),0,SIZEOF(a_tyActionReservedForZone[usiZone])); 
+					iActionAttributeIdx := fHermesSrchAttribValueBrdAvlDat(ADR(a_tyHermesBrdAvlData[usiZone]),'Action',ADR(sAttribReadValue)); 
+					IF iActionAttributeIdx <> -1 THEN
+						iActionOnBrd := STRING_TO_INT(sAttribReadValue);
+						IF iActionOnBrd <> 0 AND (1 <= iActionOnBrd  AND iActionOnBrd <= usiMaxActionSupported )THEN
+							IF tbActionSupportedByZone[usiZone,iActionOnBrd] THEN
+								//react
+								fHermesSrchAttribValueBrdAvlDat(ADR(a_tyHermesBrdAvlData[usiZone]),'BoardId',ADR(sAttribReadValue));
+								a_tyActionReservedForZone[usiZone].iAction := iActionOnBrd; //found support on this zone
+								a_tyActionReservedForZone[usiZone].iAttributeIdx := iActionAttributeIdx +1;
+								a_tyActionReservedForZone[usiZone].sBoardId := sAttribReadValue;
+								EXIT;
+							END_IF
+						END_IF
+					END_IF
+				END_IF
+			END_IF
+			
+		END_IF
+		
+	
+		
 	END_FOR 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//	FOR usiZone := usiZoneSupported TO 1 BY -1 DO
-//		//update action to next zone only when current action complete
-//		//a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[tyZonesReqedAction[usiZone].usiAttributeIndex].sValue	:= '0';
-//		IF  a_bUIZonePause[usiZone] THEN
-//			tyZonesReqedAction[usiZone].bBlkDsToDecideAct := TRUE;
-//		END_IF 
-//		IF tyZonesReqedAction[usiZone].bBlkDsToDecideAct AND bOpsPausedStep[usiZone] THEN
-//			a_bUIPrompt[usiZone] := TRUE ;
-//		END_IF
-//		IF a_bModSelectedforDSZone[usiZone] THEN
-//			tyZonesReqedAction[usiZone].bBlkDsToDecideAct := FALSE;
-//			FOR i := 0 TO 200 DO //search for the board action and update
-//				IF (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sTitle = 'AT') THEN
-//					fConvertToLower_254(ADR(sLowerCase) , a_tyHermesBrdAvlData[1].a_tyXMLTableDataBrdAvl[i].sValue);
-//					IF (sLowerCase = 'action') THEN
-//						IF a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sTitle = 'AV' THEN
-//							a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sValue	= a_usiOpsModToUpdate[usiZone]; 
-//						END_IF
-//					END_IF
-//				END_IF
-//			END_FOR
-//		END_IF
-//		
-//		
-//		//
-//		FOR usiZone := usiLeftmostBlockedZone TO usiZone BY -1 DO
-//			//reset
-//			IF EDGEPOS(p_bLinkOpsInitGConv1StepInitDone[usiZone]) AND p_bLinkOpsGConv1HvBrd[usiZone] = FALSE THEN
-//				memset(ADR(tyZonesReqedAction[usiZone]),0,SIZEOF(tyZonesReqedAction[usiZone]));
-//			END_IF 
-//			//check available action zone
-//			IF  EDGEPOS(p_bLinkOpsGConv1HvBrd[usiZone]) AND (p_bLinkOpsInitGConv1StepInitDone[usiZone] = TRUE) THEN //when board entering to corresponding zone
-//				usiLeftmostBlockedZone := usiZone; //it block for all case
-//				IF a_tyHermesBrdAvlData[usiZone].bNewBrdAvl THEN //if a unknown board skip searching
-//					EXIT;
-//				END_IF
-//				FOR i := 0 TO 200 DO //search for the board action
-//					IF (a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i].sTitle = 'AT') THEN
-//						fConvertToLower_254(ADR(sLowerCase) , a_tyHermesBrdAvlData[1].a_tyXMLTableDataBrdAvl[i].sValue);
-//						IF (sLowerCase = 'action') THEN
-//							IF a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sTitle = 'AV' THEN
-//								IF a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sValue	= '0' THEN
-//									EXIT;
-//								ELSE
-//									FOR iActionIndex := 1 TO SIZEOF(tbActionSupportedByZone[usiZone]) DO 
-//										IF STRING_TO_UDINT(a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[i+1].sValue) =  tbActionSupportedByZone[usiZone][iActionIndex]  THEN
-//											tyZonesReqedAction[usiZone].iAction := tbActionSupportedByZone[usiZone][iActionIndex]; //found support on this zone
-//											tyZonesReqedAction[usiZone].usiAttributeIndex := i+1;
-//										END_IF
-//									END_FOR
-//								END_IF
-//							END_IF
-//						END_IF
-//					END_IF
-//				END_FOR
-//			END_IF
-//			IF (p_bLinkOpsGConv1HvBrd[usiZone]) AND (p_bLinkOpsInitGConv1StepInitDone = TRUE) THEN
-//				usiLeftmostBlockedZone := usiZone;
-//			END_IF
-//			
-//			//monitor if the action is completed
-//			IF tyZonesReqedAction[usiZone].iAction <> 0 AND tyZonesReqedAction[usiZone].bActionCompl THEN
-//				a_tyHermesBrdAvlData[usiZone].a_tyXMLTableDataBrdAvl[tyZonesReqedAction[usiZone].usiAttributeIndex].sValue	:= '0';
-//			END_IF
-//		END_FOR
-//	END_FOR
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-	
 
 END_ACTION

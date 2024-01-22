@@ -53,6 +53,9 @@ ACTION Act_InitGlobal:
 	p_eRmtHermesStat ACCESS p_RmtHermesStat;
 	p_eRmtHermesStatus ACCESS p_RmtHermesStatus;
 	
+	p_eSvyHermesStat ACCESS p_SvyHermesStat;//new for Hermes 1.3
+	p_eSvyHermesStatus ACCESS p_SvyHermesStatus;//new for Hermes 1.3
+	
 	p_eUSHermesStat ACCESS p_USHermesStat;
 	p_eUSHermesStatus ACCESS p_USHermesStatus;
 	
